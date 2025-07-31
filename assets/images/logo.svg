@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" class="h-12 w-auto">
+  <!-- Background -->
+  <rect width="200" height="60" fill="#ffffff" rx="8"/>
+  
+  <!-- Shield Icon -->
+  <g transform="translate(10, 10)">
+    <path d="M20 4L20 4C20 4 16 6 10 6C8 6 6 5.5 4 4C4 4 4 8 4 15C4 23 10 28 20 30C30 28 36 23 36 15C36 8 36 4 36 4C34 5.5 32 6 30 6C24 6 20 4 20 4Z" fill="#059669" stroke="#047857" stroke-width="1"/>
+    <path d="M16 16L18 18L24 12" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="55" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e40af">Super Pest Control</text>
+  <text x="55" y="42" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Mumbai</text>
+  
+  <!-- Decorative Element -->
+  <circle cx="185" cy="20" r="8" fill="#10b981" opacity="0.3"/>
+  <circle cx="185" cy="40" r="6" fill="#1e40af" opacity="0.3"/>
+</svg>

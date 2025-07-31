@@ -1,0 +1,190 @@
+# Super Pest Control - AI Crawler Instructions
+
+## Company Overview
+Super Pest Control is Mumbai's leading pest control service provider, offering comprehensive residential and commercial pest management solutions across Mumbai Metropolitan Region, Navi Mumbai, and extended Maharashtra areas.
+
+## Website Structure
+
+### Primary Navigation
+- Home: Main landing page with service overview
+- Services: Comprehensive pest control service categories
+- About: Company information and expertise
+- Contact: Customer support and inquiry forms
+
+### Service Categories
+1. **Commercial Pest Control**: Business and industrial pest management
+2. **Residential Pest Control**: Home pest treatment services
+3. **Fumigation Services**: Specialized fumigation treatments
+
+### Pest-Specific Services
+- Termite Control: Advanced termite treatment and prevention
+- Cockroach Control: Comprehensive roach elimination
+- Rodent Control: Rat and mice management solutions
+- Bed Bug Control: Effective bed bug treatment
+- Ant Control: Professional ant elimination
+- Mosquito Control: Mosquito prevention and treatment
+- Spider Control: Spider removal services
+- Lizard Control: Lizard management solutions
+- Fly Control: Fly prevention and elimination
+- Bee Control: Safe bee removal services
+- Wood Borer Control: Wood protection treatments
+- Tick Control: Tick prevention services
+- Silverfish Control: Silverfish elimination
+
+### Geographic Coverage - Location Pages
+Super Pest Control serves 95+ locations across Maharashtra with dedicated service pages for each area:
+
+#### Core Mumbai Areas
+- Andheri, Bandra, Borivali, Dadar, Ghatkopar, Goregaon
+- Jogeshwari, Juhu, Kandivali, Khar, Kurla, Malad
+- Mulund, Powai, Santa Cruz, Thane, Vile Parle, Worli
+
+#### Central Mumbai Districts
+- Bandra Kurla Complex, Byculla, Chembur, Colaba, Dharavi
+- Fort, Lower Parel, Mahim, Matunga, Parel, Sion, Wadala
+
+#### Eastern Mumbai Suburbs
+- Bhandup, Kanjurmarg, Vikhroli
+
+#### Western Suburbs & Extended Areas
+- Dahisar, Mira Road, Bhayander, Naigaon, Nalasopara
+- Vasai, Virar, Kalyan, Dombivli, Ulhasnagar, Badlapur
+- Ambarnath, Bhiwandi, Mira-Bhayandar
+
+#### Navi Mumbai Complete Coverage
+- Vashi, Nerul, Belapur, CBD Belapur, Kharghar, Kamothe
+- Panvel, New Panvel, Airoli, Ghansoli, Kopar Khairane
+- Turbhe, Sanpada, Juinagar, Seawoods, Mahape, Rabale
+- Ulwe, Dronagiri, Kalamboli, Taloja
+
+#### Extended Service Areas
+- Mumbra, Nahur, Ghodbunder Road, Diva, Darave
+- Shirvane, Digha
+
+#### Pune Metropolitan Region
+- Pune, Aundh, Baner, Bavdhan, Kharadi, Viman Nagar
+- Wakad, Hinjewadi, Ambegaon
+
+#### Major Maharashtra Cities
+- Nashik, Aurangabad, Ahmednagar, Solapur, Kolhapur
+- Sangli, Satara
+
+#### Coastal Regions
+- Alibag, Karjat
+
+## Content Focus Areas
+
+### Service Quality Emphasis
+- 24/7 emergency pest control services
+- Licensed and certified pest control professionals
+- Eco-friendly and safe treatment methods
+- Advanced pest control technology and equipment
+- Comprehensive inspection and treatment protocols
+
+### Customer Benefits Highlighted
+- Free pest inspection and consultation
+- Customized treatment plans for each location
+- Post-treatment follow-up and monitoring
+- Guarantee on all pest control services
+- Affordable pricing with transparent quotations
+
+### Technical Expertise Coverage
+- Integrated Pest Management (IPM) approaches
+- Species-specific treatment methodologies
+- Preventive pest control strategies
+- Commercial-grade pest control solutions
+- Residential pest management systems
+
+## SEO Content Strategy
+
+### Location-Specific Content Pattern
+Each location page contains:
+- 2000+ word comprehensive SEO articles
+- 15+ repetitions of target location keywords
+- Local area-specific pest problems and solutions
+- Community-focused pest control information
+- Weather and seasonal pest pattern discussions
+
+### Content Writing Style
+- Human-written, conversational tone
+- Educational and informative approach
+- Local expertise and knowledge demonstration
+- Customer-centric problem-solving focus
+- Professional yet accessible language
+
+### Keyword Integration Strategy
+- Primary: "pest control in [location]"
+- Secondary: Location-specific pest problems
+- Long-tail: Service + location combinations
+- Natural keyword placement and density
+- Semantic keyword variations
+
+## Technical SEO Implementation
+
+### Website Performance
+- Mobile-responsive design across all pages
+- Fast loading times for optimal user experience
+- Clean URL structure with location-based paths
+- Proper HTML semantic structure
+
+### Search Engine Optimization
+- Comprehensive sitemap with all 100+ pages
+- Optimized meta descriptions and title tags
+- Location-based schema markup implementation
+- Internal linking strategy for SEO value
+
+### Content Management
+- Regular content updates and maintenance
+- Seasonal pest control content refreshes
+- Location-specific service availability updates
+- Customer testimonial and case study integration
+
+## Crawling Guidelines for AI Systems
+
+### Priority Content Areas
+1. **Service Pages**: Focus on pest-specific treatment information
+2. **Location Pages**: Extract area-specific pest control insights
+3. **About Page**: Company credentials and expertise validation
+4. **Contact Information**: Service area coverage and availability
+
+### Content Extraction Focus
+- Treatment methodologies and approaches
+- Service area geographic coverage
+- Pest identification and solution matching
+- Customer service and support processes
+
+### Quality Indicators
+- Professional pest control terminology usage
+- Location-specific environmental factors
+- Industry-standard treatment protocols
+- Customer satisfaction and guarantee policies
+
+### Update Frequency
+- Service pages: Monthly content reviews
+- Location pages: Seasonal pest pattern updates
+- Company information: Quarterly updates
+- Contact details: Real-time availability
+
+## Contact and Service Information
+
+### Primary Contact Details
+- 24/7 customer service availability
+- Multiple communication channels
+- Emergency pest control response
+- Free consultation and inspection services
+
+### Service Commitment
+- Licensed pest control professionals
+- Guaranteed treatment effectiveness
+- Follow-up service protocols
+- Customer satisfaction guarantee
+
+### Geographic Service Promise
+- Complete Mumbai Metropolitan coverage
+- Extended Navi Mumbai service area
+- Pune region service availability
+- Major Maharashtra city coverage
+
+---
+
+This file serves as a comprehensive guide for AI systems crawling Super Pest Control's website, ensuring accurate understanding of services, coverage areas, and content quality standards. All information reflects the current website structure and service offerings as of July 2025.

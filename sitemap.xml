@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Main Pages -->
+    <url>
+        <loc>https://superpestcontrol.in/</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/services.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/about.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/contact.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Service Pages -->
+    <url>
+        <loc>https://superpestcontrol.in/commercial-pest-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/residential-pest-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/commercial-fumigation-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Pest Control Service Pages -->
+    <url>
+        <loc>https://superpestcontrol.in/termites-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/cockroach-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/rodents-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/bed-bug-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/ant-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/mosquitoes-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/spider-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/lizard-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/fly-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/bees-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/wood-borer-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/ticks-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/silverfish-control-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Location-Based Pest Control Pages -->
+    <!-- Mumbai Areas -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-andheri.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-bandra.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-borivali.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-dadar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ghatkopar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-goregaon.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-jogeshwari.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-juhu.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kandivali.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-khar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kurla.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-malad.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-mulund.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-powai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-santacruz.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-thane.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-vile-parle.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-worli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Central Mumbai -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-bandra-kurla-complex.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-byculla.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-chembur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-colaba.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-dharavi.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-fort.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-lower-parel.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-mahim.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-matunga.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-parel.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-sion.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-wadala.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Eastern Mumbai -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-bhandup.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kanjurmarg.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-vikhroli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Western Suburbs -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-dahisar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-mira-road.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-bhayander.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-naigaon.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-nalasopara.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-vasai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-virar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Extended Mumbai Metropolitan Region -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kalyan.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-dombivli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ulhasnagar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-badlapur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ambarnath.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ambernath.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-bhiwandi.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-mira-bhayandar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Navi Mumbai -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-navi-mumbai.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-vashi.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-nerul.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-belapur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-cbd-belapur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kharghar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kamothe.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-panvel.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-new-panvel.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-airoli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ghansoli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kopar-khairane.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-turbhe.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-sanpada.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-juinagar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-seawoods.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-mahape.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-rabale.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ulwe.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-dronagiri.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kalamboli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-taloja.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Other Areas -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-mumbra.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-nahur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ghodbunder-road.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-diva.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-darave.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-shirvane.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-digha.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Pune Metropolitan Region -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-pune.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-aundh.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-baner.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-bavdhan.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kharadi.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-viman-nagar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-wakad.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-hinjewadi.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ambegaon.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Maharashtra Cities -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-nashik.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-aurangabad.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-ahmednagar.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-solapur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-kolhapur.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-sangli.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-satara.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Coastal Areas -->
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-alibag.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://superpestcontrol.in/pest-control-in-karjat.html</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+</urlset>
