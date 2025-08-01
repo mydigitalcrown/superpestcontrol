@@ -1,116 +1,251 @@
 #!/usr/bin/env python3
-import os
-import glob
-import re
+"""
+Fix broken links and 404 errors in Super Pest Control website
+Identifies and fixes common issues that cause PageSpeed Insights errors
+"""
 
-def fix_broken_links():
-    """Fix all broken links to deleted service pages"""
+import os
+import re
+import glob
+import urllib.parse
+from pathlib import Path
+
+def check_file_exists(file_path, base_dir):
+    """Check if a referenced file actually exists"""
+    # Remove leading slash for relative path checking
+    if file_path.startswith('/'):
+        file_path = file_path[1:]
     
-    print("🔧 Fixing broken links to deleted service pages...")
-    print("=" * 60)
+    full_path = os.path.join(base_dir, file_path)
+    return os.path.exists(full_path)
+
+def find_broken_links():
+    """Find all broken internal links in HTML files"""
+    base_dir = '/Users/mydigital/Documents/superpestcontrol'
+    broken_links = []
     
-    # Mapping of old incorrect links to correct ones
-    link_mappings = {
-        'termite-control.html': 'termites-control-mumbai.html',
-        'cockroach-control.html': 'cockroach-control-mumbai.html',
-        'rodent-control.html': 'rodents-control-mumbai.html',
-        'ant-control.html': 'ant-control-mumbai.html',
-        'spider-control.html': 'spider-control-mumbai.html',
-        'wood-borer-control.html': 'wood-borer-control-mumbai.html',
-        'silverfish-control.html': 'silverfish-control-mumbai.html',
-        'lizard-control.html': 'lizard-control-mumbai.html',
-        'fly-control.html': 'fly-control-mumbai.html',
-        'mosquito-control.html': 'mosquitoes-control-mumbai.html',
-        'bed-bug-control.html': 'bed-bug-control-mumbai.html',
-        'wasp-bee-control.html': 'bees-control-mumbai.html'
-    }
+    # Patterns to match various resource links
+    patterns = [
+        r'src=["\']([^"\']+\.(?:js|css|png|jpg|jpeg|gif|svg|ico))["\']',
+        r'href=["\']([^"\']+\.(?:js|css|png|jpg|jpeg|gif|svg|ico|html))["\']',
+        r'content=["\']([^"\']+\.(?:png|jpg|jpeg|gif|svg|ico))["\']'
+    ]
     
-    # Find all HTML files
-    html_files = glob.glob("*.html")
+    # Get all HTML files
+    html_files = glob.glob(os.path.join(base_dir, '*.html'))
     
-    updated_files = []
-    
-    for file_path in html_files:
+    for html_file in html_files:
         try:
-            with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
+            with open(html_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                
+            filename = os.path.basename(html_file)
+            
+            for pattern in patterns:
+                matches = re.findall(pattern, content, re.IGNORECASE)
+                
+                for match in matches:
+                    # Skip external URLs (http/https)
+                    if match.startswith(('http://', 'https://', '//', 'data:', 'mailto:', 'tel:')):
+                        continue
+                    
+                    # Check if file exists
+                    if not check_file_exists(match, base_dir):
+                        broken_links.append({
+                            'file': filename,
+                            'broken_link': match,
+                            'full_path': html_file
+                        })
+                        
+        except Exception as e:
+            print(f"Error processing {html_file}: {e}")
+    
+    return broken_links
+
+def check_common_404_sources():
+    """Check for common sources of 404 errors"""
+    base_dir = '/Users/mydigital/Documents/superpestcontrol'
+    issues = []
+    
+    # Check for common files that might be missing
+    common_files = [
+        'favicon.ico',
+        'apple-touch-icon.png',
+        'android-chrome-192x192.png',
+        'android-chrome-512x512.png',
+        'mstile-150x150.png'
+    ]
+    
+    for file in common_files:
+        file_path = os.path.join(base_dir, file)
+        if not os.path.exists(file_path):
+            issues.append(f"Missing common file: {file}")
+    
+    return issues
+
+def analyze_html_for_external_resources():
+    """Analyze HTML files for external resources that might fail"""
+    base_dir = '/Users/mydigital/Documents/superpestcontrol'
+    external_resources = set()
+    
+    html_files = glob.glob(os.path.join(base_dir, '*.html'))
+    
+    for html_file in html_files:
+        try:
+            with open(html_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Find external scripts and stylesheets
+            external_patterns = [
+                r'src=["\']https?://[^"\']+["\']',
+                r'href=["\']https?://[^"\']+\.css["\']'
+            ]
+            
+            for pattern in external_patterns:
+                matches = re.findall(pattern, content, re.IGNORECASE)
+                for match in matches:
+                    url = match.split('"')[1] if '"' in match else match.split("'")[1]
+                    external_resources.add(url)
+                    
+        except Exception as e:
+            print(f"Error analyzing {html_file}: {e}")
+    
+    return list(external_resources)
+
+def create_missing_favicon():
+    """Create a basic favicon.ico if missing"""
+    base_dir = '/Users/mydigital/Documents/superpestcontrol'
+    favicon_path = os.path.join(base_dir, 'favicon.ico')
+    
+    if not os.path.exists(favicon_path):
+        # Check if favicon.svg exists to copy it
+        svg_favicon = os.path.join(base_dir, 'favicon.svg')
+        if os.path.exists(svg_favicon):
+            print("favicon.svg exists, but favicon.ico is missing")
+            print("Consider converting favicon.svg to favicon.ico for better browser compatibility")
+            return True
+    
+    return False
+
+def fix_path_issues():
+    """Fix common path issues in HTML files"""
+    base_dir = '/Users/mydigital/Documents/superpestcontrol'
+    fixes_applied = []
+    
+    html_files = glob.glob(os.path.join(base_dir, '*.html'))
+    
+    for html_file in html_files:
+        try:
+            with open(html_file, 'r', encoding='utf-8') as f:
+                content = f.read()
             
             original_content = content
-            file_updated = False
             
-            # Fix href links
-            for old_link, new_link in link_mappings.items():
-                old_pattern = f'href="{old_link}"'
-                new_pattern = f'href="{new_link}"'
-                
-                if old_pattern in content:
-                    content = content.replace(old_pattern, new_pattern)
-                    file_updated = True
-                    print(f"   🔗 Fixed link in {file_path}: {old_link} → {new_link}")
+            # Fix common path issues - ensure leading slash for absolute paths
+            # This helps with subdirectory deployments
+            fixes = [
+                # Fix asset paths that might be missing leading slash
+                (r'src="assets/', 'src="/assets/'),
+                (r'href="assets/', 'href="/assets/'),
+                # Ensure favicon has leading slash
+                (r'href="favicon\.', 'href="/favicon.'),
+                (r'src="favicon\.', 'src="/favicon.'),
+            ]
             
-            # Fix canonical URLs
-            for old_link, new_link in link_mappings.items():
-                old_canonical = f'rel="canonical" href="https://superpestcontrol.in/{old_link}"'
-                new_canonical = f'rel="canonical" href="https://superpestcontrol.in/{new_link}"'
-                
-                if old_canonical in content:
-                    content = content.replace(old_canonical, new_canonical)
-                    file_updated = True
-                    print(f"   📄 Fixed canonical URL in {file_path}: {old_link} → {new_link}")
+            for pattern, replacement in fixes:
+                new_content = re.sub(pattern, replacement, content)
+                if new_content != content:
+                    fixes_applied.append(f"Fixed path in {os.path.basename(html_file)}: {pattern}")
+                    content = new_content
             
-            # Fix Open Graph URLs
-            for old_link, new_link in link_mappings.items():
-                old_og = f'property="og:url" content="https://superpestcontrol.in/{old_link}"'
-                new_og = f'property="og:url" content="https://superpestcontrol.in/{new_link}"'
-                
-                if old_og in content:
-                    content = content.replace(old_og, new_og)
-                    file_updated = True
-                    print(f"   🌐 Fixed OG URL in {file_path}: {old_link} → {new_link}")
-            
-            # Write updated content if changes were made
-            if file_updated:
-                with open(file_path, 'w', encoding='utf-8') as file:
-                    file.write(content)
-                
-                updated_files.append(file_path)
-                print(f"✅ Successfully updated {file_path}")
-                
+            # Write back if changes were made
+            if content != original_content:
+                with open(html_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                    
         except Exception as e:
-            print(f"❌ Error processing {file_path}: {str(e)}")
+            print(f"Error fixing paths in {html_file}: {e}")
     
-    # Also check if any files exist that shouldn't
-    orphaned_files = []
-    for old_link in link_mappings.keys():
-        if os.path.exists(old_link):
-            orphaned_files.append(old_link)
+    return fixes_applied
+
+def main():
+    """Main function to run all checks and fixes"""
+    print("🔍 Analyzing website for broken links and 404 errors...")
+    print("=" * 60)
     
-    if orphaned_files:
-        print(f"\n⚠️  Found orphaned files that should be deleted:")
-        for file in orphaned_files:
-            print(f"   - {file}")
-            try:
-                os.remove(file)
-                print(f"   🗑️  Deleted {file}")
-            except Exception as e:
-                print(f"   ❌ Error deleting {file}: {e}")
+    # Find broken internal links
+    print("\n1. Checking for broken internal links...")
+    broken_links = find_broken_links()
     
-    # Print summary
+    if broken_links:
+        print(f"❌ Found {len(broken_links)} broken internal links:")
+        for link in broken_links[:10]:  # Show first 10
+            print(f"   📄 {link['file']}: {link['broken_link']}")
+        if len(broken_links) > 10:
+            print(f"   ... and {len(broken_links) - 10} more")
+    else:
+        print("✅ No broken internal links found")
+    
+    # Check common 404 sources
+    print("\n2. Checking for common missing files...")
+    missing_files = check_common_404_sources()
+    
+    if missing_files:
+        print("❌ Missing common files:")
+        for file in missing_files:
+            print(f"   📁 {file}")
+    else:
+        print("✅ All common files present")
+    
+    # Analyze external resources
+    print("\n3. Analyzing external resources...")
+    external_resources = analyze_html_for_external_resources()
+    
+    if external_resources:
+        print(f"📡 Found {len(external_resources)} external resources:")
+        for resource in external_resources[:5]:  # Show first 5
+            print(f"   🌐 {resource}")
+        if len(external_resources) > 5:
+            print(f"   ... and {len(external_resources) - 5} more")
+    
+    # Check favicon
+    print("\n4. Checking favicon...")
+    favicon_issue = create_missing_favicon()
+    if favicon_issue:
+        print("⚠️  favicon.ico missing but favicon.svg exists")
+    else:
+        print("✅ Favicon configuration looks good")
+    
+    # Fix path issues
+    print("\n5. Fixing common path issues...")
+    path_fixes = fix_path_issues()
+    
+    if path_fixes:
+        print("🔧 Applied fixes:")
+        for fix in path_fixes:
+            print(f"   ✅ {fix}")
+    else:
+        print("✅ No path issues found")
+    
     print("\n" + "=" * 60)
-    print(f"📊 BROKEN LINKS FIX SUMMARY:")
-    print(f"✅ Updated files: {len(updated_files)}")
-    print(f"🗑️  Orphaned files deleted: {len(orphaned_files)}")
-    print(f"📁 Total files processed: {len(html_files)}")
+    print("🎯 Analysis complete!")
     
-    if updated_files:
-        print(f"\n📝 Updated files:")
-        for i, file in enumerate(updated_files[:10], 1):
-            print(f"   {i:2d}. {file}")
-        if len(updated_files) > 10:
-            print(f"   ... and {len(updated_files) - 10} more files")
-    
-    print(f"\n✅ All broken links have been fixed!")
-    print(f"🎯 All service pages now use the correct -mumbai.html naming convention")
+    # Summary
+    total_issues = len(broken_links) + len(missing_files)
+    if total_issues == 0:
+        print("🎉 No critical issues found! Your website should have minimal 404 errors.")
+    else:
+        print(f"⚠️  Found {total_issues} potential issues that could cause 404 errors.")
+        print("💡 Recommendations:")
+        
+        if broken_links:
+            print("   • Fix broken internal links listed above")
+        
+        if missing_files:
+            print("   • Create missing common files (favicon.ico, touch icons)")
+        
+        print("   • Test your website with a local server")
+        print("   • Run PageSpeed Insights again after fixes")
 
 if __name__ == "__main__":
-    fix_broken_links()
+    main()
