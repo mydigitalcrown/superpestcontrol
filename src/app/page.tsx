@@ -168,24 +168,21 @@ export default function Home() {
       </header>
 
       {/* Modern SaaS Hero Section with Mumbai Background */}
-      <section className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/location/mumbai.webp"
-            alt="Mumbai City - Pest Control Service Area"
-            fill
-            className="object-cover object-center"
-            priority
-            quality={85}
-          />
-          {/* Overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/70 to-orange-900/80"></div>
-          <div className="absolute inset-0 bg-black/20"></div>
-        </div>
+      <section 
+        className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url(/images/location/mumbai.webp)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* Overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/70 to-orange-900/80 z-10"></div>
+        <div className="absolute inset-0 bg-black/20 z-20"></div>
         
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-30 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-white/20 backdrop-blur-sm text-white border border-white/30 mb-6 md:mb-8">
