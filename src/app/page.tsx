@@ -3,39 +3,47 @@
 import Link from "next/link";
 import { useState } from "react";
 
-// FAQ data for voice search optimization
+// Enhanced FAQ data for voice search optimization with natural language questions
 const faqData = [
   {
     question: "What is the best pest control service in Mumbai?",
-    answer: "Super Pest Control Mumbai is the #1 rated pest control service in Mumbai, offering 24/7 professional pest control services with eco-friendly solutions and licensed experts."
+    answer: "Super Pest Control Mumbai is the #1 rated pest control service in Mumbai, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers."
   },
   {
     question: "How much does pest control cost in Mumbai?",
-    answer: "Pest control in Mumbai typically costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. We offer free inspections and competitive pricing."
+    answer: "Pest control in Mumbai costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges."
   },
   {
     question: "Which pest control is best for cockroaches in Mumbai?",
-    answer: "Super Pest Control Mumbai provides the most effective cockroach control using advanced gel baiting, spray treatments, and long-lasting solutions with 100% satisfaction guarantee."
+    answer: "Super Pest Control Mumbai provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Mumbai's humid climate with 100% satisfaction guarantee."
   },
   {
-    question: "How to get rid of termites in Mumbai homes?",
-    answer: "Professional termite control involves soil treatment, wood treatment, and barrier protection. Our certified technicians use the latest anti-termite chemicals safe for families."
+    question: "How to get rid of termites in Mumbai homes permanently?",
+    answer: "Professional termite control involves pre-construction and post-construction soil treatment, wood treatment, and barrier protection using licensed anti-termite chemicals. Super Pest Control offers 5-year warranty on termite treatment."
   },
   {
     question: "What are the best pest control methods for Mumbai climate?",
-    answer: "Mumbai's humid climate requires specialized pest control methods including moisture control, targeted treatments for monsoon pests, and preventive solutions for year-round protection."
+    answer: "Mumbai's humid climate requires specialized pest control methods including moisture control, targeted treatments for monsoon pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests."
   },
   {
     question: "How often should I get pest control done in Mumbai?",
-    answer: "For optimal protection in Mumbai, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type."
+    answer: "For optimal protection in Mumbai, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure."
   },
   {
-    question: "Are pest control chemicals safe for children and pets?",
-    answer: "Yes, we use only eco-friendly, child-safe, and pet-safe pest control chemicals approved by regulatory authorities. All treatments follow strict safety protocols."
+    question: "Are pest control chemicals safe for children and pets in Mumbai?",
+    answer: "Yes, Super Pest Control uses only eco-friendly, child-safe, and pet-safe pest control chemicals approved by regulatory authorities. All treatments follow strict safety protocols and are completely safe for families."
   },
   {
     question: "Do you provide emergency pest control services in Mumbai?",
-    answer: "Yes, we provide 24/7 emergency pest control services across Mumbai including South Mumbai, Central Mumbai, Western Suburbs, and Navi Mumbai with same-day service availability."
+    answer: "Yes, Super Pest Control provides 24/7 emergency pest control services across Mumbai including South Mumbai, Central Mumbai, Western Suburbs, Navi Mumbai, and Thane with same-day service availability."
+  },
+  {
+    question: "What is the contact number for pest control in Mumbai?",
+    answer: "For immediate pest control assistance in Mumbai, call Super Pest Control at +91-80979-41077 or +91-80979-41076. We provide 24/7 emergency service with free inspection and consultation."
+  },
+  {
+    question: "Which areas in Mumbai do you serve for pest control?",
+    answer: "Super Pest Control serves all areas of Mumbai including South Mumbai (SoBo), Central Mumbai, Western Suburbs, Eastern Suburbs, Navi Mumbai, Thane, and surrounding areas with same-day service availability."
   }
 ];
 
@@ -627,14 +635,14 @@ export default function Home() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <a href="https://superpestcontrol.in/termites-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</a>
-                <a href="https://superpestcontrol.in/cockroach-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</a>
-                <a href="https://superpestcontrol.in/rodents-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</a>
-                <a href="https://superpestcontrol.in/bed-bug-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</a>
-                <a href="https://superpestcontrol.in/ant-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</a>
-                <a href="https://superpestcontrol.in/mosquitoes-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</a>
-                <a href="https://superpestcontrol.in/spider-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</a>
-                <a href="https://superpestcontrol.in/fly-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Fly Control</a>
+                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -679,15 +687,10 @@ export default function Home() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <a href="https://superpestcontrol.in/commercial-fumigation-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</a>
-              <a href="https://superpestcontrol.in/flying-insect-management-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</a>
-              <a href="https://superpestcontrol.in/lizard-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</a>
-              <a href="https://superpestcontrol.in/bees-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Bee Control</a>
-              <a href="https://superpestcontrol.in/wood-borer-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Wood Borer Control</a>
-              <a href="https://superpestcontrol.in/ticks-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Tick Control</a>
-              <a href="https://superpestcontrol.in/silverfish-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Silverfish Control</a>
-              <a href="https://superpestcontrol.in/commercial-pest-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</a>
-              <a href="https://superpestcontrol.in/residential-pest-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</a>
+              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/residential-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
 
