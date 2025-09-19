@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 // Enhanced FAQ data for voice search optimization with natural language questions
@@ -224,6 +225,791 @@ export default function Home() {
                 <div className="text-sm text-gray-600">Customer Rating</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* All Services Showcase Section */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Our Complete 
+              <span className="bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent block">
+                Pest Control Services
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600">
+              Professional pest control solutions for every problem. All services include free inspection, 
+              eco-friendly treatments, and comprehensive warranties.
+            </p>
+          </div>
+
+          {/* Services Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            {/* Termite Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-orange-200">
+              <div className="relative h-48 overflow-hidden">
+                <Image 
+                  src="/images/services/termites-control-mumbai.webp" 
+                  alt="Termite Control Mumbai - Professional Anti-Termite Treatment"
+                  width={400}
+                  height={192}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  5 Year Warranty
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">
+                  Termite Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, 
+                  wood protection, and chemical barrier methods with 5-year comprehensive warranty.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-orange-600">₹2,500</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Pre & Post Construction Treatment
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Licensed Chemical Applications
+                  </div>
+                </div>
+                <Link href="/termites-control-mumbai" className="block w-full bg-orange-600 hover:bg-orange-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Cockroach Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-blue-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/cockroach-control-mumbai.webp" 
+                  alt="Cockroach Control Mumbai - Professional Cockroach Extermination"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Most Popular
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                  Cockroach Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly 
+                  solutions designed for Mumbai&apos;s humid climate with long-lasting protection.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-blue-600">₹1,500</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Gel Baiting & Spray Treatment
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Child & Pet Safe Formulas
+                  </div>
+                </div>
+                <Link href="/cockroach-control-mumbai" className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Rodent Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-red-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/rodents-control-mumbai.webp" 
+                  alt="Rodent Control Mumbai - Professional Rat Mouse Control"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Emergency Service
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-red-600 transition-colors">
+                  Rodent Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Complete rat and mouse elimination with professional rat-proofing, secure bait stations, 
+                  and entry point sealing. Guaranteed results with follow-up visits.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-red-600">₹2,000</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Professional Rat-Proofing
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Secure Bait Station Systems
+                  </div>
+                </div>
+                <Link href="/rodents-control-mumbai" className="block w-full bg-red-600 hover:bg-red-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Bed Bug Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-purple-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
+                  alt="Bed Bug Control Mumbai - Professional Bed Bug Treatment"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Heat Treatment
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
+                  Bed Bug Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, 
+                  furniture protection, and comprehensive room sanitization services.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-purple-600">₹3,000</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Heat & Chemical Treatment
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Mattress & Furniture Protection
+                  </div>
+                </div>
+                <Link href="/bed-bug-control-mumbai" className="block w-full bg-purple-600 hover:bg-purple-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Ant Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-green-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/ant-control-mumbai.webp" 
+                  alt="Ant Control Mumbai - Professional Ant Extermination"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Eco-Friendly
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
+                  Ant Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species 
+                  including pharaoh ants, carpenter ants, and common household ants.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-green-600">₹1,200</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Colony Elimination System
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Eco-Friendly Baiting Solutions
+                  </div>
+                </div>
+                <Link href="/ant-control-mumbai" className="block w-full bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Mosquito Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-yellow-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
+                  alt="Mosquito Control Mumbai - Professional Mosquito Treatment"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Monsoon Special
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-yellow-600 transition-colors">
+                  Mosquito Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Comprehensive mosquito management with breeding source elimination, fogging treatments, 
+                  and larvicide applications. Special monsoon protection packages available.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-yellow-600">₹1,800</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Breeding Source Elimination
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Fogging & Larvicide Treatment
+                  </div>
+                </div>
+                <Link href="/mosquitoes-control-mumbai" className="block w-full bg-yellow-600 hover:bg-yellow-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Spider Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-indigo-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/spider-control-mumbai.webp" 
+                  alt="Spider Control Mumbai - Professional Spider Removal"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Web Removal
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors">
+                  Spider Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Professional spider removal with web elimination and preventive treatments. Safe removal of 
+                  venomous spiders and comprehensive property protection from future infestations.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-indigo-600">₹1,500</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Web Elimination & Removal
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Venomous Spider Safety Protocol
+                  </div>
+                </div>
+                <Link href="/spider-control-mumbai" className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Lizard Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-teal-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/lizard-control-mumbai.webp" 
+                  alt="Lizard Control Mumbai - Professional Lizard Removal"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-teal-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Humane Removal
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors">
+                  Lizard Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Humane lizard removal and exclusion services. Natural repellent treatments and entry point 
+                  sealing to prevent lizards from entering your Mumbai property.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-teal-600">₹1,000</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Humane Removal Methods
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Natural Repellent Treatments
+                  </div>
+                </div>
+                <Link href="/lizard-control-mumbai" className="block w-full bg-teal-600 hover:bg-teal-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Commercial Pest Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-gray-300">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
+                  alt="Commercial Pest Control Mumbai - Professional Business Solutions"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Business Solutions
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gray-800 transition-colors">
+                  Commercial Pest Control
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Comprehensive pest management for businesses, offices, restaurants, and commercial properties. 
+                  Customized treatment plans with minimal business disruption and compliance documentation.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-gray-800">₹5,000</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Customized Business Solutions
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Compliance Documentation
+                  </div>
+                </div>
+                <Link href="/commercial-pest-control-mumbai" className="block w-full bg-gray-800 hover:bg-gray-900 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Continue with remaining services... */}
+            
+            {/* Residential Pest Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-pink-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/residential-pest-control-mumbai.webp" 
+                  alt="Residential Pest Control Mumbai - Home Protection Services"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-pink-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Family Safe
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-pink-600 transition-colors">
+                  Residential Pest Control
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Complete home protection with family-safe treatments. Customized solutions for apartments, 
+                  bungalows, and residential complexes with child and pet-friendly formulations.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-pink-600">₹2,500</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Family-Safe Treatments
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Complete Home Protection
+                  </div>
+                </div>
+                <Link href="/residential-pest-control-mumbai" className="block w-full bg-pink-600 hover:bg-pink-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Commercial Fumigation */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-cyan-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/commercial-fumigation-mumbai.webp" 
+                  alt="Commercial Fumigation Mumbai - Warehouse Industrial Fumigation"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-cyan-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Industrial Grade
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-cyan-600 transition-colors">
+                  Commercial Fumigation
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Professional fumigation for warehouses, factories, and large commercial spaces. 
+                  Complete pest elimination with minimal downtime and regulatory compliance.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-cyan-600">₹10,000</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Industrial Grade Fumigation
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Regulatory Compliance
+                  </div>
+                </div>
+                <Link href="/commercial-fumigation-mumbai" className="block w-full bg-cyan-600 hover:bg-cyan-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Flying Insect Management */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-lime-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/flying-insect-management-mumbai.webp" 
+                  alt="Flying Insect Management Mumbai - Professional Flying Pest Control"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-lime-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  UV Light Traps
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-lime-600 transition-colors">
+                  Flying Insect Management
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Advanced flying insect control with UV light traps, insect zappers, and targeted treatments. 
+                  Effective against flies, moths, beetles, and other flying pests.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-lime-600">₹2,200</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    UV Light Trap Systems
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Targeted Flying Pest Treatment
+                  </div>
+                </div>
+                <Link href="/flying-insect-management-mumbai" className="block w-full bg-lime-600 hover:bg-lime-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Fly Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-amber-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/fly-control-mumbai.webp" 
+                  alt="Fly Control Mumbai - Professional House Fly Management"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-amber-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Quick Results
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-amber-600 transition-colors">
+                  Fly Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Comprehensive fly control with breeding source elimination, sticky traps, and residual sprays. 
+                  Effective against house flies, fruit flies, and drain flies.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-amber-600">₹1,300</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Breeding Source Elimination
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Multi-Species Fly Control
+                  </div>
+                </div>
+                <Link href="/fly-control-mumbai" className="block w-full bg-amber-600 hover:bg-amber-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Bees Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-yellow-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/bees-control-mumbai.webp" 
+                  alt="Bees Control Mumbai - Safe Bee Hive Removal"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Safe Removal
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-yellow-600 transition-colors">
+                  Bees Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Safe and humane bee hive removal services. Professional beekeepers relocate hives without 
+                  harming bees, ensuring safety for your family and the environment.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-yellow-600">₹2,000</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Humane Hive Relocation
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Eco-Friendly Methods
+                  </div>
+                </div>
+                <Link href="/bees-control-mumbai" className="block w-full bg-yellow-600 hover:bg-yellow-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Wood Borer Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-emerald-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/wood-borer-control-mumbai.webp" 
+                  alt="Wood Borer Control Mumbai - Furniture Protection Treatment"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Furniture Protection
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-emerald-600 transition-colors">
+                  Wood Borer Control
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Specialized treatment for wood-boring insects affecting furniture and wooden structures. 
+                  Injection treatment, surface spraying, and preventive protection for valuable wood items.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-emerald-600">₹2,800</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Injection & Surface Treatment
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Furniture Value Protection
+                  </div>
+                </div>
+                <Link href="/wood-borer-control-mumbai" className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Ticks Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-rose-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/ticks-control-mumbai.webp" 
+                  alt="Ticks Control Mumbai - Pet Safe Tick Removal"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-rose-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Pet Safe
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-rose-600 transition-colors">
+                  Ticks Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Comprehensive tick control for homes with pets. Safe treatments for yards, gardens, 
+                  and indoor spaces to protect your family and pets from tick-borne diseases.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-rose-600">₹1,600</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Pet-Safe Formulations
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Yard & Indoor Treatment
+                  </div>
+                </div>
+                <Link href="/ticks-control-mumbai" className="block w-full bg-rose-600 hover:bg-rose-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+            {/* Silverfish Control */}
+            <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-slate-200">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="/images/services/silverfish-control-mumbai.webp" 
+                  alt="Silverfish Control Mumbai - Paper Document Protection"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 left-4 bg-slate-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Document Protection
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-slate-600 transition-colors">
+                  Silverfish Control Mumbai
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  Specialized silverfish control to protect books, documents, and paper materials. 
+                  Moisture control, targeted treatments, and prevention strategies for library and office spaces.
+                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-slate-600">₹1,400</span>
+                  <span className="text-sm text-gray-500">Starting Price</span>
+                </div>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Moisture Control Solutions
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    Library & Office Protection
+                  </div>
+                </div>
+                <Link href="/silverfish-control-mumbai" className="block w-full bg-slate-600 hover:bg-slate-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+
+          </div>
+
+          {/* View All Services Button */}
+          <div className="text-center mt-12">
+            <Link href="/services" className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+              View All Services
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
