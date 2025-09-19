@@ -575,20 +575,137 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Modern Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">🐛</span>
+      {/* Comprehensive Footer */}
+      <footer className="bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            {/* Company Info */}
+            <div className="space-y-6">
+              <div className="flex items-center space-x-3">
+                <div className="relative">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20">
+                    <span className="text-white font-bold text-xl drop-shadow-sm">🐛</span>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-2xl font-bold text-white tracking-tight">Super Pest Control</span>
+                  <span className="text-xs text-orange-400 font-medium -mt-1">Mumbai&apos;s #1 Choice</span>
+                </div>
               </div>
-              <span className="text-xl font-semibold">Super Pest Control</span>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Professional pest control services in Mumbai with 10+ years of experience. 
+                We provide eco-friendly, family-safe solutions for all types of pest problems.
+              </p>
+              <div className="flex space-x-4">
+                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">📘</span>
+                </div>
+                <div className="w-8 h-8 bg-pink-600 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">📷</span>
+                </div>
+                <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">📱</span>
+                </div>
+              </div>
             </div>
-            <div className="flex items-center space-x-8 text-sm text-gray-400">
-              <span>&copy; 2025 Super Pest Control Mumbai</span>
-              <span>Licensed & Certified</span>
-              <span>4.9★ Rating</span>
+
+            {/* Quick Links */}
+            <div className="space-y-6">
+              <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+              <div className="space-y-3">
+                <Link href="/" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Home</Link>
+                <Link href="/about" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">About Us</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Our Services</Link>
+                <Link href="/commercial" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Services</Link>
+                <Link href="/residential" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Services</Link>
+                <Link href="/contact" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Contact Us</Link>
+              </div>
+            </div>
+
+            {/* Pest Control Services */}
+            <div className="space-y-6">
+              <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
+              <div className="space-y-3">
+                <a href="https://superpestcontrol.in/termites-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</a>
+                <a href="https://superpestcontrol.in/cockroach-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</a>
+                <a href="https://superpestcontrol.in/rodents-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</a>
+                <a href="https://superpestcontrol.in/bed-bug-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</a>
+                <a href="https://superpestcontrol.in/ant-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</a>
+                <a href="https://superpestcontrol.in/mosquitoes-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</a>
+                <a href="https://superpestcontrol.in/spider-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</a>
+                <a href="https://superpestcontrol.in/fly-control-mumbai.html" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Fly Control</a>
+              </div>
+            </div>
+
+            {/* Contact Info */}
+            <div className="space-y-6">
+              <h3 className="text-lg font-semibold text-white">Contact Information</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <span className="text-orange-400 text-lg mt-0.5">📞</span>
+                  <div>
+                    <p className="text-white font-medium">Call Us Now</p>
+                    <a href="tel:+918097941077" className="text-gray-300 hover:text-orange-400 transition-colors text-sm block">+91 80979-41077</a>
+                    <a href="tel:+918097941076" className="text-gray-300 hover:text-orange-400 transition-colors text-sm block">+91 80979-41076</a>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-orange-400 text-lg mt-0.5">✉️</span>
+                  <div>
+                    <p className="text-white font-medium">Email Us</p>
+                    <a href="mailto:superpestcontrol8858@gmail.com" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">superpestcontrol8858@gmail.com</a>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-orange-400 text-lg mt-0.5">🌐</span>
+                  <div>
+                    <p className="text-white font-medium">Website</p>
+                    <a href="https://superpestcontrol.in" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">superpestcontrol.in</a>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-orange-400 text-lg mt-0.5">�</span>
+                  <div>
+                    <p className="text-white font-medium">Service Areas</p>
+                    <p className="text-gray-300 text-sm">Mumbai, Navi Mumbai, Thane</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Services Links */}
+          <div className="mt-12 pt-8 border-t border-gray-800">
+            <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <a href="https://superpestcontrol.in/commercial-fumigation-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</a>
+              <a href="https://superpestcontrol.in/flying-insect-management-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</a>
+              <a href="https://superpestcontrol.in/lizard-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</a>
+              <a href="https://superpestcontrol.in/bees-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Bee Control</a>
+              <a href="https://superpestcontrol.in/wood-borer-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Wood Borer Control</a>
+              <a href="https://superpestcontrol.in/ticks-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Tick Control</a>
+              <a href="https://superpestcontrol.in/silverfish-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Silverfish Control</a>
+              <a href="https://superpestcontrol.in/commercial-pest-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</a>
+              <a href="https://superpestcontrol.in/residential-pest-control-mumbai.html" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</a>
+            </div>
+          </div>
+
+          {/* Bottom Footer */}
+          <div className="mt-12 pt-8 border-t border-gray-800">
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+              <div className="flex items-center space-x-6 text-sm text-gray-400">
+                <span>&copy; 2025 Super Pest Control Mumbai</span>
+                <span>Licensed & Certified</span>
+                <span>4.9★ Rating</span>
+                <span>10+ Years Experience</span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <span className="text-sm text-gray-400">Emergency Service:</span>
+                <a href="tel:+918097941077" className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
+                  Call 24/7
+                </a>
+              </div>
             </div>
           </div>
         </div>
