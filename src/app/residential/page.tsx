@@ -10,35 +10,72 @@ export const metadata: Metadata = {
 export default function ResidentialPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Modern SaaS Header */}
-      <header className="border-b border-gray-200/50 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+      {/* Ultra Modern E10-Style Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            {/* Modern Logo */}
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">🐛</span>
+          <div className="flex justify-between items-center h-20">
+            {/* Premium Logo */}
+            <Link href="/" className="flex items-center space-x-3 group">
+              <div className="relative">
+                <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/30 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                  <span className="text-white font-bold text-xl drop-shadow-sm">🐛</span>
+                </div>
+                <div className="absolute -inset-1 bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               </div>
-              <span className="text-xl font-semibold text-gray-900">Super Pest Control</span>
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70">Mumbai&apos;s #1 Choice</span>
+              </div>
             </Link>
             
-            {/* Modern Navigation */}
-            <nav className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Home</Link>
-              <Link href="/about" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">About Us</Link>
-              <Link href="/services" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Services</Link>
-              <Link href="/commercial" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Commercial</Link>
-              <Link href="/residential" className="text-sm text-gray-900 font-medium transition-colors">Residential</Link>
-              <Link href="/contact" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Contact</Link>
+            {/* Modern E10-Style Navigation */}
+            <nav className="hidden lg:flex items-center">
+              <div className="flex items-center space-x-1 bg-gray-50/70 backdrop-blur-sm rounded-full p-1.5 border border-gray-200/50">
+                <Link href="/" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
+                  <span className="relative z-10">Home</span>
+                  <div className="absolute inset-0 bg-white/60 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300 origin-center"></div>
+                </Link>
+                <Link href="/about" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
+                  <span className="relative z-10">About Us</span>
+                  <div className="absolute inset-0 bg-white/60 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300 origin-center"></div>
+                </Link>
+                <Link href="/services" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
+                  <span className="relative z-10">Services</span>
+                  <div className="absolute inset-0 bg-white/60 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300 origin-center"></div>
+                </Link>
+                <Link href="/commercial" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
+                  <span className="relative z-10">Commercial</span>
+                  <div className="absolute inset-0 bg-white/60 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300 origin-center"></div>
+                </Link>
+                <Link href="/residential" className="relative px-5 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-full shadow-md shadow-blue-500/20 hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 transform">
+                  <span className="relative z-10">Residential</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </Link>
+                <Link href="/contact" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
+                  <span className="relative z-10">Contact</span>
+                  <div className="absolute inset-0 bg-white/60 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300 origin-center"></div>
+                </Link>
+              </div>
             </nav>
+
+            {/* Mobile Menu Button */}
+            <div className="lg:hidden">
+              <button className="p-3 rounded-xl bg-gray-100/80 hover:bg-gray-200/80 backdrop-blur-sm transition-all duration-300 hover:scale-105">
+                <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
             
-            {/* Modern CTA */}
-            <div className="flex items-center space-x-4">
-              <a href="tel:+919876543210" className="hidden sm:inline-flex text-sm text-gray-600 hover:text-gray-900 transition-colors">
-                +91 98765 43210
+            {/* Premium CTA Group */}
+            <div className="hidden lg:flex items-center space-x-3">
+              <a href="tel:+919876543210" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
+                <span className="text-green-500 text-base">📞</span>
+                <span>+91 98765 43210</span>
               </a>
-              <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                Get Quote
+              <Link href="/contact" className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 transform group">
+                <span className="relative z-10">Get Free Quote</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
               </Link>
             </div>
           </div>
@@ -46,7 +83,7 @@ export default function ResidentialPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-green-50 via-white to-blue-50">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-green-50 via-white to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-green-100 text-green-800 mb-8">
