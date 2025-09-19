@@ -1331,25 +1331,91 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Modern FAQ Section */}
-      <section className="py-24 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Creative FAQ Section */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-orange-50 relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 text-6xl">🐛</div>
+          <div className="absolute top-40 right-20 text-4xl">🏠</div>
+          <div className="absolute bottom-20 left-20 text-5xl">🔧</div>
+          <div className="absolute bottom-40 right-10 text-4xl">⭐</div>
+        </div>
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Frequently Asked Questions
+            {/* Creative Badge */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-orange-100 text-orange-800 text-sm font-semibold mb-6">
+              <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
+              Got Questions? We&apos;ve Got Answers!
+            </div>
+            
+            <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+              <span className="bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent">
+                Pest Control
+              </span>
+              <br />
+              <span className="text-gray-900">Questions & Answers</span>
             </h2>
-            <p className="text-xl text-gray-600">
-              Everything you need to know about our pest control services in Mumbai.
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Your Mumbai pest problems solved! Get instant answers to the most common questions about our professional pest control services.
             </p>
           </div>
 
-          <div className="space-y-6">
+          <div className="grid md:grid-cols-2 gap-8">
             {faqData.map((faq, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
-                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              <div key={index} className="group">
+                <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                  {/* Gradient Background on Hover */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  
+                  {/* Content */}
+                  <div className="relative z-10">
+                    {/* Question with Icon */}
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        Q
+                      </div>
+                      <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                        {faq.question}
+                      </h3>
+                    </div>
+                    
+                    {/* Answer */}
+                    <div className="ml-14">
+                      <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                        A
+                      </div>
+                      <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </div>
+                  
+                  {/* Decorative Corner */}
+                  <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
               </div>
             ))}
+          </div>
+          
+          {/* Call to Action */}
+          <div className="text-center mt-16">
+            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Still have questions?
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Our pest control experts are here to help! Get personalized answers and free consultation.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+918097941077" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  📞 Call Now: +91 80979-41077
+                </a>
+                <a href="#contact" className="border-2 border-blue-500 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105">
+                  💬 Chat with Expert
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
