@@ -1,0 +1,34 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="url(#grad1)" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Bug/pest icon -->
+  <g transform="translate(16,16)">
+    <!-- Bug body -->
+    <ellipse cx="0" cy="0" rx="4" ry="6" fill="#ffffff"/>
+    
+    <!-- Bug head -->
+    <circle cx="0" cy="-4" r="2.5" fill="#ffffff"/>
+    
+    <!-- Antennae -->
+    <line x1="-1.5" y1="-6" x2="-2.5" y2="-8" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+    <line x1="1.5" y1="-6" x2="2.5" y2="-8" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Wings -->
+    <ellipse cx="-3" cy="-1" rx="1.5" ry="3" fill="#ffffff" opacity="0.7" transform="rotate(-30)"/>
+    <ellipse cx="3" cy="-1" rx="1.5" ry="3" fill="#ffffff" opacity="0.7" transform="rotate(30)"/>
+    
+    <!-- Legs -->
+    <line x1="-2" y1="1" x2="-4" y2="3" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+    <line x1="-1" y1="3" x2="-3" y2="5" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+    <line x1="2" y1="1" x2="4" y2="3" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+    <line x1="1" y1="3" x2="3" y2="5" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+  </g>
+</svg>
