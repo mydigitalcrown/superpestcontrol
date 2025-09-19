@@ -72,10 +72,12 @@ export default function Home() {
             
             {/* Modern Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link href="#services" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Services</Link>
-              <Link href="#features" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Features</Link>
-              <Link href="#pricing" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Pricing</Link>
-              <Link href="#contact" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Contact</Link>
+              <Link href="/" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Home</Link>
+              <Link href="/about" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">About Us</Link>
+              <Link href="/services" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Services</Link>
+              <Link href="/commercial" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Commercial</Link>
+              <Link href="/residential" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Residential</Link>
+              <Link href="/contact" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Contact</Link>
             </nav>
             
             {/* Modern CTA */}
