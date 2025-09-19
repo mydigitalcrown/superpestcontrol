@@ -13,18 +13,18 @@ export default function ServicesPage() {
       {/* Ultra Modern E10-Style Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            {/* Premium Logo */}
-            <Link href="/" className="flex items-center space-x-3 group">
+          <div className="flex justify-between items-center h-16 md:h-20">
+            {/* Premium Logo - Mobile Responsive */}
+            <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
               <div className="relative">
-                <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/30 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
-                  <span className="text-white font-bold text-xl drop-shadow-sm">🐛</span>
+                <div className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-xl md:rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/30 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                  <span className="text-white font-bold text-sm md:text-xl drop-shadow-sm">🐛</span>
                 </div>
-                <div className="absolute -inset-1 bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
+                <div className="absolute -inset-1 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl md:rounded-2xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70">Mumbai&apos;s #1 Choice</span>
+                <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Mumbai&apos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -58,16 +58,19 @@ export default function ServicesPage() {
               </div>
             </nav>
 
-            {/* Mobile Menu Button */}
-            <div className="lg:hidden">
-              <button className="p-3 rounded-xl bg-gray-100/80 hover:bg-gray-200/80 backdrop-blur-sm transition-all duration-300 hover:scale-105">
-                <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {/* Mobile Menu Button & CTA */}
+            <div className="flex items-center space-x-2 lg:hidden">
+              <a href="tel:+919876543210" className="flex items-center justify-center w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full transition-colors duration-300">
+                <span className="text-white text-lg">📞</span>
+              </a>
+              <button className="p-2.5 rounded-xl bg-gray-100/80 hover:bg-gray-200/80 backdrop-blur-sm transition-all duration-300">
+                <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
               </button>
             </div>
             
-            {/* Premium CTA Group */}
+            {/* Premium CTA Group - Desktop Only */}
             <div className="hidden lg:flex items-center space-x-3">
               <a href="tel:+919876543210" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
                 <span className="text-green-500 text-base">📞</span>
@@ -83,7 +86,7 @@ export default function ServicesPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-blue-50 via-white to-orange-50">
+      <section className="pt-20 md:pt-32 pb-16 bg-gradient-to-br from-blue-50 via-white to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 mb-8">
