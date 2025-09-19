@@ -1362,144 +1362,368 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Location Buttons Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mb-12">
-            {[
-              'pest-control-in-byculla',
-              'pest-control-in-andheri', 
-              'pest-control-in-bandra',
-              'pest-control-in-borivali',
-              'pest-control-boisar',
-              'pest-control-in-dadar',
-              'pest-control-in-ghatkopar',
-              'pest-control-in-juhu',
-              'pest-control-in-kandivali',
-              'pest-control-in-thane',
-              'pest-control-in-kalyan',
-              'pest-control-in-navi-mumbai',
-              'pest-control-in-pune',
-              'pest-control-in-colaba',
-              'pest-control-in-fort',
-              'pest-control-in-chembur',
-              'pest-control-in-kurla',
-              'pest-control-in-sion',
-              'pest-control-in-matunga',
-              'pest-control-in-mahim',
-              'pest-control-in-lower-parel',
-              'pest-control-in-parel',
-              'pest-control-in-worli',
-              'pest-control-in-wadala',
-              'pest-control-in-dharavi',
-              'pest-control-in-bandra-kurla-complex',
-              'pest-control-in-khar',
-              'pest-control-in-santacruz',
-              'pest-control-in-vile-parle',
-              'pest-control-in-jogeshwari',
-              'pest-control-in-goregaon',
-              'pest-control-in-malad',
-              'pest-control-in-dahisar',
-              'pest-control-in-powai',
-              'pest-control-in-vikhroli',
-              'pest-control-in-kanjurmarg',
-              'pest-control-in-bhandup',
-              'pest-control-in-mulund',
-              'pest-control-in-nahur',
-              'pest-control-in-belapur',
-              'pest-control-in-cbd-belapur',
-              'pest-control-in-nerul',
-              'pest-control-in-vashi',
-              'pest-control-in-airoli',
-              'pest-control-in-ghansoli',
-              'pest-control-in-kopar-khairane',
-              'pest-control-in-turbhe',
-              'pest-control-in-rabale',
-              'pest-control-in-juinagar',
-              'pest-control-in-urse',
-              'pest-control-in-sanpada',
-              'pest-control-in-seawoods',
-              'pest-control-in-kharghar',
-              'pest-control-in-kamothe',
-              'pest-control-in-kalamboli',
-              'pest-control-in-panvel',
-              'pest-control-in-new-panvel',
-              'pest-control-in-dronagiri',
-              'pest-control-in-ulwe',
-              'pest-control-in-taloja',
-              'pest-control-in-dombivali',
-              'pest-control-in-bhiwandi',
-              'pest-control-in-mumbra',
-              'pest-control-in-ulhasnagar',
-              'pest-control-in-ambarnath',
-              'pest-control-in-badlapur',
-              'pest-control-in-diva',
-              'pest-control-in-karjat',
-              'pest-control-in-ghodbunder-road',
-              'pest-control-in-vasai',
-              'pest-control-in-virar',
-              'pest-control-in-nalasopara',
-              'pest-control-in-naigaon',
-              'pest-control-in-mira-road',
-              'pest-control-in-mira-bhayandar',
-              'pest-control-in-bhayander',
-              'pest-control-in-digha',
-              'pest-control-in-darave',
-              'pest-control-in-shirvane',
-              'pest-control-in-hinjewadi',
-              'pest-control-in-baner',
-              'pest-control-in-aundh',
-              'pest-control-in-wakad',
-              'pest-control-in-bavdhan',
-              'pest-control-in-kharadi',
-              'pest-control-in-viman-nagar',
-              'pest-control-in-ambegaon',
-              'pest-control-in-aurangabad',
-              'pest-control-in-nashik',
-              'pest-control-in-ahmednagar',
-              'pest-control-in-solapur',
-              'pest-control-in-kolhapur',
-              'pest-control-in-sangli',
-              'pest-control-in-satara',
-              'pest-control-in-alibag',
-              'pest-control-in-mahape'
-            ].map((location, index) => {
-              const locationName = location
-                .replace('pest-control-in-', '')
-                .replace('pest-control-', '')
-                .split('-')
-                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                .join(' ');
-              
-              const colors = [
-                'from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700',
-                'from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700',
-                'from-green-500 to-green-600 hover:from-green-600 hover:to-green-700',
-                'from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700',
-                'from-red-500 to-red-600 hover:from-red-600 hover:to-red-700',
-                'from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700',
-                'from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700',
-                'from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700'
-              ];
-              
-              return (
-                <a
-                  key={index}
-                  href={`/${location}`}
-                  className={`group relative bg-gradient-to-r ${colors[index % colors.length]} text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden`}
-                >
-                  {/* Hover Effect Overlay */}
-                  <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+          {/* Location Buttons by Region */}
+          <div className="space-y-12">
+            
+            {/* South Mumbai */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">South Mumbai (SoBo)</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-colaba',
+                  'pest-control-in-fort',
+                  'pest-control-in-worli',
+                  'pest-control-in-lower-parel',
+                  'pest-control-in-parel'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
                   
-                  {/* Location Icon */}
-                  <div className="flex items-center justify-center gap-2">
-                    <span className="text-xs">📍</span>
-                    <span className="font-semibold truncate">{locationName}</span>
-                  </div>
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Central Mumbai */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Central Mumbai</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-dadar',
+                  'pest-control-in-matunga',
+                  'pest-control-in-mahim',
+                  'pest-control-in-byculla',
+                  'pest-control-in-sion',
+                  'pest-control-in-wadala',
+                  'pest-control-in-dharavi',
+                  'pest-control-in-bandra',
+                  'pest-control-in-khar',
+                  'pest-control-in-santacruz',
+                  'pest-control-in-bandra-kurla-complex'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
                   
-                  {/* Shine Effect */}
-                  <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
-                </a>
-              );
-            })}
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Western Suburbs */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">Mumbai Western Suburbs</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-andheri',
+                  'pest-control-in-juhu',
+                  'pest-control-in-vile-parle',
+                  'pest-control-in-jogeshwari',
+                  'pest-control-in-goregaon',
+                  'pest-control-in-malad',
+                  'pest-control-in-kandivali',
+                  'pest-control-in-borivali',
+                  'pest-control-in-dahisar'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Eastern Suburbs */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Mumbai Eastern Suburbs</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-chembur',
+                  'pest-control-in-ghatkopar',
+                  'pest-control-in-kurla',
+                  'pest-control-in-powai',
+                  'pest-control-in-vikhroli',
+                  'pest-control-in-kanjurmarg',
+                  'pest-control-in-bhandup',
+                  'pest-control-in-mulund',
+                  'pest-control-in-nahur'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Navi Mumbai */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">Navi Mumbai</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-navi-mumbai',
+                  'pest-control-in-belapur',
+                  'pest-control-in-cbd-belapur',
+                  'pest-control-in-nerul',
+                  'pest-control-in-vashi',
+                  'pest-control-in-airoli',
+                  'pest-control-in-ghansoli',
+                  'pest-control-in-kopar-khairane',
+                  'pest-control-in-turbhe',
+                  'pest-control-in-rabale',
+                  'pest-control-in-juinagar',
+                  'pest-control-in-urse',
+                  'pest-control-in-sanpada',
+                  'pest-control-in-seawoods',
+                  'pest-control-in-kharghar',
+                  'pest-control-in-kamothe',
+                  'pest-control-in-kalamboli',
+                  'pest-control-in-panvel',
+                  'pest-control-in-new-panvel',
+                  'pest-control-in-dronagiri',
+                  'pest-control-in-ulwe',
+                  'pest-control-in-taloja',
+                  'pest-control-in-mahape'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Thane Region */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Thane Region</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-thane',
+                  'pest-control-in-kalyan',
+                  'pest-control-in-dombivali',
+                  'pest-control-in-bhiwandi',
+                  'pest-control-in-mumbra',
+                  'pest-control-in-ulhasnagar',
+                  'pest-control-in-ambarnath',
+                  'pest-control-in-badlapur',
+                  'pest-control-in-diva',
+                  'pest-control-in-karjat',
+                  'pest-control-in-ghodbunder-road'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-red-500 to-orange-600 hover:from-red-600 hover:to-orange-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Extended Mumbai Region */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">Extended Mumbai Region</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-vasai',
+                  'pest-control-in-virar',
+                  'pest-control-in-nalasopara',
+                  'pest-control-in-naigaon',
+                  'pest-control-in-mira-road',
+                  'pest-control-in-mira-bhayandar',
+                  'pest-control-in-bhayander',
+                  'pest-control-in-digha',
+                  'pest-control-in-darave',
+                  'pest-control-in-shirvane',
+                  'pest-control-boisar'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Pune & Maharashtra */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">Pune & Maharashtra</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-pune',
+                  'pest-control-in-hinjewadi',
+                  'pest-control-in-baner',
+                  'pest-control-in-aundh',
+                  'pest-control-in-wakad',
+                  'pest-control-in-bavdhan',
+                  'pest-control-in-kharadi',
+                  'pest-control-in-viman-nagar',
+                  'pest-control-in-ambegaon',
+                  'pest-control-in-aurangabad',
+                  'pest-control-in-nashik',
+                  'pest-control-in-ahmednagar',
+                  'pest-control-in-solapur',
+                  'pest-control-in-kolhapur',
+                  'pest-control-in-sangli',
+                  'pest-control-in-satara',
+                  'pest-control-in-alibag'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-600 hover:to-orange-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
           {/* Call to Action */}
