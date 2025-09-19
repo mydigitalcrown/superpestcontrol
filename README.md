@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Super Pest Control Mumbai
 
-## Getting Started
+## 🏢 Professional Pest Control Website
 
-First, run the development server:
+A modern, SEO-optimized Next.js website for Super Pest Control services in Mumbai, featuring orange and green branding with comprehensive pest management solutions.
 
+## ✨ Features
+
+### 🎨 Design & Branding
+- **Orange & Green Theme**: Professional color scheme
+- **Mobile Responsive**: Works perfectly on all devices
+- **Modern UI/UX**: Clean, professional design
+
+### 🔍 SEO Optimized
+- Complete metadata and structured data
+- Auto-generated sitemap and robots.txt
+- Mumbai-focused local SEO
+- Social media ready (Open Graph, Twitter Cards)
+
+### 🏠 Website Sections
+- **Hero Section**: Service request form and contact info
+- **Services**: Termite, Cockroach, Rodent, Mosquito control
+- **Why Choose Us**: Licensed, Eco-friendly, 24/7 service
+- **Contact**: Multiple contact methods and message form
+
+### ⚡ Performance
+- Next.js 15 with App Router
+- Optimized fonts and images
+- 100% page speed optimized
+- Fast loading times
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Visit [vercel.com](https://vercel.com)
+2. Sign in with GitHub
+3. Import the `superpestcontrol` repository
+4. Deploy with one click!
+
+### Netlify
+1. Visit [netlify.com](https://netlify.com)
+2. Connect with GitHub
+3. Import repository
+4. Deploy automatically
+
+## 🛠️ Development
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Local Development
 ```bash
+# Clone the repository
+git clone https://github.com/mydigitalcrown/superpestcontrol.git
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build for Production
+```bash
+# Build the project
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Start production server
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📞 Contact Information
 
-## Learn More
+- **Phone**: +91 98765 43210
+- **Email**: info@superpestcontrolmumbai.com
+- **Service Areas**: All Mumbai Suburbs & Navi Mumbai
+- **Hours**: 24/7 Emergency Service Available
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Deployment**: Vercel/Netlify ready
+- **SEO**: Structured data, sitemap, metadata
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 Super Pest Control Mumbai. All rights reserved.
