@@ -122,14 +122,16 @@ export default function Home() {
 
             {/* Mobile Menu Button & CTA */}
             <div className="flex items-center space-x-2 lg:hidden">
-              <a href="tel:+919876543210" className="flex items-center justify-center w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full transition-colors duration-300">
+              <a href="tel:+918097941077" className="flex items-center justify-center w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full transition-colors duration-300" aria-label="Call Now">
                 <span className="text-white text-lg">📞</span>
               </a>
               <button 
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="p-2.5 rounded-xl bg-gray-100/80 hover:bg-gray-200/80 backdrop-blur-sm transition-all duration-300"
+                aria-label="Toggle mobile menu"
+                aria-expanded={isMobileMenuOpen}
               >
-                <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
               </button>
@@ -137,9 +139,9 @@ export default function Home() {
             
             {/* Premium CTA Group - Desktop Only */}
             <div className="hidden lg:flex items-center space-x-3">
-              <a href="tel:+919876543210" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
+              <a href="tel:+918097941077" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
                 <span className="text-green-500 text-base">📞</span>
-                <span>+91 98765 43210</span>
+                <span>+91 80979-41077</span>
               </a>
               <Link href="/contact" className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 transform group">
                 <span className="relative z-10">Get Free Quote</span>
@@ -166,18 +168,12 @@ export default function Home() {
       </header>
 
       {/* Modern SaaS Hero Section */}
-      <section className="pt-20 md:pt-32 pb-16 md:pb-32 bg-gradient-to-br from-blue-50 via-white to-orange-50 relative overflow-hidden">
-        {/* Background decorative elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-60 h-60 md:w-80 md:h-80 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-          <div className="absolute -bottom-40 -left-40 w-60 h-60 md:w-80 md:h-80 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-          <div className="absolute top-40 left-40 w-60 h-60 md:w-80 md:h-80 bg-green-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-        </div>
+      <section className="pt-20 md:pt-32 pb-16 md:pb-32 bg-gradient-to-br from-blue-50 via-white to-orange-50 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-blue-100 text-blue-800 mb-6 md:mb-8">
-              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
+              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
               #1 Pest Control in Mumbai
             </div>
             
@@ -201,8 +197,8 @@ export default function Home() {
               <a href="#contact" className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl text-center">
                 Get Free Inspection
               </a>
-              <a href="tel:+919876543210" className="border border-gray-300 hover:border-gray-400 text-gray-700 px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg transition-all hover:bg-gray-50 text-center">
-                📞 Call: +91 98765 43210
+              <a href="tel:+918097941077" className="border border-gray-300 hover:border-gray-400 text-gray-700 px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg transition-all hover:bg-gray-50 text-center">
+                📞 Call: +91 80979-41077
               </a>
             </div>
             
@@ -289,7 +285,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/termites-control-mumbai" className="block w-full bg-orange-600 hover:bg-orange-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -297,10 +293,15 @@ export default function Home() {
             {/* Cockroach Control */}
             <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-blue-200">
               <div className="relative h-48 overflow-hidden">
-                <img 
+                <Image 
                   src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Mumbai - Professional Cockroach Extermination"
+                  width={400}
+                  height={192}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                 />
                 <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   Most Popular
@@ -333,7 +334,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/cockroach-control-mumbai" className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -377,7 +378,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/rodents-control-mumbai" className="block w-full bg-red-600 hover:bg-red-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -421,7 +422,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/bed-bug-control-mumbai" className="block w-full bg-purple-600 hover:bg-purple-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -465,7 +466,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/ant-control-mumbai" className="block w-full bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -509,7 +510,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/mosquitoes-control-mumbai" className="block w-full bg-yellow-600 hover:bg-yellow-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -553,7 +554,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/spider-control-mumbai" className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -597,7 +598,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/lizard-control-mumbai" className="block w-full bg-teal-600 hover:bg-teal-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -641,7 +642,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/commercial-pest-control-mumbai" className="block w-full bg-gray-800 hover:bg-gray-900 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -687,7 +688,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/residential-pest-control-mumbai" className="block w-full bg-pink-600 hover:bg-pink-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -731,7 +732,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/commercial-fumigation-mumbai" className="block w-full bg-cyan-600 hover:bg-cyan-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -775,7 +776,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/flying-insect-management-mumbai" className="block w-full bg-lime-600 hover:bg-lime-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -819,7 +820,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/fly-control-mumbai" className="block w-full bg-amber-600 hover:bg-amber-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -863,7 +864,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/bees-control-mumbai" className="block w-full bg-yellow-600 hover:bg-yellow-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -907,7 +908,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/wood-borer-control-mumbai" className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -951,7 +952,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/ticks-control-mumbai" className="block w-full bg-rose-600 hover:bg-rose-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -995,7 +996,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link href="/silverfish-control-mumbai" className="block w-full bg-slate-600 hover:bg-slate-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">
-                  Learn More
+                  Get Quote Now
                 </Link>
               </div>
             </div>
@@ -1358,8 +1359,8 @@ export default function Home() {
               Contact us now for immediate assistance and a free property inspection.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-              <a href="tel:+919876543210" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-                📞 +91 98765 43210
+              <a href="tel:+918097941077" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                📞 +91 80979-41077
               </a>
               <a href="mailto:info@superpestcontrolmumbai.com" className="bg-blue-800 bg-opacity-50 text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-70 transition-colors">
                 📧 Get Quote
