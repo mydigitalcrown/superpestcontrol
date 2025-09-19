@@ -216,22 +216,22 @@ export default function Home() {
             </div>
             
             {/* Trust Indicators */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-gray-200">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-white/30">
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 mb-1">10+</div>
-                <div className="text-sm text-gray-600">Years Experience</div>
+                <div className="text-3xl font-bold text-white mb-1 drop-shadow-lg">10+</div>
+                <div className="text-sm text-gray-100 drop-shadow-md">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 mb-1">500+</div>
-                <div className="text-sm text-gray-600">Happy Customers</div>
+                <div className="text-3xl font-bold text-white mb-1 drop-shadow-lg">500+</div>
+                <div className="text-sm text-gray-100 drop-shadow-md">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 mb-1">24/7</div>
-                <div className="text-sm text-gray-600">Emergency Service</div>
+                <div className="text-3xl font-bold text-white mb-1 drop-shadow-lg">24/7</div>
+                <div className="text-sm text-gray-100 drop-shadow-md">Emergency Service</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 mb-1">4.9★</div>
-                <div className="text-sm text-gray-600">Customer Rating</div>
+                <div className="text-3xl font-bold text-white mb-1 drop-shadow-lg">4.9★</div>
+                <div className="text-sm text-gray-100 drop-shadow-md">Customer Rating</div>
               </div>
             </div>
           </div>
