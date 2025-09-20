@@ -2369,8 +2369,7 @@ export default function Home() {
                   Website Designed & Developed by{' '}
                   <a 
                     href="https://mydigitalcrown.in/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
+                    target="_blank"
                     className="text-orange-400 hover:text-orange-300 font-medium transition-colors duration-200 hover:underline"
                   >
                     Keyword Digital Marketing Company
