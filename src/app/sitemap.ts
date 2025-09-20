@@ -1,30 +1,212 @@
 import { MetadataRoute } from 'next'
  
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const baseUrl = 'https://superpestcontrolmumbai.com'
+  const currentDate = new Date()
+  
+  // Core pages
+  const corePages = [
     {
-      url: 'https://superpestcontrolmumbai.com',
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 1,
+      url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 1.0,
     },
     {
-      url: 'https://superpestcontrolmumbai.com/services',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
+      url: `${baseUrl}/about`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
-      url: 'https://superpestcontrolmumbai.com/about',
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.5,
+      url: `${baseUrl}/services`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
     },
     {
-      url: 'https://superpestcontrolmumbai.com/contact',
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.5,
+      url: `${baseUrl}/commercial`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
     },
+    {
+      url: `${baseUrl}/residential`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]
+
+  // Service pages
+  const servicePages = [
+    'termites-control-mumbai',
+    'cockroach-control-mumbai',
+    'rodents-control-mumbai',
+    'bed-bug-control-mumbai',
+    'ant-control-mumbai',
+    'mosquitoes-control-mumbai',
+    'spider-control-mumbai',
+    'lizard-control-mumbai',
+    'fly-control-mumbai',
+    'bees-control-mumbai',
+    'wood-borer-control-mumbai',
+    'ticks-control-mumbai',
+    'silverfish-control-mumbai',
+    'commercial-pest-control-mumbai',
+    'residential-pest-control-mumbai',
+    'commercial-fumigation-mumbai',
+    'flying-insect-management-mumbai',
+  ].map(service => ({
+    url: `${baseUrl}/${service}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
+  // Location pages - Mumbai Areas
+  const mumbaiLocations = [
+    // South Mumbai
+    'pest-control-in-colaba',
+    'pest-control-in-fort',
+    'pest-control-in-worli',
+    'pest-control-in-lower-parel',
+    'pest-control-in-parel',
+    
+    // Central Mumbai
+    'pest-control-in-dadar',
+    'pest-control-in-matunga',
+    'pest-control-in-mahim',
+    'pest-control-in-byculla',
+    'pest-control-in-sion',
+    'pest-control-in-wadala',
+    'pest-control-in-dharavi',
+    'pest-control-in-bandra',
+    'pest-control-in-khar',
+    'pest-control-in-santacruz',
+    'pest-control-in-bandra-kurla-complex',
+    
+    // Western Suburbs
+    'pest-control-in-andheri',
+    'pest-control-in-andheri-west',
+    'pest-control-in-juhu',
+    'pest-control-in-vile-parle',
+    'pest-control-in-jogeshwari',
+    'pest-control-in-goregaon',
+    'pest-control-in-malad',
+    'pest-control-in-kandivali',
+    'pest-control-in-borivali',
+    'pest-control-in-dahisar',
+    'pest-control-in-versova',
+    'pest-control-in-lokhandwala',
+    'pest-control-in-oshiwara',
+    
+    // Eastern Suburbs
+    'pest-control-in-chembur',
+    'pest-control-in-ghatkopar',
+    'pest-control-in-kurla',
+    'pest-control-in-powai',
+    'pest-control-in-vikhroli',
+    'pest-control-in-kanjurmarg',
+    'pest-control-in-bhandup',
+    'pest-control-in-mulund',
+    'pest-control-in-nahur',
+  ].map(location => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // Navi Mumbai locations
+  const naviMumbaiLocations = [
+    'pest-control-navi-mumbai',
+    'pest-control-in-vashi',
+    'pest-control-in-cbd-belapur',
+    'pest-control-belapur',
+    'pest-control-nerul',
+    'pest-control-airoli',
+    'pest-control-ghansoli',
+    'pest-control-in-kopar-khairane',
+    'pest-control-in-turbhe',
+    'pest-control-in-rabale',
+    'pest-control-in-juinagar',
+    'pest-control-in-sanpada',
+    'pest-control-in-seawoods',
+    'pest-control-in-kharghar',
+    'pest-control-in-kamothe',
+    'pest-control-in-kalamboli',
+    'pest-control-in-panvel',
+  ].map(location => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // Thane region locations
+  const thaneLocations = [
+    'pest-control-in-thane',
+    'pest-control-in-kalyan',
+    'pest-control-kalyan',
+    'pest-control-in-dombivli',
+    'pest-control-in-ulhasnagar',
+    'pest-control-in-ambarnath',
+    'pest-control-in-badlapur',
+    'pest-control-in-karjat',
+    'pest-control-in-mumbra',
+  ].map(location => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  // Extended Mumbai region
+  const extendedLocations = [
+    'pest-control-vasai',
+    'pest-control-mira-road',
+    'pest-control-bhayander',
+    'pest-control-boisar',
+  ].map(location => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  // Pune region locations
+  const puneLocations = [
+    'pest-control-pune',
+    'pest-control-hinjewadi',
+    'pest-control-baner',
+    'pest-control-aundh',
+    'pest-control-wakad',
+    'pest-control-hadapsar',
+    'pest-control-viman-nagar',
+    'pest-control-kothrud',
+    'pest-control-koregaon-park',
+  ].map(location => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  // Combine all pages
+  return [
+    ...corePages,
+    ...servicePages,
+    ...mumbaiLocations,
+    ...naviMumbaiLocations,
+    ...thaneLocations,
+    ...extendedLocations,
+    ...puneLocations,
   ]
 }
