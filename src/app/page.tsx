@@ -2361,6 +2361,24 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            
+            {/* Website Credit */}
+            <div className="mt-6 pt-6 border-t border-gray-800">
+              <div className="text-center">
+                <p className="text-sm text-gray-500">
+                  Website Designed & Developed by{' '}
+                  <a 
+                    href="https://mydigitalcrown.in/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-orange-400 hover:text-orange-300 font-medium transition-colors duration-200 hover:underline"
+                  >
+                    Keyword Digital Marketing Company
+                  </a>
+                  {' '}Mumbai
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
