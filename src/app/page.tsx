@@ -2160,22 +2160,22 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* First Google Business Page */}
             <div className="bg-gray-50 rounded-2xl p-6 shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Super Pest Control Mumbai</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Super Herbal Power Pest Control</h3>
               <div className="relative w-full h-96 rounded-xl overflow-hidden shadow-md">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3434441920456!2d72.85385571532084!3d19.106194454654728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c862b9b3c7f9%3A0x7e6ef45e6cabb6bc!2sSuper%20Pest%20Control%20Mumbai!5e0!3m2!1sen!2sin!4v1639654321098!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7536.618757180519!2d72.971271!3d19.181685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8de3fffffff%3A0xd21d174cb4307f65!2sSuper%20Herbal%20power%20Pest%20Control!5e0!3m2!1sen!2sin!4v1758340583155!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }}
                   allowFullScreen={true}
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Super Pest Control Mumbai Location"
+                  title="Super Herbal Power Pest Control Location"
                 ></iframe>
               </div>
               <div className="mt-4 text-center">
                 <a 
-                  href="https://www.google.com/maps/place/Super+Pest+Control+Mumbai"
+                  href="https://www.google.com/maps/place/Super+Herbal+power+Pest+Control/@19.181685,72.971271,15z/data=!4m6!3m5!1s0x3be7b8de3fffffff:0xd21d174cb4307f65!8m2!3d19.181685!4d72.971271!16s%2Fg%2F11p5y8qw0r"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
@@ -2190,22 +2190,22 @@ export default function Home() {
 
             {/* Second Google Business Page */}
             <div className="bg-gray-50 rounded-2xl p-6 shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Super Pest Control Services</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Super Pest Control</h3>
               <div className="relative w-full h-96 rounded-xl overflow-hidden shadow-md">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8434441920456!2d72.87385571532084!3d19.116194454654728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c862b9b3c7f9%3A0x8e6ef45e6cabb6bc!2sSuper%20Pest%20Control%20Services%20Mumbai!5e0!3m2!1sen!2sin!4v1639654321099!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30145.766053371026!2d72.971543!3d19.185558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9bf21d997db%3A0xd77137379f669074!2sSuper%20Pest%20Control!5e0!3m2!1sen!2sin!4v1758340595533!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }}
                   allowFullScreen={true}
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Super Pest Control Services Mumbai Location"
+                  title="Super Pest Control Location"
                 ></iframe>
               </div>
               <div className="mt-4 text-center">
                 <a 
-                  href="https://www.google.com/maps/place/Super+Pest+Control+Services+Mumbai"
+                  href="https://www.google.com/maps/place/Super+Pest+Control/@19.185558,72.971543,15z/data=!4m6!3m5!1s0x3be7b9bf21d997db:0xd77137379f669074!8m2!3d19.185558!4d72.971543!16s%2Fg%2F11q4y7qw0r"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
