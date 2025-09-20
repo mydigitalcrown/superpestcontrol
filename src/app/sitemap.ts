@@ -143,6 +143,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-kamothe',
     'pest-control-in-kalamboli',
     'pest-control-in-panvel',
+    'pest-control-urse',
+    'pest-control-in-new-panvel',
+    'pest-control-in-dronagiri',
+    'pest-control-in-ulwe',
+    'pest-control-in-taloja',
+    'pest-control-in-mahape',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
@@ -161,6 +167,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-badlapur',
     'pest-control-in-karjat',
     'pest-control-in-mumbra',
+    'pest-control-in-bhiwandi',
+    'pest-control-in-diva',
+    'pest-control-in-ghodbunder-road',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
@@ -174,6 +183,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-mira-road',
     'pest-control-bhayander',
     'pest-control-boisar',
+    'pest-control-in-virar',
+    'pest-control-in-nalasopara',
+    'pest-control-in-naigaon',
+    'pest-control-in-mira-bhayandar',
+    'pest-control-in-digha',
+    'pest-control-in-darave',
+    'pest-control-in-shirvane',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
@@ -192,6 +208,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-viman-nagar',
     'pest-control-kothrud',
     'pest-control-koregaon-park',
+    'pest-control-in-bavdhan',
+    'pest-control-in-kharadi',
+    'pest-control-in-ambegaon',
+  ].map(location => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  // Maharashtra cities locations
+  const maharashtraLocations = [
+    'pest-control-in-aurangabad',
+    'pest-control-in-nashik',
+    'pest-control-in-ahmednagar',
+    'pest-control-in-solapur',
+    'pest-control-in-kolhapur',
+    'pest-control-in-sangli',
+    'pest-control-in-satara',
+    'pest-control-in-alibag',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
@@ -208,5 +244,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...thaneLocations,
     ...extendedLocations,
     ...puneLocations,
+    ...maharashtraLocations,
   ]
 }
