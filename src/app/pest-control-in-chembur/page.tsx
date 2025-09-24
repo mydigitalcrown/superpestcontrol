@@ -410,7 +410,7 @@ export default function PestControlChembur() {
               <a href="tel:+918097941077" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
                 📞 +91 80979-41077
               </a>
-              <a href="mailto:info@superpestcontrolmumbai.com" className="bg-blue-800 bg-opacity-50 text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-70 transition-colors">
+              <a href="mailto:info@superpestcontrol.in" className="bg-blue-800 bg-opacity-50 text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-70 transition-colors">
                 📧 Get Quote
               </a>
             </div>

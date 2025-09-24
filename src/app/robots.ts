@@ -38,7 +38,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/', '/_next/', '/private/'],
       },
     ],
-    sitemap: 'https://superpestcontrolmumbai.com/sitemap.xml',
-    host: 'https://superpestcontrolmumbai.com',
+    sitemap: 'https://superpestcontrol.in/sitemap.xml',
+    host: 'https://superpestcontrol.in',
   }
 }

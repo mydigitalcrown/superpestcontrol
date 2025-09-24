@@ -75,7 +75,7 @@ npm run start
 ## 📞 Contact Information
 
 - **Phone**: +91 98765 43210
-- **Email**: info@superpestcontrolmumbai.com
+- **Email**: info@superpestcontrol.in
 - **Service Areas**: All Mumbai Suburbs & Navi Mumbai
 - **Hours**: 24/7 Emergency Service Available
 
