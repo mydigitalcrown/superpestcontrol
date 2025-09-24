@@ -315,10 +315,23 @@ export default function RootLayout({
                     "Customer Choice Award",
                     "Excellence in Service Award"
                   ],
-                  "certifications": [
-                    "Government Licensed",
-                    "ISO Certified",
-                    "Eco-Friendly Certified"
+                  "accreditation": [
+                    {
+                      "@type": "EducationalOccupationalCredential",
+                      "credentialCategory": "Government License",
+                      "recognizedBy": {
+                        "@type": "Organization",
+                        "name": "Government of Maharashtra"
+                      }
+                    },
+                    {
+                      "@type": "EducationalOccupationalCredential", 
+                      "credentialCategory": "ISO Certification",
+                      "recognizedBy": {
+                        "@type": "Organization",
+                        "name": "International Organization for Standardization"
+                      }
+                    }
                   ]
                 },
                 {
