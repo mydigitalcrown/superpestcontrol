@@ -175,12 +175,6 @@ export default function CommercialPestControlMumbai() {
               </div>
             </div>
           </div>
-                <Link href="tel:+918097941077" className="block w-full bg-orange-500 text-white text-center py-3 rounded-lg font-semibold">
-                  📞 Call Now
-                </Link>
-              </div>
-            </div>
-          )}
         </div>
       </header>
 
