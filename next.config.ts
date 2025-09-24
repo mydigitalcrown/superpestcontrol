@@ -319,6 +319,13 @@ const nextConfig: NextConfig = {
         destination: '/pest-control-in-dombivli',
         permanent: true,
       },
+      
+      // Spelling variation redirects
+      {
+        source: '/pest-control-in-dombivali',
+        destination: '/pest-control-in-dombivli',
+        permanent: true,
+      },
       {
         source: '/pest-control-in-dronagiri.html',
         destination: '/pest-control-in-dronagiri',
