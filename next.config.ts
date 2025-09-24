@@ -17,6 +17,28 @@ const nextConfig: NextConfig = {
   // HTML to Next.js redirects
   async redirects() {
     return [
+      // Language redirects - redirect unsupported language routes to main pages
+      {
+        source: '/hi',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/mr', 
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/hi/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
+      {
+        source: '/mr/:path*',
+        destination: '/:path*', 
+        permanent: true,
+      },
+      
       // Main pages
       {
         source: '/index.html',
