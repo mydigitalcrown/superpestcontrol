@@ -99,7 +99,7 @@ export default function PestControlColaba() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Professional Pest Control Services in 
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400">
-                Colaba, Thane
+                Colaba, Mumbai
               </span>
             </h1>
             <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-gray-200 font-light">
