@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Header from "../../components/Header";
 
 export const metadata = {
   title: "Terms and Conditions | Super Pest Control Mumbai",
@@ -9,6 +10,8 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Header subtitle="Professional Pest Control Services" />
+
       <section className="bg-blue-600 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
