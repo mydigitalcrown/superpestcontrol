@@ -42,6 +42,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: currentDate,
+      changeFrequency: 'yearly' as const,
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: currentDate,
+      changeFrequency: 'yearly' as const,
+      priority: 0.5,
+    },
   ]
 
   // Service pages
@@ -68,6 +80,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: currentDate,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
+  }))
+
+  // City-wide service pages
+  const cityServicePages = [
+    'pest-control-mumbai',
+    'pest-control-pune', 
+    'pest-control-navi-mumbai',
+    'pest-control-pcmc',
+  ].map(service => ({
+    url: `${baseUrl}/${service}`,
+    lastModified: currentDate,
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
   }))
 
   // Location pages - Mumbai Areas
@@ -126,13 +151,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Navi Mumbai locations
   const naviMumbaiLocations = [
-    'pest-control-navi-mumbai',
     'pest-control-in-vashi',
+    'pest-control-in-nerul',
     'pest-control-in-cbd-belapur',
     'pest-control-belapur',
-    'pest-control-nerul',
     'pest-control-airoli',
+    'pest-control-in-airoli',
     'pest-control-ghansoli',
+    'pest-control-in-ghansoli',
     'pest-control-in-kopar-khairane',
     'pest-control-in-turbhe',
     'pest-control-in-rabale',
@@ -143,7 +169,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-kamothe',
     'pest-control-in-kalamboli',
     'pest-control-in-panvel',
-    'pest-control-urse',
+    'pest-control-in-urse',
     'pest-control-in-new-panvel',
     'pest-control-in-dronagiri',
     'pest-control-in-ulwe',
@@ -179,9 +205,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Extended Mumbai region
   const extendedLocations = [
-    'pest-control-vasai',
-    'pest-control-mira-road',
+    'pest-control-in-vasai',
+    'pest-control-in-mira-road',
     'pest-control-bhayander',
+    'pest-control-in-bhayander',
     'pest-control-boisar',
     'pest-control-in-virar',
     'pest-control-in-nalasopara',
@@ -199,15 +226,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Pune region locations
   const puneLocations = [
-    'pest-control-pune',
+    'pest-control-in-pune',
     'pest-control-hinjewadi',
+    'pest-control-in-hinjewadi',
     'pest-control-baner',
+    'pest-control-in-baner',
     'pest-control-aundh',
-    'pest-control-wakad',
+    'pest-control-in-aundh',
+    'pest-control-in-wakad',
     'pest-control-hadapsar',
-    'pest-control-viman-nagar',
-    'pest-control-kothrud',
-    'pest-control-koregaon-park',
+    'pest-control-in-hadapsar',
+    'pest-control-in-viman-nagar',
     'pest-control-in-bavdhan',
     'pest-control-in-kharadi',
     'pest-control-in-ambegaon',
@@ -239,6 +268,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...corePages,
     ...servicePages,
+    ...cityServicePages,
     ...mumbaiLocations,
     ...naviMumbaiLocations,
     ...thaneLocations,
