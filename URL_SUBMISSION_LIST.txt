@@ -1,0 +1,40 @@
+
+# Priority URL Submission List for Google Search Console
+
+## Instructions:
+1. Go to Google Search Console > URL Inspection
+2. Copy and paste each URL below
+3. Click "Request Indexing" for each URL
+4. Wait for confirmation before submitting the next URL
+5. Submit 10-20 URLs per day to avoid rate limiting
+
+## Priority URLs (Submit in this order):
+
+1. https://superpestcontrol.in
+2. https://superpestcontrol.in/services
+3. https://superpestcontrol.in/pest-control-mumbai
+4. https://superpestcontrol.in/pest-control-pune
+5. https://superpestcontrol.in/pest-control-navi-mumbai
+6. https://superpestcontrol.in/termites-control-mumbai
+7. https://superpestcontrol.in/cockroach-control-mumbai
+8. https://superpestcontrol.in/bed-bug-control-mumbai
+9. https://superpestcontrol.in/commercial-pest-control-mumbai
+10. https://superpestcontrol.in/residential-pest-control-mumbai
+11. https://superpestcontrol.in/pest-control-in-andheri
+12. https://superpestcontrol.in/pest-control-in-borivali
+13. https://superpestcontrol.in/pest-control-in-thane
+14. https://superpestcontrol.in/pest-control-in-powai
+15. https://superpestcontrol.in/pest-control-in-bandra
+16. https://superpestcontrol.in/pest-control-in-mumbai
+17. https://superpestcontrol.in/about
+18. https://superpestcontrol.in/contact
+19. https://superpestcontrol.in/commercial
+20. https://superpestcontrol.in/residential
+
+## Notes:
+- These are the most important pages for immediate indexing
+- Submit remaining location pages after these are indexed
+- Monitor indexing status in Google Search Console
+- Resubmit if any URLs show errors
+
+Total Priority URLs: 20

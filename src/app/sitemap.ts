@@ -9,38 +9,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: baseUrl,
       lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
+      changeFrequency: 'daily' as const, // Home page gets daily updates for fast indexing
       priority: 1.0,
     },
     {
       url: `${baseUrl}/about`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9, // Increased priority
     },
     {
       url: `${baseUrl}/services`,
       lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
+      changeFrequency: 'daily' as const, // Services page gets daily updates
+      priority: 0.95, // High priority for main services
     },
     {
       url: `${baseUrl}/commercial`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      changeFrequency: 'weekly' as const,
+      priority: 0.85, // Increased priority
     },
     {
       url: `${baseUrl}/residential`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      changeFrequency: 'weekly' as const,
+      priority: 0.85, // Increased priority
     },
     {
       url: `${baseUrl}/contact`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      changeFrequency: 'weekly' as const, // More frequent updates
+      priority: 0.8, // Increased priority
     },
     {
       url: `${baseUrl}/terms`,
@@ -78,8 +78,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map(service => ({
     url: `${baseUrl}/${service}`,
     lastModified: currentDate,
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
+    changeFrequency: 'weekly' as const, // More frequent for service pages
+    priority: 0.85, // Higher priority for service pages
   }))
 
   // City-wide service pages
@@ -91,8 +91,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map(service => ({
     url: `${baseUrl}/${service}`,
     lastModified: currentDate,
-    changeFrequency: 'weekly' as const,
-    priority: 0.9,
+    changeFrequency: 'daily' as const, // Daily updates for city pages
+    priority: 0.92, // Very high priority for city service pages
   }))
 
   // Location pages - Mumbai Areas
@@ -145,8 +145,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
+    changeFrequency: 'weekly' as const, // More frequent for Mumbai location pages
+    priority: 0.75, // Higher priority for Mumbai locations
   }))
 
   // Navi Mumbai locations
