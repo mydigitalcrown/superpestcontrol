@@ -1,77 +1,85 @@
 import Link from "next/link";
 
-// Voice Search Optimization - FAQ Data for Andheri
+// Voice Search Optimization - FAQ Data for Vikhroli
 const faqData = [
   {
-    question: "What is the best pest control service in Andheri?",
-    answer: "Super Pest Control is the #1 rated pest control service in Andheri, offering 24/7 professional services with eco-friendly solutions, licensed experts, and over 10 years of experience serving Andheri and surrounding Mumbai areas."
+    question: "What is the best pest control service in Vikhroli?",
+    answer: "Super Pest Control is the #1 rated pest control service in Vikhroli, offering 24/7 professional services with eco-friendly solutions, licensed experts, and over 10 years of experience serving Vikhroli and surrounding areas."
   },
   {
-    question: "How much does pest control cost in Andheri?", 
-    answer: "Pest control in Andheri costs between ₹1,800 to ₹6,500 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges for Andheri properties."
+    question: "How much does pest control cost in Vikhroli?", 
+    answer: "Pest control in Vikhroli costs between ₹1,800 to ₹6,500 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges for Vikhroli properties."
   },
   {
-    question: "Which pest control is best for cockroaches in Andheri?",
-    answer: "Super Pest Control Andheri provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Andheri&apos;s environment with 100% satisfaction guarantee."
+    question: "Which pest control is best for cockroaches in Vikhroli?",
+    answer: "Super Pest Control Vikhroli provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Vikhroli's environment with 100% satisfaction guarantee."
   },
   {
-    question: "How to get rid of termites in Andheri homes permanently?",
-    answer: "Professional termite control in Andheri involves pre-construction and post-construction soil treatment, wood treatment, and barrier protection using licensed anti-termite chemicals. Super Pest Control offers 5-year warranty on termite treatment in Andheri."
+    question: "How to get rid of termites in Vikhroli homes permanently?",
+    answer: "Professional termite control in Vikhroli involves pre-construction and post-construction soil treatment, wood treatment, and barrier protection using licensed anti-termite chemicals. Super Pest Control offers 5-year warranty on termite treatment in Vikhroli."
+  },
+  {
+    question: "Are pest control chemicals safe for children and pets in Vikhroli?",
+    answer: "Yes, Super Pest Control uses only eco-friendly, child-safe, and pet-safe pest control chemicals approved by regulatory authorities. All treatments in Vikhroli follow strict safety protocols and are completely safe for families."
+  },
+  {
+    question: "Do you provide emergency pest control services in Vikhroli?",
+    answer: "Yes, Super Pest Control provides 24/7 emergency pest control services in Vikhroli with same-day service availability. Our rapid response team covers all areas in Vikhroli for urgent pest situations."
   }
 ];
 
 // 100% SEO Optimized Metadata
 export const metadata = {
-  title: "Best Pest Control Services in Andheri | Super Pest Control Mumbai",
-  description: "Professional pest control services in Andheri. Termite, cockroach, rodent control with 5-year warranty. 24/7 service. Call +91-80979-41077 for free inspection.",
-  keywords: "pest control in Andheri, Andheri pest control, termite control Andheri, cockroach control Andheri, rodent control Andheri, bed bug control Andheri, fumigation services Andheri, eco-friendly pest control, licensed pest control Andheri, emergency pest control Andheri, commercial pest control Andheri",
+  title: "Best Pest Control Services in Vikhroli | Super Pest Control Mumbai",
+  description: "Professional pest control services in Vikhroli. Termite, cockroach, rodent control with 5-year warranty. 24/7 service. Call +91-80979-41077 for free inspection.",
+  keywords: "pest control in Vikhroli, Vikhroli pest control, termite control Vikhroli, cockroach control Vikhroli, rodent control Vikhroli, bed bug control Vikhroli, fumigation services Vikhroli, eco-friendly pest control, licensed pest control Vikhroli, emergency pest control Vikhroli, commercial pest control Vikhroli",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   author: "Super Pest Control Mumbai",
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-andheri"
+    canonical: "https://superpestcontrol.in/pest-control-in-vikhroli"
   },
   openGraph: {
     type: "website",
-    title: "Best Pest Control Services in Andheri | Super Pest Control Mumbai", 
-    description: "Professional pest control services in Andheri. 24/7 service, eco-friendly treatments, 5-year warranty. Call +91-80979-41077",
-    url: "https://superpestcontrol.in/pest-control-in-andheri",
+    title: "Best Pest Control Services in Vikhroli | Super Pest Control Mumbai", 
+    description: "Professional pest control services in Vikhroli. 24/7 service, eco-friendly treatments, 5-year warranty. Call +91-80979-41077",
+    url: "https://superpestcontrol.in/pest-control-in-vikhroli",
     locale: "en_IN",
     siteName: "Super Pest Control Mumbai"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pest Control Services in Andheri | Super Pest Control Mumbai",
-    description: "Professional pest control in Andheri. 24/7 service, eco-friendly treatments, 5-year warranty. Call +91-80979-41077"
+    title: "Best Pest Control Services in Vikhroli | Super Pest Control Mumbai",
+    description: "Professional pest control in Vikhroli. 24/7 service, eco-friendly treatments, 5-year warranty. Call +91-80979-41077"
   }
 };
 
-export default function PestControlAndheri() {
+export default function PestControlVikhroli() {
   // Structured Data for Local SEO & Voice Search
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "name": "Super Pest Control Andheri",
-        "description": "Mumbai&apos;s largest suburb pest control in Andheri East and West",
-        "url": "https://superpestcontrol.in/pest-control-in-andheri",
+        "name": "Super Pest Control Vikhroli",
+        "description": "Industrial and residential pest control in Vikhroli East and West",
+        "url": "https://superpestcontrol.in/pest-control-in-vikhroli",
         "telephone": "+91-80979-41077",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Andheri",
+          "addressLocality": "Vikhroli",
           "addressRegion": "Maharashtra",
-          "postalCode": "400058",
+          "postalCode": "400079",
           "addressCountry": "IN"
         },
         "geo": {
           "@type": "GeoCoordinates", 
-          "latitude": 19.1136,
-          "longitude": 72.8697
+          "latitude": 19.1059,
+          "longitude": 72.9292
         },
         "openingHours": "Mo-Su 00:00-23:59",
         "serviceArea": {
           "@type": "Place",
-          "name": "Andheri and surrounding Mumbai areas"
+          "name": "Vikhroli and surrounding areas"
         },
         "priceRange": "₹₹",
         "aggregateRating": {
@@ -103,8 +111,8 @@ export default function PestControlAndheri() {
           {
             "@type": "ListItem", 
             "position": 2,
-            "name": "Pest Control in Andheri",
-            "item": "https://superpestcontrol.in/pest-control-in-andheri"
+            "name": "Pest Control in Vikhroli",
+            "item": "https://superpestcontrol.in/pest-control-in-vikhroli"
           }
         ]
       }
@@ -124,10 +132,10 @@ export default function PestControlAndheri() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Professional Pest Control Services in Andheri
+                Professional Pest Control Services in Vikhroli
               </h1>
               <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-                Mumbai&apos;s largest suburb pest control in Andheri East and West - Expert solutions with 5-year warranty and 24/7 emergency service
+                Industrial and residential pest control in Vikhroli East and West - Expert solutions with 5-year warranty and 24/7 emergency service
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
@@ -151,7 +159,7 @@ export default function PestControlAndheri() {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-              Why Choose Our Pest Control Services in Andheri?
+              Why Choose Our Pest Control Services in Vikhroli?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6 rounded-lg shadow-lg bg-gray-50">
@@ -159,21 +167,21 @@ export default function PestControlAndheri() {
                   <span className="text-2xl">🏆</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">Licensed & Certified</h3>
-                <p className="text-gray-600">10+ years serving Andheri and surrounding Mumbai areas with government-approved treatments</p>
+                <p className="text-gray-600">10+ years serving Vikhroli and surrounding areas with government-approved treatments</p>
               </div>
               <div className="text-center p-6 rounded-lg shadow-lg bg-gray-50">
                 <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🌿</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">Eco-Friendly Solutions</h3>
-                <p className="text-gray-600">Child-safe and pet-safe pest control chemicals for all Andheri family homes and properties</p>
+                <p className="text-gray-600">Child-safe and pet-safe pest control chemicals for all Vikhroli family homes and properties</p>
               </div>
               <div className="text-center p-6 rounded-lg shadow-lg bg-gray-50">
                 <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">⚡</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">24/7 Emergency Service</h3>
-                <p className="text-gray-600">Same-day pest control response across all Andheri localities and neighborhoods</p>
+                <p className="text-gray-600">Same-day pest control response across all Vikhroli localities and neighborhoods</p>
               </div>
             </div>
           </div>
@@ -183,20 +191,20 @@ export default function PestControlAndheri() {
         <section className="py-16 bg-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-              Comprehensive Pest Control Services in Andheri
+              Comprehensive Pest Control Services in Vikhroli
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { name: "Cockroach Control", desc: "Advanced gel baiting & spray treatment for Andheri homes with guaranteed results", icon: "🪳" },
+                { name: "Cockroach Control", desc: "Advanced gel baiting & spray treatment for Vikhroli homes with guaranteed results", icon: "🪳" },
                 { name: "Termite Control", desc: "Pre & post-construction termite protection with 5-year warranty coverage", icon: "🐛" },
-                { name: "Rodent Control", desc: "Complete mice & rat removal with entry point sealing in Andheri properties", icon: "🐭" },
+                { name: "Rodent Control", desc: "Complete mice & rat removal with entry point sealing in Vikhroli properties", icon: "🐭" },
                 { name: "Bed Bug Control", desc: "Heat treatment & chemical solutions for complete bed bug elimination", icon: "🛏️" },
-                { name: "Ant Control", desc: "Colony elimination & prevention for all ant species in Andheri area", icon: "🐜" },
-                { name: "Mosquito Control", desc: "Indoor & outdoor mosquito management for Andheri&apos;s climate", icon: "🦟" }
+                { name: "Ant Control", desc: "Colony elimination & prevention for all ant species in Vikhroli area", icon: "🐜" },
+                { name: "Mosquito Control", desc: "Indoor & outdoor mosquito management for Vikhroli's climate", icon: "🦟" }
               ].map((service, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                   <div className="text-4xl mb-4">{service.icon}</div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">{service.name} in Andheri</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">{service.name} in Vikhroli</h3>
                   <p className="text-gray-600 mb-4">{service.desc}</p>
                   <Link
                     href="tel:+918097941077"
@@ -214,7 +222,7 @@ export default function PestControlAndheri() {
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-              Frequently Asked Questions - Pest Control in Andheri
+              Frequently Asked Questions - Pest Control in Vikhroli
             </h2>
             <div className="space-y-8">
               {faqData.map((faq, index) => (
@@ -231,10 +239,10 @@ export default function PestControlAndheri() {
         <section className="py-16 bg-blue-600 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Get Rid of Pests in Andheri?
+              Ready to Get Rid of Pests in Vikhroli?
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Call now for immediate pest control assistance in Andheri and surrounding Mumbai areas
+              Call now for immediate pest control assistance in Vikhroli and surrounding areas
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
