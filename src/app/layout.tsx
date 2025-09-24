@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "🏆 Best Pest Control Mumbai | 24/7 Professional Service | Super Pest Control",
     description: "✅ #1 Pest Control Mumbai ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 Call +91-80979-41077 💯 4.9★ Rated ✅ Licensed & Certified",
-    url: "https://superpestcontrol.vercel.app",
+    url: "https://superpestcontrol.in",
     siteName: "Super Pest Control Mumbai",
     locale: "en_IN",
     type: "website",
@@ -71,11 +71,9 @@ export const metadata: Metadata = {
     yandex: "pest-control-mumbai-yandex",
   },
   alternates: {
-    canonical: "https://superpestcontrol.vercel.app",
+    canonical: "https://superpestcontrol.in",
     languages: {
-      'en-IN': 'https://superpestcontrol.vercel.app',
-      'hi-IN': 'https://superpestcontrol.vercel.app/hi',
-      'mr-IN': 'https://superpestcontrol.vercel.app/mr',
+      'en-IN': 'https://superpestcontrol.in',
     },
   },
   other: {
@@ -128,16 +126,16 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "LocalBusiness",
-                  "@id": "https://superpestcontrol.vercel.app/#business",
+                  "@id": "https://superpestcontrol.in/#business",
                   "name": "Super Pest Control Mumbai",
                   "description": "🏆 Best Pest Control In Mumbai - Professional pest control services including termite control, cockroach treatment, rodent control, bed bug control, and all pest management solutions. Licensed, certified, and eco-friendly.",
-                  "url": "https://superpestcontrol.vercel.app",
+                  "url": "https://superpestcontrol.in",
                   "telephone": ["+91-80979-41077", "+91-80979-41076"],
                   "email": "superpestcontrol8858@gmail.com",
-                  "logo": "https://superpestcontrol.vercel.app/android-chrome-512x512.png",
+                  "logo": "https://superpestcontrol.in/android-chrome-512x512.png",
                   "image": [
-                    "https://superpestcontrol.vercel.app/android-chrome-512x512.png",
-                    "https://superpestcontrol.vercel.app/android-chrome-192x192.png"
+                    "https://superpestcontrol.in/android-chrome-512x512.png",
+                    "https://superpestcontrol.in/android-chrome-192x192.png"
                   ],
                   "address": {
                     "@type": "PostalAddress",
@@ -325,27 +323,27 @@ export default function RootLayout({
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://superpestcontrol.vercel.app/#website",
-                  "url": "https://superpestcontrol.vercel.app",
+                  "@id": "https://superpestcontrol.in/#website",
+                  "url": "https://superpestcontrol.in",
                   "name": "Super Pest Control Mumbai",
                   "description": "Best Pest Control In Mumbai - Professional pest control services with 10+ years experience",
                   "inLanguage": "en-IN",
                   "potentialAction": [
                     {
                       "@type": "SearchAction",
-                      "target": "https://superpestcontrol.vercel.app/search?q={search_term_string}",
+                      "target": "https://superpestcontrol.in/search?q={search_term_string}",
                       "query-input": "required name=search_term_string"
                     }
                   ]
                 },
                 {
                   "@type": "Organization",
-                  "@id": "https://superpestcontrol.vercel.app/#organization",
+                  "@id": "https://superpestcontrol.in/#organization",
                   "name": "Super Pest Control Mumbai",
-                  "url": "https://superpestcontrol.vercel.app",
+                  "url": "https://superpestcontrol.in",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://superpestcontrol.vercel.app/android-chrome-512x512.png",
+                    "url": "https://superpestcontrol.in/android-chrome-512x512.png",
                     "width": 512,
                     "height": 512
                   },
