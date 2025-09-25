@@ -200,7 +200,7 @@ export default function PestControlInAiroli() {
             
             {/* Termite Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 5 Year Warranty
               </div>
               
@@ -242,7 +242,7 @@ export default function PestControlInAiroli() {
 
             {/* Cockroach Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Most Popular
               </div>
               
@@ -284,7 +284,7 @@ export default function PestControlInAiroli() {
 
             {/* Rodent Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Emergency Service
               </div>
               
@@ -326,7 +326,7 @@ export default function PestControlInAiroli() {
 
             {/* Bed Bug Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Heat Treatment
               </div>
               
@@ -368,7 +368,7 @@ export default function PestControlInAiroli() {
 
             {/* Ant Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Eco-Friendly
               </div>
               
@@ -410,7 +410,7 @@ export default function PestControlInAiroli() {
 
             {/* Mosquito Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Monsoon Special
               </div>
               
@@ -452,7 +452,7 @@ export default function PestControlInAiroli() {
 
             {/* Spider Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Web Removal
               </div>
               
@@ -494,7 +494,7 @@ export default function PestControlInAiroli() {
 
             {/* Lizard Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Humane Removal
               </div>
               
@@ -536,7 +536,7 @@ export default function PestControlInAiroli() {
 
             {/* Commercial Pest Control */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
-              <div className="absolute top-4 right-4 bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="absolute top-4 right-4 bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Business Solutions
               </div>
               
