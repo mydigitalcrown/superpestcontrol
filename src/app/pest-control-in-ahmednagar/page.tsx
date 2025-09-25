@@ -556,34 +556,6 @@ export default function PestControlInAhmednagar() {
               </a>
             </div>
           </div>
-                <p className="text-gray-700">Super Pest Control is Ahmednagar&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
-              </div>
-              
-              <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Ahmednagar&rdquo;</h4>
-                <p className="text-gray-700">Get emergency pest control in Ahmednagar within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
-              </div>
-              
-              <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Ahmednagar prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Ahmednagar starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Local SEO Optimized Section */}
-          <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
-            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Ahmednagar Right Now?</h3>
-            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Ahmednagar, Maharashtra</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
-                📞 Call +91-9136036071
-              </a>
-              <a href="#contact" className="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition-colors">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
         </div>
       </section>
 
