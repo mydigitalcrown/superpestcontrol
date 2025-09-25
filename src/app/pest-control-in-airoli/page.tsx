@@ -8,33 +8,30 @@ export default function PestControlInAiroli() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Premium Header with Glass Effect */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100/50 shadow-lg">
+      {/* Ultra Modern E10-Style Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
-            {/* Premium Logo */}
-            <Link href="/" className="flex items-center space-x-3 group">
-              <div className="relative w-10 h-10 lg:w-12 lg:h-12">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-blue-600 rounded-xl shadow-lg group-hover:shadow-xl transition-shadow duration-300"></div>
-                <div className="absolute inset-0.5 bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-xl lg:text-2xl font-black bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent">SPC</span>
+          <div className="flex justify-between items-center h-16 md:h-20">
+            {/* Premium Logo - Mobile Responsive */}
+            <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
+              <div className="relative">
+                <div className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-xl md:rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/30 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                  <span className="text-white font-bold text-sm md:text-xl drop-shadow-sm">🐛</span>
                 </div>
+                <div className="absolute -inset-1 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl md:rounded-2xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               </div>
-              <div className="hidden sm:block">
-                <div className="text-lg lg:text-xl font-black text-gray-900 leading-tight">
-                  Super Pest Control
-                </div>
-                <div className="text-xs lg:text-sm text-gray-600 font-medium leading-tight">
-                  Professional • Licensed • Trusted
-                </div>
+              <div className="flex flex-col">
+                <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Mumbai&apos;s #1 Choice</span>
               </div>
             </Link>
-
-            {/* Desktop Navigation - E10 Style */}
-            <nav className="hidden lg:flex items-center space-x-1">
-              <div className="flex items-center space-x-1 bg-gray-100/60 backdrop-blur-sm rounded-full p-1.5 border border-gray-200/50">
-                <Link href="/" className="relative px-5 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-full transition-all duration-300 hover:scale-105">
+            
+            {/* Modern E10-Style Navigation */}
+            <nav className="hidden lg:flex items-center">
+              <div className="flex items-center space-x-1 bg-gray-50/70 backdrop-blur-sm rounded-full p-1.5 border border-gray-200/50">
+                <Link href="/" className="relative px-5 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-full shadow-md shadow-blue-500/20 hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 transform">
                   <span className="relative z-10">Home</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 </Link>
                 <Link href="/about" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
                   <span className="relative z-10">About Us</span>
@@ -444,33 +441,448 @@ export default function PestControlInAiroli() {
         </div>
       </section>
 
+      {/* Service Locations Section */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-blue-50 relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-10 left-10 text-4xl">🏙️</div>
+          <div className="absolute top-20 right-20 text-3xl">📍</div>
+          <div className="absolute bottom-10 left-20 text-4xl">🚚</div>
+          <div className="absolute bottom-20 right-10 text-3xl">🏠</div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl opacity-30">🗺️</div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            {/* Creative Badge */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-blue-100 text-orange-800 text-sm font-semibold mb-6 border border-orange-200">
+              <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
+              Serving 80+ Locations Across Mumbai & Maharashtra
+            </div>
+            
+            <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+              <span className="bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent">
+                Service Areas
+              </span>
+              <br />
+              <span className="text-gray-900">We Cover It All</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Professional pest control services available across Mumbai, Navi Mumbai, Thane, Pune, and extended Maharashtra regions. Click any location for specialized local services.
+            </p>
+          </div>
+
+          {/* Location Buttons by Region */}
+          <div className="space-y-12">
+            
+            {/* South Mumbai */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">South Mumbai (SoBo)</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-colaba',
+                  'pest-control-in-fort',
+                  'pest-control-in-worli',
+                  'pest-control-in-lower-parel',
+                  'pest-control-in-parel'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Central Mumbai */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Central Mumbai</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-dadar',
+                  'pest-control-in-matunga',
+                  'pest-control-in-mahim',
+                  'pest-control-in-byculla',
+                  'pest-control-in-sion',
+                  'pest-control-in-wadala',
+                  'pest-control-in-dharavi',
+                  'pest-control-in-bandra',
+                  'pest-control-in-khar',
+                  'pest-control-in-santacruz',
+                  'pest-control-in-bandra-kurla-complex'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Western Suburbs */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">Mumbai Western Suburbs</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-andheri',
+                  'pest-control-in-juhu',
+                  'pest-control-in-vile-parle',
+                  'pest-control-in-jogeshwari',
+                  'pest-control-in-goregaon',
+                  'pest-control-in-malad',
+                  'pest-control-in-kandivali',
+                  'pest-control-in-borivali',
+                  'pest-control-in-dahisar'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Eastern Suburbs */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Mumbai Eastern Suburbs</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-chembur',
+                  'pest-control-in-ghatkopar',
+                  'pest-control-in-kurla',
+                  'pest-control-in-powai',
+                  'pest-control-in-vikhroli',
+                  'pest-control-in-kanjurmarg',
+                  'pest-control-in-bhandup',
+                  'pest-control-in-mulund',
+                  'pest-control-in-nahur'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Navi Mumbai */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">Navi Mumbai</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-navi-mumbai',
+                  'pest-control-in-belapur',
+                  'pest-control-in-cbd-belapur',
+                  'pest-control-in-nerul',
+                  'pest-control-in-vashi',
+                  'pest-control-in-airoli',
+                  'pest-control-in-ghansoli',
+                  'pest-control-in-kopar-khairane',
+                  'pest-control-in-turbhe',
+                  'pest-control-in-rabale',
+                  'pest-control-in-juinagar',
+                  'pest-control-in-urse',
+                  'pest-control-in-sanpada',
+                  'pest-control-in-seawoods',
+                  'pest-control-in-kharghar',
+                  'pest-control-in-kamothe',
+                  'pest-control-in-kalamboli',
+                  'pest-control-in-panvel',
+                  'pest-control-in-new-panvel',
+                  'pest-control-in-dronagiri',
+                  'pest-control-in-ulwe',
+                  'pest-control-in-taloja',
+                  'pest-control-in-mahape'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Thane Region */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Thane Region</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-thane',
+                  'pest-control-in-kalyan',
+                  'pest-control-in-dombivali',
+                  'pest-control-in-bhiwandi',
+                  'pest-control-in-mumbra',
+                  'pest-control-in-ulhasnagar',
+                  'pest-control-in-ambarnath',
+                  'pest-control-in-badlapur',
+                  'pest-control-in-diva',
+                  'pest-control-in-karjat',
+                  'pest-control-in-ghodbunder-road'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-red-500 to-orange-600 hover:from-red-600 hover:to-orange-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Extended Mumbai Region */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">Extended Mumbai Region</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-vasai',
+                  'pest-control-in-virar',
+                  'pest-control-in-nalasopara',
+                  'pest-control-in-naigaon',
+                  'pest-control-in-mira-road',
+                  'pest-control-in-mira-bhayandar',
+                  'pest-control-in-bhayander',
+                  'pest-control-in-digha',
+                  'pest-control-in-darave',
+                  'pest-control-in-shirvane',
+                  'pest-control-boisar'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Pune & Maharashtra */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">Pune & Maharashtra</span>
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {[
+                  'pest-control-in-pune',
+                  'pest-control-in-hinjewadi',
+                  'pest-control-in-baner',
+                  'pest-control-in-aundh',
+                  'pest-control-in-wakad',
+                  'pest-control-in-bavdhan',
+                  'pest-control-in-kharadi',
+                  'pest-control-in-viman-nagar',
+                  'pest-control-in-ambegaon',
+                  'pest-control-in-aurangabad',
+                  'pest-control-in-nashik',
+                  'pest-control-in-ahmednagar',
+                  'pest-control-in-solapur',
+                  'pest-control-in-kolhapur',
+                  'pest-control-in-sangli',
+                  'pest-control-in-satara',
+                  'pest-control-in-alibag'
+                ].map((location, index) => {
+                  const locationName = location
+                    .replace('pest-control-in-', '')
+                    .replace('pest-control-', '')
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+                  
+                  return (
+                    <a
+                      key={index}
+                      href={`/${location}`}
+                      className="group relative bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-600 hover:to-orange-700 text-white px-4 py-3 rounded-xl font-medium text-sm text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                      <div className="flex items-center justify-center gap-2">
+                        <span className="text-xs">📍</span>
+                        <span className="font-semibold truncate">{locationName}</span>
+                      </div>
+                      <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-16">
+            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 max-w-3xl mx-auto">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Don&apos;t See Your Location?
+              </h3>
+              <p className="text-gray-600 mb-6">
+                We&apos;re expanding our services! Contact us to check availability in your area or to schedule service in nearby locations.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  <span className="mr-2">📞</span>
+                  Call Now: +91 80979 41077
+                </a>
+                <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  <span className="mr-2">💬</span>
+                  WhatsApp Chat
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Comprehensive Footer */}
-      <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+      <footer className="bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
             {/* Company Info */}
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="relative w-12 h-12">
-                  <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-blue-600 rounded-xl shadow-lg"></div>
-                  <div className="absolute inset-0.5 bg-white rounded-lg flex items-center justify-center">
-                    <span className="text-xl font-black bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent">SPC</span>
+                <div className="relative">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20">
+                    <span className="text-white font-bold text-xl drop-shadow-sm">🐛</span>
                   </div>
                 </div>
-                <div>
-                  <div className="text-xl font-bold text-white">Super Pest Control</div>
-                  <div className="text-sm text-gray-300">Mumbai&apos;s Trusted Experts</div>
+                <div className="flex flex-col">
+                  <span className="text-2xl font-bold text-white tracking-tight">Super Pest Control</span>
+                  <span className="text-xs text-orange-400 font-medium -mt-1">Mumbai&apos;s #1 Choice</span>
                 </div>
               </div>
-              
               <p className="text-gray-300 text-sm leading-relaxed">
-                Maharashtra&apos;s most trusted pest control service with 10+ years of experience. 
-                Licensed, certified, and committed to providing safe, effective solutions for your property.
+                Professional pest control services in Mumbai with 10+ years of experience. 
+                We provide eco-friendly, family-safe solutions for all types of pest problems.
               </p>
-              
-              {/* Social Media Icons */}
-              <div className="flex items-center space-x-4">
+              <div className="flex space-x-4">
                 <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
                   <span className="text-white text-sm">📘</span>
                 </div>
@@ -575,9 +987,56 @@ export default function PestControlInAiroli() {
                 </a>
               </div>
             </div>
+            
+            {/* Website Credit */}
+            <div className="mt-6 pt-6 border-t border-gray-800">
+              <div className="text-center">
+                <p className="text-sm text-gray-500">
+                  Website Designed & Developed by{' '}
+                  <a 
+                    href="https://mydigitalcrown.in/" 
+                    target="_blank"
+                    className="text-orange-400 hover:text-orange-300 font-medium transition-colors duration-200 hover:underline"
+                  >
+                    Digital Marketing Company In Mumbai
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
+
+      {/* Floating Call & WhatsApp Buttons - Always Visible */}
+      <div className="fixed inset-0 pointer-events-none z-50">
+        {/* Call Button - Left Side */}
+        <div className="absolute left-4 top-1/2 transform -translate-y-1/2 pointer-events-auto">
+          <a 
+            href="tel:+918097941077" 
+            className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group animate-pulse hover:animate-none"
+            aria-label="Call Now"
+          >
+            <svg className="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+            </svg>
+          </a>
+        </div>
+        
+        {/* WhatsApp Button - Right Side */}
+        <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-auto">
+          <a 
+            href="https://wa.me/918097941077" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group animate-bounce hover:animate-none"
+            aria-label="WhatsApp Chat"
+          >
+            <svg className="w-7 h-7 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
