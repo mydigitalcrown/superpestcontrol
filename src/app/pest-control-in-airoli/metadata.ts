@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Professional Pest Control in Airoli | Super Pest Control Services',
     description: 'Get the best pest control services in Airoli with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
-    url: 'https://superpestcontrol.com/pest-control-in-airoli',
+    url: 'https://superpestcontrol.in/pest-control-in-airoli',
     siteName: 'Super Pest Control',
     images: [
       {
-        url: 'https://superpestcontrol.com/images/pest-control-airoli-banner.jpg',
+        url: 'https://superpestcontrol.in/images/pest-control-airoli-banner.jpg',
         width: 1200,
         height: 630,
         alt: 'Professional Pest Control Services in Airoli'
@@ -36,16 +36,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pest Control in Airoli | Super Pest Control',
     description: 'Professional pest control services in Airoli with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.com/images/pest-control-airoli-twitter.jpg'],
+    images: ['https://superpestcontrol.in/images/pest-control-airoli-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
   alternates: {
-    canonical: 'https://superpestcontrol.com/pest-control-in-airoli',
+    canonical: 'https://superpestcontrol.in/pest-control-in-airoli',
     languages: {
-      'en-IN': 'https://superpestcontrol.com/pest-control-in-airoli',
-      'hi-IN': 'https://superpestcontrol.com/hi/pest-control-in-airoli',
-      'mr-IN': 'https://superpestcontrol.com/mr/pest-control-in-airoli'
+      'en-IN': 'https://superpestcontrol.in/pest-control-in-airoli',
+      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-airoli',
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-airoli'
     }
   },
   verification: {
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     yandex: 'your-yandex-verification',
     yahoo: 'your-yahoo-verification',
     other: {
-      me: ['https://superpestcontrol.com', 'mailto:info@superpestcontrol.com']
+      me: ['https://superpestcontrol.in', 'mailto:info@superpestcontrol.com']
     }
   },
   icons: {

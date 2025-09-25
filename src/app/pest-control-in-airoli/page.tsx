@@ -17,7 +17,7 @@ export default function PestControlInAiroli() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.com/pest-control-in-airoli#localbusiness",
+                "@id": "https://superpestcontrol.in/pest-control-in-airoli#localbusiness",
                 "name": "Super Pest Control - Airoli",
                 "image": "https://superpestcontrol.com/images/pest-control-airoli-hero.jpg",
                 "description": "Professional Pest Control Services in Airoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
