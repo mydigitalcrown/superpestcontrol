@@ -1,5 +1,7 @@
 'use client';
 
+
+import Header from "../../components/Header";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
@@ -76,79 +78,7 @@ export default function PestControlNewPanvel() {
         }}
       />
       
-      {/* Ultra Modern E10-Style Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16 md:h-20">
-            {/* Premium Logo */}
-            <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
-              <div className="relative">
-                <div className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-br from-orange-500 via-red-600 to-pink-500 rounded-xl md:rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/30 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
-                  <span className="text-white font-bold text-sm md:text-xl drop-shadow-sm">🐛</span>
-                </div>
-                <div className="absolute -inset-1 bg-gradient-to-br from-orange-400 to-pink-500 rounded-xl md:rounded-2xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">New Panvel Smart City</span>
-              </div>
-            </Link>
-            
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center">
-              <div className="flex items-center space-x-1 bg-gray-50/70 backdrop-blur-sm rounded-full p-1.5 border border-gray-200/50">
-                <Link href="/" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
-                  <span className="relative z-10">Home</span>
-                </Link>
-                <Link href="/about" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
-                  <span className="relative z-10">About</span>
-                </Link>
-                <Link href="/services" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
-                  <span className="relative z-10">Services</span>
-                </Link>
-                <Link href="/contact" className="relative px-5 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-white/60 rounded-full transition-all duration-300 hover:scale-105 group">
-                  <span className="relative z-10">Contact</span>
-                </Link>
-              </div>
-            </nav>
-
-            {/* Contact Info & CTA */}
-            <div className="hidden md:flex items-center space-x-4">
-              <div className="text-right">
-                <div className="text-sm font-semibold text-gray-900">📞 +91 80979-41077</div>
-                <div className="text-xs text-gray-600">24/7 Emergency Service</div>
-              </div>
-              <Link href="tel:+918097941077" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-2.5 rounded-xl font-semibold text-sm transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-                Get Free Quote
-              </Link>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button 
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden relative w-10 h-10 bg-gray-100 rounded-xl flex items-center justify-center"
-            >
-              <div className={`w-6 h-0.5 bg-gray-600 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-0.5' : ''}`}></div>
-              <div className={`w-6 h-0.5 bg-gray-600 absolute transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-0.5' : 'translate-y-2'}`}></div>
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {isMobileMenuOpen && (
-            <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-200 shadow-lg">
-              <div className="px-4 py-6 space-y-4">
-                <Link href="/" className="block py-2 text-gray-900 font-medium">Home</Link>
-                <Link href="/about" className="block py-2 text-gray-900 font-medium">About</Link>
-                <Link href="/services" className="block py-2 text-gray-900 font-medium">Services</Link>
-                <Link href="/contact" className="block py-2 text-gray-900 font-medium">Contact</Link>
-                <Link href="tel:+918097941077" className="block w-full bg-orange-500 text-white text-center py-3 rounded-lg font-semibold">
-                  📞 Call Now
-                </Link>
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
+      <Header subtitle="Professional Pest Control in New Panvel" />
 
       {/* Hero Section with Mumbai Background */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
