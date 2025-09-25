@@ -217,7 +217,7 @@ export default function PestControlInAhmednagar() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Mumbai and Navi Mumbai",
+                "description": "Professional Pest Control Services in Maharashtra and Ahmednagar District",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -251,7 +251,7 @@ export default function PestControlInAhmednagar() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Mumbai&apos;s #1 Choice</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Ahmednagar&apos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -336,7 +336,7 @@ export default function PestControlInAhmednagar() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/mumbai.webp)',
+          backgroundImage: 'url(/images/location/maharashtra.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,8 +592,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-mumbai.webp" 
-                  alt="Termite Control Mumbai - Professional Anti-Termite Treatment"
+                  src="/images/services/termites-control-ahmednagar.webp" 
+                  alt="Termite Control Ahmednagar - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -601,7 +601,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Mumbai - Professional Anti-Termite Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Ahmednagar - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -634,8 +634,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-mumbai.webp" 
-                  alt="Cockroach Control Mumbai - Professional Cockroach Extermination"
+                  src="/images/services/cockroach-control-ahmednagar.webp" 
+                  alt="Cockroach Control Ahmednagar - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -643,8 +643,8 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Mumbai - Professional Cockroach Extermination</h3>
-                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Mumbai&apos;s humid climate with long-lasting protection.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Ahmednagar - Professional Cockroach Extermination</h3>
+                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Ahmednagar&apos;s climate with long-lasting protection.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -676,8 +676,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-mumbai.webp" 
-                  alt="Rodent Control Mumbai - Professional Rat Mouse Control"
+                  src="/images/services/rodents-control-ahmednagar.webp" 
+                  alt="Rodent Control Ahmednagar - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -685,7 +685,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Mumbai - Professional Rat Mouse Control</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Ahmednagar - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -718,8 +718,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-mumbai.webp" 
-                  alt="Bed Bug Control Mumbai - Professional Bed Bug Treatment"
+                  src="/images/services/bed-bug-control-ahmednagar.webp" 
+                  alt="Bed Bug Control Ahmednagar - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -727,7 +727,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Mumbai - Professional Bed Bug Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Ahmednagar - Professional Bed Bug Treatment</h3>
                 <p className="text-gray-600 text-sm">Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, furniture protection, and comprehensive room sanitization services.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -760,8 +760,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-mumbai.webp" 
-                  alt="Ant Control Mumbai - Professional Ant Extermination"
+                  src="/images/services/ant-control-ahmednagar.webp" 
+                  alt="Ant Control Ahmednagar - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -769,7 +769,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Mumbai - Professional Ant Extermination</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Ahmednagar - Professional Ant Extermination</h3>
                 <p className="text-gray-600 text-sm">Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species including pharaoh ants, carpenter ants, and common household ants.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -802,8 +802,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-mumbai.webp" 
-                  alt="Mosquito Control Mumbai - Professional Mosquito Treatment"
+                  src="/images/services/mosquitoes-control-ahmednagar.webp" 
+                  alt="Mosquito Control Ahmednagar - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -811,7 +811,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Mumbai - Professional Mosquito Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Ahmednagar - Professional Mosquito Treatment</h3>
                 <p className="text-gray-600 text-sm">Comprehensive mosquito management with breeding source elimination, fogging treatments, and larvicide applications. Special monsoon protection packages available.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -844,8 +844,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-mumbai.webp" 
-                  alt="Spider Control Mumbai - Professional Spider Removal"
+                  src="/images/services/spider-control-ahmednagar.webp" 
+                  alt="Spider Control Ahmednagar - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -853,7 +853,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Mumbai - Professional Spider Removal</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Ahmednagar - Professional Spider Removal</h3>
                 <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -886,8 +886,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-mumbai.webp" 
-                  alt="Lizard Control Mumbai - Professional Lizard Removal"
+                  src="/images/services/lizard-control-ahmednagar.webp" 
+                  alt="Lizard Control Ahmednagar - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -895,8 +895,8 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Mumbai - Professional Lizard Removal</h3>
-                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Mumbai property.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Ahmednagar - Professional Lizard Removal</h3>
+                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Ahmednagar property.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -928,8 +928,8 @@ export default function PestControlInAhmednagar() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-mumbai.webp" 
-                  alt="Commercial Pest Control Mumbai - Professional Business Solutions"
+                  src="/images/services/commercial-pest-control-ahmednagar.webp" 
+                  alt="Commercial Pest Control Ahmednagar - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -937,7 +937,7 @@ export default function PestControlInAhmednagar() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Mumbai - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Ahmednagar - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -993,7 +993,7 @@ export default function PestControlInAhmednagar() {
               <span className="text-gray-800">Services in Ahmednagar & Beyond</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our complete range of professional pest control services across Mumbai, Navi Mumbai, and surrounding areas. 
+              Explore our complete range of professional pest control services across Ahmednagar, Maharashtra, and surrounding areas. 
               Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
             </p>
           </div>
@@ -1165,7 +1165,7 @@ export default function PestControlInAhmednagar() {
             {/* Creative Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-blue-100 text-orange-800 text-sm font-semibold mb-6 border border-orange-200">
               <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
-              Serving 80+ Locations Across Mumbai & Maharashtra
+              Serving 80+ Locations Across Maharashtra & Ahmednagar District
             </div>
             
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -1602,7 +1602,7 @@ export default function PestControlInAhmednagar() {
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🐜</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Advanced Anti-Termite Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Cutting-edge soil and wood treatment solutions with 5-year comprehensive warranty protection for your Mumbai property.
+                  Cutting-edge soil and wood treatment solutions with 5-year comprehensive warranty protection for your Ahmednagar property.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-300">
@@ -1627,7 +1627,7 @@ export default function PestControlInAhmednagar() {
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🪳</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Professional Gel & Spray Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Advanced gel baiting and targeted spray solutions designed specifically for Mumbai&apos;s humid climate conditions.
+                  Advanced gel baiting and targeted spray solutions designed specifically for Ahmednagar&apos;s semi-arid climate conditions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-300">
@@ -1652,7 +1652,7 @@ export default function PestControlInAhmednagar() {
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🐭</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Complete Rodent Elimination</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Comprehensive rat and mouse control with professional rat-proofing and entry point sealing for Mumbai properties.
+                  Comprehensive rat and mouse control with professional rat-proofing and entry point sealing for Ahmednagar properties.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-300">
@@ -1699,7 +1699,7 @@ export default function PestControlInAhmednagar() {
                 <span className="text-2xl">🏆</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
-              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Mumbai pest control.</p>
+              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Ahmednagar pest control.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
@@ -1713,7 +1713,7 @@ export default function PestControlInAhmednagar() {
                 <span className="text-2xl">🚨</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">24/7 Emergency Service</h3>
-              <p className="text-gray-300">Round-the-clock emergency pest control services across all Mumbai areas with same-day availability.</p>
+              <p className="text-gray-300">Round-the-clock emergency pest control services across all Ahmednagar areas with same-day availability.</p>
             </div>
           </div>
         </div>
@@ -2332,7 +2332,7 @@ export default function PestControlInAhmednagar() {
               <span className="text-gray-900">Questions & Answers</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Your Mumbai pest problems solved! Get instant answers to the most common questions about our professional pest control services.
+              Your Ahmednagar pest problems solved! Get instant answers to the most common questions about our professional pest control services.
             </p>
           </div>
 
@@ -2352,7 +2352,7 @@ export default function PestControlInAhmednagar() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      What is the best pest control service in Mumbai?
+                      What is the best pest control service in Ahmednagar?
                     </h3>
                   </div>
                   
@@ -2362,7 +2362,7 @@ export default function PestControlInAhmednagar() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Super Pest Control Mumbai is the #1 rated pest control service in Mumbai, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
+                      Super Pest Control Ahmednagar is the #1 rated pest control service in Ahmednagar, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
                     </p>
                   </div>
                 </div>
@@ -2382,7 +2382,7 @@ export default function PestControlInAhmednagar() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How much does pest control cost in Mumbai?
+                      How much does pest control cost in Ahmednagar?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2390,7 +2390,7 @@ export default function PestControlInAhmednagar() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Pest control in Mumbai costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
+                      Pest control in Ahmednagar costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
                     </p>
                   </div>
                 </div>
@@ -2460,7 +2460,7 @@ export default function PestControlInAhmednagar() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      What are the best pest control methods for Mumbai climate?
+                      What are the best pest control methods for Ahmednagar climate?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2468,7 +2468,7 @@ export default function PestControlInAhmednagar() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Mumbai&apos;s humid climate requires specialized pest control methods including moisture control, targeted treatments for monsoon pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests.
+                      Ahmednagar&apos;s semi-arid climate requires specialized pest control methods including targeted treatments for seasonal pests, gel baiting for cockroaches, moisture control for termites, and preventive solutions for year-round protection against common pests.
                     </p>
                   </div>
                 </div>
@@ -2486,7 +2486,7 @@ export default function PestControlInAhmednagar() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How often should I get pest control done in Mumbai?
+                      How often should I get pest control done in Ahmednagar?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2494,7 +2494,7 @@ export default function PestControlInAhmednagar() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      For optimal protection in Mumbai, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
+                      For optimal protection in Ahmednagar, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
                     </p>
                   </div>
                 </div>
@@ -2614,11 +2614,11 @@ export default function PestControlInAhmednagar() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold text-white tracking-tight">Super Pest Control</span>
-                  <span className="text-xs text-orange-400 font-medium -mt-1">Mumbai&apos;s #1 Choice</span>
+                  <span className="text-xs text-orange-400 font-medium -mt-1">Ahmednagar&apos;s #1 Choice</span>
                 </div>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Professional pest control services in Mumbai with 10+ years of experience. 
+                Professional pest control services in Ahmednagar with 10+ years of experience. 
                 We provide eco-friendly, family-safe solutions for all types of pest problems.
               </p>
               <div className="flex space-x-4">
