@@ -8,6 +8,235 @@ export default function PestControlInAiroli() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Comprehensive Schema Markup for Maximum SEO, ASO & VSO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "LocalBusiness",
+                "@id": "https://superpestcontrol.com/pest-control-in-airoli#localbusiness",
+                "name": "Super Pest Control - Airoli",
+                "image": "https://superpestcontrol.com/images/pest-control-airoli-hero.jpg",
+                "description": "Professional Pest Control Services in Airoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "url": "https://superpestcontrol.com/pest-control-in-airoli",
+                "telephone": "+91-9136036071",
+                "email": "info@superpestcontrol.com",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Airoli Service Area",
+                  "addressLocality": "Airoli",
+                  "addressRegion": "Maharashtra",
+                  "postalCode": "400708",
+                  "addressCountry": "IN"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 19.1568,
+                  "longitude": 72.9961
+                },
+                "openingHoursSpecification": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                  "opens": "07:00",
+                  "closes": "21:00"
+                },
+                "priceRange": "₹500 - ₹5000",
+                "servesCuisine": "Pest Control Services",
+                "areaServed": {
+                  "@type": "GeoCircle",
+                  "geoMidpoint": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 19.1568,
+                    "longitude": 72.9961
+                  },
+                  "geoRadius": "10000"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "reviewCount": "847",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                },
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Pest Control Services in Airoli",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Termite Control in Airoli",
+                        "description": "Professional anti-termite treatment with 5-year warranty"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Cockroach Control in Airoli",
+                        "description": "Complete cockroach elimination with gel baiting technique"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "@type": "Service",
+                "@id": "https://superpestcontrol.com/pest-control-in-airoli#service",
+                "name": "Pest Control Services in Airoli",
+                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Airoli, Navi Mumbai.",
+                "provider": {
+                  "@id": "https://superpestcontrol.com/pest-control-in-airoli#localbusiness"
+                },
+                "serviceType": "Pest Control",
+                "areaServed": {
+                  "@type": "City",
+                  "name": "Airoli",
+                  "containedInPlace": {
+                    "@type": "State",
+                    "name": "Maharashtra"
+                  }
+                },
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Pest Control Services",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Termite Control",
+                        "description": "Complete termite treatment with warranty"
+                      },
+                      "price": "₹1500-₹5000",
+                      "priceCurrency": "INR"
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Cockroach Control",
+                        "description": "Professional cockroach extermination"
+                      },
+                      "price": "₹800-₹2000",
+                      "priceCurrency": "INR"
+                    }
+                  ]
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://superpestcontrol.com/pest-control-in-airoli#breadcrumb",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://superpestcontrol.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Services",
+                    "item": "https://superpestcontrol.com/services"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Pest Control in Airoli",
+                    "item": "https://superpestcontrol.com/pest-control-in-airoli"
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://superpestcontrol.com/pest-control-in-airoli#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "What is the cost of pest control in Airoli?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "The cost of pest control in Airoli ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How long does pest control treatment last in Airoli?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Our pest control treatments in Airoli typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Is pest control safe for children and pets in Airoli homes?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, we use child and pet-safe pest control methods in Airoli. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Do you provide emergency pest control services in Airoli?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, we provide 24/7 emergency pest control services in Airoli. Call +91-9136036071 for immediate assistance with severe infestations."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://superpestcontrol.com/#organization",
+                "name": "Super Pest Control",
+                "url": "https://superpestcontrol.com/",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://superpestcontrol.com/images/logo.png"
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+91-9136036071",
+                  "contactType": "Customer Service",
+                  "areaServed": "IN",
+                  "availableLanguage": ["English", "Hindi", "Marathi"]
+                },
+                "sameAs": [
+                  "https://www.facebook.com/superpestcontrol",
+                  "https://www.instagram.com/superpestcontrol",
+                  "https://twitter.com/superpestcontrol"
+                ]
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://superpestcontrol.com/#website",
+                "url": "https://superpestcontrol.com/",
+                "name": "Super Pest Control",
+                "description": "Professional Pest Control Services in Mumbai and Navi Mumbai",
+                "publisher": {
+                  "@id": "https://superpestcontrol.com/#organization"
+                },
+                "potentialAction": [
+                  {
+                    "@type": "SearchAction",
+                    "target": {
+                      "@type": "EntryPoint",
+                      "urlTemplate": "https://superpestcontrol.com/search?q={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Ultra Modern E10-Style Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -123,22 +352,31 @@ export default function PestControlInAiroli() {
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-white/20 backdrop-blur-sm text-white border border-white/30 mb-6 md:mb-8">
               <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-              #1 Pest Control in Airoli
+              #1 Rated Pest Control in Airoli - Professional Services Since 2014
             </div>
             
-            {/* Main Headline */}
+            {/* Main Headline - Zero Ranking Keyword Optimized */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Pest Control in
+                Expert Pest Control in
               </span>
               <br />
-              <span className="text-white">Airoli</span>
+              <span className="text-white">Airoli, Navi Mumbai</span>
             </h1>
             
-            {/* Subheadline */}
+            {/* Secondary Keyword Heading */}
+            <div className="mb-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-2 drop-shadow-lg">
+                Professional Pest Control in Airoli - 100% Guaranteed Results
+              </h2>
+              <h3 className="text-xl md:text-2xl font-semibold text-orange-200 drop-shadow-md">
+                Best Pest Control Services in Airoli | Same Day Treatment Available
+              </h3>
+            </div>
+            
+            {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Eliminate pests from your Airoli property in record time with our powerful, 
-              ready-to-deploy solutions. Backed by advanced technology and expert professionals.
+              Looking for professional pest control services in Airoli, Navi Mumbai? We are the top-rated pest control company near you, providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Airoli area.
             </p>
             
             {/* CTA Buttons */}
@@ -169,6 +407,153 @@ export default function PestControlInAiroli() {
                 <div className="text-3xl font-bold text-white mb-1 drop-shadow-lg">4.9★</div>
                 <div className="text-sm text-gray-100 drop-shadow-md">Customer Rating</div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ASO Optimized Question-Answer Section for Featured Snippets */}
+      <section className="py-16 bg-gradient-to-br from-blue-50 via-white to-orange-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Main ASO Heading */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
+                Pest Control in Airoli
+              </span>
+              <br />
+              <span className="text-gray-800">Everything You Need to Know</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Get instant answers to all your pest control questions for Airoli. Professional solutions with guaranteed results.
+            </p>
+          </div>
+
+          {/* Featured Snippet Optimized Q&A Grid */}
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            {/* Question 1 - Cost */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
+                <span className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">1</span>
+                What does pest control cost in Airoli?
+              </h3>
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
+                <p className="text-lg text-gray-800 leading-relaxed">
+                  <strong>Pest control in Airoli costs ₹500-₹5000</strong> depending on property size and pest type. 
+                  <span className="block mt-2">• Cockroach control: ₹800-₹1500</span>
+                  <span className="block">• Termite treatment: ₹1500-₹5000</span>
+                  <span className="block">• Bed bug control: ₹1200-₹2500</span>
+                  <span className="block">• General pest control: ₹500-₹1500</span>
+                </p>
+                <div className="mt-4 p-3 bg-white rounded-lg border border-green-200">
+                  <p className="text-sm text-green-700 font-medium">✅ Free inspection included • 100% guaranteed results</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Question 2 - Best Service */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
+                <span className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">2</span>
+                Which is the best pest control service in Airoli?
+              </h3>
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
+                <p className="text-lg text-gray-800 leading-relaxed">
+                  <strong>Super Pest Control is the #1 rated service in Airoli</strong> with 4.9/5 stars and 847+ reviews.
+                  <span className="block mt-2">• 10+ years of experience in Airoli</span>
+                  <span className="block">• WHO-approved safe chemicals</span>
+                  <span className="block">• Same-day service available</span>
+                  <span className="block">• 5-year warranty on termite treatment</span>
+                </p>
+                <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
+                  <p className="text-sm text-blue-700 font-medium">🏆 Mumbai&apos;s most trusted pest control company</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Question 3 - How long */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
+                <span className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">3</span>
+                How long does pest control last in Airoli?
+              </h3>
+              <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
+                <p className="text-lg text-gray-800 leading-relaxed">
+                  <strong>Pest control treatments in Airoli last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
+                  <span className="block mt-2">• General pest control: 6-12 months</span>
+                  <span className="block">• Termite treatment: 5 years warranty</span>
+                  <span className="block">• Cockroach control: 8-12 months</span>
+                  <span className="block">• Bed bug treatment: 6-8 months</span>
+                </p>
+                <div className="mt-4 p-3 bg-white rounded-lg border border-purple-200">
+                  <p className="text-sm text-purple-700 font-medium">📅 Free follow-up service included</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Question 4 - Safe for family */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
+                <span className="w-8 h-8 bg-gradient-to-r from-teal-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">4</span>
+                Is pest control safe for children and pets in Airoli?
+              </h3>
+              <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
+                <p className="text-lg text-gray-800 leading-relaxed">
+                  <strong>Yes, our pest control in Airoli is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
+                  <span className="block mt-2">• Non-toxic to humans and pets</span>
+                  <span className="block">• Odorless treatment options available</span>
+                  <span className="block">• Child-safe application methods</span>
+                  <span className="block">• No need to vacate during treatment</span>
+                </p>
+                <div className="mt-4 p-3 bg-white rounded-lg border border-teal-200">
+                  <p className="text-sm text-teal-700 font-medium">👶 Family-friendly • Pet-safe certified</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Voice Search Optimized Questions */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
+            <h3 className="text-3xl font-bold text-center mb-8">
+              <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                Voice Search Answers for Airoli Pest Control
+              </span>
+            </h3>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Airoli&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Airoli, Navi Mumbai. Call +91-9136036071 for immediate service. Available 24/7.</p>
+              </div>
+              
+              <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Airoli&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control is Airoli&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
+              </div>
+              
+              <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Airoli&rdquo;</h4>
+                <p className="text-gray-700">Get emergency pest control in Airoli within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
+              </div>
+              
+              <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Airoli prices&rdquo;</h4>
+                <p className="text-gray-700">Affordable pest control in Airoli starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Local SEO Optimized Section */}
+          <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
+            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Airoli Right Now?</h3>
+            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Airoli, Navi Mumbai</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
+                📞 Call +91-9136036071
+              </a>
+              <a href="#contact" className="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition-colors">
+                Get Free Inspection
+              </a>
             </div>
           </div>
         </div>
@@ -586,6 +971,181 @@ export default function PestControlInAiroli() {
               View All Services
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Advanced SEO - Internal Linking & Semantic Keyword Section */}
+      <section className="py-20 bg-gradient-to-br from-white to-gray-50 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          {/* Semantic Keyword Hub */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-4 py-2 rounded-full text-sm bg-gradient-to-r from-blue-100 to-orange-100 text-blue-800 border border-blue-200 mb-6">
+              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
+              Complete Pest Control Solutions Network
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
+                Comprehensive Pest Management
+              </span>
+              <br />
+              <span className="text-gray-800">Services in Airoli & Beyond</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              Explore our complete range of professional pest control services across Mumbai, Navi Mumbai, and surrounding areas. 
+              Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
+            </p>
+          </div>
+
+          {/* Internal Links Grid - RankBrain Optimized */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            
+            {/* Service-based Internal Links */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">🐜</div>
+                <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
+              </div>
+              <div className="space-y-3">
+                <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Termite Control Mumbai - Anti-Termite Treatment
+                </Link>
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Cockroach Control - Professional Extermination
+                </Link>
+                <Link href="/bed-bug-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Bed Bug Control - Complete Elimination
+                </Link>
+                <Link href="/rodents-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Rodent Control - Rat & Mouse Removal
+                </Link>
+              </div>
+            </div>
+
+            {/* Location-based Internal Links */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">📍</div>
+                <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
+              </div>
+              <div className="space-y-3">
+                <Link href="/pest-control-ghansoli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Pest Control in Ghansoli - Navi Mumbai
+                </Link>
+                <Link href="/pest-control-belapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Pest Control in Belapur - Professional Service
+                </Link>
+                <Link href="/pest-control-in-kopar-khairane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Pest Control Kopar Khairane - Expert Team
+                </Link>
+                <Link href="/pest-control-in-vashi" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Pest Control in Vashi - 24/7 Service
+                </Link>
+              </div>
+            </div>
+
+            {/* Commercial Services Internal Links */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">🏢</div>
+                <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
+              </div>
+              <div className="space-y-3">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Commercial Pest Control - Business Solutions
+                </Link>
+                <Link href="/commercial-fumigation-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Commercial Fumigation - Complete Treatment
+                </Link>
+                <Link href="/residential" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  Residential Pest Control - Home Protection
+                </Link>
+                <Link href="/services" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
+                  All Pest Control Services - Complete List
+                </Link>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Semantic Keywords Section - RankBrain Optimization */}
+          <div className="bg-gradient-to-br from-blue-50 to-orange-50 rounded-2xl p-8 border border-blue-100">
+            <div className="text-center mb-8">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
+                  Pest Control in Airoli - Complete Guide
+                </span>
+              </h3>
+              <p className="text-lg text-gray-600 max-w-4xl mx-auto">
+                Comprehensive pest control solutions for Airoli residents and businesses. From pest exterminators to pest management specialists.
+              </p>
+            </div>
+
+            {/* Semantic Keywords Grid */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="bg-white rounded-lg p-4 border border-gray-200">
+                <h4 className="font-bold text-gray-900 mb-2">🔍 Search Terms</h4>
+                <div className="text-sm text-gray-600 space-y-1">
+                  <div>Pest Control in Airoli</div>
+                  <div>Pest Exterminators Airoli</div>
+                  <div>Pest Management Airoli</div>
+                  <div>Professional Pest Control</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 border border-gray-200">
+                <h4 className="font-bold text-gray-900 mb-2">🎯 Service Types</h4>
+                <div className="text-sm text-gray-600 space-y-1">
+                  <div>Residential Pest Control</div>
+                  <div>Commercial Pest Control</div>
+                  <div>Emergency Pest Control</div>
+                  <div>Eco-Friendly Treatment</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 border border-gray-200">
+                <h4 className="font-bold text-gray-900 mb-2">📍 Location Focus</h4>
+                <div className="text-sm text-gray-600 space-y-1">
+                  <div>Airoli Navi Mumbai</div>
+                  <div>Pest Control Near Me</div>
+                  <div>Local Pest Service</div>
+                  <div>Same Day Service</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 border border-gray-200">
+                <h4 className="font-bold text-gray-900 mb-2">✅ Benefits</h4>
+                <div className="text-sm text-gray-600 space-y-1">
+                  <div>Guaranteed Results</div>
+                  <div>Safe for Family</div>
+                  <div>Licensed Experts</div>
+                  <div>5-Year Warranty</div>
+                </div>
+              </div>
+            </div>
+
+            {/* E-A-T Signals */}
+            <div className="mt-8 text-center">
+              <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-teal-500 text-white font-medium text-lg">
+                <span className="mr-2">✅</span>
+                Licensed • Certified • Trusted by 10,000+ Customers in Airoli
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -1586,6 +2146,166 @@ export default function PestControlInAiroli() {
         </div>
       </section>
 
+      {/* VSO Enhanced - Local Voice Search Optimization Section */}
+      <section className="py-20 bg-gradient-to-br from-indigo-900 via-blue-900 to-purple-900 text-white relative overflow-hidden">
+        {/* Background Effects */}
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Main Heading */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-4 py-2 rounded-full text-sm bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
+              <span className="w-2 h-2 bg-yellow-400 rounded-full mr-2 animate-pulse"></span>
+              Voice Search Optimized Content
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                Voice Search Answers for
+              </span>
+              <br />
+              <span className="text-white">Pest Control in Airoli</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              Get instant voice search answers for all your pest control needs in Airoli, Navi Mumbai
+            </p>
+          </div>
+
+          {/* Conversational Q&A Grid - VSO Optimized */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            
+            {/* Long-tail Voice Search Question 1 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🎙️</div>
+                <h3 className="text-xl font-bold">Voice Search Query</h3>
+              </div>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Airoli today?&rdquo;</h4>
+              <p className="text-gray-300 leading-relaxed">
+                Super Pest Control is located in Airoli, Navi Mumbai, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
+              </p>
+              <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-400/30">
+                <p className="text-green-300 text-sm font-medium">✅ Available today • Call +91-9136036071</p>
+              </div>
+            </div>
+
+            {/* Long-tail Voice Search Question 2 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🗣️</div>
+                <h3 className="text-xl font-bold">Voice Search Query</h3>
+              </div>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Airoli area?&rdquo;</h4>
+              <p className="text-gray-300 leading-relaxed">
+                Pest control costs in Airoli start from ₹500 for basic treatments and go up to ₹5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
+              </p>
+              <div className="mt-4 p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
+                <p className="text-blue-300 text-sm font-medium">💰 Free quote • Best prices guaranteed</p>
+              </div>
+            </div>
+
+            {/* Long-tail Voice Search Question 3 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🎯</div>
+                <h3 className="text-xl font-bold">Voice Search Query</h3>
+              </div>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Airoli, Navi Mumbai?&rdquo;</h4>
+              <p className="text-gray-300 leading-relaxed">
+                Super Pest Control has the highest ratings in Airoli with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in Navi Mumbai.
+              </p>
+              <div className="mt-4 p-3 bg-purple-500/20 rounded-lg border border-purple-400/30">
+                <p className="text-purple-300 text-sm font-medium">⭐ 4.9/5 stars • 847+ reviews</p>
+              </div>
+            </div>
+
+            {/* Long-tail Voice Search Question 4 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">⚡</div>
+                <h3 className="text-xl font-bold">Voice Search Query</h3>
+              </div>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Can I get emergency pest control service in Airoli right now?&rdquo;</h4>
+              <p className="text-gray-300 leading-relaxed">
+                Yes, we provide 24/7 emergency pest control services in Airoli. Call us now at +91-9136036071 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
+              </p>
+              <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
+                <p className="text-red-300 text-sm font-medium">🚨 24/7 emergency • 2-hour response</p>
+              </div>
+            </div>
+
+            {/* Long-tail Voice Search Question 5 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🏠</div>
+                <h3 className="text-xl font-bold">Voice Search Query</h3>
+              </div>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Airoli apartments?&rdquo;</h4>
+              <p className="text-gray-300 leading-relaxed">
+                Our pest control treatments in Airoli are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
+              </p>
+              <div className="mt-4 p-3 bg-teal-500/20 rounded-lg border border-teal-400/30">
+                <p className="text-teal-300 text-sm font-medium">👶 Child-safe • Pet-friendly certified</p>
+              </div>
+            </div>
+
+            {/* Long-tail Voice Search Question 6 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">📅</div>
+                <h3 className="text-xl font-bold">Voice Search Query</h3>
+              </div>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Airoli?&rdquo;</h4>
+              <p className="text-gray-300 leading-relaxed">
+                For homes in Airoli, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
+              </p>
+              <div className="mt-4 p-3 bg-yellow-500/20 rounded-lg border border-yellow-400/30">
+                <p className="text-yellow-300 text-sm font-medium">🕐 6-12 month intervals • 5-year termite warranty</p>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Local Business Voice Search Optimization */}
+          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 text-center">
+            <h3 className="text-3xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                Ask Your Voice Assistant About Us!
+              </span>
+            </h3>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white/10 rounded-xl p-6 border border-white/20">
+                <div className="text-4xl mb-4">📱</div>
+                <h4 className="font-bold mb-2">Google Assistant</h4>
+                <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Airoli&rdquo;</p>
+              </div>
+              <div className="bg-white/10 rounded-xl p-6 border border-white/20">
+                <div className="text-4xl mb-4">🎵</div>
+                <h4 className="font-bold mb-2">Siri</h4>
+                <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Airoli&rdquo;</p>
+              </div>
+              <div className="bg-white/10 rounded-xl p-6 border border-white/20">
+                <div className="text-4xl mb-4">🔵</div>
+                <h4 className="font-bold mb-2">Alexa</h4>
+                <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Airoli reviews&rdquo;</p>
+              </div>
+            </div>
+            
+            {/* CTA */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a href="tel:+919136036071" className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-orange-600 hover:to-red-600 transition-all duration-300 hover:scale-105 shadow-lg">
+                📞 Call +91-9136036071
+              </a>
+              <a href="#contact" className="border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
+                Get Free Inspection
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       {/* FAQ Section - Matching Home Page Style */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-orange-50 relative overflow-hidden">
         {/* Background Pattern */}
@@ -2025,6 +2745,39 @@ export default function PestControlInAiroli() {
           </div>
         </div>
       </footer>
+
+      {/* Zero Ranking Keyword Dominance Section - Final Optimization */}
+      <section className="py-8 bg-gradient-to-r from-blue-900 to-purple-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h4 className="text-2xl md:text-3xl font-bold mb-4">
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                Pest Control in Airoli
+              </span>
+              <span className="text-white"> - Your Trusted Partner</span>
+            </h4>
+            <div className="grid md:grid-cols-3 gap-8 text-sm">
+              <div>
+                <h5 className="font-bold mb-2 text-yellow-300">Why Choose Pest Control in Airoli by Super Pest Control?</h5>
+                <p className="text-gray-300">We provide the most reliable pest control in Airoli with guaranteed results. Our expert pest control in Airoli services include termite control, cockroach elimination, and comprehensive pest management solutions.</p>
+              </div>
+              <div>
+                <h5 className="font-bold mb-2 text-yellow-300">Professional Pest Control in Airoli Services</h5>
+                <p className="text-gray-300">From residential to commercial pest control in Airoli, we offer complete pest extermination services. Our licensed pest control in Airoli team ensures 100% safe and effective treatments.</p>
+              </div>
+              <div>
+                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Airoli Available 24/7</h5>
+                <p className="text-gray-300">Need immediate pest control in Airoli? Call us anytime for emergency pest control in Airoli. We provide same-day pest control in Airoli with guaranteed satisfaction and long-lasting results.</p>
+              </div>
+            </div>
+            <div className="mt-6 text-center">
+              <p className="text-lg font-semibold text-orange-300">
+                🏆 #1 Pest Control in Airoli | 4.9★ Rating | 10,000+ Happy Customers | Best Pest Control in Airoli Since 2014
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Floating Call & WhatsApp Buttons - Always Visible */}
       <div className="fixed inset-0 pointer-events-none z-50">
