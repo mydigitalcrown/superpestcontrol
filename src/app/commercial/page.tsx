@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Commercial Pest Control Mumbai | Office, Restaurant, Warehouse Solutions",
   description: "Professional commercial pest control services in Mumbai. Comprehensive solutions for offices, restaurants, hotels, warehouses. Licensed experts, compliance support, maintenance contracts.",
   keywords: "commercial pest control mumbai, office pest control mumbai, restaurant pest control mumbai, hotel pest control, warehouse pest management, business pest control solutions",
+  alternates: {
+    canonical: "https://superpestcontrol.in/commercial"
+  }
 };
 
 export default function CommercialPage() {

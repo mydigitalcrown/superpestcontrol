@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Contact Super Pest Control Mumbai | Get Free Quote & Inspection",
   description: "Contact Super Pest Control Mumbai for professional pest control services. Free inspection, 24/7 support, expert consultation. Call +91 98765 43210 or get quote online.",
   keywords: "contact pest control mumbai, pest control quote mumbai, pest control inspection mumbai, pest control phone number mumbai, pest control emergency mumbai",
+  alternates: {
+    canonical: "https://superpestcontrol.in/contact"
+  }
 };
 
 export default function ContactPage() {

@@ -5,6 +5,9 @@ export const metadata = {
   title: "Privacy Policy | Super Pest Control Mumbai",
   description: "Privacy policy for Super Pest Control Mumbai. How we collect, use, and protect your personal information during pest control services.",
   robots: "index, follow",
+  alternates: {
+    canonical: "https://superpestcontrol.in/privacy"
+  }
 };
 
 export default function PrivacyPage() {

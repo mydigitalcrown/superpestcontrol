@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About Us - Super Pest Control Mumbai | 10+ Years Experience",
   description: "Learn about Super Pest Control Mumbai - Your trusted pest control experts with 10+ years of experience. Licensed professionals, eco-friendly solutions, and 500+ satisfied customers.",
   keywords: "about super pest control mumbai, pest control company mumbai, licensed pest control experts, professional pest control team mumbai, experienced exterminators mumbai",
+  alternates: {
+    canonical: "https://superpestcontrol.in/about"
+  }
 };
 
 // FAQ data for About page

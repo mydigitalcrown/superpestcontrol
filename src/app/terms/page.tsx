@@ -5,6 +5,9 @@ export const metadata = {
   title: "Terms and Conditions | Super Pest Control Mumbai",
   description: "Terms and conditions for Super Pest Control Mumbai services. Professional pest control terms, warranty conditions, and service agreements.",
   robots: "index, follow",
+  alternates: {
+    canonical: "https://superpestcontrol.in/terms"
+  }
 };
 
 export default function TermsPage() {
