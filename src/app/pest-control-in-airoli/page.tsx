@@ -203,6 +203,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-semibold">
                 5 Year Warranty
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/termites-control-mumbai.webp" 
+                  alt="Termite Control Mumbai - Professional Anti-Termite Treatment"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Mumbai - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
@@ -233,6 +245,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Most Popular
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/cockroach-control-mumbai.webp" 
+                  alt="Cockroach Control Mumbai - Professional Cockroach Extermination"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Mumbai - Professional Cockroach Extermination</h3>
                 <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Mumbai&apos;s humid climate with long-lasting protection.</p>
@@ -263,6 +287,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Emergency Service
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/rodents-control-mumbai.webp" 
+                  alt="Rodent Control Mumbai - Professional Rat Mouse Control"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Mumbai - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
@@ -293,6 +329,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Heat Treatment
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
+                  alt="Bed Bug Control Mumbai - Professional Bed Bug Treatment"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Mumbai - Professional Bed Bug Treatment</h3>
                 <p className="text-gray-600 text-sm">Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, furniture protection, and comprehensive room sanitization services.</p>
@@ -323,6 +371,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Eco-Friendly
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/ant-control-mumbai.webp" 
+                  alt="Ant Control Mumbai - Professional Ant Extermination"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Mumbai - Professional Ant Extermination</h3>
                 <p className="text-gray-600 text-sm">Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species including pharaoh ants, carpenter ants, and common household ants.</p>
@@ -353,6 +413,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Monsoon Special
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
+                  alt="Mosquito Control Mumbai - Professional Mosquito Treatment"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Mumbai - Professional Mosquito Treatment</h3>
                 <p className="text-gray-600 text-sm">Comprehensive mosquito management with breeding source elimination, fogging treatments, and larvicide applications. Special monsoon protection packages available.</p>
@@ -383,6 +455,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Web Removal
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/spider-control-mumbai.webp" 
+                  alt="Spider Control Mumbai - Professional Spider Removal"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Mumbai - Professional Spider Removal</h3>
                 <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations.</p>
@@ -413,6 +497,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Humane Removal
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/lizard-control-mumbai.webp" 
+                  alt="Lizard Control Mumbai - Professional Lizard Removal"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Mumbai - Professional Lizard Removal</h3>
                 <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Mumbai property.</p>
@@ -443,6 +539,18 @@ export default function PestControlInAiroli() {
               <div className="absolute top-4 right-4 bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-semibold">
                 Business Solutions
               </div>
+              
+              {/* Service Image */}
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <img 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
+                  alt="Commercial Pest Control Mumbai - Professional Business Solutions"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              
               <div className="mb-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Mumbai - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
@@ -900,239 +1008,206 @@ export default function PestControlInAiroli() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-orange-50 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* FAQ Section - Matching Home Page Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-orange-50 relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 text-6xl">🐛</div>
+          <div className="absolute top-40 right-20 text-4xl">🏠</div>
+          <div className="absolute bottom-20 left-20 text-5xl">🔧</div>
+          <div className="absolute bottom-40 right-10 text-4xl">⭐</div>
+        </div>
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-orange-100 text-blue-800 text-sm font-semibold mb-6 border border-blue-200">
-              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-              Your Mumbai pest problems solved!
+            {/* Creative Badge */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-orange-100 text-orange-800 text-sm font-semibold mb-6">
+              <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
+              Got Questions? We&apos;ve Got Answers!
             </div>
             
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Got Questions?
+              <span className="bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent">
+                Pest Control
               </span>
               <br />
-              <span className="text-gray-900">We&apos;ve Got Answers!</span>
+              <span className="text-gray-900">Questions & Answers</span>
             </h2>
-            <div className="flex items-center justify-center space-x-2 mb-6">
-              <span className="text-2xl font-bold text-blue-600">Pest Control</span>
-              <span className="text-gray-400">|</span>
-              <span className="text-lg text-gray-600">Questions & Answers</span>
-            </div>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Get instant answers to the most common questions about our professional pest control services.
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Your Mumbai pest problems solved! Get instant answers to the most common questions about our professional pest control services.
             </p>
           </div>
 
-          {/* FAQ Grid */}
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="grid md:grid-cols-2 gap-8">
             
             {/* FAQ Item 1 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
+            <div className="group">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                {/* Gradient Background on Hover */}
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                
+                {/* Content */}
+                <div className="relative z-10">
+                  {/* Question with Icon */}
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      Q
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                      What is the best pest control service in Mumbai?
+                    </h3>
+                  </div>
+                  
+                  {/* Answer */}
+                  <div className="ml-14">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                      A
+                    </div>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                      Super Pest Control Mumbai is the #1 rated pest control service in Mumbai, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">What is the best pest control service in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Super Pest Control Mumbai is the #1 rated pest control service in Mumbai, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.</p>
-                </div>
+                
+                {/* Decorative Corner */}
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
 
             {/* FAQ Item 2 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
+            <div className="group">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative z-10">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      Q
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                      How much does pest control cost in Mumbai?
+                    </h3>
+                  </div>
+                  <div className="ml-14">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                      A
+                    </div>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                      Pest control in Mumbai costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">How much does pest control cost in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Pest control in Mumbai costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.</p>
-                </div>
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
 
             {/* FAQ Item 3 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
+            <div className="group">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative z-10">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      Q
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                      Which pest control is best for cockroaches in Mumbai?
+                    </h3>
+                  </div>
+                  <div className="ml-14">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                      A
+                    </div>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                      Super Pest Control Mumbai provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Mumbai&apos;s humid climate with 100% satisfaction guarantee.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Which pest control is best for cockroaches in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Super Pest Control Mumbai provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Mumbai&apos;s humid climate with 100% satisfaction guarantee.</p>
-                </div>
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
 
             {/* FAQ Item 4 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
+            <div className="group">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative z-10">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      Q
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                      How to get rid of termites in Mumbai homes permanently?
+                    </h3>
+                  </div>
+                  <div className="ml-14">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                      A
+                    </div>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                      Professional termite control involves pre-construction and post-construction soil treatment, wood treatment, and barrier protection using licensed anti-termite chemicals. Super Pest Control offers 5-year warranty on termite treatment.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">How to get rid of termites in Mumbai homes permanently?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Professional termite control involves pre-construction and post-construction soil treatment, wood treatment, and barrier protection using licensed anti-termite chemicals. Super Pest Control offers 5-year warranty on termite treatment.</p>
-                </div>
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
 
             {/* FAQ Item 5 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
+            <div className="group">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative z-10">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      Q
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                      What are the best pest control methods for Mumbai climate?
+                    </h3>
+                  </div>
+                  <div className="ml-14">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                      A
+                    </div>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                      Mumbai&apos;s humid climate requires specialized pest control methods including moisture control, targeted treatments for monsoon pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">What are the best pest control methods for Mumbai climate?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Mumbai&apos;s humid climate requires specialized pest control methods including moisture control, targeted treatments for monsoon pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests.</p>
-                </div>
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
 
             {/* FAQ Item 6 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
+            <div className="group">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 hover:border-orange-200 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative z-10">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      Q
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
+                      How often should I get pest control done in Mumbai?
+                    </h3>
+                  </div>
+                  <div className="ml-14">
+                    <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mb-3 shadow-md group-hover:scale-110 transition-transform duration-300">
+                      A
+                    </div>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                      For optimal protection in Mumbai, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">How often should I get pest control done in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">For optimal protection in Mumbai, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* FAQ Item 7 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Are pest control chemicals safe for children and pets in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Yes, Super Pest Control uses only eco-friendly, child-safe, and pet-safe pest control chemicals approved by regulatory authorities. All treatments follow strict safety protocols and are completely safe for families.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* FAQ Item 8 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide emergency pest control services in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Yes, Super Pest Control provides 24/7 emergency pest control services across Mumbai including South Mumbai, Central Mumbai, Western Suburbs, Navi Mumbai, and Thane with same-day service availability.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* FAQ Item 9 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">What is the contact number for pest control in Mumbai?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">For immediate pest control assistance in Mumbai, call Super Pest Control at +91-80979-41077 or +91-80979-41076. We provide 24/7 emergency service with free inspection and consultation.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* FAQ Item 10 */}
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Q</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Which areas in Mumbai do you serve for pest control?</h3>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4 mt-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-gray-600 leading-relaxed">Super Pest Control serves all areas of Mumbai including South Mumbai (SoBo), Central Mumbai, Western Suburbs, Eastern Suburbs, Navi Mumbai, Thane, and surrounding areas with same-day service availability.</p>
-                </div>
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-100 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
           </div>
-
-          {/* Contact CTA */}
+          
+          {/* Call to Action */}
           <div className="text-center mt-16">
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 max-w-3xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 max-w-2xl mx-auto">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Still have questions?
               </h3>
@@ -1140,13 +1215,11 @@ export default function PestControlInAiroli() {
                 Our pest control experts are here to help! Get personalized answers and free consultation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">📞</span>
-                  Call Now: +91 80979-41077
+                <a href="tel:+918097941077" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  📞 Call Now: +91 80979-41077
                 </a>
-                <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">💬</span>
-                  Chat with Expert
+                <a href="https://wa.me/918097941077" className="border-2 border-blue-500 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105">
+                  💬 Chat with Expert
                 </a>
               </div>
             </div>
