@@ -1008,6 +1008,291 @@ export default function PestControlInAiroli() {
         </div>
       </section>
 
+      {/* Modern Technologies for Complete Pest Protection */}
+      <section className="py-24 bg-gradient-to-br from-blue-900 via-gray-900 to-black text-white relative overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 left-10 text-6xl animate-pulse">🔬</div>
+          <div className="absolute top-40 right-20 text-4xl animate-bounce">⚡</div>
+          <div className="absolute bottom-20 left-20 text-5xl animate-pulse">🛡️</div>
+          <div className="absolute bottom-40 right-10 text-4xl animate-bounce">🎯</div>
+        </div>
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                Modern Technologies for
+              </span>
+              <br />
+              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
+                Complete Pest Protection
+              </span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              Leverage the power of advanced pest control technologies for optimal protection and peace of mind.
+            </p>
+          </div>
+
+          {/* Technology Solutions */}
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            {/* Advanced Anti-Termite Treatment */}
+            <div className="group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-orange-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🐜</div>
+                <h3 className="text-2xl font-bold mb-4 text-white">Advanced Anti-Termite Treatment</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  Cutting-edge soil and wood treatment solutions with 5-year comprehensive warranty protection for your Mumbai property.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+                    Pre & post-construction treatment
+                  </li>
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+                    Licensed chemical applications
+                  </li>
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+                    5-year warranty coverage
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Professional Gel & Spray Treatment */}
+            <div className="group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-blue-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🪳</div>
+                <h3 className="text-2xl font-bold mb-4 text-white">Professional Gel & Spray Treatment</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  Advanced gel baiting and targeted spray solutions designed specifically for Mumbai&apos;s humid climate conditions.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    German cockroach specialists
+                  </li>
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    Child & pet safe formulas
+                  </li>
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    Long-lasting protection
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Complete Rodent Elimination */}
+            <div className="group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-green-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-green-500/10">
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🐭</div>
+                <h3 className="text-2xl font-bold mb-4 text-white">Complete Rodent Elimination</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  Comprehensive rat and mouse control with professional rat-proofing and entry point sealing for Mumbai properties.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                    Professional rat-proofing
+                  </li>
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                    Secure bait station systems
+                  </li>
+                  <li className="flex items-center text-gray-300">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                    Entry point sealing
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mb-16">
+            <div className="bg-gradient-to-r from-orange-600/20 to-red-600/20 backdrop-blur-sm rounded-2xl p-8 border border-orange-500/30">
+              <h3 className="text-3xl font-bold mb-4 text-white">Ready to protect your property?</h3>
+              <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">
+                Our template provides everything you need to get your pest problems solved quickly. Don&apos;t waste time with ineffective solutions - focus on what matters most.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  <span className="mr-2">📞</span>
+                  Call Now: +91 80979 41077
+                </a>
+                <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  <span className="mr-2">💬</span>
+                  WhatsApp Chat
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Features Grid */}
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="text-center group">
+              <div className="bg-gradient-to-br from-orange-500 to-red-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-orange-500/20">
+                <span className="text-2xl">🏆</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
+              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Mumbai pest control.</p>
+            </div>
+            <div className="text-center group">
+              <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
+                <span className="text-2xl">🌿</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-white">Eco-Friendly Solutions</h3>
+              <p className="text-gray-300">Safe, environmentally friendly treatments that protect your family and pets while eliminating pests.</p>
+            </div>
+            <div className="text-center group">
+              <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-blue-500/20">
+                <span className="text-2xl">🚨</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-white">24/7 Emergency Service</h3>
+              <p className="text-gray-300">Round-the-clock emergency pest control services across all Mumbai areas with same-day availability.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Transparent Pricing for Complete Protection */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-10 text-6xl">💰</div>
+          <div className="absolute top-40 right-20 text-4xl">🏠</div>
+          <div className="absolute bottom-20 left-20 text-5xl">📋</div>
+          <div className="absolute bottom-40 right-10 text-4xl">⭐</div>
+        </div>
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                Transparent Pricing for
+              </span>
+              <br />
+              <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                Complete Protection
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Choose the perfect plan for your property. All plans include free inspection and consultation.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Basic Protection */}
+            <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Basic Protection</h3>
+                <div className="mb-6">
+                  <span className="text-5xl font-bold text-blue-600">₹1,500</span>
+                  <p className="text-gray-600 mt-2">Starting price</p>
+                </div>
+                <ul className="space-y-4 mb-8 text-left">
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">Cockroach control</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">Free inspection</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">3-month warranty</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">Safe chemicals</span>
+                  </li>
+                </ul>
+                <a href="tel:+918097941077" className="w-full inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  Get Started
+                </a>
+              </div>
+            </div>
+
+            {/* Complete Protection - Most Popular */}
+            <div className="bg-gradient-to-br from-orange-500 to-red-500 rounded-3xl p-8 shadow-2xl border-2 border-orange-400 hover:shadow-3xl transition-all duration-500 group transform hover:scale-105 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
+                  Most Popular
+                </span>
+              </div>
+              <div className="text-center text-white">
+                <h3 className="text-2xl font-bold mb-2">Complete Protection</h3>
+                <div className="mb-6">
+                  <span className="text-5xl font-bold">₹3,500</span>
+                  <p className="text-orange-100 mt-2">Starting price</p>
+                </div>
+                <ul className="space-y-4 mb-8 text-left">
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    <span>All pest control services</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    <span>Termite protection</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    <span>1-year warranty</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    <span>24/7 support</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    <span>Follow-up visits</span>
+                  </li>
+                </ul>
+                <a href="tel:+918097941077" className="w-full inline-flex items-center justify-center px-8 py-4 bg-white hover:bg-gray-100 text-orange-600 font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  Get Started
+                </a>
+              </div>
+            </div>
+
+            {/* Premium Care */}
+            <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Premium Care</h3>
+                <div className="mb-6">
+                  <span className="text-5xl font-bold text-purple-600">₹5,000</span>
+                  <p className="text-gray-600 mt-2">Starting price</p>
+                </div>
+                <ul className="space-y-4 mb-8 text-left">
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">Everything in Complete</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">5-year termite warranty</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">Monthly maintenance</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                    <span className="text-gray-700">Priority support</span>
+                  </li>
+                </ul>
+                <a href="tel:+918097941077" className="w-full inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+                  Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section - Matching Home Page Style */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-orange-50 relative overflow-hidden">
         {/* Background Pattern */}
