@@ -217,7 +217,7 @@ export default function PestControlInAmbernath() {
                 "@id": "https://superpestcontrol.com/#website",
                 "url": "https://superpestcontrol.com/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Mumbai and Navi Mumbai",
+                "description": "Professional Pest Control Services in Ambernath, Maharashtra",
                 "publisher": {
                   "@id": "https://superpestcontrol.com/#organization"
                 },
@@ -251,7 +251,7 @@ export default function PestControlInAmbernath() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Mumbai&apos;s #1 Choice</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Ambernath&apos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -466,7 +466,7 @@ export default function PestControlInAmbernath() {
                   <span className="block">• 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
-                  <p className="text-sm text-blue-700 font-medium">🏆 Mumbai&apos;s most trusted pest control company</p>
+                  <p className="text-sm text-blue-700 font-medium">🏆 Ambernath&apos;s most trusted pest control company</p>
                 </div>
               </div>
             </div>
@@ -593,7 +593,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/termites-control-mumbai.webp" 
-                  alt="Termite Control Mumbai - Professional Anti-Termite Treatment"
+                  alt="Termite Control Ambernath - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -601,7 +601,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Mumbai - Professional Anti-Termite Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Ambernath - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -635,7 +635,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/cockroach-control-mumbai.webp" 
-                  alt="Cockroach Control Mumbai - Professional Cockroach Extermination"
+                  alt="Cockroach Control Ambernath - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -643,8 +643,8 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Mumbai - Professional Cockroach Extermination</h3>
-                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Mumbai&apos;s humid climate with long-lasting protection.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Ambernath - Professional Cockroach Extermination</h3>
+                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Ambernath&apos;s climate with long-lasting protection.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -677,7 +677,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/rodents-control-mumbai.webp" 
-                  alt="Rodent Control Mumbai - Professional Rat Mouse Control"
+                  alt="Rodent Control Ambernath - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -685,7 +685,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Mumbai - Professional Rat Mouse Control</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Ambernath - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -719,7 +719,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/bed-bug-control-mumbai.webp" 
-                  alt="Bed Bug Control Mumbai - Professional Bed Bug Treatment"
+                  alt="Bed Bug Control Ambernath - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -727,7 +727,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Mumbai - Professional Bed Bug Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Ambernath - Professional Bed Bug Treatment</h3>
                 <p className="text-gray-600 text-sm">Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, furniture protection, and comprehensive room sanitization services.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -761,7 +761,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/ant-control-mumbai.webp" 
-                  alt="Ant Control Mumbai - Professional Ant Extermination"
+                  alt="Ant Control Ambernath - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -769,7 +769,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Mumbai - Professional Ant Extermination</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Ambernath - Professional Ant Extermination</h3>
                 <p className="text-gray-600 text-sm">Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species including pharaoh ants, carpenter ants, and common household ants.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -803,7 +803,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/mosquitoes-control-mumbai.webp" 
-                  alt="Mosquito Control Mumbai - Professional Mosquito Treatment"
+                  alt="Mosquito Control Ambernath - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -811,7 +811,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Mumbai - Professional Mosquito Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Ambernath - Professional Mosquito Treatment</h3>
                 <p className="text-gray-600 text-sm">Comprehensive mosquito management with breeding source elimination, fogging treatments, and larvicide applications. Special monsoon protection packages available.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -845,7 +845,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/spider-control-mumbai.webp" 
-                  alt="Spider Control Mumbai - Professional Spider Removal"
+                  alt="Spider Control Ambernath - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -853,7 +853,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Mumbai - Professional Spider Removal</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Ambernath - Professional Spider Removal</h3>
                 <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -887,7 +887,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/lizard-control-mumbai.webp" 
-                  alt="Lizard Control Mumbai - Professional Lizard Removal"
+                  alt="Lizard Control Ambernath - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -895,8 +895,8 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Mumbai - Professional Lizard Removal</h3>
-                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Mumbai property.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Ambernath - Professional Lizard Removal</h3>
+                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Ambernath property.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -929,7 +929,7 @@ export default function PestControlInAmbernath() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/commercial-pest-control-mumbai.webp" 
-                  alt="Commercial Pest Control Mumbai - Professional Business Solutions"
+                  alt="Commercial Pest Control Ambernath - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -937,7 +937,7 @@ export default function PestControlInAmbernath() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Mumbai - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Ambernath - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -993,7 +993,7 @@ export default function PestControlInAmbernath() {
               <span className="text-gray-800">Services in Ambernath & Beyond</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our complete range of professional pest control services across Mumbai, Navi Mumbai, and surrounding areas. 
+              Explore our complete range of professional pest control services across Ambernath, Maharashtra and surrounding areas. 
               Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
             </p>
           </div>
@@ -1010,7 +1010,7 @@ export default function PestControlInAmbernath() {
               <div className="space-y-3">
                 <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Termite Control Mumbai - Anti-Termite Treatment
+                  Termite Control Ambernath - Anti-Termite Treatment
                 </Link>
                 <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -2332,7 +2332,7 @@ export default function PestControlInAmbernath() {
               <span className="text-gray-900">Questions & Answers</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Your Mumbai pest problems solved! Get instant answers to the most common questions about our professional pest control services.
+              Your Ambernath pest problems solved! Get instant answers to the most common questions about our professional pest control services.
             </p>
           </div>
 
