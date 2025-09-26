@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Andheri West | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Expert pest control services in Andheri West, Mumbai. Professional termite control, cockroach treatment, bed bug removal near Lokhandwala, Juhu, Versova. 100% guaranteed results. Call +91-9136036071.',
-  keywords: 'pest control andheri west, pest control in andheri west, best pest control andheri west, professional pest control andheri west, termite control andheri west, cockroach control andheri west, bed bug control andheri west, pest control services andheri west mumbai, affordable pest control andheri west, emergency pest control andheri west, residential pest control andheri west, commercial pest control andheri west, pest control near lokhandwala, pest control near juhu, pest control near versova, pest control near oshiwara, licensed pest control andheri west, guaranteed pest control andheri west, 24/7 pest control andheri west',
+  title: 'Best Pest Control in Dadar | #1 Professional Services Mumbai | Super Pest Control',
+  description: 'Expert pest control services in Dadar, Mumbai. Professional termite control, cockroach treatment, bed bug removal near Lokhandwala, Juhu, Versova. 100% guaranteed results. Call +91-9136036071.',
+  keywords: 'pest control dadar, pest control in dadar, best pest control dadar, professional pest control dadar, termite control dadar, cockroach control dadar, bed bug control dadar, pest control services dadar mumbai, affordable pest control dadar, emergency pest control dadar, residential pest control dadar, commercial pest control dadar, pest control near lokhandwala, pest control near juhu, pest control near versova, pest control near oshiwara, licensed pest control dadar, guaranteed pest control dadar, 24/7 pest control dadar',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-andheri-west",
+    canonical: "https://superpestcontrol.in/pest-control-in-dadar",
   },
 };
 
-export default function PestControlInAndheriLayout({
+export default function PestControlInDadarLayout({
   children,
 }: {
   children: React.ReactNode;

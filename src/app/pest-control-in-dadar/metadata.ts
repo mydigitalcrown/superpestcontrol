@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     languages: {
       'en-IN': 'https://superpestcontrol.in/pest-control-in-dadar',
       'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-dadar',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-andheri-west'
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-dadar'
     }
   },
   verification: {
