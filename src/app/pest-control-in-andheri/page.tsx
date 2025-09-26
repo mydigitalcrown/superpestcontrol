@@ -86,11 +86,11 @@ export default function PestControlInAndheri() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-ambegaon#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-andheri#service",
                 "name": "Pest Control Services in Andheri",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Andheri, Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-ambegaon#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-andheri#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -130,7 +130,7 @@ export default function PestControlInAndheri() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-ambegaon#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-andheri#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -148,13 +148,13 @@ export default function PestControlInAndheri() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Andheri",
-                    "item": "https://superpestcontrol.in/pest-control-in-ambegaon"
+                    "item": "https://superpestcontrol.in/pest-control-in-andheri"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-ambegaon#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-andheri#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -1417,7 +1417,7 @@ export default function PestControlInAndheri() {
                   'pest-control-in-bhiwandi',
                   'pest-control-in-mumbra',
                   'pest-control-in-ulhasnagar',
-                  'pest-control-in-ambegaon',
+                  'pest-control-in-andheri',
                   'pest-control-in-badlapur',
                   'pest-control-in-diva',
                   'pest-control-in-karjat',
@@ -1500,7 +1500,6 @@ export default function PestControlInAndheri() {
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
                   'pest-control-in-pune',
-                  'pest-control-in-ambegaon',
                   'pest-control-in-hinjewadi',
                   'pest-control-in-baner',
                   'pest-control-in-aundh',
@@ -1508,7 +1507,6 @@ export default function PestControlInAndheri() {
                   'pest-control-in-bavdhan',
                   'pest-control-in-kharadi',
                   'pest-control-in-viman-nagar',
-                  'pest-control-in-ambegaon',
                   'pest-control-in-aurangabad',
                   'pest-control-in-nashik',
                   'pest-control-in-ahmednagar',

@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Ambegaon | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Ambegaon, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
-  keywords: 'pest control in ambegaon, best pest control ambegaon, professional pest control ambegaon, termite control ambegaon, cockroach control ambegaon, bed bug control ambegaon, pest control services ambegaon maharashtra, affordable pest control ambegaon, emergency pest control ambegaon, residential pest control ambegaon, commercial pest control ambegaon, pest control near me ambegaon, same day pest control ambegaon, eco friendly pest control ambegaon, licensed pest control ambegaon, guaranteed pest control ambegaon, 24/7 pest control ambegaon, pest exterminators ambegaon, pest management ambegaon, fumigation services ambegaon, anti termite treatment ambegaon, rodent control ambegaon, mosquito control ambegaon, lizard control ambegaon, spider control ambegaon, ant control ambegaon, fly control ambegaon',
+  title: 'Best Pest Control in Andheri | #1 Professional Services Near Me | Super Pest Control',
+  description: 'Professional Pest Control Services in Andheri, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  keywords: 'pest control in andheri, best pest control andheri, professional pest control andheri, termite control andheri, cockroach control andheri, bed bug control andheri, pest control services andheri mumbai, affordable pest control andheri, emergency pest control andheri, residential pest control andheri, commercial pest control andheri, pest control near me andheri, same day pest control andheri, eco friendly pest control andheri, licensed pest control andheri, guaranteed pest control andheri, 24/7 pest control andheri, pest exterminators andheri, pest management andheri, fumigation services andheri, anti termite treatment andheri, rodent control andheri, mosquito control andheri, lizard control andheri, spider control andheri, ant control andheri, fly control andheri, andheri east pest control, andheri west pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   viewport: 'width=device-width, initial-scale=1.0',
@@ -17,16 +17,16 @@ export const metadata: Metadata = {
   category: 'Pest Control Services',
   classification: 'Business',
   openGraph: {
-    title: 'Professional Pest Control in Ambegaon | Super Pest Control Services',
-    description: 'Get the best pest control services in Ambegaon with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
-    url: 'https://superpestcontrol.in/pest-control-in-ambegaon',
+    title: 'Professional Pest Control in Andheri | Super Pest Control Services',
+    description: 'Get the best pest control services in Andheri with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    url: 'https://superpestcontrol.in/pest-control-in-andheri',
     siteName: 'Super Pest Control',
     images: [
       {
-        url: 'https://superpestcontrol.in/images/pest-control-ambegaon-banner.jpg',
+        url: 'https://superpestcontrol.in/images/pest-control-andheri-banner.jpg',
         width: 1200,
         height: 630,
-        alt: 'Professional Pest Control Services in Ambegaon'
+        alt: 'Professional Pest Control Services in Andheri'
       }
     ],
     locale: 'en_IN',
@@ -34,18 +34,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Ambegaon | Super Pest Control',
-    description: 'Professional pest control services in Ambegaon with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.in/images/pest-control-ambegaon-twitter.jpg'],
+    title: 'Best Pest Control in Andheri | Super Pest Control',
+    description: 'Professional pest control services in Andheri with guaranteed results. Call now for expert treatment!',
+    images: ['https://superpestcontrol.in/images/pest-control-andheri-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
   alternates: {
-    canonical: 'https://superpestcontrol.in/pest-control-in-ambegaon',
+    canonical: 'https://superpestcontrol.in/pest-control-in-andheri',
     languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-ambegaon',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-ambegaon',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-ambegaon'
+      'en-IN': 'https://superpestcontrol.in/pest-control-in-andheri',
+      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-andheri',
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-andheri'
     }
   },
   verification: {
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   other: {
     'geo.region': 'IN-MH',
-    'geo.placename': 'Ambegaon, Maharashtra',
-    'geo.position': '18.7334;73.8539',
-    'ICBM': '18.7334, 73.8539',
+    'geo.placename': 'Andheri, Mumbai',
+    'geo.position': '19.1136;72.8697',
+    'ICBM': '19.1136, 72.8697',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'black-translucent',
     'theme-color': '#3B82F6',
