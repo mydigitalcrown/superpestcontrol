@@ -17,16 +17,16 @@ export const metadata: Metadata = {
   category: 'Pest Control Services',
   classification: 'Business',
   openGraph: {
-    title: 'Professional Pest Control in Bhandup | Super Pest Control Services',
-    description: 'Get the best pest control services in Bhandup with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
-    url: 'https://superpestcontrol.in/pest-control-in-bhandup',
+    title: 'Professional Pest Control in Bhayander | Super Pest Control Services',
+    description: 'Get the best pest control services in Bhayander with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    url: 'https://superpestcontrol.in/pest-control-in-bhayander',
     siteName: 'Super Pest Control',
     images: [
       {
-        url: 'https://superpestcontrol.in/images/pest-control-bhandup-banner.jpg',
+        url: 'https://superpestcontrol.in/images/pest-control-bhayander-banner.jpg',
         width: 1200,
         height: 630,
-        alt: 'Professional Pest Control Services in Bhandup'
+        alt: 'Professional Pest Control Services in Bhayander'
       }
     ],
     locale: 'en_IN',
@@ -34,18 +34,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Bhandup | Super Pest Control',
-    description: 'Professional pest control services in Bhandup with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.in/images/pest-control-bhandup-twitter.jpg'],
+    title: 'Best Pest Control in Bhayander | Super Pest Control',
+    description: 'Professional pest control services in Bhayander with guaranteed results. Call now for expert treatment!',
+    images: ['https://superpestcontrol.in/images/pest-control-bhayander-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
   alternates: {
-    canonical: 'https://superpestcontrol.in/pest-control-in-bhandup',
+    canonical: 'https://superpestcontrol.in/pest-control-in-bhayander',
     languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-bhandup',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-bhandup',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-bhandup'
+      'en-IN': 'https://superpestcontrol.in/pest-control-in-bhayander',
+      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-bhayander',
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-bhayander'
     }
   },
   verification: {
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   other: {
     'geo.region': 'IN-MH',
-    'geo.placename': 'Bhandup, Mumbai',
-    'geo.position': '19.1438;72.9298',
-    'ICBM': '19.1438, 72.9298',
+    'geo.placename': 'Bhayander, Mumbai',
+    'geo.position': '19.3000;72.8500',
+    'ICBM': '19.3000, 72.8500',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'black-translucent',
     'theme-color': '#3B82F6',
