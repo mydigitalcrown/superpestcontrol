@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-export default function PestControlInBhandup() {
+export default function PestControlInBoisar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
@@ -17,25 +17,25 @@ export default function PestControlInBhandup() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-bhandup#localbusiness",
-                "name": "Super Pest Control - Bhandup",
-                "image": "https://superpestcontrol.in/images/pest-control-bhandup-hero.jpg",
-                "description": "Professional Pest Control Services in Bhandup East & West, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-bhandup",
+                "@id": "https://superpestcontrol.in/pest-control-in-boisar#localbusiness",
+                "name": "Super Pest Control - Boisar",
+                "image": "https://superpestcontrol.in/images/pest-control-boisar-hero.jpg",
+                "description": "Professional Pest Control Services in Boisar, Palghar District. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "url": "https://superpestcontrol.in/pest-control-in-boisar",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Bhandup Service Area",
-                  "addressLocality": "Bhandup",
-                  "addressRegion": "Mumbai, Maharashtra",
-                  "postalCode": "400078",
+                  "streetAddress": "Boisar Service Area",
+                  "addressLocality": "Boisar",
+                  "addressRegion": "Palghar, Maharashtra",
+                  "postalCode": "401501",
                   "addressCountry": "IN"
                 },
                 "geo": {
                   "@type": "GeoCoordinates",
-                  "latitude": 19.1438,
-                  "longitude": 72.9298
+                  "latitude": 19.2300,
+                  "longitude": 72.7574
                 },
                 "openingHoursSpecification": {
                   "@type": "OpeningHoursSpecification",
@@ -49,8 +49,8 @@ export default function PestControlInBhandup() {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
                     "@type": "GeoCoordinates",
-                    "latitude": 19.1136,
-                    "longitude": 72.8697
+                    "latitude": 19.2300,
+                    "longitude": 72.7574
                   },
                   "geoRadius": "15000"
                 },
@@ -63,13 +63,13 @@ export default function PestControlInBhandup() {
                 },
                 "hasOfferCatalog": {
                   "@type": "OfferCatalog",
-                  "name": "Pest Control Services in Bhandup",
+                  "name": "Pest Control Services in Boisar",
                   "itemListElement": [
                     {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Termite Control in Bhandup",
+                        "name": "Termite Control in Boisar",
                         "description": "Professional anti-termite treatment with 5-year warranty"
                       }
                     },
@@ -77,7 +77,7 @@ export default function PestControlInBhandup() {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Cockroach Control in Bhandup",
+                        "name": "Cockroach Control in Boisar",
                         "description": "Complete cockroach elimination with gel baiting technique"
                       }
                     }
@@ -86,19 +86,19 @@ export default function PestControlInBhandup() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-bhandup#service",
-                "name": "Pest Control Services in Bhandup",
-                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Bhandup, Mumbai.",
+                "@id": "https://superpestcontrol.in/pest-control-in-boisar#service",
+                "name": "Pest Control Services in Boisar",
+                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Boisar, Palghar District.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-bhandup#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-boisar#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
                   "@type": "City",
-                  "name": "Bhandup",
+                  "name": "Boisar",
                   "containedInPlace": {
                     "@type": "State",
-                    "name": "Mumbai"
+                    "name": "Palghar"
                   }
                 },
                 "hasOfferCatalog": {
@@ -130,7 +130,7 @@ export default function PestControlInBhandup() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-bhandup#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-boisar#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -147,45 +147,45 @@ export default function PestControlInBhandup() {
                   {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Pest Control in Bhandup",
-                    "item": "https://superpestcontrol.in/pest-control-in-bhandup"
+                    "name": "Pest Control in Boisar",
+                    "item": "https://superpestcontrol.in/pest-control-in-boisar"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-bhandup#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-boisar#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "What is the cost of pest control in Bhandup?",
+                    "name": "What is the cost of pest control in Boisar?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "The cost of pest control in Bhandup ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                      "text": "The cost of pest control in Boisar ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "How long does pest control treatment last in Bhandup?",
+                    "name": "How long does pest control treatment last in Boisar?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Our pest control treatments in Bhandup typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
+                      "text": "Our pest control treatments in Boisar typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Is pest control safe for children and pets in Bhandup homes?",
+                    "name": "Is pest control safe for children and pets in Boisar homes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we use child and pet-safe pest control methods in Bhandup. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
+                      "text": "Yes, we use child and pet-safe pest control methods in Boisar. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Do you provide emergency pest control services in Bhandup?",
+                    "name": "Do you provide emergency pest control services in Boisar?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we provide 24/7 emergency pest control services in Bhandup. Call +91-9136036071 for immediate assistance with severe infestations."
+                      "text": "Yes, we provide 24/7 emergency pest control services in Boisar. Call +91-9136036071 for immediate assistance with severe infestations."
                     }
                   }
                 ]
@@ -217,7 +217,7 @@ export default function PestControlInBhandup() {
                 "@id": "https://superpestcontrol.com/#website",
                 "url": "https://superpestcontrol.com/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Bhandup, Mumbai",
+                "description": "Professional Pest Control Services in Boisar, Palghar District",
                 "publisher": {
                   "@id": "https://superpestcontrol.com/#organization"
                 },
@@ -251,7 +251,7 @@ export default function PestControlInBhandup() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Bhandup&apos;s #1 Choice</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Boisar&apos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -332,11 +332,11 @@ export default function PestControlInBhandup() {
         </div>
       </header>
 
-      {/* Modern SaaS Hero Section with Bhandup Background */}
+      {/* Modern SaaS Hero Section with Boisar Background */}
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/mumbai.webp)',
+          backgroundImage: 'url(/images/location/palghar.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -352,7 +352,7 @@ export default function PestControlInBhandup() {
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-white/20 backdrop-blur-sm text-white border border-white/30 mb-6 md:mb-8">
               <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-              #1 Rated Pest Control in Bhandup - Professional Services Since 2014
+              #1 Rated Pest Control in Boisar - Professional Services Since 2014
             </div>
             
             {/* Main Headline - Zero Ranking Keyword Optimized */}
@@ -361,22 +361,22 @@ export default function PestControlInBhandup() {
                 Expert Pest Control in
               </span>
               <br />
-              <span className="text-white">Bhandup, Mumbai</span>
+              <span className="text-white">Boisar, Palghar</span>
             </h1>
             
             {/* Secondary Keyword Heading */}
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-2 drop-shadow-lg">
-                Professional Pest Control in Bhandup - 100% Guaranteed Results
+                Professional Pest Control in Boisar - 100% Guaranteed Results
               </h2>
               <h3 className="text-xl md:text-2xl font-semibold text-orange-200 drop-shadow-md">
-                Best Pest Control Services in Bhandup | Same Day Treatment Available
+                Best Pest Control Services in Boisar | Same Day Treatment Available
               </h3>
             </div>
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Bhandup, Mumbai? We are the top-rated pest control company near you, serving Mulund, Kanjurmarg, Vikhroli, Powai and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Bhandup area.
+              Looking for professional pest control services in Boisar, Palghar District? We are the top-rated pest control company near you, serving Dahanu, Palghar, Vasai, Manor and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Boisar area.
             </p>
             
             {/* CTA Buttons */}
@@ -419,13 +419,13 @@ export default function PestControlInBhandup() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Pest Control in Bhandup
+                Pest Control in Boisar
               </span>
               <br />
               <span className="text-gray-800">Everything You Need to Know</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get instant answers to all your pest control questions for Bhandup. Professional solutions with guaranteed results.
+              Get instant answers to all your pest control questions for Boisar. Professional solutions with guaranteed results.
             </p>
           </div>
 
@@ -435,11 +435,11 @@ export default function PestControlInBhandup() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">1</span>
-                What does pest control cost in Bhandup?
+                What does pest control cost in Boisar?
               </h3>
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control in Bhandup costs ₹500-₹5000</strong> depending on property size and pest type. 
+                  <strong>Pest control in Boisar costs ₹500-₹5000</strong> depending on property size and pest type. 
                   <span className="block mt-2">• Cockroach control: ₹800-₹1500</span>
                   <span className="block">• Termite treatment: ₹1500-₹5000</span>
                   <span className="block">• Bed bug control: ₹1200-₹2500</span>
@@ -455,18 +455,18 @@ export default function PestControlInBhandup() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">2</span>
-                Which is the best pest control service in Bhandup?
+                Which is the best pest control service in Boisar?
               </h3>
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Super Pest Control is the #1 rated service in Bhandup</strong> with 4.9/5 stars and 847+ reviews.
-                  <span className="block mt-2">• 10+ years of experience in Bhandup</span>
+                  <strong>Super Pest Control is the #1 rated service in Boisar</strong> with 4.9/5 stars and 847+ reviews.
+                  <span className="block mt-2">• 10+ years of experience in Boisar</span>
                   <span className="block">• WHO-approved safe chemicals</span>
                   <span className="block">• Same-day service available</span>
                   <span className="block">• 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
-                  <p className="text-sm text-blue-700 font-medium">🏆 Bhandup&apos;s most trusted pest control company</p>
+                  <p className="text-sm text-blue-700 font-medium">🏆 Boisar&apos;s most trusted pest control company</p>
                 </div>
               </div>
             </div>
@@ -475,11 +475,11 @@ export default function PestControlInBhandup() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">3</span>
-                How long does pest control last in Bhandup?
+                How long does pest control last in Boisar?
               </h3>
               <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control treatments in Bhandup last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
+                  <strong>Pest control treatments in Boisar last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
                   <span className="block mt-2">• General pest control: 6-12 months</span>
                   <span className="block">• Termite treatment: 5 years warranty</span>
                   <span className="block">• Cockroach control: 8-12 months</span>
@@ -495,11 +495,11 @@ export default function PestControlInBhandup() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-teal-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">4</span>
-                Is pest control safe for children and pets in Bhandup?
+                Is pest control safe for children and pets in Boisar?
               </h3>
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Yes, our pest control in Bhandup is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
+                  <strong>Yes, our pest control in Boisar is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
                   <span className="block mt-2">• Non-toxic to humans and pets</span>
                   <span className="block">• Odorless treatment options available</span>
                   <span className="block">• Child-safe application methods</span>
@@ -516,37 +516,37 @@ export default function PestControlInBhandup() {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
             <h3 className="text-3xl font-bold text-center mb-8">
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Voice Search Answers for Bhandup Pest Control
+                Voice Search Answers for Boisar Pest Control
               </span>
             </h3>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Bhandup&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control provides the best pest control services in Bhandup, Mumbai. Call +91-9136036071 for immediate service. Available 24/7.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Boisar&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Boisar, Palghar District. Call +91-9136036071 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Bhandup&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control is Bhandup&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Boisar&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control is Boisar&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Bhandup&rdquo;</h4>
-                <p className="text-gray-700">Get emergency pest control in Bhandup within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Boisar&rdquo;</h4>
+                <p className="text-gray-700">Get emergency pest control in Boisar within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Bhandup prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Bhandup starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Boisar prices&rdquo;</h4>
+                <p className="text-gray-700">Affordable pest control in Boisar starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
               </div>
             </div>
           </div>
 
           {/* Local SEO Optimized Section */}
           <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
-            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Bhandup Right Now?</h3>
-            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Bhandup, Mumbai</p>
+            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Boisar Right Now?</h3>
+            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Boisar, Palghar District</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
                 📞 Call +91-9136036071
@@ -593,7 +593,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/termites-control-mumbai.webp" 
-                  alt="Termite Control Bhandup - Professional Anti-Termite Treatment"
+                  alt="Termite Control Boisar - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -601,7 +601,7 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Bhandup - Professional Anti-Termite Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Boisar - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -635,7 +635,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/cockroach-control-mumbai.webp" 
-                  alt="Cockroach Control Bhandup - Professional Cockroach Extermination"
+                  alt="Cockroach Control Boisar - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -643,8 +643,8 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Bhandup - Professional Cockroach Extermination</h3>
-                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Bhandup&apos;s climate with long-lasting protection.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Boisar - Professional Cockroach Extermination</h3>
+                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Boisar&apos;s climate with long-lasting protection.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -677,7 +677,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/rodents-control-mumbai.webp" 
-                  alt="Rodent Control Bhandup - Professional Rat Mouse Control"
+                  alt="Rodent Control Boisar - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -685,7 +685,7 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Bhandup - Professional Rat Mouse Control</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Boisar - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -719,7 +719,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/bed-bug-control-mumbai.webp" 
-                  alt="Bed Bug Control Bhandup - Professional Bed Bug Treatment"
+                  alt="Bed Bug Control Boisar - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -727,7 +727,7 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Bhandup - Professional Bed Bug Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Boisar - Professional Bed Bug Treatment</h3>
                 <p className="text-gray-600 text-sm">Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, furniture protection, and comprehensive room sanitization services.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -761,7 +761,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/ant-control-mumbai.webp" 
-                  alt="Ant Control Bhandup - Professional Ant Extermination"
+                  alt="Ant Control Boisar - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -769,7 +769,7 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Bhandup - Professional Ant Extermination</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Boisar - Professional Ant Extermination</h3>
                 <p className="text-gray-600 text-sm">Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species including pharaoh ants, carpenter ants, and common household ants.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -803,7 +803,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/mosquitoes-control-mumbai.webp" 
-                  alt="Mosquito Control Bhandup - Professional Mosquito Treatment"
+                  alt="Mosquito Control Boisar - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -811,7 +811,7 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Bhandup - Professional Mosquito Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Boisar - Professional Mosquito Treatment</h3>
                 <p className="text-gray-600 text-sm">Comprehensive mosquito management with breeding source elimination, fogging treatments, and larvicide applications. Special monsoon protection packages available.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -845,7 +845,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/spider-control-mumbai.webp" 
-                  alt="Spider Control Bhandup - Professional Spider Removal"
+                  alt="Spider Control Boisar - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -853,8 +853,8 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Bhandup - Professional Spider Removal</h3>
-                <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations in Bhandup properties.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Boisar - Professional Spider Removal</h3>
+                <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations in Boisar properties.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -887,7 +887,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/lizard-control-mumbai.webp" 
-                  alt="Lizard Control Bhandup - Professional Lizard Removal"
+                  alt="Lizard Control Boisar - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -895,8 +895,8 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Bhandup - Professional Lizard Removal</h3>
-                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Bhandup property.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Boisar - Professional Lizard Removal</h3>
+                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Boisar property.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -929,7 +929,7 @@ export default function PestControlInBhandup() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/commercial-pest-control-mumbai.webp" 
-                  alt="Commercial Pest Control Bhandup - Professional Business Solutions"
+                  alt="Commercial Pest Control Boisar - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -937,7 +937,7 @@ export default function PestControlInBhandup() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Bhandup - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Boisar - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -990,10 +990,10 @@ export default function PestControlInBhandup() {
                 Comprehensive Pest Management
               </span>
               <br />
-              <span className="text-gray-800">Services in Bhandup & Beyond</span>
+              <span className="text-gray-800">Services in Boisar & Beyond</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our complete range of professional pest control services across Bhandup, Mumbai and surrounding areas. 
+              Explore our complete range of professional pest control services across Boisar, Palghar District and surrounding areas. 
               Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
             </p>
           </div>
@@ -1010,7 +1010,7 @@ export default function PestControlInBhandup() {
               <div className="space-y-3">
                 <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Termite Control Bhandup - Anti-Termite Treatment
+                  Termite Control Boisar - Anti-Termite Treatment
                 </Link>
                 <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -1034,21 +1034,21 @@ export default function PestControlInBhandup() {
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/pest-control-in-mulund" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-palghar" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Mulund - Professional Service
+                  Pest Control in Palghar - District Headquarters
                 </Link>
-                <Link href="/pest-control-in-kanjurmarg" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-vasai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Kanjurmarg - Expert Team
+                  Pest Control in Vasai - Professional Service
                 </Link>
-                <Link href="/pest-control-in-vikhroli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-dahanu" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Vikhroli - 24/7 Service
+                  Pest Control in Dahanu - Coastal Area
                 </Link>
-                <Link href="/pest-control-in-powai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-manor" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Powai - Eastern Mumbai
+                  Pest Control in Manor - Expert Team
                 </Link>
               </div>
             </div>
@@ -1086,11 +1086,11 @@ export default function PestControlInBhandup() {
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
                 <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                  Pest Control in Bhandup - Complete Guide
+                  Pest Control in Boisar - Complete Guide
                 </span>
               </h3>
               <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-                Comprehensive pest control solutions for Bhandup residents and businesses. From pest exterminators to pest management specialists.
+                Comprehensive pest control solutions for Boisar residents and businesses. From pest exterminators to pest management specialists.
               </p>
             </div>
 
@@ -1099,9 +1099,9 @@ export default function PestControlInBhandup() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">🔍 Search Terms</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Pest Control in Bhandup</div>
-                  <div>Pest Exterminators Bhandup</div>
-                  <div>Pest Management Bhandup</div>
+                  <div>Pest Control in Boisar</div>
+                  <div>Pest Exterminators Boisar</div>
+                  <div>Pest Management Boisar</div>
                   <div>Professional Pest Control</div>
                 </div>
               </div>
@@ -1119,7 +1119,7 @@ export default function PestControlInBhandup() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">📍 Location Focus</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Bhandup Mumbai</div>
+                  <div>Boisar Palghar</div>
                   <div>Pest Control Near Me</div>
                   <div>Local Pest Service</div>
                   <div>Same Day Service</div>
@@ -1141,7 +1141,7 @@ export default function PestControlInBhandup() {
             <div className="mt-8 text-center">
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-teal-500 text-white font-medium text-lg">
                 <span className="mr-2">✅</span>
-                Licensed • Certified • Trusted by 10,000+ Customers in Bhandup
+                Licensed • Certified • Trusted by 10,000+ Customers in Boisar
               </div>
             </div>
           </div>
@@ -1165,7 +1165,7 @@ export default function PestControlInBhandup() {
             {/* Creative Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-blue-100 text-orange-800 text-sm font-semibold mb-6 border border-orange-200">
               <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
-              Serving 80+ Locations Across Mumbai & Maharashtra
+              Serving Palghar District & Mumbai Metropolitan Region
             </div>
             
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -1176,7 +1176,7 @@ export default function PestControlInBhandup() {
               <span className="text-gray-900">We Cover It All</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Professional pest control services available across Mumbai, Navi Mumbai, Thane, Pune, and extended Maharashtra regions. Click any location for specialized local services.
+              Professional pest control services available across Palghar District, Boisar, Vasai, Dahanu, and Mumbai Metropolitan Region. Click any location for specialized local services.
             </p>
           </div>
 
@@ -1272,7 +1272,7 @@ export default function PestControlInBhandup() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-bhandup',
+                  'pest-control-in-boisar',
                   'pest-control-in-juhu',
                   'pest-control-in-vile-parle',
                   'pest-control-in-jogeshwari',
@@ -1320,7 +1320,7 @@ export default function PestControlInBhandup() {
                   'pest-control-in-powai',
                   'pest-control-in-vikhroli',
                   'pest-control-in-kanjurmarg',
-                  'pest-control-in-bhandup',
+                  'pest-control-in-boisar',
                   'pest-control-in-mulund',
                   'pest-control-in-nahur'
                 ].map((location, index) => {
