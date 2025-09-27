@@ -1465,7 +1465,7 @@ export default function PestControlInBandraKurlaComplex() {
                   'pest-control-in-digha',
                   'pest-control-in-darave',
                   'pest-control-in-shirvane',
-                  'pest-control-boisar'
+                  'pest-control-in-boisar'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')

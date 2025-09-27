@@ -209,7 +209,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-mira-road',
     'pest-control-bhayander',
     'pest-control-in-bhayander',
-    'pest-control-boisar',
+    'pest-control-in-boisar',
     'pest-control-in-virar',
     'pest-control-in-nalasopara',
     'pest-control-in-naigaon',

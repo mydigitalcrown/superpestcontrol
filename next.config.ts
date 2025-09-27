@@ -176,7 +176,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/pest-control-boisar.html',
-        destination: '/pest-control-boisar',
+        destination: '/pest-control-in-boisar',
         permanent: true,
       },
       {
