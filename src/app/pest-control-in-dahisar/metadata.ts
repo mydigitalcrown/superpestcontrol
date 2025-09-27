@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Andheri | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Andheri, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
-  keywords: 'pest control in andheri, best pest control andheri, professional pest control andheri, termite control andheri, cockroach control andheri, bed bug control andheri, pest control services andheri mumbai, affordable pest control andheri, emergency pest control andheri, residential pest control andheri, commercial pest control andheri, pest control near me andheri, same day pest control andheri, eco friendly pest control andheri, licensed pest control andheri, guaranteed pest control andheri, 24/7 pest control andheri, pest exterminators andheri, pest management andheri, fumigation services andheri, anti termite treatment andheri, rodent control andheri, mosquito control andheri, lizard control andheri, spider control andheri, ant control andheri, fly control andheri, andheri east pest control, andheri west pest control',
+  title: 'Best Pest Control in Dahisar | #1 Professional Services Near Me | Super Pest Control',
+  description: 'Professional Pest Control Services in Dahisar, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  keywords: 'pest control in dahisar, best pest control dahisar, professional pest control dahisar, termite control dahisar, cockroach control dahisar, bed bug control dahisar, pest control services dahisar mumbai, affordable pest control dahisar, emergency pest control dahisar, residential pest control dahisar, commercial pest control dahisar, pest control near me dahisar, same day pest control dahisar, eco friendly pest control dahisar, licensed pest control dahisar, guaranteed pest control dahisar, 24/7 pest control dahisar, pest exterminators dahisar, pest management dahisar, fumigation services dahisar, anti termite treatment dahisar, rodent control dahisar, mosquito control dahisar, lizard control dahisar, spider control dahisar, ant control dahisar, fly control dahisar, dahisar east pest control, dahisar west pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   viewport: 'width=device-width, initial-scale=1.0',
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   category: 'Pest Control Services',
   classification: 'Business',
   openGraph: {
-    title: 'Professional Pest Control in Andheri | Super Pest Control Services',
-    description: 'Get the best pest control services in Andheri with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
-    url: 'https://superpestcontrol.in/pest-control-in-andheri',
+    title: 'Professional Pest Control in Dahisar | Super Pest Control Services',
+    description: 'Get the best pest control services in Dahisar with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    url: 'https://superpestcontrol.in/pest-control-in-dahisar',
     siteName: 'Super Pest Control',
     images: [
       {
@@ -34,18 +34,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Andheri | Super Pest Control',
-    description: 'Professional pest control services in Andheri with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.in/images/pest-control-andheri-twitter.jpg'],
+    title: 'Best Pest Control in Dahisar | Super Pest Control',
+    description: 'Professional pest control services in Dahisar with guaranteed results. Call now for expert treatment!',
+    images: ['https://superpestcontrol.in/images/pest-control-dahisar-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
   alternates: {
-    canonical: 'https://superpestcontrol.in/pest-control-in-andheri',
+    canonical: 'https://superpestcontrol.in/pest-control-in-dahisar',
     languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-andheri',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-andheri',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-andheri'
+      'en-IN': 'https://superpestcontrol.in/pest-control-in-dahisar',
+      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-dahisar',
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-dahisar'
     }
   },
   verification: {
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   other: {
     'geo.region': 'IN-MH',
-    'geo.placename': 'Andheri, Mumbai',
-    'geo.position': '19.1136;72.8697',
-    'ICBM': '19.1136, 72.8697',
+    'geo.placename': 'Dahisar, Mumbai',
+    'geo.position': '19.2544;72.8606',
+    'ICBM': '19.2544, 72.8606',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'black-translucent',
     'theme-color': '#3B82F6',
