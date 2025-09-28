@@ -1,15 +1,11 @@
-import type { Metadata } from "next";
+import { metadata } from './metadata'
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-dombivli",
-  },
-};
+export { metadata }
 
 export default function PestControlInDombivliLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
-  return <>{children}</>;
+  return <>{children}</>
 }
