@@ -23,7 +23,7 @@ export default function PestControlInAhmednagar() {
                 "description": "Professional Pest Control Services in Ahmednagar, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-ahmednagar",
                 "telephone": "+91-9136036071",
-                "email": "info@superpestcontrol.com",
+                "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "Ahmednagar Service Area",

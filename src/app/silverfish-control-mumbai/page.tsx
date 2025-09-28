@@ -232,7 +232,7 @@ export default function SilverfishControlMumbai() {
               <h4 className="text-lg font-semibold mb-4 text-orange-400">Contact Info</h4>
               <ul className="space-y-2 text-gray-300 text-sm">
                 <li>📞 +91 91370 94641</li>
-                <li>✉️ info@superpestcontrol.com</li>
+                <li>✉️ info@superpestcontrol.in</li>
                 <li>🕒 24/7 Emergency Service</li>
                 <li>📍 Mumbai, Maharashtra</li>
               </ul>

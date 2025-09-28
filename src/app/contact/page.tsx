@@ -355,8 +355,8 @@ export default function ContactPage() {
                       <p className="text-orange-700">Business Inquiries</p>
                     </div>
                   </div>
-                  <a href="mailto:info@superpestcontrol.com" className="text-xl font-bold text-orange-600 hover:text-orange-700 transition-colors">
-                    info@superpestcontrol.com
+                  <a href="mailto:info@superpestcontrol.in" className="text-xl font-bold text-orange-600 hover:text-orange-700 transition-colors">
+                    info@superpestcontrol.in
                   </a>
                   <p className="text-gray-600 mt-2">Detailed quotes & documentation</p>
                 </div>

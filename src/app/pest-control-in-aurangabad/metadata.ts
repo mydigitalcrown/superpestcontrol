@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     yandex: 'your-yandex-verification',
     yahoo: 'your-yahoo-verification',
     other: {
-      me: ['https://superpestcontrol.in', 'mailto:info@superpestcontrol.com']
+      me: ['https://superpestcontrol.in', 'mailto:info@superpestcontrol.in']
     }
   },
   icons: {

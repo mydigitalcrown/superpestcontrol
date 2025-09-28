@@ -390,7 +390,7 @@ export default function PestControlLowerParel() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
-                <p>📧 info@superpestcontrol.com</p>
+                <p>📧 info@superpestcontrol.in</p>
                 <p>📞 +91 80979-41077</p>
                 <p>🏢 Lower Parel, Mumbai</p>
                 <p>⏰ 24/7 Emergency Service</p>

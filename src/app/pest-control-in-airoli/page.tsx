@@ -19,11 +19,11 @@ export default function PestControlInAiroli() {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-airoli#localbusiness",
                 "name": "Super Pest Control - Airoli",
-                "image": "https://superpestcontrol.com/images/pest-control-airoli-hero.jpg",
+                "image": "https://superpestcontrol.in/images/pest-control-airoli-hero.jpg",
                 "description": "Professional Pest Control Services in Airoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.com/pest-control-in-airoli",
+                "url": "https://superpestcontrol.in/pest-control-in-airoli",
                 "telephone": "+91-9136036071",
-                "email": "info@superpestcontrol.com",
+                "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "Airoli Service Area",
@@ -86,11 +86,11 @@ export default function PestControlInAiroli() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.com/pest-control-in-airoli#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-airoli#service",
                 "name": "Pest Control Services in Airoli",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Airoli, Navi Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.com/pest-control-in-airoli#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-airoli#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -130,31 +130,31 @@ export default function PestControlInAiroli() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.com/pest-control-in-airoli#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-airoli#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://superpestcontrol.com/"
+                    "item": "https://superpestcontrol.in/"
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Services",
-                    "item": "https://superpestcontrol.com/services"
+                    "item": "https://superpestcontrol.in/services"
                   },
                   {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Airoli",
-                    "item": "https://superpestcontrol.com/pest-control-in-airoli"
+                    "item": "https://superpestcontrol.in/pest-control-in-airoli"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.com/pest-control-in-airoli#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-airoli#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -192,12 +192,12 @@ export default function PestControlInAiroli() {
               },
               {
                 "@type": "Organization",
-                "@id": "https://superpestcontrol.com/#organization",
+                "@id": "https://superpestcontrol.in/#organization",
                 "name": "Super Pest Control",
-                "url": "https://superpestcontrol.com/",
+                "url": "https://superpestcontrol.in/",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://superpestcontrol.com/images/logo.png"
+                  "url": "https://superpestcontrol.in/images/logo.png"
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
@@ -214,19 +214,19 @@ export default function PestControlInAiroli() {
               },
               {
                 "@type": "WebSite",
-                "@id": "https://superpestcontrol.com/#website",
-                "url": "https://superpestcontrol.com/",
+                "@id": "https://superpestcontrol.in/#website",
+                "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
                 "description": "Professional Pest Control Services in Mumbai and Navi Mumbai",
                 "publisher": {
-                  "@id": "https://superpestcontrol.com/#organization"
+                  "@id": "https://superpestcontrol.in/#organization"
                 },
                 "potentialAction": [
                   {
                     "@type": "SearchAction",
                     "target": {
                       "@type": "EntryPoint",
-                      "urlTemplate": "https://superpestcontrol.com/search?q={search_term_string}"
+                      "urlTemplate": "https://superpestcontrol.in/search?q={search_term_string}"
                     },
                     "query-input": "required name=search_term_string"
                   }
