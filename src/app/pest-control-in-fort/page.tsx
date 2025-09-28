@@ -136,13 +136,13 @@ export default function PestControlInFort() {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://superpestcontrol.com/"
+                    "item": "https://superpestcontrol.in/"
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Services",
-                    "item": "https://superpestcontrol.com/services"
+                    "item": "https://superpestcontrol.in/services"
                   },
                   {
                     "@type": "ListItem",
@@ -192,12 +192,12 @@ export default function PestControlInFort() {
               },
               {
                 "@type": "Organization",
-                "@id": "https://superpestcontrol.com/#organization",
+                "@id": "https://superpestcontrol.in/#organization",
                 "name": "Super Pest Control",
-                "url": "https://superpestcontrol.com/",
+                "url": "https://superpestcontrol.in/",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://superpestcontrol.com/images/logo.png"
+                  "url": "https://superpestcontrol.in/images/logo.png"
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
@@ -214,19 +214,19 @@ export default function PestControlInFort() {
               },
               {
                 "@type": "WebSite",
-                "@id": "https://superpestcontrol.com/#website",
-                "url": "https://superpestcontrol.com/",
+                "@id": "https://superpestcontrol.in/#website",
+                "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
                 "description": "Professional Pest Control Services in Fort, Mumbai",
                 "publisher": {
-                  "@id": "https://superpestcontrol.com/#organization"
+                  "@id": "https://superpestcontrol.in/#organization"
                 },
                 "potentialAction": [
                   {
                     "@type": "SearchAction",
                     "target": {
                       "@type": "EntryPoint",
-                      "urlTemplate": "https://superpestcontrol.com/search?q={search_term_string}"
+                      "urlTemplate": "https://superpestcontrol.in/search?q={search_term_string}"
                     },
                     "query-input": "required name=search_term_string"
                   }
@@ -376,7 +376,7 @@ export default function PestControlInFort() {
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Fort, Mumbai? We are the top-rated pest control company near you, serving Lokhandwala Complex, Juhu, Versova, Oshiwara and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Fort area.
+              Looking for professional pest control services in Fort, Mumbai? We are the top-rated pest control company near you, serving Ballard Estate, CST, Horniman Circle, Kala Ghoda and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Fort area.
             </p>
             
             {/* CTA Buttons */}
