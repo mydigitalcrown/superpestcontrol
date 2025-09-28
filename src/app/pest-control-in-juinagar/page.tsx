@@ -17,11 +17,11 @@ export default function PestControlInJuinagar() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-juhu#localbusiness",
+                "@id": "https://superpestcontrol.in/pest-control-in-juinagar#localbusiness",
                 "name": "Super Pest Control - Juinagar",
-                "image": "https://superpestcontrol.in/images/pest-control-juhu-hero.jpg",
+                "image": "https://superpestcontrol.in/images/pest-control-juinagar-hero.jpg",
                 "description": "Professional Pest Control Services in Juinagar, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-juhu",
+                "url": "https://superpestcontrol.in/pest-control-in-juinagar",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
@@ -49,8 +49,8 @@ export default function PestControlInJuinagar() {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
                     "@type": "GeoCoordinates",
-                    "latitude": 19.1336,
-                    "longitude": 72.8469
+                    "latitude": 19.0330,
+                    "longitude": 73.0297
                   },
                   "geoRadius": "15000"
                 },
@@ -86,11 +86,11 @@ export default function PestControlInJuinagar() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-juhu#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-juinagar#service",
                 "name": "Pest Control Services in Juinagar",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Juinagar, Navi Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-juhu#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-juinagar#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -130,7 +130,7 @@ export default function PestControlInJuinagar() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-juhu#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-juinagar#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -148,13 +148,13 @@ export default function PestControlInJuinagar() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Juinagar",
-                    "item": "https://superpestcontrol.in/pest-control-in-juhu"
+                    "item": "https://superpestcontrol.in/pest-control-in-juinagar"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-juhu#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-juinagar#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -1034,7 +1034,7 @@ export default function PestControlInJuinagar() {
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/pest-control-in-juhu" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-juinagar" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Juinagar - Expert Team
                 </Link>
@@ -1190,8 +1190,8 @@ export default function PestControlInJuinagar() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-juhu',
-                  'pest-control-in-juhu',
+                  'pest-control-in-juinagar',
+                  'pest-control-in-juinagar',
                   'pest-control-in-worli',
                   'pest-control-in-lower-parel',
                   'pest-control-in-parel'
@@ -1272,10 +1272,10 @@ export default function PestControlInJuinagar() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-juhu',
-                  'pest-control-in-juhu',
+                  'pest-control-in-juinagar',
+                  'pest-control-in-juinagar',
                   'pest-control-in-vile-parle',
-                  'pest-control-in-juhu',
+                  'pest-control-in-juinagar',
                   'pest-control-in-goregaon',
                   'pest-control-in-malad',
                   'pest-control-in-kandivali',
@@ -1361,7 +1361,7 @@ export default function PestControlInJuinagar() {
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
                   'pest-control-in-vashi',
-                  'pest-control-in-juhu',
+                  'pest-control-in-juinagar',
                   'pest-control-in-kopar-khairane',
                   'pest-control-in-turbhe',
                   'pest-control-in-rabale',
@@ -1417,7 +1417,7 @@ export default function PestControlInJuinagar() {
                   'pest-control-in-bhiwandi',
                   'pest-control-in-mumbra',
                   'pest-control-in-ulhasnagar',
-                  'pest-control-in-juhu',
+                  'pest-control-in-juinagar',
                   'pest-control-in-badlapur',
                   'pest-control-in-diva',
                   'pest-control-in-karjat',
