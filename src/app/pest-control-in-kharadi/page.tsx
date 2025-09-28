@@ -1176,7 +1176,7 @@ export default function PestControlInKharadi() {
               <span className="text-gray-900">We Cover It All</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Professional pest control services available across Pune, Navi Pune, Thane, Pune, and extended Maharashtra regions. Click any location for specialized local services.
+              Professional pest control services available across Kharadi, Wagholi, Hadapsar, Viman Nagar, and extended Maharashtra regions. Click any location for specialized local services.
             </p>
           </div>
 
