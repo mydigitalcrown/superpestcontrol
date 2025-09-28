@@ -4,7 +4,6 @@
 import Header from "../../components/Header";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
 
 // Enhanced FAQ data for Hinjewadi with natural language questions
 const faqData = [
@@ -35,8 +34,6 @@ const faqData = [
 ];
 
 export default function PestControlHinjewadi() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-white">
       {/* Enhanced Schema for FAQ and Local SEO */}
@@ -80,13 +77,13 @@ export default function PestControlHinjewadi() {
       
       <Header subtitle="Professional Pest Control in Hinjewadi" />
 
-      {/* Hero Section with Mumbai Background */}
+      {/* Hero Section with Pune Background */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/location/mumbai.webp"
-            alt="Mumbai cityscape background"
+            src="/images/location/pune.webp"
+            alt="Pune cityscape background"
             fill
             className="object-cover object-center"
             priority
@@ -319,11 +316,11 @@ export default function PestControlHinjewadi() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold text-white tracking-tight">Super Pest Control</span>
-                  <span className="text-xs text-orange-400 font-medium -mt-1">Mumbai&apos;s #1 Choice</span>
+                  <span className="text-xs text-orange-400 font-medium -mt-1">Pune&apos;s #1 Choice</span>
                 </div>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Professional pest control services in Mumbai with 10+ years of experience. 
+                Professional pest control services in Pune with 10+ years of experience. 
                 We provide eco-friendly, family-safe solutions for all types of pest problems.
               </p>
               <div className="flex space-x-4">
@@ -356,14 +353,14 @@ export default function PestControlHinjewadi() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termite-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodent-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquito-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -397,7 +394,7 @@ export default function PestControlHinjewadi() {
                   <span className="text-orange-400 text-lg mt-0.5">📍</span>
                   <div>
                     <p className="text-white font-medium">Service Areas</p>
-                    <p className="text-gray-300 text-sm">Mumbai, Navi Mumbai, Thane</p>
+                    <p className="text-gray-300 text-sm">Pune, Hinjewadi, Wakad</p>
                   </div>
                 </div>
               </div>
@@ -408,10 +405,10 @@ export default function PestControlHinjewadi() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
-              <Link href="/residential-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
+              <Link href="/commercial-fumigation" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/residential-pest-control" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
 
@@ -419,7 +416,7 @@ export default function PestControlHinjewadi() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="flex items-center space-x-6 text-sm text-gray-400">
-                <span>&copy; 2025 Super Pest Control Mumbai</span>
+                <span>&copy; 2025 Super Pest Control Hinjewadi</span>
                 <span>Licensed & Certified</span>
                 <span>4.9★ Rating</span>
                 <span>10+ Years Experience</span>
@@ -442,7 +439,7 @@ export default function PestControlHinjewadi() {
                     target="_blank"
                     className="text-orange-400 hover:text-orange-300 font-medium transition-colors duration-200 hover:underline"
                   >
-                    Digital Marketing Company In Mumbai
+                    Digital Marketing Company In Pune
                   </a>
                 </p>
               </div>
@@ -475,7 +472,7 @@ export default function PestControlHinjewadi() {
         {/* WhatsApp Button - Right Side */}
         <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-auto">
           <a
-            href="https://wa.me/918097941077?text=Hi%2C%20I%20need%20pest%20control%20service%20in%20Mumbai.%20Please%20provide%20details."
+            href="https://wa.me/918097941077?text=Hi%2C%20I%20need%20pest%20control%20service%20in%20Hinjewadi.%20Please%20provide%20details."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 group"
@@ -510,7 +507,7 @@ export default function PestControlHinjewadi() {
 
               {/* Mobile WhatsApp Button */}
               <a
-                href="https://wa.me/918097941077?text=Hi%2C%20I%20need%20pest%20control%20service%20in%20Mumbai.%20Please%20provide%20details."
+                href="https://wa.me/918097941077?text=Hi%2C%20I%20need%20pest%20control%20service%20in%20Hinjewadi.%20Please%20provide%20details."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
