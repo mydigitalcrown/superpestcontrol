@@ -98,7 +98,7 @@ export default function PestControlInMumbra() {
                   "name": "Mumbra",
                   "containedInPlace": {
                     "@type": "State",
-                    "name": "Mumbai"
+                    "name": "Thane"
                   }
                 },
                 "hasOfferCatalog": {
@@ -336,7 +336,7 @@ export default function PestControlInMumbra() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/thane.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -460,7 +460,7 @@ export default function PestControlInMumbra() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
                   <strong>Super Pest Control is the #1 rated service in Mumbra</strong> with 4.9/5 stars and 847+ reviews.
-                  <span className="block mt-2">• 10+ years of experience in Mumbra</span>
+                  <span className="block mt-2">• 10+ years of experience in <strong>Pest Control In Mumbra</strong></span>
                   <span className="block">• WHO-approved safe chemicals</span>
                   <span className="block">• Same-day service available</span>
                   <span className="block">• 5-year warranty on termite treatment</span>
@@ -592,7 +592,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/termites-control-thane.webp" 
                   alt="Termite Control Mumbra - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +634,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/cockroach-control-thane.webp" 
                   alt="Cockroach Control Mumbra - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +676,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
+                  src="/images/services/rodents-control-thane.webp" 
                   alt="Rodent Control Mumbra - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +718,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/bed-bug-control-thane.webp" 
                   alt="Bed Bug Control Mumbra - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +760,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/ant-control-thane.webp" 
                   alt="Ant Control Mumbra - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +802,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mosquitoes-control-thane.webp" 
                   alt="Mosquito Control Mumbra - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +844,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/spider-control-thane.webp" 
                   alt="Spider Control Mumbra - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +886,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/lizard-control-thane.webp" 
                   alt="Lizard Control Mumbra - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +928,7 @@ export default function PestControlInMumbra() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
+                  src="/images/services/commercial-pest-control-thane.webp" 
                   alt="Commercial Pest Control Mumbra - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1008,19 +1008,19 @@ export default function PestControlInMumbra() {
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/termites-control-thane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Mumbra - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-thane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
-                <Link href="/bed-bug-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/bed-bug-control-thane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodents-control-thane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,11 +1060,11 @@ export default function PestControlInMumbra() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-thane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Pest Control - Business Solutions
                 </Link>
-                <Link href="/commercial-fumigation-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-fumigation-thane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Fumigation - Complete Treatment
                 </Link>
@@ -1356,7 +1356,7 @@ export default function PestControlInMumbra() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-navi-navi mumbai',
+                  'pest-control-in-navi-thane',
                   'pest-control-in-belapur',
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
@@ -1697,7 +1697,7 @@ export default function PestControlInMumbra() {
                 <span className="text-2xl">🏆</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
-              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Mumbai pest control.</p>
+              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in <strong>Pest Control In Mumbra</strong> and Thane.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
@@ -1859,7 +1859,7 @@ export default function PestControlInMumbra() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-800 text-sm font-semibold mb-6">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-              Professional Pest Management Services
+              Professional <strong>Pest Control In Mumbra</strong> Management Services
             </div>
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
@@ -1867,7 +1867,7 @@ export default function PestControlInMumbra() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover everything you need to know about professional pest management services in Mumbra, Thane. 
+              Discover everything you need to know about professional <strong>Pest Control In Mumbra</strong> services in Mumbra, Thane. 
               From common pest challenges to advanced treatment solutions, we provide comprehensive information to help you make informed decisions.
             </p>
           </div>
@@ -1884,7 +1884,7 @@ export default function PestControlInMumbra() {
                 </h3>
                 <div className="prose prose-lg text-gray-700 leading-relaxed">
                   <p className="mb-6">
-                    Mumbra, strategically located in Mumbai, presents unique challenges for pest control due to its urban climate and high-density residential and commercial development. 
+                    Mumbra, strategically located in Thane district, presents unique challenges for pest control due to its urban climate and high-density residential and commercial development. 
                     The area&apos;s growing residential environment creates conditions that provide breeding grounds for various pests. 
                     Understanding these environmental factors is crucial for effective <strong>Pest Control In Mumbra</strong>.
                   </p>
@@ -1909,28 +1909,32 @@ export default function PestControlInMumbra() {
               <div className="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-xl border border-blue-100">
                 <h3 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                   <span className="w-3 h-3 bg-blue-500 rounded-full mr-3"></span>
-                  Common Pest Problems Requiring Professional Intervention
+                  Common Pest Problems Requiring Professional <strong>Pest Control In Mumbra</strong>
                 </h3>
                 <div className="prose prose-lg text-gray-700 leading-relaxed">
                   <p className="mb-6">
                     Residential and commercial properties in Mumbra face diverse pest challenges that require specialized <strong>Pest Control In Mumbra</strong> solutions. 
                     Termites pose the most significant structural threat, with subterranean termites being particularly problematic due to the area&apos;s soil conditions. 
+                    Advanced <strong>Pest Control In Mumbra</strong> techniques are essential for termite prevention and treatment. 
                     These silent destroyers can cause extensive damage to wooden structures, furniture, and important documents before detection.
                   </p>
                   <p className="mb-6">
                     Cockroach infestations are extremely common in Mumbra&apos;s humid environment, with German cockroaches and American cockroaches being the primary species. 
                     These pests not only contaminate food sources but also spread diseases such as salmonella, dysentery, and gastroenteritis. 
-                    Effective <strong>Pest Control In Mumbra</strong> for cockroaches requires understanding their hiding spots, breeding patterns, and food preferences.
+                    Effective <strong>Pest Control In Mumbra</strong> for cockroaches requires understanding their hiding spots, breeding patterns, and food preferences. 
+                    Professional <strong>Pest Control In Mumbra</strong> services use targeted gel baiting and residual spraying methods.
                   </p>
                   <p className="mb-6">
                     Rodent problems, particularly rats and mice, are prevalent due to the availability of food sources and nesting materials in both residential and commercial areas. 
                     These pests can cause structural damage by gnawing through wires, pipes, and insulation materials. They also pose serious health risks by transmitting diseases like leptospirosis, 
-                    hantavirus, and plague. Professional <strong>Pest Control In Mumbra</strong> services implement comprehensive rodent management programs that include trapping, baiting, and exclusion techniques.
+                    hantavirus, and plague. Professional <strong>Pest Control In Mumbra</strong> services implement comprehensive rodent management programs that include trapping, baiting, and exclusion techniques. 
+                    Emergency <strong>Pest Control In Mumbra</strong> response ensures rapid rodent elimination.
                   </p>
                   <p>
                     Ant infestations, particularly pharaoh ants and black garden ants, create significant nuisances in kitchens, pantries, and food storage areas. 
                     These social insects form extensive colonies that can quickly spread throughout a property. 
-                    Specialized <strong>Pest Control In Mumbra</strong> treatments target both visible ants and their hidden colonies to ensure complete elimination.
+                    Specialized <strong>Pest Control In Mumbra</strong> treatments target both visible ants and their hidden colonies to ensure complete elimination. 
+                    Comprehensive <strong>Pest Control In Mumbra</strong> programs include colony destruction and long-term prevention strategies.
                   </p>
                 </div>
               </div>
@@ -2020,7 +2024,8 @@ export default function PestControlInMumbra() {
                 </p>
                 <p className="text-gray-300">
                   Integrated Pest Management (IPM) strategies form the foundation of eco-friendly <strong>Pest Control In Mumbra</strong>, 
-                  combining multiple approaches to achieve long-term pest control while minimizing chemical usage.
+                  combining multiple approaches to achieve long-term pest control while minimizing chemical usage. 
+                  Comprehensive <strong>Pest Control In Mumbra</strong> programs incorporate IPM principles for sustainable results.
                 </p>
               </div>
             </div>
@@ -2041,7 +2046,7 @@ export default function PestControlInMumbra() {
                 <p className="mb-4">
                   Licensed <strong>Pest Control In Mumbra</strong> providers should possess valid certifications from relevant authorities and demonstrate expertise 
                   in handling different pest species. Look for companies that offer detailed inspection reports, treatment plans, and follow-up services to ensure 
-                  complete pest elimination.
+                  complete pest elimination. Experienced <strong>Pest Control In Mumbra</strong> professionals provide customized solutions for every property type.
                 </p>
                 <p>
                   The best <strong>Pest Control In Mumbra</strong> services provide transparent pricing, use quality-approved chemicals, 
@@ -2211,7 +2216,7 @@ export default function PestControlInMumbra() {
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Mumbra, Thane?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control has the highest ratings in Mumbra with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
+                Super Pest Control has the highest ratings in Mumbra with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted <strong>Pest Control In Mumbra</strong> company in the Thane district area.
               </p>
               <div className="mt-4 p-3 bg-purple-500/20 rounded-lg border border-purple-400/30">
                 <p className="text-purple-300 text-sm font-medium">⭐ 4.9/5 stars • 847+ reviews</p>
@@ -2360,7 +2365,7 @@ export default function PestControlInMumbra() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Super Pest Control Mumbra is the #1 rated pest control service in Mumbra, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
+                      Super Pest Control Mumbra is the #1 rated <strong>Pest Control In Mumbra</strong> service, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
                     </p>
                   </div>
                 </div>
@@ -2616,7 +2621,7 @@ export default function PestControlInMumbra() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Professional pest control services in Mumbai with 10+ years of experience. 
+                Professional <strong>Pest Control In Mumbra</strong> services in Thane with 10+ years of experience. 
                 We provide eco-friendly, family-safe solutions for all types of pest problems.
               </p>
               <div className="flex space-x-4">
@@ -2649,14 +2654,14 @@ export default function PestControlInMumbra() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termites-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-thane" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -2701,10 +2706,10 @@ export default function PestControlInMumbra() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
-              <Link href="/residential-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
+              <Link href="/commercial-fumigation-thane" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-thane" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control-thane" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/residential-pest-control-thane" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
 
