@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Lokhandwala | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Lokhandwala, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Lokhandwala Complex, Four Bungalows, Oshiwara, Versova. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
-  keywords: 'pest control in lokhandwala, best pest control lokhandwala mumbai, professional pest control lokhandwala, termite control lokhandwala, cockroach control lokhandwala, bed bug control lokhandwala, pest control services lokhandwala mumbai, affordable pest control lokhandwala, emergency pest control lokhandwala, residential pest control lokhandwala, commercial pest control lokhandwala, pest control near me lokhandwala, same day pest control lokhandwala, eco friendly pest control lokhandwala, licensed pest control lokhandwala, guaranteed pest control lokhandwala, 24/7 pest control lokhandwala, pest exterminators lokhandwala, pest management lokhandwala, fumigation services lokhandwala, anti termite treatment lokhandwala, rodent control lokhandwala, mosquito control lokhandwala, lizard control lokhandwala, spider control lokhandwala, ant control lokhandwala, fly control lokhandwala, lokhandwala complex pest control, four bungalows pest control, oshiwara pest control, versova pest control, mumbai pest control',
+  title: 'Best Pest Control in Nahur | #1 Professional Services Mumbai | Super Pest Control',
+  description: 'Professional Pest Control Services in Nahur, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Nahur East, Nahur West, Bhandup, Mulund. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  keywords: 'pest control in nahur, best pest control nahur mumbai, professional pest control nahur, termite control nahur, cockroach control nahur, bed bug control nahur, pest control services nahur mumbai, affordable pest control nahur, emergency pest control nahur, residential pest control nahur, commercial pest control nahur, pest control near me nahur, same day pest control nahur, eco friendly pest control nahur, licensed pest control nahur, guaranteed pest control nahur, 24/7 pest control nahur, pest exterminators nahur, pest management nahur, fumigation services nahur, anti termite treatment nahur, rodent control nahur, mosquito control nahur, lizard control nahur, spider control nahur, ant control nahur, fly control nahur, nahur east pest control, nahur west pest control, bhandup pest control, mulund pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-lokhandwala",
+    canonical: "https://superpestcontrol.in/pest-control-in-nahur",
     languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-lokhandwala',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-lokhandwala',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-lokhandwala'
+      'en-IN': 'https://superpestcontrol.in/pest-control-in-nahur',
+      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-nahur',
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-nahur'
     }
   },
   openGraph: {
-    title: 'Professional Pest Control in Lokhandwala | Super Pest Control Services',
-    description: 'Get the best pest control services in Lokhandwala, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
-    url: 'https://superpestcontrol.in/pest-control-in-lokhandwala',
+    title: 'Professional Pest Control in Nahur | Super Pest Control Services',
+    description: 'Get the best pest control services in Nahur, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    url: 'https://superpestcontrol.in/pest-control-in-nahur',
     siteName: 'Super Pest Control',
     images: [
       {
-        url: 'https://superpestcontrol.in/images/pest-control-lokhandwala-banner.jpg',
+        url: 'https://superpestcontrol.in/images/pest-control-nahur-banner.jpg',
         width: 1200,
         height: 630,
-        alt: 'Professional Pest Control Services in Lokhandwala'
+        alt: 'Professional Pest Control Services in Nahur'
       }
     ],
     locale: 'en_IN',
@@ -31,21 +31,21 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Lokhandwala | Super Pest Control',
-    description: 'Professional pest control services in Lokhandwala, Mumbai with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.in/images/pest-control-lokhandwala-twitter.jpg'],
+    title: 'Best Pest Control in Nahur | Super Pest Control',
+    description: 'Professional pest control services in Nahur, Mumbai with guaranteed results. Call now for expert treatment!',
+    images: ['https://superpestcontrol.in/images/pest-control-nahur-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
   other: {
     'geo.region': 'IN-MH',
-    'geo.placename': 'Lokhandwala, Mumbai',
-    'geo.position': '19.1333;72.8327',
-    'ICBM': '19.1333, 72.8327',
+    'geo.placename': 'Nahur, Mumbai',
+    'geo.position': '19.2183;72.9781',
+    'ICBM': '19.2183, 72.9781',
   }
 };
 
-export default function PestControlInLokhandwalaLayout({
+export default function PestControlInNahurLayout({
   children,
 }: {
   children: React.ReactNode;
