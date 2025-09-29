@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-export default function PestControlInNahur() {
+export default function PestControlInOshiwara() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
@@ -17,25 +17,25 @@ export default function PestControlInNahur() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness",
-                "name": "Super Pest Control - Nahur",
-                "image": "https://superpestcontrol.in/images/pest-control-nahur-hero.jpg",
-                "description": "Professional Pest Control Services in Nahur, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-nahur",
+                "@id": "https://superpestcontrol.in/pest-control-in-oshiwara#localbusiness",
+                "name": "Super Pest Control - Oshiwara",
+                "image": "https://superpestcontrol.in/images/pest-control-oshiwara-hero.jpg",
+                "description": "Professional Pest Control Services in Oshiwara, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "url": "https://superpestcontrol.in/pest-control-in-oshiwara",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Nahur Service Area",
-                  "addressLocality": "Nahur",
+                  "streetAddress": "Oshiwara Service Area",
+                  "addressLocality": "Oshiwara",
                   "addressRegion": "Mumbai, Maharashtra",
-                  "postalCode": "400078",
+                  "postalCode": "400102",
                   "addressCountry": "IN"
                 },
                 "geo": {
                   "@type": "GeoCoordinates",
-                  "latitude": 19.2183,
-                  "longitude": 72.9781
+                  "latitude": 19.1490,
+                  "longitude": 72.8320
                 },
                 "openingHoursSpecification": {
                   "@type": "OpeningHoursSpecification",
@@ -49,8 +49,8 @@ export default function PestControlInNahur() {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
                     "@type": "GeoCoordinates",
-                    "latitude": 19.2183,
-                    "longitude": 72.9781
+                    "latitude": 19.1490,
+                    "longitude": 72.8320
                   },
                   "geoRadius": "15000"
                 },
@@ -63,13 +63,13 @@ export default function PestControlInNahur() {
                 },
                 "hasOfferCatalog": {
                   "@type": "OfferCatalog",
-                  "name": "Pest Control Services in Nahur",
+                  "name": "Pest Control Services in Oshiwara",
                   "itemListElement": [
                     {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Termite Control in Nahur",
+                        "name": "Termite Control in Oshiwara",
                         "description": "Professional anti-termite treatment with 5-year warranty"
                       }
                     },
@@ -77,7 +77,7 @@ export default function PestControlInNahur() {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Cockroach Control in Nahur",
+                        "name": "Cockroach Control in Oshiwara",
                         "description": "Complete cockroach elimination with gel baiting technique"
                       }
                     }
@@ -86,16 +86,16 @@ export default function PestControlInNahur() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#service",
-                "name": "Pest Control Services in Nahur",
-                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Nahur, Mumbai.",
+                "@id": "https://superpestcontrol.in/pest-control-in-oshiwara#service",
+                "name": "Pest Control Services in Oshiwara",
+                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Oshiwara, Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-oshiwara#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
                   "@type": "City",
-                  "name": "Nahur",
+                  "name": "Oshiwara",
                   "containedInPlace": {
                     "@type": "State",
                     "name": "Mumbai"
@@ -130,7 +130,7 @@ export default function PestControlInNahur() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-oshiwara#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -147,45 +147,45 @@ export default function PestControlInNahur() {
                   {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Pest Control in Nahur",
-                    "item": "https://superpestcontrol.in/pest-control-in-nahur"
+                    "name": "Pest Control in Oshiwara",
+                    "item": "https://superpestcontrol.in/pest-control-in-oshiwara"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-oshiwara#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "What is the cost of pest control in Nahur?",
+                    "name": "What is the cost of pest control in Oshiwara?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "The cost of pest control in Nahur ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                      "text": "The cost of pest control in Oshiwara ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "How long does pest control treatment last in Nahur?",
+                    "name": "How long does pest control treatment last in Oshiwara?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Our pest control treatments in Nahur typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
+                      "text": "Our pest control treatments in Oshiwara typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Is pest control safe for children and pets in Nahur homes?",
+                    "name": "Is pest control safe for children and pets in Oshiwara homes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we use child and pet-safe pest control methods in Nahur. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
+                      "text": "Yes, we use child and pet-safe pest control methods in Oshiwara. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Do you provide emergency pest control services in Nahur?",
+                    "name": "Do you provide emergency pest control services in Oshiwara?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we provide 24/7 emergency pest control services in Nahur. Call +91-9136036071 for immediate assistance with severe infestations."
+                      "text": "Yes, we provide 24/7 emergency pest control services in Oshiwara. Call +91-9136036071 for immediate assistance with severe infestations."
                     }
                   }
                 ]
@@ -217,7 +217,7 @@ export default function PestControlInNahur() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Nahur, Mumbai",
+                "description": "Professional Pest Control Services in Oshiwara, Mumbai",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -251,7 +251,7 @@ export default function PestControlInNahur() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Nahur&apos;s #1 Choice</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Oshiwara&apos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -332,7 +332,7 @@ export default function PestControlInNahur() {
         </div>
       </header>
 
-      {/* Modern SaaS Hero Section with Nahur Background */}
+      {/* Modern SaaS Hero Section with Oshiwara Background */}
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
@@ -352,7 +352,7 @@ export default function PestControlInNahur() {
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-white/20 backdrop-blur-sm text-white border border-white/30 mb-6 md:mb-8">
               <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-              #1 Rated Pest Control in Nahur - Professional Services Since 2014
+              #1 Rated Pest Control in Oshiwara - Professional Services Since 2014
             </div>
             
             {/* Main Headline - Zero Ranking Keyword Optimized */}
@@ -361,22 +361,22 @@ export default function PestControlInNahur() {
                 Expert Pest Control in
               </span>
               <br />
-              <span className="text-white">Nahur, Mumbai</span>
+              <span className="text-white">Oshiwara, Mumbai</span>
             </h1>
             
             {/* Secondary Keyword Heading */}
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-2 drop-shadow-lg">
-                Professional Pest Control in Nahur - 100% Guaranteed Results
+                Professional Pest Control in Oshiwara - 100% Guaranteed Results
               </h2>
               <h3 className="text-xl md:text-2xl font-semibold text-orange-200 drop-shadow-md">
-                Best Pest Control Services in Nahur | Same Day Treatment Available
+                Best Pest Control Services in Oshiwara | Same Day Treatment Available
               </h3>
             </div>
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Nahur, Mumbai? We are the top-rated pest control company near you, serving Nahur East, Nahur East, Nahur West, Bhandup, Mulund and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Nahur area.
+              Looking for professional pest control services in Oshiwara, Mumbai? We are the top-rated pest control company near you, serving Oshiwara East, Oshiwara East, Oshiwara West, Jogeshwari, Malad and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Oshiwara area.
             </p>
             
             {/* CTA Buttons */}
@@ -419,13 +419,13 @@ export default function PestControlInNahur() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Pest Control in Nahur
+                Pest Control in Oshiwara
               </span>
               <br />
               <span className="text-gray-800">Everything You Need to Know</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get instant answers to all your pest control questions for Nahur. Professional solutions with guaranteed results.
+              Get instant answers to all your pest control questions for Oshiwara. Professional solutions with guaranteed results.
             </p>
           </div>
 
@@ -435,11 +435,11 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">1</span>
-                What does pest control cost in Nahur?
+                What does pest control cost in Oshiwara?
               </h3>
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control in Nahur costs ₹500-₹5000</strong> depending on property size and pest type. 
+                  <strong>Pest control in Oshiwara costs ₹500-₹5000</strong> depending on property size and pest type. 
                   <span className="block mt-2">• Cockroach control: ₹800-₹1500</span>
                   <span className="block">• Termite treatment: ₹1500-₹5000</span>
                   <span className="block">• Bed bug control: ₹1200-₹2500</span>
@@ -455,18 +455,18 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">2</span>
-                Which is the best pest control service in Nahur?
+                Which is the best pest control service in Oshiwara?
               </h3>
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Super Pest Control is the #1 rated service in Nahur</strong> with 4.9/5 stars and 847+ reviews.
-                  <span className="block mt-2">• 10+ years of experience in Nahur</span>
+                  <strong>Super Pest Control is the #1 rated service in Oshiwara</strong> with 4.9/5 stars and 847+ reviews.
+                  <span className="block mt-2">• 10+ years of experience in Oshiwara</span>
                   <span className="block">• WHO-approved safe chemicals</span>
                   <span className="block">• Same-day service available</span>
                   <span className="block">• 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
-                  <p className="text-sm text-blue-700 font-medium">🏆 Nahur&apos;s most trusted pest control company</p>
+                  <p className="text-sm text-blue-700 font-medium">🏆 Oshiwara&apos;s most trusted pest control company</p>
                 </div>
               </div>
             </div>
@@ -475,11 +475,11 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">3</span>
-                How long does pest control last in Nahur?
+                How long does pest control last in Oshiwara?
               </h3>
               <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control treatments in Nahur last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
+                  <strong>Pest control treatments in Oshiwara last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
                   <span className="block mt-2">• General pest control: 6-12 months</span>
                   <span className="block">• Termite treatment: 5 years warranty</span>
                   <span className="block">• Cockroach control: 8-12 months</span>
@@ -495,11 +495,11 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-teal-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">4</span>
-                Is pest control safe for children and pets in Nahur?
+                Is pest control safe for children and pets in Oshiwara?
               </h3>
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Yes, our pest control in Nahur is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
+                  <strong>Yes, our pest control in Oshiwara is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
                   <span className="block mt-2">• Non-toxic to humans and pets</span>
                   <span className="block">• Odorless treatment options available</span>
                   <span className="block">• Child-safe application methods</span>
@@ -516,37 +516,37 @@ export default function PestControlInNahur() {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
             <h3 className="text-3xl font-bold text-center mb-8">
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Voice Search Answers for Nahur Pest Control
+                Voice Search Answers for Oshiwara Pest Control
               </span>
             </h3>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Nahur&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control provides the best pest control services in Nahur, Mumbai. Call +91-9136036071 for immediate service. Available 24/7.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Oshiwara&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Oshiwara, Mumbai. Call +91-9136036071 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Nahur&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control is Nahur&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Oshiwara&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control is Oshiwara&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Nahur&rdquo;</h4>
-                <p className="text-gray-700">Get emergency pest control in Nahur within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Oshiwara&rdquo;</h4>
+                <p className="text-gray-700">Get emergency pest control in Oshiwara within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Nahur prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Nahur starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Oshiwara prices&rdquo;</h4>
+                <p className="text-gray-700">Affordable pest control in Oshiwara starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
               </div>
             </div>
           </div>
 
           {/* Local SEO Optimized Section */}
           <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
-            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Nahur Right Now?</h3>
-            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Nahur, Mumbai</p>
+            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Oshiwara Right Now?</h3>
+            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Oshiwara, Mumbai</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
                 📞 Call +91-9136036071
@@ -593,7 +593,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/termites-control-navi mumbai.webp" 
-                  alt="Termite Control Nahur - Professional Anti-Termite Treatment"
+                  alt="Termite Control Oshiwara - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -601,7 +601,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Nahur - Professional Anti-Termite Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Oshiwara - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -635,7 +635,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/cockroach-control-navi mumbai.webp" 
-                  alt="Cockroach Control Nahur - Professional Cockroach Extermination"
+                  alt="Cockroach Control Oshiwara - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -643,8 +643,8 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Nahur - Professional Cockroach Extermination</h3>
-                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Nahur&apos;s climate with long-lasting protection.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Oshiwara - Professional Cockroach Extermination</h3>
+                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Oshiwara&apos;s climate with long-lasting protection.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -677,7 +677,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/rodents-control-navi mumbai.webp" 
-                  alt="Rodent Control Nahur - Professional Rat Mouse Control"
+                  alt="Rodent Control Oshiwara - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -685,7 +685,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Nahur - Professional Rat Mouse Control</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Oshiwara - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -719,7 +719,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/bed-bug-control-navi mumbai.webp" 
-                  alt="Bed Bug Control Nahur - Professional Bed Bug Treatment"
+                  alt="Bed Bug Control Oshiwara - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -727,7 +727,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Nahur - Professional Bed Bug Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Oshiwara - Professional Bed Bug Treatment</h3>
                 <p className="text-gray-600 text-sm">Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, furniture protection, and comprehensive room sanitization services.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -761,7 +761,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/ant-control-navi mumbai.webp" 
-                  alt="Ant Control Nahur - Professional Ant Extermination"
+                  alt="Ant Control Oshiwara - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -769,7 +769,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Nahur - Professional Ant Extermination</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Oshiwara - Professional Ant Extermination</h3>
                 <p className="text-gray-600 text-sm">Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species including pharaoh ants, carpenter ants, and common household ants.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -803,7 +803,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/mosquitoes-control-navi mumbai.webp" 
-                  alt="Mosquito Control Nahur - Professional Mosquito Treatment"
+                  alt="Mosquito Control Oshiwara - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -811,7 +811,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Nahur - Professional Mosquito Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Oshiwara - Professional Mosquito Treatment</h3>
                 <p className="text-gray-600 text-sm">Comprehensive mosquito management with breeding source elimination, fogging treatments, and larvicide applications. Special monsoon protection packages available.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -845,7 +845,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/spider-control-navi mumbai.webp" 
-                  alt="Spider Control Nahur - Professional Spider Removal"
+                  alt="Spider Control Oshiwara - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -853,8 +853,8 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Nahur - Professional Spider Removal</h3>
-                <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations in Nahur properties.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Oshiwara - Professional Spider Removal</h3>
+                <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations in Oshiwara properties.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -887,7 +887,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/lizard-control-navi mumbai.webp" 
-                  alt="Lizard Control Nahur - Professional Lizard Removal"
+                  alt="Lizard Control Oshiwara - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -895,8 +895,8 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Nahur - Professional Lizard Removal</h3>
-                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Nahur property.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Oshiwara - Professional Lizard Removal</h3>
+                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Oshiwara property.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -929,7 +929,7 @@ export default function PestControlInNahur() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/commercial-pest-control-navi mumbai.webp" 
-                  alt="Commercial Pest Control Nahur - Professional Business Solutions"
+                  alt="Commercial Pest Control Oshiwara - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -937,7 +937,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Nahur - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Oshiwara - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -990,10 +990,10 @@ export default function PestControlInNahur() {
                 Comprehensive Pest Management
               </span>
               <br />
-              <span className="text-gray-800">Services in Nahur & Beyond</span>
+              <span className="text-gray-800">Services in Oshiwara & Beyond</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our complete range of professional pest control services across Nahur, Mumbai and surrounding areas. 
+              Explore our complete range of professional pest control services across Oshiwara, Mumbai and surrounding areas. 
               Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
             </p>
           </div>
@@ -1010,7 +1010,7 @@ export default function PestControlInNahur() {
               <div className="space-y-3">
                 <Link href="/termites-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Termite Control Nahur - Anti-Termite Treatment
+                  Termite Control Oshiwara - Anti-Termite Treatment
                 </Link>
                 <Link href="/cockroach-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -1038,9 +1038,9 @@ export default function PestControlInNahur() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Juhu - Expert Team
                 </Link>
-                <Link href="/pest-control-in-nahur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-oshiwara" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Nahur - Professional Service
+                  Pest Control in Oshiwara - Professional Service
                 </Link>
                 <Link href="/pest-control-in-versova" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -1086,11 +1086,11 @@ export default function PestControlInNahur() {
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
                 <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                  Pest Control in Nahur - Complete Guide
+                  Pest Control in Oshiwara - Complete Guide
                 </span>
               </h3>
               <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-                Comprehensive pest control solutions for Nahur residents and businesses. From pest exterminators to pest management specialists.
+                Comprehensive pest control solutions for Oshiwara residents and businesses. From pest exterminators to pest management specialists.
               </p>
             </div>
 
@@ -1099,9 +1099,9 @@ export default function PestControlInNahur() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">🔍 Search Terms</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Pest Control in Nahur</div>
-                  <div>Pest Exterminators Nahur</div>
-                  <div>Pest Management Nahur</div>
+                  <div>Pest Control in Oshiwara</div>
+                  <div>Pest Exterminators Oshiwara</div>
+                  <div>Pest Management Oshiwara</div>
                   <div>Professional Pest Control</div>
                 </div>
               </div>
@@ -1119,7 +1119,7 @@ export default function PestControlInNahur() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">📍 Location Focus</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Nahur Mumbai</div>
+                  <div>Oshiwara Mumbai</div>
                   <div>Pest Control Near Me</div>
                   <div>Local Pest Service</div>
                   <div>Same Day Service</div>
@@ -1141,7 +1141,7 @@ export default function PestControlInNahur() {
             <div className="mt-8 text-center">
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-teal-500 text-white font-medium text-lg">
                 <span className="mr-2">✅</span>
-                Licensed • Certified • Trusted by 10,000+ Customers in Nahur
+                Licensed • Certified • Trusted by 10,000+ Customers in Oshiwara
               </div>
             </div>
           </div>
@@ -1190,8 +1190,8 @@ export default function PestControlInNahur() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-nahur',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-worli',
                   'pest-control-in-lower-parel',
                   'pest-control-in-parel'
@@ -1238,7 +1238,7 @@ export default function PestControlInNahur() {
                   'pest-control-in-bandra',
                   'pest-control-in-khar',
                   'pest-control-in-santacruz',
-                  'pest-control-in-bandra-nahur-complex'
+                  'pest-control-in-bandra-oshiwara-complex'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1272,13 +1272,13 @@ export default function PestControlInNahur() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-juhu',
                   'pest-control-in-vile-parle',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-goregaon',
                   'pest-control-in-malad',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-borivali',
                   'pest-control-in-dahisar'
                 ].map((location, index) => {
@@ -1316,13 +1316,13 @@ export default function PestControlInNahur() {
                 {[
                   'pest-control-in-chembur',
                   'pest-control-in-ghatkopar',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-powai',
                   'pest-control-in-vikhroli',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-bhandup',
                   'pest-control-in-mulund',
-                  'pest-control-in-nahur'
+                  'pest-control-in-oshiwara'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1361,7 +1361,7 @@ export default function PestControlInNahur() {
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
                   'pest-control-in-vashi',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-kopar-khairane',
                   'pest-control-in-turbhe',
                   'pest-control-in-rabale',
@@ -1369,7 +1369,7 @@ export default function PestControlInNahur() {
                   'pest-control-in-urse',
                   'pest-control-in-sanpada',
                   'pest-control-in-seawoods',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-kamothe',
                   'pest-control-in-kalamboli',
                   'pest-control-in-panvel',
@@ -1417,10 +1417,10 @@ export default function PestControlInNahur() {
                   'pest-control-in-bhiwandi',
                   'pest-control-in-mumbra',
                   'pest-control-in-ulhasnagar',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-badlapur',
                   'pest-control-in-diva',
-                  'pest-control-in-nahur',
+                  'pest-control-in-oshiwara',
                   'pest-control-in-ghodbunder-road'
                 ].map((location, index) => {
                   const locationName = location
@@ -1625,7 +1625,7 @@ export default function PestControlInNahur() {
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🪳</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Professional Gel & Spray Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Advanced gel baiting and targeted spray solutions designed specifically for Nahur&apos;s climate conditions.
+                  Advanced gel baiting and targeted spray solutions designed specifically for Oshiwara&apos;s climate conditions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-300">
@@ -1863,11 +1863,11 @@ export default function PestControlInNahur() {
             </div>
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Complete Guide to Pest Control In Nahur
+                Complete Guide to Pest Control In Oshiwara
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover everything you need to know about professional pest management services in Nahur, Mumbai. 
+              Discover everything you need to know about professional pest management services in Oshiwara, Mumbai. 
               From common pest challenges to advanced treatment solutions, we provide comprehensive information to help you make informed decisions.
             </p>
           </div>
@@ -1875,33 +1875,33 @@ export default function PestControlInNahur() {
           {/* Content Grid */}
           <div className="grid lg:grid-cols-3 gap-12 mb-16">
             
-            {/* Understanding Nahur's Pest Challenges */}
+            {/* Understanding Oshiwara's Pest Challenges */}
             <div className="lg:col-span-2 space-y-8">
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
                 <h3 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                   <span className="w-3 h-3 bg-orange-500 rounded-full mr-3"></span>
-                  Understanding Pest Control In Nahur: Climate and Environmental Factors
+                  Understanding Pest Control In Oshiwara: Climate and Environmental Factors
                 </h3>
                 <div className="prose prose-lg text-gray-700 leading-relaxed">
                   <p className="mb-6">
-                    Nahur, strategically located in Mumbai, presents unique challenges for pest control due to its urban climate and high-density residential and commercial development. 
+                    Oshiwara, strategically located in Mumbai, presents unique challenges for pest control due to its urban climate and high-density residential and commercial development. 
                     The area&apos;s growing residential environment creates conditions that provide breeding grounds for various pests. 
-                    Understanding these environmental factors is crucial for effective <strong>Pest Control In Nahur</strong>.
+                    Understanding these environmental factors is crucial for effective <strong>Pest Control In Oshiwara</strong>.
                   </p>
                   <p className="mb-6">
                     The monsoon season, typically lasting from June to September, brings increased humidity levels that can reach up to 85-90%. 
                     This moisture creates perfect conditions for cockroaches, termites, and various flying insects to thrive. 
-                    Professional <strong>Pest Control In Nahur</strong> services must account for these seasonal variations to provide year-round protection.
+                    Professional <strong>Pest Control In Oshiwara</strong> services must account for these seasonal variations to provide year-round protection.
                   </p>
                   <p className="mb-6">
-                    Urban development in Nahur has led to rapid construction activities, which often disturb natural pest habitats and drive them into residential and commercial spaces. 
+                    Urban development in Oshiwara has led to rapid construction activities, which often disturb natural pest habitats and drive them into residential and commercial spaces. 
                     The presence of construction debris, water accumulation in building sites, and temporary food sources attracts rodents, ants, and other pests. 
-                    This makes comprehensive <strong>Pest Control In Nahur</strong> essential for both new and established properties.
+                    This makes comprehensive <strong>Pest Control In Oshiwara</strong> essential for both new and established properties.
                   </p>
                   <p>
                     The area&apos;s well-connected transportation network, including proximity to major highways and the railway station, 
                     facilitates the movement of pests from one location to another. This connectivity requires specialized 
-                    <strong>Pest Control In Nahur</strong> strategies that focus on prevention and early intervention.
+                    <strong>Pest Control In Oshiwara</strong> strategies that focus on prevention and early intervention.
                   </p>
                 </div>
               </div>
@@ -1913,24 +1913,24 @@ export default function PestControlInNahur() {
                 </h3>
                 <div className="prose prose-lg text-gray-700 leading-relaxed">
                   <p className="mb-6">
-                    Residential and commercial properties in Nahur face diverse pest challenges that require specialized <strong>Pest Control In Nahur</strong> solutions. 
+                    Residential and commercial properties in Oshiwara face diverse pest challenges that require specialized <strong>Pest Control In Oshiwara</strong> solutions. 
                     Termites pose the most significant structural threat, with subterranean termites being particularly problematic due to the area&apos;s soil conditions. 
                     These silent destroyers can cause extensive damage to wooden structures, furniture, and important documents before detection.
                   </p>
                   <p className="mb-6">
-                    Cockroach infestations are extremely common in Nahur&apos;s humid environment, with German cockroaches and American cockroaches being the primary species. 
+                    Cockroach infestations are extremely common in Oshiwara&apos;s humid environment, with German cockroaches and American cockroaches being the primary species. 
                     These pests not only contaminate food sources but also spread diseases such as salmonella, dysentery, and gastroenteritis. 
-                    Effective <strong>Pest Control In Nahur</strong> for cockroaches requires understanding their hiding spots, breeding patterns, and food preferences.
+                    Effective <strong>Pest Control In Oshiwara</strong> for cockroaches requires understanding their hiding spots, breeding patterns, and food preferences.
                   </p>
                   <p className="mb-6">
                     Rodent problems, particularly rats and mice, are prevalent due to the availability of food sources and nesting materials in both residential and commercial areas. 
                     These pests can cause structural damage by gnawing through wires, pipes, and insulation materials. They also pose serious health risks by transmitting diseases like leptospirosis, 
-                    hantavirus, and plague. Professional <strong>Pest Control In Nahur</strong> services implement comprehensive rodent management programs that include trapping, baiting, and exclusion techniques.
+                    hantavirus, and plague. Professional <strong>Pest Control In Oshiwara</strong> services implement comprehensive rodent management programs that include trapping, baiting, and exclusion techniques.
                   </p>
                   <p>
                     Ant infestations, particularly pharaoh ants and black garden ants, create significant nuisances in kitchens, pantries, and food storage areas. 
                     These social insects form extensive colonies that can quickly spread throughout a property. 
-                    Specialized <strong>Pest Control In Nahur</strong> treatments target both visible ants and their hidden colonies to ensure complete elimination.
+                    Specialized <strong>Pest Control In Oshiwara</strong> treatments target both visible ants and their hidden colonies to ensure complete elimination.
                   </p>
                 </div>
               </div>
@@ -1971,7 +1971,7 @@ export default function PestControlInNahur() {
               <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl p-6 shadow-xl border border-green-100">
                 <h4 className="text-xl font-bold text-gray-900 mb-4">Emergency Services</h4>
                 <p className="text-sm text-gray-700 mb-4">
-                  <strong>Pest Control In Nahur</strong> emergency services are available 24/7 for urgent infestations that pose immediate health or safety risks.
+                  <strong>Pest Control In Oshiwara</strong> emergency services are available 24/7 for urgent infestations that pose immediate health or safety risks.
                 </p>
                 <div className="space-y-2 text-sm text-gray-700">
                   <div className="flex items-center">
@@ -1998,28 +1998,28 @@ export default function PestControlInNahur() {
           {/* Advanced Treatment Methods */}
           <div className="bg-gradient-to-br from-gray-900 to-blue-900 rounded-3xl p-12 text-white mb-16">
             <h3 className="text-4xl font-bold mb-8 text-center">
-              Advanced Treatment Methods for <span className="text-orange-400">Pest Control In Nahur</span>
+              Advanced Treatment Methods for <span className="text-orange-400">Pest Control In Oshiwara</span>
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h4 className="text-2xl font-semibold mb-4 text-blue-300">Chemical Treatments</h4>
                 <p className="text-gray-300 mb-4">
-                  Modern <strong>Pest Control In Nahur</strong> utilizes advanced chemical formulations that are both effective against pests and safe for humans and pets. 
+                  Modern <strong>Pest Control In Oshiwara</strong> utilizes advanced chemical formulations that are both effective against pests and safe for humans and pets. 
                   These treatments include targeted gel baits for cockroaches, liquid termiticides for soil treatment, and specialized rodenticides with safety mechanisms.
                 </p>
                 <p className="text-gray-300">
-                  All chemical treatments used in <strong>Pest Control In Nahur</strong> are approved by the Central Insecticides Board & Registration Committee (CIB&RC) 
+                  All chemical treatments used in <strong>Pest Control In Oshiwara</strong> are approved by the Central Insecticides Board & Registration Committee (CIB&RC) 
                   and follow strict safety protocols to minimize environmental impact while maximizing pest elimination effectiveness.
                 </p>
               </div>
               <div>
                 <h4 className="text-2xl font-semibold mb-4 text-green-300">Eco-Friendly Solutions</h4>
                 <p className="text-gray-300 mb-4">
-                  Sustainable <strong>Pest Control In Nahur</strong> options include biological control methods, essential oil-based treatments, and physical exclusion techniques. 
+                  Sustainable <strong>Pest Control In Oshiwara</strong> options include biological control methods, essential oil-based treatments, and physical exclusion techniques. 
                   These environmentally conscious approaches are particularly popular among families with children, elderly members, and those with chemical sensitivities.
                 </p>
                 <p className="text-gray-300">
-                  Integrated Pest Management (IPM) strategies form the foundation of eco-friendly <strong>Pest Control In Nahur</strong>, 
+                  Integrated Pest Management (IPM) strategies form the foundation of eco-friendly <strong>Pest Control In Oshiwara</strong>, 
                   combining multiple approaches to achieve long-term pest control while minimizing chemical usage.
                 </p>
               </div>
@@ -2030,21 +2030,21 @@ export default function PestControlInNahur() {
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
               <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                Selecting the Right <span className="text-orange-600">Pest Control In Nahur</span> Service
+                Selecting the Right <span className="text-orange-600">Pest Control In Oshiwara</span> Service
               </h3>
               <div className="prose prose-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                  Choosing the appropriate <strong>Pest Control In Nahur</strong> service requires careful consideration of several factors including the type of pest, 
+                  Choosing the appropriate <strong>Pest Control In Oshiwara</strong> service requires careful consideration of several factors including the type of pest, 
                   severity of infestation, property size, and budget constraints. Professional services offer various treatment packages ranging from one-time treatments 
                   to comprehensive annual maintenance contracts.
                 </p>
                 <p className="mb-4">
-                  Licensed <strong>Pest Control In Nahur</strong> providers should possess valid certifications from relevant authorities and demonstrate expertise 
+                  Licensed <strong>Pest Control In Oshiwara</strong> providers should possess valid certifications from relevant authorities and demonstrate expertise 
                   in handling different pest species. Look for companies that offer detailed inspection reports, treatment plans, and follow-up services to ensure 
                   complete pest elimination.
                 </p>
                 <p>
-                  The best <strong>Pest Control In Nahur</strong> services provide transparent pricing, use quality-approved chemicals, 
+                  The best <strong>Pest Control In Oshiwara</strong> services provide transparent pricing, use quality-approved chemicals, 
                   offer warranties on their treatments, and maintain proper insurance coverage for customer protection.
                 </p>
               </div>
@@ -2056,17 +2056,17 @@ export default function PestControlInNahur() {
               </h3>
               <div className="prose prose-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                  Investment in professional <strong>Pest Control In Nahur</strong> varies significantly based on property size, pest type, and treatment complexity. 
+                  Investment in professional <strong>Pest Control In Oshiwara</strong> varies significantly based on property size, pest type, and treatment complexity. 
                   Basic cockroach treatments typically range from ₹1,500 to ₹3,000, while comprehensive termite protection can cost between ₹8,000 to ₹25,000 
                   depending on property area and soil treatment requirements.
                 </p>
                 <p className="mb-4">
-                  Annual maintenance contracts for <strong>Pest Control In Nahur</strong> often provide better value compared to individual treatments, 
+                  Annual maintenance contracts for <strong>Pest Control In Oshiwara</strong> often provide better value compared to individual treatments, 
                   especially for properties prone to recurring pest problems. These contracts typically include quarterly inspections, 
                   preventive treatments, and emergency response services.
                 </p>
                 <p>
-                  Consider <strong>Pest Control In Nahur</strong> as a long-term investment in property protection and family health. 
+                  Consider <strong>Pest Control In Oshiwara</strong> as a long-term investment in property protection and family health. 
                   Early intervention prevents extensive damage and reduces overall treatment costs compared to emergency pest control situations.
                 </p>
               </div>
@@ -2076,7 +2076,7 @@ export default function PestControlInNahur() {
           {/* Prevention and Maintenance */}
           <div className="bg-gradient-to-r from-orange-100 via-white to-blue-100 rounded-3xl p-12">
             <h3 className="text-4xl font-bold text-center text-gray-900 mb-8">
-              Prevention Strategies to Complement <span className="text-orange-600">Pest Control In Nahur</span>
+              Prevention Strategies to Complement <span className="text-orange-600">Pest Control In Oshiwara</span>
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
@@ -2085,7 +2085,7 @@ export default function PestControlInNahur() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Property Maintenance</h4>
                 <p className="text-gray-700 text-sm">
-                  Regular property maintenance significantly enhances the effectiveness of <strong>Pest Control In Nahur</strong> treatments. 
+                  Regular property maintenance significantly enhances the effectiveness of <strong>Pest Control In Oshiwara</strong> treatments. 
                   This includes sealing cracks, fixing water leaks, maintaining proper drainage, and removing debris that attracts pests.
                 </p>
               </div>
@@ -2095,7 +2095,7 @@ export default function PestControlInNahur() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Hygiene Practices</h4>
                 <p className="text-gray-700 text-sm">
-                  Maintaining high hygiene standards works synergistically with professional <strong>Pest Control In Nahur</strong> services. 
+                  Maintaining high hygiene standards works synergistically with professional <strong>Pest Control In Oshiwara</strong> services. 
                   Regular cleaning, proper food storage, and waste management eliminate pest attractants and breeding sites.
                 </p>
               </div>
@@ -2105,7 +2105,7 @@ export default function PestControlInNahur() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Early Detection</h4>
                 <p className="text-gray-700 text-sm">
-                  Regular monitoring and early detection of pest activity maximize the success of <strong>Pest Control In Nahur</strong> interventions. 
+                  Regular monitoring and early detection of pest activity maximize the success of <strong>Pest Control In Oshiwara</strong> interventions. 
                   Look for signs like droppings, damage patterns, unusual sounds, or unexplained marks on walls and furniture.
                 </p>
               </div>
@@ -2115,26 +2115,26 @@ export default function PestControlInNahur() {
           {/* Technology and Innovation */}
           <div className="mt-16 bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
             <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-              Technology and Innovation in Modern <span className="text-blue-600">Pest Control In Nahur</span>
+              Technology and Innovation in Modern <span className="text-blue-600">Pest Control In Oshiwara</span>
             </h3>
             <div className="prose prose-lg text-gray-700 leading-relaxed max-w-none">
               <p className="mb-6">
-                Contemporary <strong>Pest Control In Nahur</strong> services leverage cutting-edge technology to enhance treatment effectiveness and safety. 
+                Contemporary <strong>Pest Control In Oshiwara</strong> services leverage cutting-edge technology to enhance treatment effectiveness and safety. 
                 Digital monitoring systems, smart traps, and IoT-enabled devices provide real-time pest activity data, enabling proactive pest management strategies. 
                 These technological advances allow pest control professionals to identify problem areas quickly and deploy targeted treatments.
               </p>
               <p className="mb-6">
-                Thermal imaging technology has revolutionized termite detection in <strong>Pest Control In Nahur</strong>, allowing technicians to identify 
+                Thermal imaging technology has revolutionized termite detection in <strong>Pest Control In Oshiwara</strong>, allowing technicians to identify 
                 termite activity within walls and wooden structures without destructive inspection methods. This non-invasive approach saves property owners 
                 from unnecessary repair costs while ensuring comprehensive termite detection and treatment planning.
               </p>
               <p className="mb-6">
-                Advanced baiting systems used in modern <strong>Pest Control In Nahur</strong> services incorporate slow-acting toxicants that allow pests 
+                Advanced baiting systems used in modern <strong>Pest Control In Oshiwara</strong> services incorporate slow-acting toxicants that allow pests 
                 to return to their colonies before the effects take place. This approach ensures colony-wide elimination rather than just killing individual pests, 
-                providing more thorough and long-lasting results for properties throughout Nahur.
+                providing more thorough and long-lasting results for properties throughout Oshiwara.
               </p>
               <p>
-                Mobile applications and digital reporting systems have improved customer communication and service transparency in <strong>Pest Control In Nahur</strong>. 
+                Mobile applications and digital reporting systems have improved customer communication and service transparency in <strong>Pest Control In Oshiwara</strong>. 
                 Customers can schedule appointments, track service history, receive treatment reports, and access preventive care tips through user-friendly digital platforms, 
                 making pest control management more convenient and efficient.
               </p>
@@ -2163,10 +2163,10 @@ export default function PestControlInNahur() {
                 Voice Search Answers for
               </span>
               <br />
-              <span className="text-white">Pest Control in Nahur</span>
+              <span className="text-white">Pest Control in Oshiwara</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Get instant voice search answers for all your pest control needs in Nahur, Mumbai
+              Get instant voice search answers for all your pest control needs in Oshiwara, Mumbai
             </p>
           </div>
 
@@ -2179,9 +2179,9 @@ export default function PestControlInNahur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🎙️</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Nahur today?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Oshiwara today?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control is located in Nahur, Mumbai, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
+                Super Pest Control is located in Oshiwara, Mumbai, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
               </p>
               <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-400/30">
                 <p className="text-green-300 text-sm font-medium">✅ Available today • Call +91-9136036071</p>
@@ -2194,9 +2194,9 @@ export default function PestControlInNahur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🗣️</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Nahur area?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Oshiwara area?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Pest control costs in Nahur start from ₹500 for basic treatments and go up to ₹5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
+                Pest control costs in Oshiwara start from ₹500 for basic treatments and go up to ₹5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
               </p>
               <div className="mt-4 p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
                 <p className="text-blue-300 text-sm font-medium">💰 Free quote • Best prices guaranteed</p>
@@ -2209,9 +2209,9 @@ export default function PestControlInNahur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🎯</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Nahur, Mumbai?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Oshiwara, Mumbai?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control has the highest ratings in Nahur with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
+                Super Pest Control has the highest ratings in Oshiwara with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
               </p>
               <div className="mt-4 p-3 bg-purple-500/20 rounded-lg border border-purple-400/30">
                 <p className="text-purple-300 text-sm font-medium">⭐ 4.9/5 stars • 847+ reviews</p>
@@ -2224,9 +2224,9 @@ export default function PestControlInNahur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">⚡</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Can I get emergency pest control service in Nahur right now?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Can I get emergency pest control service in Oshiwara right now?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Yes, we provide 24/7 emergency pest control services in Nahur. Call us now at +91-9136036071 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
+                Yes, we provide 24/7 emergency pest control services in Oshiwara. Call us now at +91-9136036071 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
               </p>
               <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
                 <p className="text-red-300 text-sm font-medium">🚨 24/7 emergency • 2-hour response</p>
@@ -2239,9 +2239,9 @@ export default function PestControlInNahur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🏠</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Nahur apartments?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Oshiwara apartments?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Our pest control treatments in Nahur are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
+                Our pest control treatments in Oshiwara are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
               </p>
               <div className="mt-4 p-3 bg-teal-500/20 rounded-lg border border-teal-400/30">
                 <p className="text-teal-300 text-sm font-medium">👶 Child-safe • Pet-friendly certified</p>
@@ -2254,9 +2254,9 @@ export default function PestControlInNahur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">📅</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Nahur?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Oshiwara?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                For homes in Nahur, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
+                For homes in Oshiwara, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
               </p>
               <div className="mt-4 p-3 bg-yellow-500/20 rounded-lg border border-yellow-400/30">
                 <p className="text-yellow-300 text-sm font-medium">🕐 6-12 month intervals • 5-year termite warranty</p>
@@ -2276,17 +2276,17 @@ export default function PestControlInNahur() {
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
                 <div className="text-4xl mb-4">📱</div>
                 <h4 className="font-bold mb-2">Google Assistant</h4>
-                <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Nahur&rdquo;</p>
+                <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Oshiwara&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
                 <div className="text-4xl mb-4">🎵</div>
                 <h4 className="font-bold mb-2">Siri</h4>
-                <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Nahur&rdquo;</p>
+                <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Oshiwara&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
                 <div className="text-4xl mb-4">🔵</div>
                 <h4 className="font-bold mb-2">Alexa</h4>
-                <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Nahur reviews&rdquo;</p>
+                <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Oshiwara reviews&rdquo;</p>
               </div>
             </div>
             
@@ -2330,7 +2330,7 @@ export default function PestControlInNahur() {
               <span className="text-gray-900">Questions & Answers</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Your Nahur pest problems solved! Get instant answers to the most common questions about our professional pest control services.
+              Your Oshiwara pest problems solved! Get instant answers to the most common questions about our professional pest control services.
             </p>
           </div>
 
@@ -2350,7 +2350,7 @@ export default function PestControlInNahur() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      What is the best pest control service in Nahur?
+                      What is the best pest control service in Oshiwara?
                     </h3>
                   </div>
                   
@@ -2360,7 +2360,7 @@ export default function PestControlInNahur() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Super Pest Control Nahur is the #1 rated pest control service in Nahur, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
+                      Super Pest Control Oshiwara is the #1 rated pest control service in Oshiwara, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
                     </p>
                   </div>
                 </div>
@@ -2380,7 +2380,7 @@ export default function PestControlInNahur() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How much does pest control cost in Nahur?
+                      How much does pest control cost in Oshiwara?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2388,7 +2388,7 @@ export default function PestControlInNahur() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Pest control in Nahur costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
+                      Pest control in Oshiwara costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
                     </p>
                   </div>
                 </div>
@@ -2406,7 +2406,7 @@ export default function PestControlInNahur() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      Which pest control is best for cockroaches in Nahur?
+                      Which pest control is best for cockroaches in Oshiwara?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2414,7 +2414,7 @@ export default function PestControlInNahur() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Super Pest Control Nahur provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Nahur&apos;s climate with 100% satisfaction guarantee.
+                      Super Pest Control Oshiwara provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Oshiwara&apos;s climate with 100% satisfaction guarantee.
                     </p>
                   </div>
                 </div>
@@ -2432,7 +2432,7 @@ export default function PestControlInNahur() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How to get rid of termites in Nahur homes permanently?
+                      How to get rid of termites in Oshiwara homes permanently?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2458,7 +2458,7 @@ export default function PestControlInNahur() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      What are the best pest control methods for Nahur climate?
+                      What are the best pest control methods for Oshiwara climate?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2466,7 +2466,7 @@ export default function PestControlInNahur() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Nahur&apos;s climate requires specialized pest control methods including moisture control, targeted treatments for seasonal pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests.
+                      Oshiwara&apos;s climate requires specialized pest control methods including moisture control, targeted treatments for seasonal pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests.
                     </p>
                   </div>
                 </div>
@@ -2484,7 +2484,7 @@ export default function PestControlInNahur() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How often should I get pest control done in Nahur?
+                      How often should I get pest control done in Oshiwara?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2492,7 +2492,7 @@ export default function PestControlInNahur() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      For optimal protection in Nahur, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
+                      For optimal protection in Oshiwara, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
                     </p>
                   </div>
                 </div>
@@ -2750,27 +2750,27 @@ export default function PestControlInNahur() {
           <div className="text-center">
             <h4 className="text-2xl md:text-3xl font-bold mb-4">
               <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                Pest Control in Nahur
+                Pest Control in Oshiwara
               </span>
               <span className="text-white"> - Your Trusted Partner</span>
             </h4>
             <div className="grid md:grid-cols-3 gap-8 text-sm">
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Why Choose Pest Control in Nahur by Super Pest Control?</h5>
-                <p className="text-gray-300">We provide the most reliable pest control in Nahur with guaranteed results. Our expert pest control in Nahur services include termite control, cockroach elimination, and comprehensive pest management solutions.</p>
+                <h5 className="font-bold mb-2 text-yellow-300">Why Choose Pest Control in Oshiwara by Super Pest Control?</h5>
+                <p className="text-gray-300">We provide the most reliable pest control in Oshiwara with guaranteed results. Our expert pest control in Oshiwara services include termite control, cockroach elimination, and comprehensive pest management solutions.</p>
               </div>
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Professional Pest Control in Nahur Services</h5>
-                <p className="text-gray-300">From residential to commercial pest control in Nahur, we offer complete pest extermination services. Our licensed pest control in Nahur team ensures 100% safe and effective treatments.</p>
+                <h5 className="font-bold mb-2 text-yellow-300">Professional Pest Control in Oshiwara Services</h5>
+                <p className="text-gray-300">From residential to commercial pest control in Oshiwara, we offer complete pest extermination services. Our licensed pest control in Oshiwara team ensures 100% safe and effective treatments.</p>
               </div>
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Nahur Available 24/7</h5>
-                <p className="text-gray-300">Need immediate pest control in Nahur? Call us anytime for emergency pest control in Nahur. We provide same-day pest control in Nahur with guaranteed satisfaction and long-lasting results.</p>
+                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Oshiwara Available 24/7</h5>
+                <p className="text-gray-300">Need immediate pest control in Oshiwara? Call us anytime for emergency pest control in Oshiwara. We provide same-day pest control in Oshiwara with guaranteed satisfaction and long-lasting results.</p>
               </div>
             </div>
             <div className="mt-6 text-center">
               <p className="text-lg font-semibold text-orange-300">
-                🏆 #1 Pest Control in Nahur | 4.9★ Rating | 10,000+ Happy Customers | Best Pest Control in Nahur Since 2014
+                🏆 #1 Pest Control in Oshiwara | 4.9★ Rating | 10,000+ Happy Customers | Best Pest Control in Oshiwara Since 2014
               </p>
             </div>
           </div>

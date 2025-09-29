@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Nahur | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Nahur, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Nahur East, Nahur West, Bhandup, Mulund. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
-  keywords: 'pest control in nahur, best pest control nahur mumbai, professional pest control nahur, termite control nahur, cockroach control nahur, bed bug control nahur, pest control services nahur mumbai, affordable pest control nahur, emergency pest control nahur, residential pest control nahur, commercial pest control nahur, pest control near me nahur, same day pest control nahur, eco friendly pest control nahur, licensed pest control nahur, guaranteed pest control nahur, 24/7 pest control nahur, pest exterminators nahur, pest management nahur, fumigation services nahur, anti termite treatment nahur, rodent control nahur, mosquito control nahur, lizard control nahur, spider control nahur, ant control nahur, fly control nahur, nahur east pest control, nahur west pest control, bhandup pest control, mulund pest control, mumbai pest control',
+  title: 'Best Pest Control in Oshiwara | #1 Professional Services Mumbai | Super Pest Control',
+  description: 'Professional Pest Control Services in Oshiwara, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Oshiwara East, Oshiwara West, Jogeshwari, Malad. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  keywords: 'pest control in oshiwara, best pest control oshiwara mumbai, professional pest control oshiwara, termite control oshiwara, cockroach control oshiwara, bed bug control oshiwara, pest control services oshiwara mumbai, affordable pest control oshiwara, emergency pest control oshiwara, residential pest control oshiwara, commercial pest control oshiwara, pest control near me oshiwara, same day pest control oshiwara, eco friendly pest control oshiwara, licensed pest control oshiwara, guaranteed pest control oshiwara, 24/7 pest control oshiwara, pest exterminators oshiwara, pest management oshiwara, fumigation services oshiwara, anti termite treatment oshiwara, rodent control oshiwara, mosquito control oshiwara, lizard control oshiwara, spider control oshiwara, ant control oshiwara, fly control oshiwara, oshiwara east pest control, oshiwara west pest control, jogeshwari pest control, malad pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-nahur",
+    canonical: "https://superpestcontrol.in/pest-control-in-oshiwara",
     languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-nahur',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-nahur',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-nahur'
+      'en-IN': 'https://superpestcontrol.in/pest-control-in-oshiwara',
+      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-oshiwara',
+      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-oshiwara'
     }
   },
   openGraph: {
-    title: 'Professional Pest Control in Nahur | Super Pest Control Services',
-    description: 'Get the best pest control services in Nahur, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
-    url: 'https://superpestcontrol.in/pest-control-in-nahur',
+    title: 'Professional Pest Control in Oshiwara | Super Pest Control Services',
+    description: 'Get the best pest control services in Oshiwara, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    url: 'https://superpestcontrol.in/pest-control-in-oshiwara',
     siteName: 'Super Pest Control',
     images: [
       {
-        url: 'https://superpestcontrol.in/images/pest-control-nahur-banner.jpg',
+        url: 'https://superpestcontrol.in/images/pest-control-oshiwara-banner.jpg',
         width: 1200,
         height: 630,
-        alt: 'Professional Pest Control Services in Nahur'
+        alt: 'Professional Pest Control Services in Oshiwara'
       }
     ],
     locale: 'en_IN',
@@ -31,21 +31,21 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Nahur | Super Pest Control',
-    description: 'Professional pest control services in Nahur, Mumbai with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.in/images/pest-control-nahur-twitter.jpg'],
+    title: 'Best Pest Control in Oshiwara | Super Pest Control',
+    description: 'Professional pest control services in Oshiwara, Mumbai with guaranteed results. Call now for expert treatment!',
+    images: ['https://superpestcontrol.in/images/pest-control-oshiwara-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
   other: {
     'geo.region': 'IN-MH',
-    'geo.placename': 'Nahur, Mumbai',
-    'geo.position': '19.2183;72.9781',
-    'ICBM': '19.2183, 72.9781',
+    'geo.placename': 'Oshiwara, Mumbai',
+    'geo.position': '19.1490;72.8320',
+    'ICBM': '19.1490, 72.8320',
   }
 };
 
-export default function PestControlInNahurLayout({
+export default function PestControlInOshiwaraLayout({
   children,
 }: {
   children: React.ReactNode;
