@@ -17,11 +17,11 @@ export default function PestControlInTurbhe() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness",
+                "@id": "https://superpestcontrol.in/pest-control-in-turbhe#localbusiness",
                 "name": "Super Pest Control - Turbhe",
-                "image": "https://superpestcontrol.in/images/pest-control-nahur-hero.jpg",
+                "image": "https://superpestcontrol.in/images/location/mumbai.webp",
                 "description": "Professional Pest Control Services in Turbhe, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-nahur",
+                "url": "https://superpestcontrol.in/pest-control-in-turbhe",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
@@ -44,7 +44,6 @@ export default function PestControlInTurbhe() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -86,11 +85,11 @@ export default function PestControlInTurbhe() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-turbhe#service",
                 "name": "Pest Control Services in Turbhe",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Turbhe, Navi Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-turbhe#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -98,7 +97,7 @@ export default function PestControlInTurbhe() {
                   "name": "Turbhe",
                   "containedInPlace": {
                     "@type": "State",
-                    "name": "Navi Mumbai"
+                    "name": "Maharashtra"
                   }
                 },
                 "hasOfferCatalog": {
@@ -130,7 +129,7 @@ export default function PestControlInTurbhe() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-turbhe#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -148,13 +147,13 @@ export default function PestControlInTurbhe() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Turbhe",
-                    "item": "https://superpestcontrol.in/pest-control-in-nahur"
+                    "item": "https://superpestcontrol.in/pest-control-in-turbhe"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-turbhe#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
