@@ -2528,9 +2528,9 @@ export default function PestControlInWorli() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Find Us on Google</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Pest Control In Worli - Service Locations</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Visit our Google Business profiles to see reviews, photos, and get directions to our locations.
+              Our professional pest control teams serve Worli and surrounding Mumbai areas. Contact us for immediate pest control services in Worli with guaranteed results and same-day availability.
             </p>
           </div>
           
