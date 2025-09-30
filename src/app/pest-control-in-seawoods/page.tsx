@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-export default function PestControlInNahur() {
+export default function PestControlInSeawoods() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
@@ -17,25 +17,25 @@ export default function PestControlInNahur() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness",
-                "name": "Super Pest Control - Nahur",
-                "image": "https://superpestcontrol.in/images/pest-control-nahur-hero.jpg",
-                "description": "Professional Pest Control Services in Nahur, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-nahur",
+                "@id": "https://superpestcontrol.in/pest-control-in-seawoods#localbusiness",
+                "name": "Super Pest Control - Seawoods",
+                "image": "https://superpestcontrol.in/images/pest-control-seawoods-hero.jpg",
+                "description": "Professional Pest Control Services in Seawoods, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "url": "https://superpestcontrol.in/pest-control-in-seawoods",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Nahur Service Area",
-                  "addressLocality": "Nahur",
-                  "addressRegion": "Mumbai, Maharashtra",
-                  "postalCode": "400078",
+                  "streetAddress": "Seawoods Service Area",
+                  "addressLocality": "Seawoods",
+                  "addressRegion": "Navi Mumbai, Maharashtra",
+                  "postalCode": "400706",
                   "addressCountry": "IN"
                 },
                 "geo": {
                   "@type": "GeoCoordinates",
-                  "latitude": 19.2183,
-                  "longitude": 72.9781
+                  "latitude": 19.0186,
+                  "longitude": 73.0169
                 },
                 "openingHoursSpecification": {
                   "@type": "OpeningHoursSpecification",
@@ -44,7 +44,6 @@ export default function PestControlInNahur() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -63,13 +62,13 @@ export default function PestControlInNahur() {
                 },
                 "hasOfferCatalog": {
                   "@type": "OfferCatalog",
-                  "name": "Pest Control Services in Nahur",
+                  "name": "Pest Control Services in Seawoods",
                   "itemListElement": [
                     {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Termite Control in Nahur",
+                        "name": "Termite Control in Seawoods",
                         "description": "Professional anti-termite treatment with 5-year warranty"
                       }
                     },
@@ -77,7 +76,7 @@ export default function PestControlInNahur() {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Cockroach Control in Nahur",
+                        "name": "Cockroach Control in Seawoods",
                         "description": "Complete cockroach elimination with gel baiting technique"
                       }
                     }
@@ -86,16 +85,16 @@ export default function PestControlInNahur() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#service",
-                "name": "Pest Control Services in Nahur",
-                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Nahur, Mumbai.",
+                "@id": "https://superpestcontrol.in/pest-control-in-seawoods#service",
+                "name": "Pest Control Services in Seawoods",
+                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Seawoods, Navi Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-seawoods#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
                   "@type": "City",
-                  "name": "Nahur",
+                  "name": "Seawoods",
                   "containedInPlace": {
                     "@type": "State",
                     "name": "Mumbai"
@@ -130,7 +129,7 @@ export default function PestControlInNahur() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-seawoods#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -147,45 +146,45 @@ export default function PestControlInNahur() {
                   {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Pest Control in Nahur",
-                    "item": "https://superpestcontrol.in/pest-control-in-nahur"
+                    "name": "Pest Control in Seawoods",
+                    "item": "https://superpestcontrol.in/pest-control-in-seawoods"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-seawoods#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "What is the cost of pest control in Nahur?",
+                    "name": "What is the cost of pest control in Seawoods?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "The cost of pest control in Nahur ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                      "text": "The cost of pest control in Seawoods ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "How long does pest control treatment last in Nahur?",
+                    "name": "How long does pest control treatment last in Seawoods?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Our pest control treatments in Nahur typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
+                      "text": "Our pest control treatments in Seawoods typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Is pest control safe for children and pets in Nahur homes?",
+                    "name": "Is pest control safe for children and pets in Seawoods homes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we use child and pet-safe pest control methods in Nahur. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
+                      "text": "Yes, we use child and pet-safe pest control methods in Seawoods. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Do you provide emergency pest control services in Nahur?",
+                    "name": "Do you provide emergency pest control services in Seawoods?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we provide 24/7 emergency pest control services in Nahur. Call +91-9136036071 for immediate assistance with severe infestations."
+                      "text": "Yes, we provide 24/7 emergency pest control services in Seawoods. Call +91-9136036071 for immediate assistance with severe infestations."
                     }
                   }
                 ]
@@ -217,7 +216,7 @@ export default function PestControlInNahur() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Nahur, Mumbai",
+                "description": "Professional Pest Control Services in Seawoods, Navi Mumbai",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -251,7 +250,7 @@ export default function PestControlInNahur() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Nahur&apos;s #1 Choice</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Seawoods&apos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -332,11 +331,11 @@ export default function PestControlInNahur() {
         </div>
       </header>
 
-      {/* Modern SaaS Hero Section with Nahur Background */}
+      {/* Modern SaaS Hero Section with Seawoods Background */}
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -352,7 +351,7 @@ export default function PestControlInNahur() {
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-white/20 backdrop-blur-sm text-white border border-white/30 mb-6 md:mb-8">
               <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-              #1 Rated Pest Control in Nahur - Professional Services Since 2014
+              #1 Rated Pest Control in Seawoods - Professional Services Since 2014
             </div>
             
             {/* Main Headline - Zero Ranking Keyword Optimized */}
@@ -361,22 +360,22 @@ export default function PestControlInNahur() {
                 Expert Pest Control in
               </span>
               <br />
-              <span className="text-white">Nahur, Mumbai</span>
+              <span className="text-white">Seawoods, Navi Mumbai</span>
             </h1>
             
             {/* Secondary Keyword Heading */}
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-2 drop-shadow-lg">
-                Professional Pest Control in Nahur - 100% Guaranteed Results
+                Professional Pest Control in Seawoods - 100% Guaranteed Results
               </h2>
               <h3 className="text-xl md:text-2xl font-semibold text-orange-200 drop-shadow-md">
-                Best Pest Control Services in Nahur | Same Day Treatment Available
+                Best Pest Control Services in Seawoods | Same Day Treatment Available
               </h3>
             </div>
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Nahur, Mumbai? We are the top-rated pest control company near you, serving Nahur East, Nahur East, Nahur West, Bhandup, Mulund and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Nahur area.
+              Looking for professional pest control services in Seawoods, Navi Mumbai? We are the top-rated pest control company near you, serving Seawoods East, Seawoods West, Nerul, CBD Belapur, Vashi and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Seawoods area.
             </p>
             
             {/* CTA Buttons */}
@@ -419,13 +418,13 @@ export default function PestControlInNahur() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Pest Control in Nahur
+                Pest Control in Seawoods
               </span>
               <br />
               <span className="text-gray-800">Everything You Need to Know</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get instant answers to all your pest control questions for Nahur. Professional solutions with guaranteed results.
+              Get instant answers to all your pest control questions for Seawoods. Professional solutions with guaranteed results.
             </p>
           </div>
 
@@ -435,11 +434,11 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">1</span>
-                What does pest control cost in Nahur?
+                What does pest control cost in Seawoods?
               </h3>
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control in Nahur costs ₹500-₹5000</strong> depending on property size and pest type. 
+                  <strong>Pest control in Seawoods costs ₹500-₹5000</strong> depending on property size and pest type. 
                   <span className="block mt-2">• Cockroach control: ₹800-₹1500</span>
                   <span className="block">• Termite treatment: ₹1500-₹5000</span>
                   <span className="block">• Bed bug control: ₹1200-₹2500</span>
@@ -455,18 +454,18 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">2</span>
-                Which is the best pest control service in Nahur?
+                Which is the best pest control service in Seawoods?
               </h3>
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Super Pest Control is the #1 rated service in Nahur</strong> with 4.9/5 stars and 847+ reviews.
-                  <span className="block mt-2">• 10+ years of experience in Nahur</span>
+                  <strong>Super Pest Control is the #1 rated service in Seawoods</strong> with 4.9/5 stars and 847+ reviews.
+                  <span className="block mt-2">• 10+ years of experience in Seawoods</span>
                   <span className="block">• WHO-approved safe chemicals</span>
                   <span className="block">• Same-day service available</span>
                   <span className="block">• 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
-                  <p className="text-sm text-blue-700 font-medium">🏆 Nahur&apos;s most trusted pest control company</p>
+                  <p className="text-sm text-blue-700 font-medium">🏆 Seawoods&apos;s most trusted pest control company</p>
                 </div>
               </div>
             </div>
@@ -475,11 +474,11 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">3</span>
-                How long does pest control last in Nahur?
+                How long does pest control last in Seawoods?
               </h3>
               <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control treatments in Nahur last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
+                  <strong>Pest control treatments in Seawoods last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
                   <span className="block mt-2">• General pest control: 6-12 months</span>
                   <span className="block">• Termite treatment: 5 years warranty</span>
                   <span className="block">• Cockroach control: 8-12 months</span>
@@ -495,11 +494,11 @@ export default function PestControlInNahur() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-teal-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">4</span>
-                Is pest control safe for children and pets in Nahur?
+                Is pest control safe for children and pets in Seawoods?
               </h3>
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Yes, our pest control in Nahur is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
+                  <strong>Yes, our pest control in Seawoods is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
                   <span className="block mt-2">• Non-toxic to humans and pets</span>
                   <span className="block">• Odorless treatment options available</span>
                   <span className="block">• Child-safe application methods</span>
@@ -516,37 +515,37 @@ export default function PestControlInNahur() {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
             <h3 className="text-3xl font-bold text-center mb-8">
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Voice Search Answers for Nahur Pest Control
+                Voice Search Answers for Seawoods Pest Control
               </span>
             </h3>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Nahur&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control provides the best pest control services in Nahur, Mumbai. Call +91-9136036071 for immediate service. Available 24/7.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Seawoods&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Seawoods, Navi Mumbai. Call +91-9136036071 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Nahur&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control is Nahur&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Alexa, best pest control company in Seawoods&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control is Seawoods&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Nahur&rdquo;</h4>
-                <p className="text-gray-700">Get emergency pest control in Nahur within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Seawoods&rdquo;</h4>
+                <p className="text-gray-700">Get emergency pest control in Seawoods within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Nahur prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Nahur starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;OK Google, affordable pest control Seawoods prices&rdquo;</h4>
+                <p className="text-gray-700">Affordable pest control in Seawoods starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
               </div>
             </div>
           </div>
 
           {/* Local SEO Optimized Section */}
           <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
-            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Nahur Right Now?</h3>
-            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Nahur, Mumbai</p>
+            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Seawoods Right Now?</h3>
+            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Seawoods, Navi Mumbai</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
                 📞 Call +91-9136036071
@@ -592,8 +591,8 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
-                  alt="Termite Control Nahur - Professional Anti-Termite Treatment"
+                  src="/images/services/termites-control-mumbai.webp" 
+                  alt="Termite Control Seawoods - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -601,7 +600,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Nahur - Professional Anti-Termite Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Seawoods - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -634,8 +633,8 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
-                  alt="Cockroach Control Nahur - Professional Cockroach Extermination"
+                  src="/images/services/cockroach-control-mumbai.webp" 
+                  alt="Cockroach Control Seawoods - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -643,8 +642,8 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Nahur - Professional Cockroach Extermination</h3>
-                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Nahur&apos;s climate with long-lasting protection.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Seawoods - Professional Cockroach Extermination</h3>
+                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Seawoods&apos;s climate with long-lasting protection.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -676,8 +675,8 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
-                  alt="Rodent Control Nahur - Professional Rat Mouse Control"
+                  src="/images/services/rodents-control-mumbai.webp" 
+                  alt="Rodent Control Seawoods - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -685,7 +684,7 @@ export default function PestControlInNahur() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Nahur - Professional Rat Mouse Control</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Seawoods - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -718,7 +717,7 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Nahur - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Nahur - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Nahur - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Nahur - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Nahur - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInNahur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control Nahur - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1010,7 +1009,7 @@ export default function PestControlInNahur() {
               <div className="space-y-3">
                 <Link href="/termites-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Termite Control Nahur - Anti-Termite Treatment
+                  Termite Control Seawoods - Anti-Termite Treatment
                 </Link>
                 <Link href="/cockroach-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
