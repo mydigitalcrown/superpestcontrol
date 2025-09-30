@@ -18,7 +18,7 @@ export default function PestControlInSanpada() {
               {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-sanpada#localbusiness",
-                "name": "Super Pest Control - Nahur",
+                "name": "Super Pest Control - Sanpada",
                 "image": "https://superpestcontrol.in/images/pest-control-sanpada-hero.jpg",
                 "description": "Professional Pest Control Services in Sanpada, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-sanpada",
@@ -44,7 +44,6 @@ export default function PestControlInSanpada() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -336,7 +335,7 @@ export default function PestControlInSanpada() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -376,7 +375,7 @@ export default function PestControlInSanpada() {
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Sanpada, Navi Mumbai? We are the top-rated pest control company near you, serving Sanpada Station, Sanpada Station, Juinagar, Nerul, CBD Belapur and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Sanpada area.
+              Looking for professional pest control services in Sanpada, Navi Mumbai? We are the top-rated pest control company near you, serving Sanpada Station, Juinagar, Nerul, CBD Belapur, Vashi and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Sanpada area.
             </p>
             
             {/* CTA Buttons */}
@@ -592,7 +591,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Sanpada - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +633,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Sanpada - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +675,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Sanpada - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +717,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Sanpada - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Sanpada - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Sanpada - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Sanpada - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Sanpada - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInSanpada() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control Sanpada - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
