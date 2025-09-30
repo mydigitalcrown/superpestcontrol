@@ -1,3 +1,4 @@
+/* Pest Control In Worli - Mumbai Professional Services */
 'use client'
 
 import { useState } from 'react'
@@ -20,7 +21,7 @@ export default function PestControlInWorli() {
                 "@id": "https://superpestcontrol.in/pest-control-in-worli#localbusiness",
                 "name": "Super Pest Control - Worli",
                 "image": "https://superpestcontrol.in/images/pest-control-worli-hero.jpg",
-                "description": "Professional Pest Control Services in Worli, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "description": "Professional Pest Control In Worli Services in Worli, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-worli",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
@@ -29,7 +30,7 @@ export default function PestControlInWorli() {
                   "streetAddress": "Worli Service Area",
                   "addressLocality": "Worli",
                   "addressRegion": "Mumbai, Maharashtra",
-                  "postalCode": "400078",
+                  "postalCode": "400025",
                   "addressCountry": "IN"
                 },
                 "geo": {
@@ -217,7 +218,7 @@ export default function PestControlInWorli() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Worli, Mumbai",
+                "description": "Professional Pest Control In Worli Services in Worli, Mumbai",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -336,7 +337,7 @@ export default function PestControlInWorli() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -358,7 +359,7 @@ export default function PestControlInWorli() {
             {/* Main Headline - Zero Ranking Keyword Optimized */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Expert Pest Control in
+                Expert Pest Control In Worli in
               </span>
               <br />
               <span className="text-white">Worli, Mumbai</span>
@@ -559,7 +560,7 @@ export default function PestControlInWorli() {
         </div>
       </section>
 
-      {/* Our Complete Pest Control Services Section */}
+      {/* Our Complete Pest Control In Worli Services Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -592,7 +593,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Worli - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +635,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Worli - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +677,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Worli - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +719,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Worli - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +761,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Worli - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +803,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Worli - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +845,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Worli - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +887,7 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Worli - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -919,7 +920,7 @@ export default function PestControlInWorli() {
               </button>
             </div>
 
-            {/* Commercial Pest Control */}
+            {/* Commercial Pest Control In Worli */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
               <div className="absolute top-4 right-4 bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Business Solutions
@@ -928,8 +929,8 @@ export default function PestControlInWorli() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
-                  alt="Commercial Pest Control Worli - Professional Business Solutions"
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
+                  alt="Commercial Pest Control In Worli Worli - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -937,7 +938,7 @@ export default function PestControlInWorli() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Worli - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control In Worli Worli - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -982,7 +983,7 @@ export default function PestControlInWorli() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 rounded-full text-sm bg-gradient-to-r from-blue-100 to-orange-100 text-blue-800 border border-blue-200 mb-6">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-              Complete Pest Control Solutions Network
+              Complete Pest Control In Worli Solutions Network
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -1062,7 +1063,7 @@ export default function PestControlInWorli() {
               <div className="space-y-3">
                 <Link href="/commercial-pest-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Commercial Pest Control - Business Solutions
+                  Commercial Pest Control In Worli - Business Solutions
                 </Link>
                 <Link href="/commercial-fumigation-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -1110,8 +1111,8 @@ export default function PestControlInWorli() {
                 <h4 className="font-bold text-gray-900 mb-2">🎯 Service Types</h4>
                 <div className="text-sm text-gray-600 space-y-1">
                   <div>Residential Pest Control</div>
-                  <div>Commercial Pest Control</div>
-                  <div>Emergency Pest Control</div>
+                  <div>Commercial Pest Control In Worli</div>
+                  <div>Emergency Pest Control In Worli</div>
                   <div>Eco-Friendly Treatment</div>
                 </div>
               </div>
@@ -2703,7 +2704,7 @@ export default function PestControlInWorli() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <Link href="/commercial-fumigation-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
               <Link href="/flying-insect-management-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/commercial-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control In Worli</Link>
               <Link href="/residential-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
@@ -2764,7 +2765,7 @@ export default function PestControlInWorli() {
                 <p className="text-gray-300">From residential to commercial pest control in Worli, we offer complete pest extermination services. Our licensed pest control in Worli team ensures 100% safe and effective treatments.</p>
               </div>
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Worli Available 24/7</h5>
+                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control In Worli in Worli Available 24/7</h5>
                 <p className="text-gray-300">Need immediate pest control in Worli? Call us anytime for emergency pest control in Worli. We provide same-day pest control in Worli with guaranteed satisfaction and long-lasting results.</p>
               </div>
             </div>
