@@ -1,3 +1,4 @@
+/* Pest Control In Wakad - Pune Professional Services */
 'use client'
 
 import { useState } from 'react'
@@ -20,7 +21,7 @@ export default function PestControlInWakad() {
                 "@id": "https://superpestcontrol.in/pest-control-in-wakad#localbusiness",
                 "name": "Super Pest Control - Wakad",
                 "image": "https://superpestcontrol.in/images/pest-control-wakad-hero.jpg",
-                "description": "Professional Pest Control Services in Wakad, Pune. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "description": "Professional Pest Control In Wakad Services in Wakad, Pune. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-wakad",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
@@ -217,7 +218,7 @@ export default function PestControlInWakad() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Wakad, Pune",
+                "description": "Professional Pest Control In Wakad Services in Wakad, Pune",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -336,7 +337,7 @@ export default function PestControlInWakad() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -358,7 +359,7 @@ export default function PestControlInWakad() {
             {/* Main Headline - Zero Ranking Keyword Optimized */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Expert Pest Control in
+                Expert Pest Control In Wakad in
               </span>
               <br />
               <span className="text-white">Wakad, Pune</span>
@@ -559,7 +560,7 @@ export default function PestControlInWakad() {
         </div>
       </section>
 
-      {/* Our Complete Pest Control Services Section */}
+      {/* Our Complete Pest Control In Wakad Services Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -592,7 +593,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Wakad - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +635,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Wakad - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +677,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Wakad - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +719,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Wakad - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +761,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Wakad - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +803,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Wakad - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +845,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Wakad - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +887,7 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Wakad - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -919,7 +920,7 @@ export default function PestControlInWakad() {
               </button>
             </div>
 
-            {/* Commercial Pest Control */}
+            {/* Commercial Pest Control In Wakad */}
             <div className="relative bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group overflow-hidden">
               <div className="absolute top-4 right-4 bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-semibold z-10">
                 Business Solutions
@@ -928,8 +929,8 @@ export default function PestControlInWakad() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
-                  alt="Commercial Pest Control Wakad - Professional Business Solutions"
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
+                  alt="Commercial Pest Control In Wakad Wakad - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -937,7 +938,7 @@ export default function PestControlInWakad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Wakad - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control In Wakad Wakad - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -982,7 +983,7 @@ export default function PestControlInWakad() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 rounded-full text-sm bg-gradient-to-r from-blue-100 to-orange-100 text-blue-800 border border-blue-200 mb-6">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-              Complete Pest Control Solutions Network
+              Complete Pest Control In Wakad Solutions Network
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -1008,19 +1009,19 @@ export default function PestControlInWakad() {
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Wakad - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
-                <Link href="/bed-bug-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/bed-bug-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodents-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,17 +1061,17 @@ export default function PestControlInWakad() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Commercial Pest Control - Business Solutions
+                  Commercial Pest Control In Wakad - Business Solutions
                 </Link>
-                <Link href="/commercial-fumigation-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-fumigation-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Fumigation - Complete Treatment
                 </Link>
                 <Link href="/residential" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Residential Pest Control - Home Protection
+                  Residential Pest Control In Wakad - Home Protection
                 </Link>
                 <Link href="/services" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -1109,9 +1110,9 @@ export default function PestControlInWakad() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">🎯 Service Types</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Residential Pest Control</div>
-                  <div>Commercial Pest Control</div>
-                  <div>Emergency Pest Control</div>
+                  <div>Residential Pest Control In Wakad</div>
+                  <div>Commercial Pest Control In Wakad</div>
+                  <div>Emergency Pest Control In Wakad</div>
                   <div>Eco-Friendly Treatment</div>
                 </div>
               </div>
@@ -1356,7 +1357,7 @@ export default function PestControlInWakad() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-navi-navi mumbai',
+                  'pest-control-in-navi-mumbai',
                   'pest-control-in-belapur',
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
@@ -2649,14 +2650,14 @@ export default function PestControlInWakad() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -2701,10 +2702,10 @@ export default function PestControlInWakad() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
-              <Link href="/residential-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
+              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control In Wakad</Link>
+              <Link href="/residential-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control In Wakad</Link>
             </div>
           </div>
 
@@ -2764,7 +2765,7 @@ export default function PestControlInWakad() {
                 <p className="text-gray-300">From residential to commercial pest control in Wakad, we offer complete pest extermination services. Our licensed pest control in Wakad team ensures 100% safe and effective treatments.</p>
               </div>
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Wakad Available 24/7</h5>
+                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control In Wakad in Wakad Available 24/7</h5>
                 <p className="text-gray-300">Need immediate pest control in Wakad? Call us anytime for emergency pest control in Wakad. We provide same-day pest control in Wakad with guaranteed satisfaction and long-lasting results.</p>
               </div>
             </div>
