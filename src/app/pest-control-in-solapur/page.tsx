@@ -18,18 +18,18 @@ export default function PestControlInSolapur() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness",
+                "@id": "https://superpestcontrol.in/pest-control-in-solapur#localbusiness",
                 "name": "Super Pest Control - Solapur",
-                "image": "https://superpestcontrol.in/images/pest-control-nahur-hero.jpg",
+                "image": "https://superpestcontrol.in/images/pest-control-solapur-hero.jpg",
                 "description": "Professional Pest Control Services in Solapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-nahur",
+                "url": "https://superpestcontrol.in/pest-control-in-solapur",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "Solapur Service Area",
                   "addressLocality": "Solapur",
-                  "addressRegion": "Maharashtra, Maharashtra",
+                  "addressRegion": "Maharashtra",
                   "postalCode": "413002",
                   "addressCountry": "IN"
                 },
@@ -45,7 +45,6 @@ export default function PestControlInSolapur() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -87,11 +86,11 @@ export default function PestControlInSolapur() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-solapur#service",
                 "name": "Pest Control Services in Solapur",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, Pest Control In Solapur rodent, and more in Solapur, Maharashtra.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-solapur#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -131,7 +130,7 @@ export default function PestControlInSolapur() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-solapur#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -149,13 +148,13 @@ export default function PestControlInSolapur() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Solapur",
-                    "item": "https://superpestcontrol.in/pest-control-in-nahur"
+                    "item": "https://superpestcontrol.in/pest-control-in-solapur"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-solapur#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -337,7 +336,7 @@ export default function PestControlInSolapur() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/solapur.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -593,7 +592,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-solapur.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Solapur - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -635,7 +634,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-solapur.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Solapur - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -677,7 +676,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-solapur.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Solapur - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -719,7 +718,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-solapur.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Solapur - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -761,7 +760,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-solapur.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Solapur - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -803,7 +802,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-solapur.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Solapur - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -845,7 +844,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-solapur.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Solapur - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -887,7 +886,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-solapur.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Solapur - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -929,7 +928,7 @@ export default function PestControlInSolapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-solapur.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control In Solapur - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
