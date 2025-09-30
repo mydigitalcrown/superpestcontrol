@@ -19,7 +19,7 @@ export default function PestControlInVirar() {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-virar#localbusiness",
                 "name": "Super Pest Control - Virar",
-                "image": "https://superpestcontrol.in/images/pest-control-virar-hero.jpg",
+                "image": "https://superpestcontrol.in/images/location/mumbai.webp",
                 "description": "Professional Pest Control Services in Virar, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-virar",
                 "telephone": "+91-9136036071",
@@ -44,7 +44,6 @@ export default function PestControlInVirar() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -98,7 +97,7 @@ export default function PestControlInVirar() {
                   "name": "Virar",
                   "containedInPlace": {
                     "@type": "State",
-                    "name": "Mumbai"
+                    "name": "Maharashtra"
                   }
                 },
                 "hasOfferCatalog": {
