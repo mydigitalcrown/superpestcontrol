@@ -17,11 +17,11 @@ export default function PestControlInTaloja() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness",
+                "@id": "https://superpestcontrol.in/pest-control-in-taloja#localbusiness",
                 "name": "Super Pest Control - Taloja",
-                "image": "https://superpestcontrol.in/images/pest-control-nahur-hero.jpg",
+                "image": "https://superpestcontrol.in/images/pest-control-taloja-hero.jpg",
                 "description": "Professional Pest Control Services in Taloja, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-nahur",
+                "url": "https://superpestcontrol.in/pest-control-in-taloja",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
@@ -44,7 +44,6 @@ export default function PestControlInTaloja() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -86,11 +85,11 @@ export default function PestControlInTaloja() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-taloja#service",
                 "name": "Pest Control Services in Taloja",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Taloja, Navi Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-taloja#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -130,7 +129,7 @@ export default function PestControlInTaloja() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-taloja#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -148,13 +147,13 @@ export default function PestControlInTaloja() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Taloja",
-                    "item": "https://superpestcontrol.in/pest-control-in-nahur"
+                    "item": "https://superpestcontrol.in/pest-control-in-taloja"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-taloja#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -336,7 +335,7 @@ export default function PestControlInTaloja() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi-mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,7 +591,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi-mumbai.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Taloja - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +633,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi-mumbai.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Taloja - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +675,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi-mumbai.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Taloja - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +717,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi-mumbai.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Taloja - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi-mumbai.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Taloja - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi-mumbai.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Taloja - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi-mumbai.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Taloja - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi-mumbai.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Taloja - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInTaloja() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi-mumbai.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control Taloja - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1038,7 +1037,7 @@ export default function PestControlInTaloja() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Juhu - Expert Team
                 </Link>
-                <Link href="/pest-control-in-nahur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-taloja" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Taloja - Professional Service
                 </Link>
@@ -1190,8 +1189,8 @@ export default function PestControlInTaloja() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-nahur',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
+                  'pest-control-in-taloja',
                   'pest-control-in-worli',
                   'pest-control-in-lower-parel',
                   'pest-control-in-parel'
@@ -1272,13 +1271,13 @@ export default function PestControlInTaloja() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-juhu',
                   'pest-control-in-vile-parle',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-goregaon',
                   'pest-control-in-malad',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-borivali',
                   'pest-control-in-dahisar'
                 ].map((location, index) => {
@@ -1316,13 +1315,13 @@ export default function PestControlInTaloja() {
                 {[
                   'pest-control-in-chembur',
                   'pest-control-in-ghatkopar',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-powai',
                   'pest-control-in-vikhroli',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-bhandup',
                   'pest-control-in-mulund',
-                  'pest-control-in-nahur'
+                  'pest-control-in-taloja'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1361,7 +1360,7 @@ export default function PestControlInTaloja() {
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
                   'pest-control-in-vashi',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-kopar-khairane',
                   'pest-control-in-turbhe',
                   'pest-control-in-rabale',
@@ -1369,7 +1368,7 @@ export default function PestControlInTaloja() {
                   'pest-control-in-urse',
                   'pest-control-in-sanpada',
                   'pest-control-in-seawoods',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-kamothe',
                   'pest-control-in-kalamboli',
                   'pest-control-in-panvel',
@@ -1417,10 +1416,10 @@ export default function PestControlInTaloja() {
                   'pest-control-in-bhiwandi',
                   'pest-control-in-mumbra',
                   'pest-control-in-ulhasnagar',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-badlapur',
                   'pest-control-in-diva',
-                  'pest-control-in-nahur',
+                  'pest-control-in-taloja',
                   'pest-control-in-ghodbunder-road'
                 ].map((location, index) => {
                   const locationName = location
