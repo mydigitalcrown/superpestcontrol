@@ -18,11 +18,11 @@ export default function PestControlInSion() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness",
+                "@id": "https://superpestcontrol.in/pest-control-in-sion#localbusiness",
                 "name": "Super Pest Control - Sion",
-                "image": "https://superpestcontrol.in/images/pest-control-nahur-hero.jpg",
+                "image": "https://superpestcontrol.in/images/pest-control-sion-hero.jpg",
                 "description": "Professional Pest Control Services in Sion, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-nahur",
+                "url": "https://superpestcontrol.in/pest-control-in-sion",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
@@ -45,7 +45,6 @@ export default function PestControlInSion() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -87,11 +86,11 @@ export default function PestControlInSion() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#service",
+                "@id": "https://superpestcontrol.in/pest-control-in-sion#service",
                 "name": "Pest Control Services in Sion",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Sion, Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-nahur#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-sion#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -131,7 +130,7 @@ export default function PestControlInSion() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-sion#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -149,13 +148,13 @@ export default function PestControlInSion() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Sion",
-                    "item": "https://superpestcontrol.in/pest-control-in-nahur"
+                    "item": "https://superpestcontrol.in/pest-control-in-sion"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-nahur#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-sion#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -1039,7 +1038,7 @@ export default function PestControlInSion() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Juhu - Expert Team
                 </Link>
-                <Link href="/pest-control-in-nahur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-sion" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Sion - Professional Service
                 </Link>
@@ -1191,8 +1190,8 @@ export default function PestControlInSion() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-nahur',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
+                  'pest-control-in-sion',
                   'pest-control-in-worli',
                   'pest-control-in-lower-parel',
                   'pest-control-in-parel'
@@ -1273,13 +1272,13 @@ export default function PestControlInSion() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-juhu',
                   'pest-control-in-vile-parle',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-goregaon',
                   'pest-control-in-malad',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-borivali',
                   'pest-control-in-dahisar'
                 ].map((location, index) => {
@@ -1317,13 +1316,13 @@ export default function PestControlInSion() {
                 {[
                   'pest-control-in-chembur',
                   'pest-control-in-ghatkopar',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-powai',
                   'pest-control-in-vikhroli',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-bhandup',
                   'pest-control-in-mulund',
-                  'pest-control-in-nahur'
+                  'pest-control-in-sion'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1362,7 +1361,7 @@ export default function PestControlInSion() {
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
                   'pest-control-in-vashi',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-kopar-khairane',
                   'pest-control-in-turbhe',
                   'pest-control-in-rabale',
@@ -1370,7 +1369,7 @@ export default function PestControlInSion() {
                   'pest-control-in-urse',
                   'pest-control-in-sanpada',
                   'pest-control-in-seawoods',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-kamothe',
                   'pest-control-in-kalamboli',
                   'pest-control-in-panvel',
@@ -1418,10 +1417,10 @@ export default function PestControlInSion() {
                   'pest-control-in-bhiwandi',
                   'pest-control-in-mumbra',
                   'pest-control-in-ulhasnagar',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-badlapur',
                   'pest-control-in-diva',
-                  'pest-control-in-nahur',
+                  'pest-control-in-sion',
                   'pest-control-in-ghodbunder-road'
                 ].map((location, index) => {
                   const locationName = location
