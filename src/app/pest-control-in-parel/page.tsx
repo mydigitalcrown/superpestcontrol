@@ -44,7 +44,6 @@ export default function PestControlInParel() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -336,7 +335,7 @@ export default function PestControlInParel() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,7 +591,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Parel - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +633,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Parel - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +675,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Parel - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +717,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Parel - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Parel - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Parel - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Parel - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Parel - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInParel() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control Parel - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1008,19 +1007,19 @@ export default function PestControlInParel() {
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Parel - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
-                <Link href="/bed-bug-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/bed-bug-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodents-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,11 +1059,11 @@ export default function PestControlInParel() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Pest Control - Business Solutions
                 </Link>
-                <Link href="/commercial-fumigation-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-fumigation-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Fumigation - Complete Treatment
                 </Link>
@@ -1356,7 +1355,7 @@ export default function PestControlInParel() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-navi-navi mumbai',
+                  'pest-control-in-navi-mumbai',
                   'pest-control-in-belapur',
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
@@ -2211,7 +2210,7 @@ export default function PestControlInParel() {
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Parel, Mumbai?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control has the highest ratings in Parel with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
+                Super Pest Control has the highest ratings in Parel with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Mumbai area.
               </p>
               <div className="mt-4 p-3 bg-purple-500/20 rounded-lg border border-purple-400/30">
                 <p className="text-purple-300 text-sm font-medium">⭐ 4.9/5 stars • 847+ reviews</p>
@@ -2649,14 +2648,14 @@ export default function PestControlInParel() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -2701,8 +2700,8 @@ export default function PestControlInParel() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
               <Link href="/commercial-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
               <Link href="/residential-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
