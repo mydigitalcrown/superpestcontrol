@@ -44,7 +44,6 @@ export default function PestControlInNahur() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -1356,7 +1355,7 @@ export default function PestControlInNahur() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-navi-mumbai',
+                  'pest-control-in-mumbai',
                   'pest-control-in-belapur',
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
