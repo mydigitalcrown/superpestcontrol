@@ -44,7 +44,6 @@ export default function PestControlInKolhapur() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -332,11 +331,11 @@ export default function PestControlInKolhapur() {
         </div>
       </header>
 
-      {/* Modern SaaS Hero Section with Kolhapur Background */}
+      {/* Modern SaaS Hero Section with Mumbai Background */}
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/kolhapur.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,7 +591,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-kolhapur.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Kolhapur - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +633,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-kolhapur.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Kolhapur - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +675,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-kolhapur.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Kolhapur - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +717,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-kolhapur.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Kolhapur - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-kolhapur.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Kolhapur - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-kolhapur.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Kolhapur - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-kolhapur.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Kolhapur - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-kolhapur.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Kolhapur - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-kolhapur.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control Kolhapur - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1008,19 +1007,19 @@ export default function PestControlInKolhapur() {
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/termites-control-kolhapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Kolhapur - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control-kolhapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
-                <Link href="/bed-bug-control-kolhapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/bed-bug-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control-kolhapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodents-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,7 +1059,7 @@ export default function PestControlInKolhapur() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control-kolhapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Pest Control - Business Solutions
                 </Link>
@@ -2649,14 +2648,14 @@ export default function PestControlInKolhapur() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control-kolhapur" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
