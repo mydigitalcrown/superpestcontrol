@@ -336,7 +336,7 @@ export default function PestControlInKurla() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,7 +592,7 @@ export default function PestControlInKurla() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Kurla - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +634,7 @@ export default function PestControlInKurla() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Kurla - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
