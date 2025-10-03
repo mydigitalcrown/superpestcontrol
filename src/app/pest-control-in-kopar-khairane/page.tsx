@@ -44,7 +44,6 @@ export default function PestControlInKoparKhairane() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -336,7 +335,7 @@ export default function PestControlInKoparKhairane() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/navi mumbai.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,7 +591,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Termite Control Kopar Khairane - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +633,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Cockroach Control Kopar Khairane - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +675,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Rodent Control Kopar Khairane - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +717,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Bed Bug Control Kopar Khairane - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Ant Control Kopar Khairane - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Mosquito Control Kopar Khairane - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Spider Control Kopar Khairane - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Lizard Control Kopar Khairane - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInKoparKhairane() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-navi mumbai.webp" 
+                  src="/images/services/mumbai.webp" 
                   alt="Commercial Pest Control Kopar Khairane - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1008,19 +1007,19 @@ export default function PestControlInKoparKhairane() {
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/termite-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Kopar Khairane - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
-                <Link href="/bed-bug-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/bed-bug-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodent-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,11 +1059,11 @@ export default function PestControlInKoparKhairane() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Pest Control - Business Solutions
                 </Link>
-                <Link href="/commercial-fumigation-navi mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-fumigation-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Fumigation - Complete Treatment
                 </Link>
@@ -2649,14 +2648,14 @@ export default function PestControlInKoparKhairane() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control-navi mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termite-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodent-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquito-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -2701,10 +2700,10 @@ export default function PestControlInKoparKhairane() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
-              <Link href="/residential-pest-control-navi mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
+              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/residential" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
 
