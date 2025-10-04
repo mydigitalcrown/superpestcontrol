@@ -19,7 +19,7 @@ export default function PestControlInKanjurmarg() {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-kanjurmarg#localbusiness",
                 "name": "Super Pest Control - Kanjurmarg",
-                "image": "https://superpestcontrol.in/images/pest-control-kanjurmarg-hero.jpg",
+                "image": "https://superpestcontrol.in/images/location/mumbai.webp",
                 "description": "Professional Pest Control Services in Kanjurmarg, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-kanjurmarg",
                 "telephone": "+91-9136036071",
@@ -44,7 +44,6 @@ export default function PestControlInKanjurmarg() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
