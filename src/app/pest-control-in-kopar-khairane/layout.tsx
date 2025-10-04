@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Professional Pest Control in Kharghar | Super Pest Control Services',
-    description: 'Get the best pest control services in Kharghar, Navi Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Professional Pest Control in Kopar Khairane | Super Pest Control Services',
+    description: 'Get the best pest control services in Kopar Khairane, Navi Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
     url: 'https://superpestcontrol.in/pest-control-in-kopar-khairane',
     siteName: 'Super Pest Control',
     images: [
