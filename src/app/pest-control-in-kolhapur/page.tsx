@@ -20,7 +20,7 @@ export default function PestControlInKolhapur() {
                 "@id": "https://superpestcontrol.in/pest-control-in-kolhapur#localbusiness",
                 "name": "Super Pest Control - Kolhapur",
                 "image": "https://superpestcontrol.in/images/pest-control-kolhapur-hero.jpg",
-                "description": "Professional Pest Control Services in Kolhapur, Kolhapur. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "description": "Professional Pest Control Services in Kolhapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-kolhapur",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
@@ -87,7 +87,7 @@ export default function PestControlInKolhapur() {
                 "@type": "Service",
                 "@id": "https://superpestcontrol.in/pest-control-in-kolhapur#service",
                 "name": "Pest Control Services in Kolhapur",
-                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Kolhapur, Kolhapur.",
+                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Kolhapur, Maharashtra.",
                 "provider": {
                   "@id": "https://superpestcontrol.in/pest-control-in-kolhapur#localbusiness"
                 },
@@ -216,7 +216,7 @@ export default function PestControlInKolhapur() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Kolhapur, Kolhapur",
+                "description": "Professional Pest Control Services in Kolhapur, Maharashtra",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -360,7 +360,7 @@ export default function PestControlInKolhapur() {
                 Expert Pest Control in
               </span>
               <br />
-              <span className="text-white">Kolhapur, Kolhapur</span>
+              <span className="text-white">Kolhapur, Maharashtra</span>
             </h1>
             
             {/* Secondary Keyword Heading */}
@@ -375,7 +375,7 @@ export default function PestControlInKolhapur() {
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Kolhapur, Kolhapur? We are the top-rated pest control company near you, serving Shivaji Park, Mahadwar Road, Rankala, New Palace and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Kolhapur area.
+              Looking for professional pest control services in Kolhapur, Maharashtra? We are the top-rated pest control company near you, serving Shivaji Park, Mahadwar Road, Rankala, New Palace and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Kolhapur area.
             </p>
             
             {/* CTA Buttons */}
@@ -522,7 +522,7 @@ export default function PestControlInKolhapur() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Kolhapur&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control provides the best pest control services in Kolhapur, Kolhapur. Call +91-9136036071 for immediate service. Available 24/7.</p>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Kolhapur, Maharashtra. Call +91-9136036071 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
@@ -545,7 +545,7 @@ export default function PestControlInKolhapur() {
           {/* Local SEO Optimized Section */}
           <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
             <h3 className="text-3xl font-bold mb-4">Need Pest Control in Kolhapur Right Now?</h3>
-            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Kolhapur, Kolhapur</p>
+            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Kolhapur, Maharashtra</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
                 📞 Call +91-9136036071
@@ -992,7 +992,7 @@ export default function PestControlInKolhapur() {
               <span className="text-gray-800">Services in Kolhapur & Beyond</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our complete range of professional pest control services across Kolhapur, Kolhapur and surrounding areas. 
+              Explore our complete range of professional pest control services across Kolhapur, Maharashtra and surrounding areas. 
               Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
             </p>
           </div>
@@ -1866,7 +1866,7 @@ export default function PestControlInKolhapur() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover everything you need to know about professional pest management services in Kolhapur, Kolhapur. 
+              Discover everything you need to know about professional pest management services in Kolhapur, Maharashtra. 
               From common pest challenges to advanced treatment solutions, we provide comprehensive information to help you make informed decisions.
             </p>
           </div>
@@ -2165,7 +2165,7 @@ export default function PestControlInKolhapur() {
               <span className="text-white">Pest Control in Kolhapur</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Get instant voice search answers for all your pest control needs in Kolhapur, Kolhapur
+              Get instant voice search answers for all your pest control needs in Kolhapur, Maharashtra
             </p>
           </div>
 
@@ -2180,7 +2180,7 @@ export default function PestControlInKolhapur() {
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Kolhapur today?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control is located in Kolhapur, Kolhapur, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
+                Super Pest Control is located in Kolhapur, Maharashtra, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
               </p>
               <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-400/30">
                 <p className="text-green-300 text-sm font-medium">✅ Available today • Call +91-9136036071</p>
@@ -2208,7 +2208,7 @@ export default function PestControlInKolhapur() {
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">🎯</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Kolhapur, Kolhapur?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Kolhapur, Maharashtra?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
                 Super Pest Control has the highest ratings in Kolhapur with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
               </p>
