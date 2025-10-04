@@ -331,11 +331,11 @@ export default function PestControlInKolhapur() {
         </div>
       </header>
 
-      {/* Modern SaaS Hero Section with Mumbai Background */}
+      {/* Modern SaaS Hero Section with Kolhapur Background */}
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/mumbai.webp)',
+          backgroundImage: 'url(/images/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -591,7 +591,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Termite Control Kolhapur - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -633,7 +633,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Cockroach Control Kolhapur - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -675,7 +675,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Rodent Control Kolhapur - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -717,7 +717,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Bed Bug Control Kolhapur - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -759,7 +759,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Ant Control Kolhapur - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -801,7 +801,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Mosquito Control Kolhapur - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -843,7 +843,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Spider Control Kolhapur - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -885,7 +885,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Lizard Control Kolhapur - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -927,7 +927,7 @@ export default function PestControlInKolhapur() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control-mumbai.webp" 
+                  src="/images/mumbai.webp" 
                   alt="Commercial Pest Control Kolhapur - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
