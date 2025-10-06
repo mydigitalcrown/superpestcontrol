@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in bandra, best pest control bandra, professional pest control bandra, termite control bandra, cockroach control bandra, bed bug control bandra, pest control services bandra mumbai, affordable pest control bandra, emergency pest control bandra, residential pest control bandra, commercial pest control bandra, pest control near me bandra, same day pest control bandra, eco friendly pest control bandra, licensed pest control bandra, guaranteed pest control bandra, 24/7 pest control bandra, pest exterminators bandra, pest management bandra, fumigation services bandra, anti termite treatment bandra, rodent control bandra, mosquito control bandra, lizard control bandra, spider control bandra, ant control bandra, fly control bandra, bandra east pest control, bandra west pest control, bandra kurla complex pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-bandra",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-bandra',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-bandra',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-bandra'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-bandra"
   },
   openGraph: {
     title: 'Professional Pest Control in Bandra | Super Pest Control Services',

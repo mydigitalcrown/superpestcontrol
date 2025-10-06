@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in jogeshwari, best pest control jogeshwari mumbai, professional pest control jogeshwari, termite control jogeshwari, cockroach control jogeshwari, bed bug control jogeshwari, pest control services jogeshwari mumbai, affordable pest control jogeshwari, emergency pest control jogeshwari, residential pest control jogeshwari, commercial pest control jogeshwari, pest control near me jogeshwari, same day pest control jogeshwari, eco friendly pest control jogeshwari, licensed pest control jogeshwari, guaranteed pest control jogeshwari, 24/7 pest control jogeshwari, pest exterminators jogeshwari, pest management jogeshwari, fumigation services jogeshwari, anti termite treatment jogeshwari, rodent control jogeshwari, mosquito control jogeshwari, lizard control jogeshwari, spider control jogeshwari, ant control jogeshwari, fly control jogeshwari, jogeshwari east pest control, jogeshwari west pest control, oshiwara pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-jogeshwari",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-jogeshwari',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-jogeshwari',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-jogeshwari'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-jogeshwari"
   },
   openGraph: {
     title: 'Professional Pest Control in Jogeshwari | Super Pest Control Services',

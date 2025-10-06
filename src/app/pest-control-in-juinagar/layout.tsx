@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in juinagar, best pest control juinagar navi mumbai, professional pest control juinagar, termite control juinagar, cockroach control juinagar, bed bug control juinagar, pest control services juinagar navi mumbai, affordable pest control juinagar, emergency pest control juinagar, residential pest control juinagar, commercial pest control juinagar, pest control near me juinagar, same day pest control juinagar, eco friendly pest control juinagar, licensed pest control juinagar, guaranteed pest control juinagar, 24/7 pest control juinagar, pest exterminators juinagar, pest management juinagar, fumigation services juinagar, anti termite treatment juinagar, rodent control juinagar, mosquito control juinagar, lizard control juinagar, spider control juinagar, ant control juinagar, fly control juinagar, nerul pest control, seawoods pest control, belapur pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-juinagar",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-juinagar',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-juinagar',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-juinagar'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-juinagar"
   },
   openGraph: {
     title: 'Professional Pest Control in Juinagar | Super Pest Control Services',

@@ -1034,11 +1034,11 @@ export default function PestControlInAiroli() {
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/pest-control-ghansoli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-ghansoli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Ghansoli - Navi Mumbai
                 </Link>
-                <Link href="/pest-control-belapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-cbd-belapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Belapur - Professional Service
                 </Link>

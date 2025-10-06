@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in kanjurmarg, best pest control kanjurmarg mumbai, professional pest control kanjurmarg, termite control kanjurmarg, cockroach control kanjurmarg, bed bug control kanjurmarg, pest control services kanjurmarg mumbai, affordable pest control kanjurmarg, emergency pest control kanjurmarg, residential pest control kanjurmarg, commercial pest control kanjurmarg, pest control near me kanjurmarg, same day pest control kanjurmarg, eco friendly pest control kanjurmarg, licensed pest control kanjurmarg, guaranteed pest control kanjurmarg, 24/7 pest control kanjurmarg, pest exterminators kanjurmarg, pest management kanjurmarg, fumigation services kanjurmarg, anti termite treatment kanjurmarg, rodent control kanjurmarg, mosquito control kanjurmarg, lizard control kanjurmarg, spider control kanjurmarg, ant control kanjurmarg, fly control kanjurmarg, kanjurmarg east pest control, kanjurmarg west pest control, vikhroli pest control, powai pest control, bhandup pest control, mulund pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-kanjurmarg",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-kanjurmarg',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-kanjurmarg',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-kanjurmarg'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-kanjurmarg"
   },
   openGraph: {
     title: 'Professional Pest Control in Kanjurmarg | Super Pest Control Services',

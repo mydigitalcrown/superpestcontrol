@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in colaba, best pest control colaba, professional pest control colaba, termite control colaba, cockroach control colaba, bed bug control colaba, pest control services colaba mumbai, affordable pest control colaba, emergency pest control colaba, residential pest control colaba, commercial pest control colaba, pest control near me colaba, same day pest control colaba, eco friendly pest control colaba, licensed pest control colaba, guaranteed pest control colaba, 24/7 pest control colaba, pest exterminators colaba, pest management colaba, fumigation services colaba, anti termite treatment colaba, rodent control colaba, mosquito control colaba, lizard control colaba, spider control colaba, ant control colaba, fly control colaba, fort pest control, navy nagar pest control, ballard estate pest control, cuffe parade pest control, south mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-colaba",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-colaba',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-colaba',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-colaba'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-colaba"
   },
   openGraph: {
     title: 'Professional Pest Control in Colaba | Super Pest Control Services',

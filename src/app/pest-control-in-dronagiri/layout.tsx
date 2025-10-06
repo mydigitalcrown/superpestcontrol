@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in dronagiri, best pest control dronagiri navi mumbai, professional pest control dronagiri, termite control dronagiri, cockroach control dronagiri, bed bug control dronagiri, pest control services dronagiri navi mumbai, affordable pest control dronagiri, emergency pest control dronagiri, residential pest control dronagiri, commercial pest control dronagiri, pest control near me dronagiri, same day pest control dronagiri, eco friendly pest control dronagiri, licensed pest control dronagiri, guaranteed pest control dronagiri, 24/7 pest control dronagiri, pest exterminators dronagiri, pest management dronagiri, fumigation services dronagiri, anti termite treatment dronagiri, rodent control dronagiri, mosquito control dronagiri, lizard control dronagiri, spider control dronagiri, ant control dronagiri, fly control dronagiri, ulwe pest control, kharghar pest control, panvel pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-dronagiri",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-dronagiri',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-dronagiri',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-dronagiri'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-dronagiri"
   },
   openGraph: {
     title: 'Professional Pest Control in Dronagiri | Super Pest Control Services',

@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in baner, best pest control baner pune, professional pest control baner, termite control baner, cockroach control baner, bed bug control baner, pest control services baner pune, affordable pest control baner, emergency pest control baner, residential pest control baner, commercial pest control baner, pest control near me baner, same day pest control baner, eco friendly pest control baner, licensed pest control baner, guaranteed pest control baner, 24/7 pest control baner, pest exterminators baner, pest management baner, fumigation services baner, anti termite treatment baner, rodent control baner, mosquito control baner, lizard control baner, spider control baner, ant control baner, fly control baner',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-baner",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-baner',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-baner',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-baner'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-baner"
   },
   openGraph: {
     title: 'Professional Pest Control in Baner | Super Pest Control Services',

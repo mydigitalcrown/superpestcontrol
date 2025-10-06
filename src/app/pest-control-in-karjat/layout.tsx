@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in karjat, best pest control karjat raigad, professional pest control karjat, termite control karjat, cockroach control karjat, bed bug control karjat, pest control services karjat raigad, affordable pest control karjat, emergency pest control karjat, residential pest control karjat, commercial pest control karjat, pest control near me karjat, same day pest control karjat, eco friendly pest control karjat, licensed pest control karjat, guaranteed pest control karjat, 24/7 pest control karjat, pest exterminators karjat, pest management karjat, fumigation services karjat, anti termite treatment karjat, rodent control karjat, mosquito control karjat, lizard control karjat, spider control karjat, ant control karjat, fly control karjat, khopoli pest control, lonavala pest control, talegaon pest control, pen pest control, matheran pest control, raigad pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-karjat",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-karjat',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-karjat',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-karjat'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-karjat"
   },
   openGraph: {
     title: 'Professional Pest Control in Karjat | Super Pest Control Services',

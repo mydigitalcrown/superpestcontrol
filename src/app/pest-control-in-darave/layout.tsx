@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in darave, best pest control darave navi mumbai, professional pest control darave, termite control darave, cockroach control darave, bed bug control darave, pest control services darave navi mumbai, affordable pest control darave, emergency pest control darave, residential pest control darave, commercial pest control darave, pest control near me darave, same day pest control darave, eco friendly pest control darave, licensed pest control darave, guaranteed pest control darave, 24/7 pest control darave, pest exterminators darave, pest management darave, fumigation services darave, anti termite treatment darave, rodent control darave, mosquito control darave, lizard control darave, spider control darave, ant control darave, fly control darave',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-darave",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-darave',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-darave',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-darave'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-darave"
   },
   openGraph: {
     title: 'Professional Pest Control in Darave | Super Pest Control Services',

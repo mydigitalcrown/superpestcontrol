@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in goregaon, best pest control goregaon mumbai, professional pest control goregaon, termite control goregaon, cockroach control goregaon, bed bug control goregaon, pest control services goregaon mumbai, affordable pest control goregaon, emergency pest control goregaon, residential pest control goregaon, commercial pest control goregaon, pest control near me goregaon, same day pest control goregaon, eco friendly pest control goregaon, licensed pest control goregaon, guaranteed pest control goregaon, 24/7 pest control goregaon, pest exterminators goregaon, pest management goregaon, fumigation services goregaon, anti termite treatment goregaon, rodent control goregaon, mosquito control goregaon, lizard control goregaon, spider control goregaon, ant control goregaon, fly control goregaon, goregaon station pest control, malad pest control, film city pest control, mumbai west pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-goregaon",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-goregaon',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-goregaon',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-goregaon'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-goregaon"
   },
   openGraph: {
     title: 'Professional Pest Control in Goregaon | Super Pest Control Services',

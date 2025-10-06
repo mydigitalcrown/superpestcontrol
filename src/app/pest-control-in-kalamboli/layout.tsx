@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in kalamboli, best pest control kalamboli navi mumbai, professional pest control kalamboli, termite control kalamboli, cockroach control kalamboli, bed bug control kalamboli, pest control services kalamboli navi mumbai, affordable pest control kalamboli, emergency pest control kalamboli, residential pest control kalamboli, commercial pest control kalamboli, pest control near me kalamboli, same day pest control kalamboli, eco friendly pest control kalamboli, licensed pest control kalamboli, guaranteed pest control kalamboli, 24/7 pest control kalamboli, pest exterminators kalamboli, pest management kalamboli, fumigation services kalamboli, anti termite treatment kalamboli, rodent control kalamboli, mosquito control kalamboli, lizard control kalamboli, spider control kalamboli, ant control kalamboli, fly control kalamboli, panvel pest control, new panvel pest control, kamothe pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-kalamboli",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-kalamboli',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-kalamboli',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-kalamboli'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-kalamboli"
   },
   openGraph: {
     title: 'Professional Pest Control in Kalamboli | Super Pest Control Services',

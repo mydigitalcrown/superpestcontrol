@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in bavdhan, best pest control bavdhan pune, professional pest control bavdhan, termite control bavdhan, cockroach control bavdhan, bed bug control bavdhan, pest control services bavdhan pune, affordable pest control bavdhan, emergency pest control bavdhan, residential pest control bavdhan, commercial pest control bavdhan, pest control near me bavdhan, same day pest control bavdhan, eco friendly pest control bavdhan, licensed pest control bavdhan, guaranteed pest control bavdhan, 24/7 pest control bavdhan, pest exterminators bavdhan, pest management bavdhan, fumigation services bavdhan, anti termite treatment bavdhan, rodent control bavdhan, mosquito control bavdhan, lizard control bavdhan, spider control bavdhan, ant control bavdhan, fly control bavdhan',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-bavdhan",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-bavdhan',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-bavdhan',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-bavdhan'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-bavdhan"
   },
   openGraph: {
     title: 'Professional Pest Control in Bavdhan | Super Pest Control Services',

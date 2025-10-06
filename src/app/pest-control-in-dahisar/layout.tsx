@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in dahisar, best pest control dahisar, professional pest control dahisar, termite control dahisar, cockroach control dahisar, bed bug control dahisar, pest control services dahisar mumbai, affordable pest control dahisar, emergency pest control dahisar, residential pest control dahisar, commercial pest control dahisar, pest control near me dahisar, same day pest control dahisar, eco friendly pest control dahisar, licensed pest control dahisar, guaranteed pest control dahisar, 24/7 pest control dahisar, pest exterminators dahisar, pest management dahisar, fumigation services dahisar, anti termite treatment dahisar, rodent control dahisar, mosquito control dahisar, lizard control dahisar, spider control dahisar, ant control dahisar, fly control dahisar, dahisar east pest control, dahisar west pest control, western mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-dahisar",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-dahisar',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-dahisar',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-dahisar'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-dahisar"
   },
   openGraph: {
     title: 'Professional Pest Control in Dahisar | Super Pest Control Services',

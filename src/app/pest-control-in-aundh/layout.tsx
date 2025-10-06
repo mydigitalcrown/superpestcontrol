@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Professional Pest Control Services in Aundh | Super Pest Control Mumbai',
-  description: 'Expert pest control services in Aundh East & West. Termite, cockroach, rodent, bed bug control with 10+ years experience. Licensed professionals, 24/7 service. Call +91-8097941077 for free inspection.',
-  keywords: 'pest control Aundh, termite control Aundh, cockroach control Aundh, rodent control Aundh, bed bug control Aundh, ant control Aundh, pest control services Aundh, fumigation services Aundh, pest control Aundh East, pest control Aundh West',
+  title: 'Best Pest Control in Aundh | #1 Professional Services Pune | Super Pest Control',
+  description: 'Professional Pest Control Services in Aundh, Pune. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  keywords: 'pest control in aundh, best pest control aundh pune, professional pest control aundh, termite control aundh, cockroach control aundh, bed bug control aundh, pest control services aundh pune, affordable pest control aundh, emergency pest control aundh, residential pest control aundh, commercial pest control aundh, pest control near me aundh, same day pest control aundh, eco friendly pest control aundh, licensed pest control aundh, guaranteed pest control aundh, 24/7 pest control aundh, pest exterminators aundh, pest management aundh, fumigation services aundh, anti termite treatment aundh, rodent control aundh, mosquito control aundh, lizard control aundh, spider control aundh, ant control aundh, fly control aundh',
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-aundh",
   },

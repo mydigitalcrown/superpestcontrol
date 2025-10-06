@@ -1012,7 +1012,7 @@ export default function PestControlInBaner() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Baner - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
@@ -1020,7 +1020,7 @@ export default function PestControlInBaner() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodents-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,7 +1060,7 @@ export default function PestControlInBaner() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Pest Control - Business Solutions
                 </Link>
@@ -1277,10 +1277,10 @@ export default function PestControlInBaner() {
                   'pest-control-in-hinjewadi',
                   'pest-control-in-wakad',
                   'pest-control-in-bavdhan',
-                  'pest-control-in-kothrud',
+                  'pest-control-in-aundh',
                   'pest-control-in-warje',
-                  'pest-control-in-karve-nagar',
-                  'pest-control-in-pimpri'
+                  'pest-control-in-viman-nagar',
+                  'pest-control-in-pune'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1356,9 +1356,9 @@ export default function PestControlInBaner() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-pimpri-chinchwad',
+                  'pest-control-in-aundh',
                   'pest-control-in-pune',
-                  'pest-control-in-pcmc',
+                  'pest-control-in-viman-nagar',
                   'pest-control-in-wakad',
                   'pest-control-in-baner',
                   'pest-control-in-hinjewadi',
@@ -1413,16 +1413,16 @@ export default function PestControlInBaner() {
                 {[
                   'pest-control-in-pune',
                   'pest-control-in-kharadi',
-                  'pest-control-in-hadapsar',
+                  'pest-control-in-shivajinagar',
                   'pest-control-in-koregaon-park',
                   'pest-control-in-viman-nagar',
-                  'pest-control-in-yerawada',
-                  'pest-control-in-keshav-nagar',
-                  'pest-control-in-wagholi',
-                  'pest-control-in-lohegaon',
-                  'pest-control-in-mundhwa',
+                  'pest-control-in-aundh',
+                  'pest-control-in-bavdhan',
+                  'pest-control-in-hinjewadi',
+                  'pest-control-in-baner',
+                  'pest-control-in-wakad',
                   'pest-control-in-fatima-nagar',
-                  'pest-control-in-salisbury-park'
+                  'pest-control-in-camp'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -2650,13 +2650,13 @@ export default function PestControlInBaner() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
                 <Link href="/lizard-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
@@ -2702,10 +2702,10 @@ export default function PestControlInBaner() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
-              <Link href="/residential-pest-control" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
+              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/residential-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
 

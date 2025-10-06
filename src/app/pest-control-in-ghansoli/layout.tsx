@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in ghansoli, best pest control ghansoli navi mumbai, professional pest control ghansoli, termite control ghansoli, cockroach control ghansoli, bed bug control ghansoli, pest control services ghansoli navi mumbai, affordable pest control ghansoli, emergency pest control ghansoli, residential pest control ghansoli, commercial pest control ghansoli, pest control near me ghansoli, same day pest control ghansoli, eco friendly pest control ghansoli, licensed pest control ghansoli, guaranteed pest control ghansoli, 24/7 pest control ghansoli, pest exterminators ghansoli, pest management ghansoli, fumigation services ghansoli, anti termite treatment ghansoli, rodent control ghansoli, mosquito control ghansoli, lizard control ghansoli, spider control ghansoli, ant control ghansoli, fly control ghansoli, ghansoli railway station pest control, kopar khairane pest control, airoli pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-ghansoli",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-ghansoli',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-ghansoli',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-ghansoli'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-ghansoli"
   },
   openGraph: {
     title: 'Professional Pest Control in Ghansoli | Super Pest Control Services',

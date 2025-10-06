@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in digha, best pest control digha west bengal, professional pest control digha, termite control digha, cockroach control digha, bed bug control digha, pest control services digha west bengal, affordable pest control digha, emergency pest control digha, residential pest control digha, commercial pest control digha, pest control near me digha, same day pest control digha, eco friendly pest control digha, licensed pest control digha, guaranteed pest control digha, 24/7 pest control digha, pest exterminators digha, pest management digha, fumigation services digha, anti termite treatment digha, rodent control digha, mosquito control digha, lizard control digha, spider control digha, ant control digha, fly control digha',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-digha",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-digha',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-digha',
-      'bn-IN': 'https://superpestcontrol.in/bn/pest-control-in-digha'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-digha"
   },
   openGraph: {
     title: 'Professional Pest Control in Digha | Super Pest Control Services',

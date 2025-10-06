@@ -1038,15 +1038,15 @@ export default function PestControlInAmbegaon() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Bavdhan - Pune
                 </Link>
-                <Link href="/pest-control-aundh" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-aundh" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Aundh - Professional Service
                 </Link>
-                <Link href="/pest-control-baner" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-baner" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control Baner - Expert Team
                 </Link>
-                <Link href="/pest-control-hinjewadi" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-hinjewadi" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Hinjewadi - 24/7 Service
                 </Link>

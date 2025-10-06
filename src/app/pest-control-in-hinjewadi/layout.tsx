@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in hinjewadi, best pest control hinjewadi pune, professional pest control hinjewadi, termite control hinjewadi, cockroach control hinjewadi, bed bug control hinjewadi, pest control services hinjewadi pune, affordable pest control hinjewadi, emergency pest control hinjewadi, residential pest control hinjewadi, commercial pest control hinjewadi, pest control near me hinjewadi, same day pest control hinjewadi, eco friendly pest control hinjewadi, licensed pest control hinjewadi, guaranteed pest control hinjewadi, 24/7 pest control hinjewadi, pest exterminators hinjewadi, pest management hinjewadi, fumigation services hinjewadi, anti termite treatment hinjewadi, rodent control hinjewadi, mosquito control hinjewadi, lizard control hinjewadi, spider control hinjewadi, ant control hinjewadi, fly control hinjewadi, hinjewadi it park pest control, baner pest control, aundh pest control, wakad pest control, pune pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-hinjewadi",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-hinjewadi',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-hinjewadi',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-hinjewadi'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-hinjewadi"
   },
   openGraph: {
     title: 'Professional Pest Control in Hinjewadi | Super Pest Control Services',

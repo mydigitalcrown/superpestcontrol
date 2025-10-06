@@ -19,7 +19,7 @@ export default function PestControlInAundh() {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-aundh#localbusiness",
                 "name": "Super Pest Control - Aundh",
-                "image": "https://superpestcontrol.in/images/pest-control-aundh-hero.jpg",
+                "image": "https://superpestcontrol.in/images/location/mumbai.webp",
                 "description": "Professional Pest Control Services in Aundh, Pune. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-aundh",
                 "telephone": "+91-9136036071",
@@ -44,7 +44,6 @@ export default function PestControlInAundh() {
                   "closes": "21:00"
                 },
                 "priceRange": "₹500 - ₹5000",
-                "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -336,7 +335,7 @@ export default function PestControlInAundh() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/pune.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -592,7 +591,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/termites-control.webp" 
+                  src="/images/services/termites-control-mumbai.webp" 
                   alt="Termite Control Aundh - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -634,7 +633,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/cockroach-control.webp" 
+                  src="/images/services/cockroach-control-mumbai.webp" 
                   alt="Cockroach Control Aundh - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -676,7 +675,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/rodents-control.webp" 
+                  src="/images/services/rodents-control-mumbai.webp" 
                   alt="Rodent Control Aundh - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -718,7 +717,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/bed-bug-control.webp" 
+                  src="/images/services/bed-bug-control-mumbai.webp" 
                   alt="Bed Bug Control Aundh - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -760,7 +759,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/ant-control.webp" 
+                  src="/images/services/ant-control-mumbai.webp" 
                   alt="Ant Control Aundh - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -802,7 +801,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/mosquitoes-control.webp" 
+                  src="/images/services/mosquitoes-control-mumbai.webp" 
                   alt="Mosquito Control Aundh - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -844,7 +843,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/spider-control.webp" 
+                  src="/images/services/spider-control-mumbai.webp" 
                   alt="Spider Control Aundh - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -886,7 +885,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/lizard-control.webp" 
+                  src="/images/services/lizard-control-mumbai.webp" 
                   alt="Lizard Control Aundh - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -928,7 +927,7 @@ export default function PestControlInAundh() {
               {/* Service Image */}
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
-                  src="/images/services/commercial-pest-control.webp" 
+                  src="/images/services/commercial-pest-control-mumbai.webp" 
                   alt="Commercial Pest Control Aundh - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
@@ -1012,15 +1011,15 @@ export default function PestControlInAundh() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Termite Control Aundh - Anti-Termite Treatment
                 </Link>
-                <Link href="/cockroach-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Cockroach Control - Professional Extermination
                 </Link>
-                <Link href="/bed-bug-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/bed-bug-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Bed Bug Control - Complete Elimination
                 </Link>
-                <Link href="/rodents-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/rodents-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Rodent Control - Rat & Mouse Removal
                 </Link>
@@ -1060,11 +1059,11 @@ export default function PestControlInAundh() {
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/commercial-pest-control" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-pest-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Pest Control - Business Solutions
                 </Link>
-                <Link href="/commercial-fumigation" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/commercial-fumigation-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Commercial Fumigation - Complete Treatment
                 </Link>
@@ -1279,8 +1278,8 @@ export default function PestControlInAundh() {
                   'pest-control-in-bavdhan',
                   'pest-control-in-kothrud',
                   'pest-control-in-warje',
-                  'pest-control-in-karve-nagar',
-                  'pest-control-in-pimpri'
+                  'pest-control-in-pimpri',
+                  'pest-control-in-viman-nagar'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1356,9 +1355,8 @@ export default function PestControlInAundh() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-pimpri-chinchwad',
                   'pest-control-in-pune',
-                  'pest-control-in-pcmc',
+                  'pest-control-in-pimpri',
                   'pest-control-in-wakad',
                   'pest-control-in-baner',
                   'pest-control-in-hinjewadi',
@@ -1377,7 +1375,8 @@ export default function PestControlInAundh() {
                   'pest-control-in-dronagiri',
                   'pest-control-in-ulwe',
                   'pest-control-in-taloja',
-                  'pest-control-in-mahape'
+                  'pest-control-in-mahape',
+                  'pest-control-in-kothrud'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1413,16 +1412,16 @@ export default function PestControlInAundh() {
                 {[
                   'pest-control-in-pune',
                   'pest-control-in-kharadi',
-                  'pest-control-in-hadapsar',
-                  'pest-control-in-koregaon-park',
+                  'pest-control-in-wakad',
+                  'pest-control-in-baner',
                   'pest-control-in-viman-nagar',
-                  'pest-control-in-yerawada',
-                  'pest-control-in-keshav-nagar',
-                  'pest-control-in-wagholi',
-                  'pest-control-in-lohegaon',
-                  'pest-control-in-mundhwa',
-                  'pest-control-in-fatima-nagar',
-                  'pest-control-in-salisbury-park'
+                  'pest-control-in-hinjewadi',
+                  'pest-control-in-kothrud',
+                  'pest-control-in-warje',
+                  'pest-control-in-bavdhan',
+                  'pest-control-in-pimpri',
+                  'pest-control-in-shivajinagar',
+                  'pest-control-in-camp'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -2650,14 +2649,14 @@ export default function PestControlInAundh() {
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-white">Pest Control Services</h3>
               <div className="space-y-3">
-                <Link href="/termites-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
-                <Link href="/cockroach-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
-                <Link href="/rodents-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
-                <Link href="/bed-bug-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
-                <Link href="/ant-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
-                <Link href="/mosquitoes-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
-                <Link href="/spider-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
-                <Link href="/lizard-control" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
+                <Link href="/termites-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Termite Control</Link>
+                <Link href="/cockroach-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Cockroach Control</Link>
+                <Link href="/rodents-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Rodent Control</Link>
+                <Link href="/bed-bug-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Bed Bug Control</Link>
+                <Link href="/ant-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Ant Control</Link>
+                <Link href="/mosquitoes-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Mosquito Control</Link>
+                <Link href="/spider-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Spider Control</Link>
+                <Link href="/lizard-control-mumbai" className="block text-gray-300 hover:text-orange-400 transition-colors text-sm">Lizard Control</Link>
               </div>
             </div>
 
@@ -2702,10 +2701,10 @@ export default function PestControlInAundh() {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <h3 className="text-lg font-semibold text-white mb-6">Specialized Services</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <Link href="/commercial-fumigation" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
-              <Link href="/flying-insect-management" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
-              <Link href="/commercial-pest-control" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
-              <Link href="/residential-pest-control" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
+              <Link href="/commercial-fumigation-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Fumigation</Link>
+              <Link href="/flying-insect-management-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Flying Insect Management</Link>
+              <Link href="/commercial-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Commercial Pest Control</Link>
+              <Link href="/residential-pest-control-mumbai" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">Residential Pest Control</Link>
             </div>
           </div>
 

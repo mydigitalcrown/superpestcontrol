@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in kandivali, best pest control kandivali mumbai, professional pest control kandivali, termite control kandivali, cockroach control kandivali, bed bug control kandivali, pest control services kandivali mumbai, affordable pest control kandivali, emergency pest control kandivali, residential pest control kandivali, commercial pest control kandivali, pest control near me kandivali, same day pest control kandivali, eco friendly pest control kandivali, licensed pest control kandivali, guaranteed pest control kandivali, 24/7 pest control kandivali, pest exterminators kandivali, pest management kandivali, fumigation services kandivali, anti termite treatment kandivali, rodent control kandivali, mosquito control kandivali, lizard control kandivali, spider control kandivali, ant control kandivali, fly control kandivali, kandivali east pest control, kandivali west pest control, malad pest control, borivali pest control, lokhandwala pest control, charkop pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-kandivali",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-kandivali',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-kandivali',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-kandivali'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-kandivali"
   },
   openGraph: {
     title: 'Professional Pest Control in Kandivali | Super Pest Control Services',

@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in kharadi, best pest control kharadi pune, professional pest control kharadi, termite control kharadi, cockroach control kharadi, bed bug control kharadi, pest control services kharadi pune, affordable pest control kharadi, emergency pest control kharadi, residential pest control kharadi, commercial pest control kharadi, pest control near me kharadi, same day pest control kharadi, eco friendly pest control kharadi, licensed pest control kharadi, guaranteed pest control kharadi, 24/7 pest control kharadi, pest exterminators kharadi, pest management kharadi, fumigation services kharadi, anti termite treatment kharadi, rodent control kharadi, mosquito control kharadi, lizard control kharadi, spider control kharadi, ant control kharadi, fly control kharadi, wagholi pest control, hadapsar pest control, viman nagar pest control, kalyani nagar pest control, pune pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-kharadi",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-kharadi',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-kharadi',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-kharadi'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-kharadi"
   },
   openGraph: {
     title: 'Professional Pest Control in Kharadi | Super Pest Control Services',

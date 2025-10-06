@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in dharavi, best pest control dharavi, professional pest control dharavi, termite control dharavi, cockroach control dharavi, bed bug control dharavi, pest control services dharavi mumbai, affordable pest control dharavi, emergency pest control dharavi, residential pest control dharavi, commercial pest control dharavi, pest control near me dharavi, same day pest control dharavi, eco friendly pest control dharavi, licensed pest control dharavi, guaranteed pest control dharavi, 24/7 pest control dharavi, pest exterminators dharavi, pest management dharavi, fumigation services dharavi, anti termite treatment dharavi, rodent control dharavi, mosquito control dharavi, lizard control dharavi, spider control dharavi, ant control dharavi, fly control dharavi, mahim pest control, dadar pest control, central mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-dharavi",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-dharavi',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-dharavi',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-dharavi'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-dharavi"
   },
   openGraph: {
     title: 'Professional Pest Control in Dharavi | Super Pest Control Services',

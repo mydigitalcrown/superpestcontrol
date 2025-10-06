@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in badlapur, best pest control badlapur, professional pest control badlapur, termite control badlapur, cockroach control badlapur, bed bug control badlapur, pest control services badlapur maharashtra, affordable pest control badlapur, emergency pest control badlapur, residential pest control badlapur, commercial pest control badlapur, pest control near me badlapur, same day pest control badlapur, eco friendly pest control badlapur, licensed pest control badlapur, guaranteed pest control badlapur, 24/7 pest control badlapur, pest exterminators badlapur, pest management badlapur, fumigation services badlapur, anti termite treatment badlapur, rodent control badlapur, mosquito control badlapur, lizard control badlapur, spider control badlapur, ant control badlapur, fly control badlapur',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-badlapur",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-badlapur',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-badlapur',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-badlapur'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-badlapur"
   },
   openGraph: {
     title: 'Professional Pest Control in Badlapur | Super Pest Control Services',

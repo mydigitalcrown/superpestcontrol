@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in bandra kurla complex, best pest control bkc, professional pest control bandra kurla complex, termite control bkc, cockroach control bandra kurla complex, bed bug control bkc, pest control services bandra kurla complex mumbai, commercial pest control bkc, office pest control bandra kurla complex, corporate pest control bkc, affordable pest control bandra kurla complex, emergency pest control bkc, business district pest control, pest control near me bkc, same day pest control bandra kurla complex, eco friendly pest control bkc, licensed pest control bandra kurla complex, guaranteed pest control bkc, 24/7 pest control bandra kurla complex, pest exterminators bkc, pest management bandra kurla complex, fumigation services bkc, anti termite treatment bandra kurla complex, rodent control bkc, mosquito control bandra kurla complex, lizard control bkc, spider control bandra kurla complex, ant control bkc, fly control bandra kurla complex',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-bandra-kurla-complex",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-bandra-kurla-complex',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-bandra-kurla-complex',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-bandra-kurla-complex'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-bandra-kurla-complex"
   },
   openGraph: {
     title: 'Professional Pest Control in Bandra Kurla Complex | Super Pest Control Services',

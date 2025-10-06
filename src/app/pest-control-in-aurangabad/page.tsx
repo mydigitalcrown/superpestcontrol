@@ -1034,11 +1034,11 @@ export default function PestControlInAurangabad() {
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/pest-control-ghansoli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-ghansoli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Ghansoli - Navi Mumbai
                 </Link>
-                <Link href="/pest-control-belapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-cbd-belapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
                   Pest Control in Belapur - Professional Service
                 </Link>
@@ -1191,7 +1191,7 @@ export default function PestControlInAurangabad() {
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
                   'pest-control-in-aurangabad',
-                  'pest-control-in-jalna',
+                  'pest-control-in-solapur',
                   'pest-control-in-ahmednagar',
                   'pest-control-in-beed',
                   'pest-control-in-nashik'
@@ -1235,9 +1235,9 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-sangli',
                   'pest-control-in-nashik',
                   'pest-control-in-ahmednagar',
-                  'pest-control-in-jalna',
+                  'pest-control-in-satara',
                   'pest-control-in-beed',
-                  'pest-control-in-latur',
+                  'pest-control-in-kolhapur',
                   'pest-control-in-bandra-kurla-complex'
                 ].map((location, index) => {
                   const locationName = location

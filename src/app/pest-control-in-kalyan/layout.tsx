@@ -6,12 +6,7 @@ export const metadata: Metadata = {
   keywords: 'pest control in kalyan, best pest control kalyan thane, professional pest control kalyan, termite control kalyan, cockroach control kalyan, bed bug control kalyan, pest control services kalyan thane, affordable pest control kalyan, emergency pest control kalyan, residential pest control kalyan, commercial pest control kalyan, pest control near me kalyan, same day pest control kalyan, eco friendly pest control kalyan, licensed pest control kalyan, guaranteed pest control kalyan, 24/7 pest control kalyan, pest exterminators kalyan, pest management kalyan, fumigation services kalyan, anti termite treatment kalyan, rodent control kalyan, mosquito control kalyan, lizard control kalyan, spider control kalyan, ant control kalyan, fly control kalyan, dombivli pest control, kalyan east pest control, kalyan west pest control, ulhasnagar pest control, badlapur pest control, thane pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
-    canonical: "https://superpestcontrol.in/pest-control-in-kalyan",
-    languages: {
-      'en-IN': 'https://superpestcontrol.in/pest-control-in-kalyan',
-      'hi-IN': 'https://superpestcontrol.in/hi/pest-control-in-kalyan',
-      'mr-IN': 'https://superpestcontrol.in/mr/pest-control-in-kalyan'
-    }
+    canonical: "https://superpestcontrol.in/pest-control-in-kalyan"
   },
   openGraph: {
     title: 'Professional Pest Control in Kalyan | Super Pest Control Services',
