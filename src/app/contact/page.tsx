@@ -63,7 +63,7 @@ export default function ContactPage() {
 
             {/* Mobile Menu Button & CTA */}
             <div className="flex items-center space-x-2 lg:hidden">
-              <a href="tel:+919876543210" className="flex items-center justify-center w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full transition-colors duration-300">
+              <a href="tel:+918097941077" className="flex items-center justify-center w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full transition-colors duration-300">
                 <span className="text-white text-lg">📞</span>
               </a>
               <button className="p-2.5 rounded-xl bg-gray-100/80 hover:bg-gray-200/80 backdrop-blur-sm transition-all duration-300">
@@ -75,9 +75,9 @@ export default function ContactPage() {
             
             {/* Premium CTA Group - Desktop Only */}
             <div className="hidden lg:flex items-center space-x-3">
-              <a href="tel:+919876543210" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
+              <a href="tel:+918097941077" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
                 <span className="text-green-500 text-base">📞</span>
-                <span>+91 98765 43210</span>
+                <span>+91 80979 41077</span>
               </a>
               <Link href="/contact" className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 transform group">
                 <span className="relative z-10">Get Free Quote</span>
@@ -323,8 +323,8 @@ export default function ContactPage() {
                       <p className="text-blue-700">24/7 Available</p>
                     </div>
                   </div>
-                  <a href="tel:+919876543210" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-                    +91 98765 43210
+                  <a href="tel:+918097941077" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
+                    +91 80979 41077
                   </a>
                   <p className="text-gray-600 mt-2">For urgent pest emergencies</p>
                 </div>
@@ -339,8 +339,8 @@ export default function ContactPage() {
                       <p className="text-green-700">Quick Response</p>
                     </div>
                   </div>
-                  <a href="https://wa.me/919876543210" className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">
-                    +91 98765 43210
+                  <a href="https://wa.me/918097941077" className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">
+                    +91 80979 41077
                   </a>
                   <p className="text-gray-600 mt-2">Send photos & get instant quotes</p>
                 </div>
@@ -528,10 +528,10 @@ export default function ContactPage() {
             Don&apos;t let pests take over your property. Contact Mumbai&apos;s most trusted pest control experts today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919876543210" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-              📞 Call Now: +91 98765 43210
+            <a href="tel:+918097941077" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+              📞 Call Now: +91 80979 41077
             </a>
-            <a href="https://wa.me/919876543210" className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+            <a href="https://wa.me/918097941077" className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
               💬 WhatsApp Chat
             </a>
           </div>
