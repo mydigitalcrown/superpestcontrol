@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'Super Pest Control',
     images: [
       {
-        url: 'https://superpestcontrol.in/images/pest-control-dronagiri-banner.jpg',
+        url: 'https://superpestcontrol.in/images/location/mumbai.webp',
         width: 1200,
         height: 630,
         alt: 'Professional Pest Control Services in Dronagiri'
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pest Control in Dronagiri | Super Pest Control',
     description: 'Professional pest control services in Dronagiri, Navi Mumbai with guaranteed results. Call now for expert treatment!',
-    images: ['https://superpestcontrol.in/images/pest-control-dronagiri-twitter.jpg'],
+    images: ['https://superpestcontrol.in/images/location/mumbai.webp'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
   },
