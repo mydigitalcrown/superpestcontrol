@@ -1276,9 +1276,6 @@ export default function PestControlInAundh() {
                   'pest-control-in-hinjewadi',
                   'pest-control-in-wakad',
                   'pest-control-in-bavdhan',
-                  'pest-control-in-kothrud',
-                  'pest-control-in-warje',
-                  'pest-control-in-pimpri',
                   'pest-control-in-viman-nagar'
                 ].map((location, index) => {
                   const locationName = location
@@ -1356,7 +1353,6 @@ export default function PestControlInAundh() {
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
                   'pest-control-in-pune',
-                  'pest-control-in-pimpri',
                   'pest-control-in-wakad',
                   'pest-control-in-baner',
                   'pest-control-in-hinjewadi',
@@ -1375,8 +1371,7 @@ export default function PestControlInAundh() {
                   'pest-control-in-dronagiri',
                   'pest-control-in-ulwe',
                   'pest-control-in-taloja',
-                  'pest-control-in-mahape',
-                  'pest-control-in-kothrud'
+                  'pest-control-in-mahape'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1416,12 +1411,7 @@ export default function PestControlInAundh() {
                   'pest-control-in-baner',
                   'pest-control-in-viman-nagar',
                   'pest-control-in-hinjewadi',
-                  'pest-control-in-kothrud',
-                  'pest-control-in-warje',
-                  'pest-control-in-bavdhan',
-                  'pest-control-in-pimpri',
-                  'pest-control-in-shivajinagar',
-                  'pest-control-in-camp'
+                  'pest-control-in-bavdhan'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')

@@ -1193,7 +1193,6 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-aurangabad',
                   'pest-control-in-solapur',
                   'pest-control-in-ahmednagar',
-                  'pest-control-in-beed',
                   'pest-control-in-nashik'
                 ].map((location, index) => {
                   const locationName = location
@@ -1236,7 +1235,6 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-nashik',
                   'pest-control-in-ahmednagar',
                   'pest-control-in-satara',
-                  'pest-control-in-beed',
                   'pest-control-in-kolhapur',
                   'pest-control-in-bandra-kurla-complex'
                 ].map((location, index) => {
