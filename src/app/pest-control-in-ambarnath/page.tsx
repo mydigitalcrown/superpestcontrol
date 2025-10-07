@@ -18,10 +18,10 @@ export default function PestControlInAmbernath() {
               {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-ambarnath#localbusiness",
-                "name": "Super Pest Control - Ambernath",
+                "name": "Super Pest Control - Ambarnath",
                 "image": "https://superpestcontrol.in/images/pest-control-ambernath-hero.jpg",
-                "description": "Professional Pest Control Services in Ambernath, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-ambernath",
+                "description": "Professional Pest Control Services in Ambarnath, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "url": "https://superpestcontrol.in/pest-control-in-ambarnath",
                 "telephone": "+91-9136036071",
                 "email": "info@superpestcontrol.in",
                 "address": {
@@ -86,11 +86,11 @@ export default function PestControlInAmbernath() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-ambernath#service",
-                "name": "Pest Control Services in Ambernath",
+                "@id": "https://superpestcontrol.in/pest-control-in-ambarnath#service",
+                "name": "Pest Control Services in Ambarnath",
                 "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Ambernath, Maharashtra.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-ambernath#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-ambarnath#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
@@ -130,7 +130,7 @@ export default function PestControlInAmbernath() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-ambernath#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-ambarnath#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -148,13 +148,13 @@ export default function PestControlInAmbernath() {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Pest Control in Ambernath",
-                    "item": "https://superpestcontrol.in/pest-control-in-ambernath"
+                    "item": "https://superpestcontrol.in/pest-control-in-ambarnath"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-ambernath#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-ambarnath#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
@@ -1361,7 +1361,7 @@ export default function PestControlInAmbernath() {
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
                   'pest-control-in-vashi',
-                  'pest-control-in-ambernath',
+                  'pest-control-in-ambarnath',
                   'pest-control-in-ghansoli',
                   'pest-control-in-kopar-khairane',
                   'pest-control-in-turbhe',
