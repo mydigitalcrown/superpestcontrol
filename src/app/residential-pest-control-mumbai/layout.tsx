@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Residential Pest Control Mumbai | Home Pest Management Services",
+    absolute: "Residential Pest Control in Mumbai | Home Pest Management Services",
   },
   description: "Complete residential pest control in Mumbai for homes, apartments & villas. All-inclusive pest management for termites, cockroaches, bed bugs & more. Call +91 80979 41077",
   keywords: "residential pest control mumbai, home pest control, apartment pest control, house pest management, home fumigation mumbai",
