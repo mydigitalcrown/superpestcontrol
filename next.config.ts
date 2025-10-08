@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // URL normalization - remove trailing slashes
+  trailingSlash: false,
   // PageSpeed optimizations
   images: {
     formats: ['image/webp', 'image/avif'],

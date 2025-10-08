@@ -76,6 +76,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://superpestcontrol.in",
     languages: {
+      'x-default': 'https://superpestcontrol.in',
       'en-IN': 'https://superpestcontrol.in',
     },
   },
