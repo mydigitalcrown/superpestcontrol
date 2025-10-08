@@ -8,7 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Best Pest Control Mumbai | 24/7 Professional Service | Super Pest Control ⭐️",
+  title: {
+    template: '%s | Super Pest Control Mumbai',
+    default: "Best Pest Control Mumbai | 24/7 Professional Service | Super Pest Control ⭐️",
+  },
   description: "🏆 #1 Pest Control Mumbai ✅ Termite ✅ Cockroach ✅ Rodent ✅ Bed Bug Control ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 Call +91-80979-41077 💯 4.9★ Rated",
   icons: {
     icon: [

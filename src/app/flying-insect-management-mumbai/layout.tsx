@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Flying Insect Management Mumbai | Flies, Moths & Wasps Control",
+  title: {
+    absolute: "Flying Insect Management Mumbai | Flies, Moths & Wasps Control",
+  },
   description: "Professional flying insect management in Mumbai. Control flies, moths, wasps & gnats with UV traps, sprays & integrated solutions. Free consultation. Call +91 80979 41077",
   keywords: "flying insect control mumbai, fly management, moth control, wasp removal, gnat control, flying pest control mumbai, UV fly trap",
   alternates: {
