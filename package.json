@@ -1,6 +1,6 @@
 {
   "name": "superpestcontrolnextjs",
-  "version": "0.1.0",
+  "version": "0.1.0-stable",
   "private": true,
   "scripts": {
     "dev": "next dev",
