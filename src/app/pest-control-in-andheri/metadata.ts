@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Andheri | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Andheri, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Andheri, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in andheri, best pest control andheri, professional pest control andheri, termite control andheri, cockroach control andheri, bed bug control andheri, pest control services andheri mumbai, affordable pest control andheri, emergency pest control andheri, residential pest control andheri, commercial pest control andheri, pest control near me andheri, same day pest control andheri, eco friendly pest control andheri, licensed pest control andheri, guaranteed pest control andheri, 24/7 pest control andheri, pest exterminators andheri, pest management andheri, fumigation services andheri, anti termite treatment andheri, rodent control andheri, mosquito control andheri, lizard control andheri, spider control andheri, ant control andheri, fly control andheri, andheri east pest control, andheri west pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Airoli | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Airoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Airoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in airoli, best pest control airoli, professional pest control airoli, termite control airoli, cockroach control airoli, bed bug control airoli, pest control services airoli navi mumbai, affordable pest control airoli, emergency pest control airoli, residential pest control airoli, commercial pest control airoli, pest control near me airoli, same day pest control airoli, eco friendly pest control airoli, licensed pest control airoli, guaranteed pest control airoli, 24/7 pest control airoli, pest exterminators airoli, pest management airoli, fumigation services airoli, anti termite treatment airoli, rodent control airoli, mosquito control airoli, lizard control airoli, spider control airoli, ant control airoli, fly control airoli',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Andheri West Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Andheri West | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Andheri West, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Andheri West, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in andheri west, best pest control andheri west, professional pest control andheri west, termite control andheri west, cockroach control andheri west, bed bug control andheri west, pest control services andheri west mumbai, affordable pest control andheri west, emergency pest control andheri west, residential pest control andheri west, commercial pest control andheri west, pest control near me andheri west, same day pest control andheri west, eco friendly pest control andheri west, licensed pest control andheri west, guaranteed pest control andheri west, 24/7 pest control andheri west, pest exterminators andheri west, pest management andheri west, fumigation services andheri west, anti termite treatment andheri west, rodent control andheri west, mosquito control andheri west, lizard control andheri west, spider control andheri west, ant control andheri west, fly control andheri west, lokhandwala pest control, juhu pest control, versova pest control, oshiwara pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

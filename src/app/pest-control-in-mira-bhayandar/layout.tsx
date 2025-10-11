@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Mira Bhayandar | #1 Professional Services Thane | Super Pest Control',
-  description: 'Professional Pest Control Services in Mira Bhayandar, Thane. Expert termite control, cockroach treatment, bed bug removal near Mira Road, Bhayandar East, Bhayandar West, Golden Nest. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Mira Bhayandar, Thane. Expert termite control, cockroach treatment, bed bug removal near Mira Road, Bhayandar East, Bhayandar West, Golden Nest. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in mira bhayandar, best pest control mira bhayandar thane, professional pest control mira bhayandar, termite control mira bhayandar, cockroach control mira bhayandar, bed bug control mira bhayandar, pest control services mira bhayandar thane, affordable pest control mira bhayandar, emergency pest control mira bhayandar, residential pest control mira bhayandar, commercial pest control mira bhayandar, pest control near me mira bhayandar, same day pest control mira bhayandar, eco friendly pest control mira bhayandar, licensed pest control mira bhayandar, guaranteed pest control mira bhayandar, 24/7 pest control mira bhayandar, pest exterminators mira bhayandar, pest management mira bhayandar, fumigation services mira bhayandar, anti termite treatment mira bhayandar, rodent control mira bhayandar, mosquito control mira bhayandar, lizard control mira bhayandar, spider control mira bhayandar, ant control mira bhayandar, fly control mira bhayandar, mira road pest control, bhayandar east pest control, bhayandar west pest control, golden nest pest control, thane pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

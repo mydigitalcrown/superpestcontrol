@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Badlapur | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Badlapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Badlapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in badlapur, best pest control badlapur, professional pest control badlapur, termite control badlapur, cockroach control badlapur, bed bug control badlapur, pest control services badlapur maharashtra, affordable pest control badlapur, emergency pest control badlapur, residential pest control badlapur, commercial pest control badlapur, pest control near me badlapur, same day pest control badlapur, eco friendly pest control badlapur, licensed pest control badlapur, guaranteed pest control badlapur, 24/7 pest control badlapur, pest exterminators badlapur, pest management badlapur, fumigation services badlapur, anti termite treatment badlapur, rodent control badlapur, mosquito control badlapur, lizard control badlapur, spider control badlapur, ant control badlapur, fly control badlapur',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

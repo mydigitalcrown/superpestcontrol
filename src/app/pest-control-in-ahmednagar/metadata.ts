@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Ahmednagar | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Ahmednagar, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Ahmednagar, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in ahmednagar, best pest control ahmednagar, professional pest control ahmednagar, termite control ahmednagar, cockroach control ahmednagar, bed bug control ahmednagar, pest control services ahmednagar maharashtra, affordable pest control ahmednagar, emergency pest control ahmednagar, residential pest control ahmednagar, commercial pest control ahmednagar, pest control near me ahmednagar, same day pest control ahmednagar, eco friendly pest control ahmednagar, licensed pest control ahmednagar, guaranteed pest control ahmednagar, 24/7 pest control ahmednagar, pest exterminators ahmednagar, pest management ahmednagar, fumigation services ahmednagar, anti termite treatment ahmednagar, rodent control ahmednagar, mosquito control ahmednagar, lizard control ahmednagar, spider control ahmednagar, ant control ahmednagar, fly control ahmednagar',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

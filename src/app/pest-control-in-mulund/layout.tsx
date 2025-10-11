@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Mulund | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Mulund, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Mulund East, Mulund West, Bhandup, Nahur. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Mulund, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Mulund East, Mulund West, Bhandup, Nahur. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in mulund, best pest control mulund mumbai, professional pest control mulund, termite control mulund, cockroach control mulund, bed bug control mulund, pest control services mulund mumbai, affordable pest control mulund, emergency pest control mulund, residential pest control mulund, commercial pest control mulund, pest control near me mulund, same day pest control mulund, eco friendly pest control mulund, licensed pest control mulund, guaranteed pest control mulund, 24/7 pest control mulund, pest exterminators mulund, pest management mulund, fumigation services mulund, anti termite treatment mulund, rodent control mulund, mosquito control mulund, lizard control mulund, spider control mulund, ant control mulund, fly control mulund, mulund east pest control, mulund west pest control, bhandup pest control, nahur pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

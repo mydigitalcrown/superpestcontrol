@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Solapur | #1 Professional Services Maharashtra | Super Pest Control',
-  description: 'Professional Pest Control Services in Solapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Solapur City, Pandharpur, Akkalkot, Barshi. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Solapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Solapur City, Pandharpur, Akkalkot, Barshi. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in solapur, best pest control solapur maharashtra, professional pest control solapur, termite control solapur, cockroach control solapur, bed bug control solapur, pest control services solapur maharashtra, affordable pest control solapur, emergency pest control solapur, residential pest control solapur, commercial pest control solapur, pest control near me solapur, same day pest control solapur, eco friendly pest control solapur, licensed pest control solapur, guaranteed pest control solapur, 24/7 pest control solapur, pest exterminators solapur, pest management solapur, fumigation services solapur, anti termite treatment solapur, rodent control solapur, mosquito control solapur, lizard control solapur, spider control solapur, ant control solapur, fly control solapur, solapur city pest control, pandharpur pest control, akkalkot pest control, barshi pest control, maharashtra pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

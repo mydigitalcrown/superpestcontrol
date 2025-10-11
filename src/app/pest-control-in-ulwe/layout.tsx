@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Ulwe | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Ulwe, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Ulwe Node, Sector 1-30, Pushpak Nagar, Roadpali, Kalamboli. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Ulwe, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Ulwe Node, Sector 1-30, Pushpak Nagar, Roadpali, Kalamboli. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in ulwe, best pest control ulwe navi mumbai, professional pest control ulwe, termite control ulwe, cockroach control ulwe, bed bug control ulwe, pest control services ulwe navi mumbai, affordable pest control ulwe, emergency pest control ulwe, residential pest control ulwe, commercial pest control ulwe, pest control near me ulwe, same day pest control ulwe, eco friendly pest control ulwe, licensed pest control ulwe, guaranteed pest control ulwe, 24/7 pest control ulwe, pest exterminators ulwe, pest management ulwe, fumigation services ulwe, anti termite treatment ulwe, rodent control ulwe, mosquito control ulwe, lizard control ulwe, spider control ulwe, ant control ulwe, fly control ulwe, ulwe node pest control, sector pest control ulwe, pushpak nagar pest control, roadpali pest control, kalamboli pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

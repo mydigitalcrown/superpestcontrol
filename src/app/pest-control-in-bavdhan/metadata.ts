@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Bavdhan Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Bavdhan | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Bavdhan, Pune. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Bavdhan, Pune. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in bavdhan, best pest control bavdhan, professional pest control bavdhan, termite control bavdhan, cockroach control bavdhan, bed bug control bavdhan, pest control services bavdhan pune, affordable pest control bavdhan, emergency pest control bavdhan, residential pest control bavdhan, commercial pest control bavdhan, pest control near me bavdhan, same day pest control bavdhan, eco friendly pest control bavdhan, licensed pest control bavdhan, guaranteed pest control bavdhan, 24/7 pest control bavdhan, pest exterminators bavdhan, pest management bavdhan, fumigation services bavdhan, anti termite treatment bavdhan, rodent control bavdhan, mosquito control bavdhan, lizard control bavdhan, spider control bavdhan, ant control bavdhan, fly control bavdhan, pashan pest control, shivajinagar pest control, kothrud pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

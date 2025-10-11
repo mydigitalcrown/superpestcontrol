@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Naigaon | #1 Professional Services Palghar | Super Pest Control',
-  description: 'Professional Pest Control Services in Naigaon, Palghar. Expert termite control, cockroach treatment, bed bug removal near Naigaon East, Naigaon West, Vasai, Virar. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Naigaon, Palghar. Expert termite control, cockroach treatment, bed bug removal near Naigaon East, Naigaon West, Vasai, Virar. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in naigaon, best pest control naigaon palghar, professional pest control naigaon, termite control naigaon, cockroach control naigaon, bed bug control naigaon, pest control services naigaon palghar, affordable pest control naigaon, emergency pest control naigaon, residential pest control naigaon, commercial pest control naigaon, pest control near me naigaon, same day pest control naigaon, eco friendly pest control naigaon, licensed pest control naigaon, guaranteed pest control naigaon, 24/7 pest control naigaon, pest exterminators naigaon, pest management naigaon, fumigation services naigaon, anti termite treatment naigaon, rodent control naigaon, mosquito control naigaon, lizard control naigaon, spider control naigaon, ant control naigaon, fly control naigaon, naigaon east pest control, naigaon west pest control, vasai pest control, virar pest control, palghar pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

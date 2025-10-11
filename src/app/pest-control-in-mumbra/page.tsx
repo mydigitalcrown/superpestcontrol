@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import Link from 'next/link'
@@ -22,7 +22,7 @@ export default function PestControlInMumbra() {
                 "image": "https://superpestcontrol.in/images/pest-control-mumbra-hero.jpg",
                 "description": "Professional Pest Control Services in Mumbra, Thane. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-mumbra",
-                "telephone": "+91-9136036071",
+                "telephone": "+91-8097941077",
                 "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
@@ -184,7 +184,7 @@ export default function PestControlInMumbra() {
                     "name": "Do you provide emergency pest control services in Mumbra?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we provide 24/7 emergency pest control services in Mumbra. Call +91-9136036071 for immediate assistance with severe infestations."
+                      "text": "Yes, we provide 24/7 emergency pest control services in Mumbra. Call +91-8097941077 for immediate assistance with severe infestations."
                     }
                   }
                 ]
@@ -200,7 +200,7 @@ export default function PestControlInMumbra() {
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
-                  "telephone": "+91-9136036071",
+                  "telephone": "+91-8097941077",
                   "contactType": "Customer Service",
                   "areaServed": "IN",
                   "availableLanguage": ["English", "Hindi", "Marathi"]
@@ -522,7 +522,7 @@ export default function PestControlInMumbra() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Hey Google, pest control near me in Mumbra&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control provides the best pest control services in Mumbra, Thane. Call +91-9136036071 for immediate service. Available 24/7.</p>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Mumbra, Thane. Call +91-8097941077 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
@@ -532,7 +532,7 @@ export default function PestControlInMumbra() {
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">🗣️ &ldquo;Siri, emergency pest control in Mumbra&rdquo;</h4>
-                <p className="text-gray-700">Get emergency pest control in Mumbra within 2 hours. Call Super Pest Control at +91-9136036071 for immediate response to severe infestations.</p>
+                <p className="text-gray-700">Get emergency pest control in Mumbra within 2 hours. Call Super Pest Control at +91-8097941077 for immediate response to severe infestations.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
@@ -547,8 +547,8 @@ export default function PestControlInMumbra() {
             <h3 className="text-3xl font-bold mb-4">Need Pest Control in Mumbra Right Now?</h3>
             <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Mumbra, Thane</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:+919136036071" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
-                📞 Call +91-9136036071
+              <a href="tel:+918097941077" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
+                📞 Call +91-8097941077
               </a>
               <a href="#contact" className="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition-colors">
                 Get Free Inspection
@@ -2188,7 +2188,7 @@ export default function PestControlInMumbra() {
                 Super Pest Control is located in Mumbra, Thane, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
               </p>
               <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-400/30">
-                <p className="text-green-300 text-sm font-medium">✅ Available today • Call +91-9136036071</p>
+                <p className="text-green-300 text-sm font-medium">✅ Available today • Call +91-8097941077</p>
               </div>
             </div>
 
@@ -2230,7 +2230,7 @@ export default function PestControlInMumbra() {
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Can I get emergency pest control service in Mumbra right now?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Yes, we provide 24/7 emergency pest control services in Mumbra. Call us now at +91-9136036071 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
+                Yes, we provide 24/7 emergency pest control services in Mumbra. Call us now at +91-8097941077 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
               </p>
               <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
                 <p className="text-red-300 text-sm font-medium">🚨 24/7 emergency • 2-hour response</p>
@@ -2296,8 +2296,8 @@ export default function PestControlInMumbra() {
             
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:+919136036071" className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-orange-600 hover:to-red-600 transition-all duration-300 hover:scale-105 shadow-lg">
-                📞 Call +91-9136036071
+              <a href="tel:+918097941077" className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-orange-600 hover:to-red-600 transition-all duration-300 hover:scale-105 shadow-lg">
+                📞 Call +91-8097941077
               </a>
               <a href="#contact" className="border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
                 Get Free Inspection

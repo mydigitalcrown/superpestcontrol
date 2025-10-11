@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Nerul | #1 Professional Services | Super Pest Control',
-  description: 'Professional Pest Control Services in Nerul, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Seawoods, Juinagar, Sanpada, Kopar Khairane. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Nerul, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Seawoods, Juinagar, Sanpada, Kopar Khairane. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in nerul, best pest control nerul navi mumbai, professional pest control nerul, termite control nerul, cockroach control nerul, bed bug control nerul, pest control services nerul navi mumbai, affordable pest control nerul, emergency pest control nerul, residential pest control nerul, commercial pest control nerul, pest control near me nerul, same day pest control nerul, eco friendly pest control nerul, licensed pest control nerul, guaranteed pest control nerul, 24/7 pest control nerul, pest exterminators nerul, pest management nerul, fumigation services nerul, anti termite treatment nerul, rodent control nerul, mosquito control nerul, lizard control nerul, spider control nerul, ant control nerul, fly control nerul, seawoods pest control, juinagar pest control, sanpada pest control, kopar khairane pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Belapur Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Belapur | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Belapur, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Belapur, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in belapur, best pest control belapur, professional pest control belapur, termite control belapur, cockroach control belapur, bed bug control belapur, pest control services belapur navi mumbai, affordable pest control belapur, emergency pest control belapur, residential pest control belapur, commercial pest control belapur, pest control near me belapur, same day pest control belapur, eco friendly pest control belapur, licensed pest control belapur, guaranteed pest control belapur, 24/7 pest control belapur, pest exterminators belapur, pest management belapur, fumigation services belapur, anti termite treatment belapur, rodent control belapur, mosquito control belapur, lizard control belapur, spider control belapur, ant control belapur, fly control belapur, cbd belapur pest control, sector pest control belapur',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

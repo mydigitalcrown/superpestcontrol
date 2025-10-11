@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Byculla Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Byculla | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Byculla, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Byculla, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in byculla, best pest control byculla, professional pest control byculla, termite control byculla, cockroach control byculla, bed bug control byculla, pest control services byculla mumbai, affordable pest control byculla, emergency pest control byculla, residential pest control byculla, commercial pest control byculla, pest control near me byculla, same day pest control byculla, eco friendly pest control byculla, licensed pest control byculla, guaranteed pest control byculla, 24/7 pest control byculla, pest exterminators byculla, pest management byculla, fumigation services byculla, anti termite treatment byculla, rodent control byculla, mosquito control byculla, lizard control byculla, spider control byculla, ant control byculla, fly control byculla, south mumbai pest control, parel pest control, mahalaxmi pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

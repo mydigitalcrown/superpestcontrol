@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Khar | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Khar, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Khar West, Santa Cruz, Bandra West, Juhu. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Khar, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Khar West, Santa Cruz, Bandra West, Juhu. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in khar, best pest control khar mumbai, professional pest control khar, termite control khar, cockroach control khar, bed bug control khar, pest control services khar mumbai, affordable pest control khar, emergency pest control khar, residential pest control khar, commercial pest control khar, pest control near me khar, same day pest control khar, eco friendly pest control khar, licensed pest control khar, guaranteed pest control khar, 24/7 pest control khar, pest exterminators khar, pest management khar, fumigation services khar, anti termite treatment khar, rodent control khar, mosquito control khar, lizard control khar, spider control khar, ant control khar, fly control khar, khar west pest control, santa cruz pest control, bandra west pest control, juhu pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

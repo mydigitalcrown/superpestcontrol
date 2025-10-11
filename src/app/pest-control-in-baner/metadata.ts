@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Baner Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Baner | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Baner, Pune. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Baner, Pune. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in baner, best pest control baner, professional pest control baner, termite control baner, cockroach control baner, bed bug control baner, pest control services baner pune, affordable pest control baner, emergency pest control baner, residential pest control baner, commercial pest control baner, pest control near me baner, same day pest control baner, eco friendly pest control baner, licensed pest control baner, guaranteed pest control baner, 24/7 pest control baner, pest exterminators baner, pest management baner, fumigation services baner, anti termite treatment baner, rodent control baner, mosquito control baner, lizard control baner, spider control baner, ant control baner, fly control baner, aundh pest control, hinjewadi pest control, wakad pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

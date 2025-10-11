@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Sion | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Sion, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sion East, Sion West, Wadala, Kurla. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Sion, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sion East, Sion West, Wadala, Kurla. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in sion, best pest control sion mumbai, professional pest control sion, termite control sion, cockroach control sion, bed bug control sion, pest control services sion mumbai, affordable pest control sion, emergency pest control sion, residential pest control sion, commercial pest control sion, pest control near me sion, same day pest control sion, eco friendly pest control sion, licensed pest control sion, guaranteed pest control sion, 24/7 pest control sion, pest exterminators sion, pest management sion, fumigation services sion, anti termite treatment sion, rodent control sion, mosquito control sion, lizard control sion, spider control sion, ant control sion, fly control sion, sion east pest control, sion west pest control, wadala pest control, kurla pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

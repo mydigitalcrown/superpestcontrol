@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Colaba Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Colaba | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Colaba, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Colaba, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in colaba, best pest control colaba, professional pest control colaba, termite control colaba, cockroach control colaba, bed bug control colaba, pest control services colaba mumbai, affordable pest control colaba, emergency pest control colaba, residential pest control colaba, commercial pest control colaba, pest control near me colaba, same day pest control colaba, eco friendly pest control colaba, licensed pest control colaba, guaranteed pest control colaba, 24/7 pest control colaba, pest exterminators colaba, pest management colaba, fumigation services colaba, anti termite treatment colaba, rodent control colaba, mosquito control colaba, lizard control colaba, spider control colaba, ant control colaba, fly control colaba, fort pest control, south mumbai pest control, navy nagar pest control, ballard estate pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

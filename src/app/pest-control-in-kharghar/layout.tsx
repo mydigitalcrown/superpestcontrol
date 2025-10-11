@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Kharghar | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Kharghar, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel, Kalamboli, Kamothe, New Panvel. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Kharghar, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel, Kalamboli, Kamothe, New Panvel. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in kharghar, best pest control kharghar navi mumbai, professional pest control kharghar, termite control kharghar, cockroach control kharghar, bed bug control kharghar, pest control services kharghar navi mumbai, affordable pest control kharghar, emergency pest control kharghar, residential pest control kharghar, commercial pest control kharghar, pest control near me kharghar, same day pest control kharghar, eco friendly pest control kharghar, licensed pest control kharghar, guaranteed pest control kharghar, 24/7 pest control kharghar, pest exterminators kharghar, pest management kharghar, fumigation services kharghar, anti termite treatment kharghar, rodent control kharghar, mosquito control kharghar, lizard control kharghar, spider control kharghar, ant control kharghar, fly control kharghar, panvel pest control, kalamboli pest control, kamothe pest control, new panvel pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

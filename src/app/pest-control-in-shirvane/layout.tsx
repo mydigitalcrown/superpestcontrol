@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Shirvane | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Shirvane, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Shirvane, Borivali, Kandivali, Dahisar. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Shirvane, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Shirvane, Borivali, Kandivali, Dahisar. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in shirvane, best pest control shirvane mumbai, professional pest control shirvane, termite control shirvane, cockroach control shirvane, bed bug control shirvane, pest control services shirvane mumbai, affordable pest control shirvane, emergency pest control shirvane, residential pest control shirvane, commercial pest control shirvane, pest control near me shirvane, same day pest control shirvane, eco friendly pest control shirvane, licensed pest control shirvane, guaranteed pest control shirvane, 24/7 pest control shirvane, pest exterminators shirvane, pest management shirvane, fumigation services shirvane, anti termite treatment shirvane, rodent control shirvane, mosquito control shirvane, lizard control shirvane, spider control shirvane, ant control shirvane, fly control shirvane, shirvane area pest control, borivali pest control, kandivali pest control, dahisar pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

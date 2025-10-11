@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Ambegaon | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Ambegaon, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Ambegaon, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in ambegaon, best pest control ambegaon, professional pest control ambegaon, termite control ambegaon, cockroach control ambegaon, bed bug control ambegaon, pest control services ambegaon maharashtra, affordable pest control ambegaon, emergency pest control ambegaon, residential pest control ambegaon, commercial pest control ambegaon, pest control near me ambegaon, same day pest control ambegaon, eco friendly pest control ambegaon, licensed pest control ambegaon, guaranteed pest control ambegaon, 24/7 pest control ambegaon, pest exterminators ambegaon, pest management ambegaon, fumigation services ambegaon, anti termite treatment ambegaon, rodent control ambegaon, mosquito control ambegaon, lizard control ambegaon, spider control ambegaon, ant control ambegaon, fly control ambegaon',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

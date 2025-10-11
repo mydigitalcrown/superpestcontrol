@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Ulhasnagar | #1 Professional Services Thane | Super Pest Control',
-  description: 'Professional Pest Control Services in Ulhasnagar, Thane. Expert termite control, cockroach treatment, bed bug removal near Camp 1-5, Shahad, Ambernath, Badlapur, Vithalwadi. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Ulhasnagar, Thane. Expert termite control, cockroach treatment, bed bug removal near Camp 1-5, Shahad, Ambernath, Badlapur, Vithalwadi. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in ulhasnagar, best pest control ulhasnagar thane, professional pest control ulhasnagar, termite control ulhasnagar, cockroach control ulhasnagar, bed bug control ulhasnagar, pest control services ulhasnagar thane, affordable pest control ulhasnagar, emergency pest control ulhasnagar, residential pest control ulhasnagar, commercial pest control ulhasnagar, pest control near me ulhasnagar, same day pest control ulhasnagar, eco friendly pest control ulhasnagar, licensed pest control ulhasnagar, guaranteed pest control ulhasnagar, 24/7 pest control ulhasnagar, pest exterminators ulhasnagar, pest management ulhasnagar, fumigation services ulhasnagar, anti termite treatment ulhasnagar, rodent control ulhasnagar, mosquito control ulhasnagar, lizard control ulhasnagar, spider control ulhasnagar, ant control ulhasnagar, fly control ulhasnagar, camp pest control ulhasnagar, shahad pest control, ambernath pest control, badlapur pest control, vithalwadi pest control, thane pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

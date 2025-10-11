@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Vikhroli | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Vikhroli, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Vikhroli East, Vikhroli West, Ghatkopar, Kanjurmarg. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Vikhroli, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Vikhroli East, Vikhroli West, Ghatkopar, Kanjurmarg. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in vikhroli, best pest control vikhroli mumbai, professional pest control vikhroli, termite control vikhroli, cockroach control vikhroli, bed bug control vikhroli, pest control services vikhroli mumbai, affordable pest control vikhroli, emergency pest control vikhroli, residential pest control vikhroli, commercial pest control vikhroli, pest control near me vikhroli, same day pest control vikhroli, eco friendly pest control vikhroli, licensed pest control vikhroli, guaranteed pest control vikhroli, 24/7 pest control vikhroli, pest exterminators vikhroli, pest management vikhroli, fumigation services vikhroli, anti termite treatment vikhroli, rodent control vikhroli, mosquito control vikhroli, lizard control vikhroli, spider control vikhroli, ant control vikhroli, fly control vikhroli, vikhroli east pest control, vikhroli west pest control, ghatkopar pest control, kanjurmarg pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Kurla | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Kurla, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Kurla East, Kurla West, Chembur, Sion. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Kurla, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Kurla East, Kurla West, Chembur, Sion. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in kurla, best pest control kurla mumbai, professional pest control kurla, termite control kurla, cockroach control kurla, bed bug control kurla, pest control services kurla mumbai, affordable pest control kurla, emergency pest control kurla, residential pest control kurla, commercial pest control kurla, pest control near me kurla, same day pest control kurla, eco friendly pest control kurla, licensed pest control kurla, guaranteed pest control kurla, 24/7 pest control kurla, pest exterminators kurla, pest management kurla, fumigation services kurla, anti termite treatment kurla, rodent control kurla, mosquito control kurla, lizard control kurla, spider control kurla, ant control kurla, fly control kurla, kurla east pest control, kurla west pest control, chembur pest control, sion pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

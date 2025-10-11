@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Nalasopara | #1 Professional Services Palghar | Super Pest Control',
-  description: 'Professional Pest Control Services in Nalasopara, Palghar. Expert termite control, cockroach treatment, bed bug removal near Nalasopara East, Nalasopara West, Vasai, Virar. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Nalasopara, Palghar. Expert termite control, cockroach treatment, bed bug removal near Nalasopara East, Nalasopara West, Vasai, Virar. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in nalasopara, best pest control nalasopara palghar, professional pest control nalasopara, termite control nalasopara, cockroach control nalasopara, bed bug control nalasopara, pest control services nalasopara palghar, affordable pest control nalasopara, emergency pest control nalasopara, residential pest control nalasopara, commercial pest control nalasopara, pest control near me nalasopara, same day pest control nalasopara, eco friendly pest control nalasopara, licensed pest control nalasopara, guaranteed pest control nalasopara, 24/7 pest control nalasopara, pest exterminators nalasopara, pest management nalasopara, fumigation services nalasopara, anti termite treatment nalasopara, rodent control nalasopara, mosquito control nalasopara, lizard control nalasopara, spider control nalasopara, ant control nalasopara, fly control nalasopara, nalasopara east pest control, nalasopara west pest control, vasai pest control, virar pest control, palghar pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

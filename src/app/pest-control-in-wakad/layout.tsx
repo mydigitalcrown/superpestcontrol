@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Wakad | #1 Professional Services Pune | Super Pest Control',
-  description: 'Professional Pest Control Services in Wakad, Pune. Expert termite control, cockroach treatment, bed bug removal near Hinjewadi, Balewadi, Baner, Aundh. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Wakad, Pune. Expert termite control, cockroach treatment, bed bug removal near Hinjewadi, Balewadi, Baner, Aundh. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in wakad, best pest control wakad pune, professional pest control wakad, termite control wakad, cockroach control wakad, bed bug control wakad, pest control services wakad pune, affordable pest control wakad, emergency pest control wakad, residential pest control wakad, commercial pest control wakad, pest control near me wakad, same day pest control wakad, eco friendly pest control wakad, licensed pest control wakad, guaranteed pest control wakad, 24/7 pest control wakad, pest exterminators wakad, pest management wakad, fumigation services wakad, anti termite treatment wakad, rodent control wakad, mosquito control wakad, lizard control wakad, spider control wakad, ant control wakad, fly control wakad, hinjewadi pest control, balewadi pest control, baner pest control, aundh pest control, pune pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

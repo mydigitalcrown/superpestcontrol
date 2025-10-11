@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Satara | #1 Professional Services Maharashtra | Super Pest Control',
-  description: 'Professional Pest Control Services in Satara, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Satara City, Koregaon, Karad, Phaltan. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Satara, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Satara City, Koregaon, Karad, Phaltan. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in satara, best pest control satara maharashtra, professional pest control satara, termite control satara, cockroach control satara, bed bug control satara, pest control services satara maharashtra, affordable pest control satara, emergency pest control satara, residential pest control satara, commercial pest control satara, pest control near me satara, same day pest control satara, eco friendly pest control satara, licensed pest control satara, guaranteed pest control satara, 24/7 pest control satara, pest exterminators satara, pest management satara, fumigation services satara, anti termite treatment satara, rodent control satara, mosquito control satara, lizard control satara, spider control satara, ant control satara, fly control satara, satara city pest control, koregaon pest control, karad pest control, phaltan pest control, wai pest control, maharashtra pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

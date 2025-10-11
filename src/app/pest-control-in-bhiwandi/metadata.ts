@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Bhiwandi Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Bhiwandi | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Bhiwandi, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Bhiwandi, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in bhiwandi, best pest control bhiwandi, professional pest control bhiwandi, termite control bhiwandi, cockroach control bhiwandi, bed bug control bhiwandi, pest control services bhiwandi mumbai, affordable pest control bhiwandi, emergency pest control bhiwandi, residential pest control bhiwandi, commercial pest control bhiwandi, pest control near me bhiwandi, same day pest control bhiwandi, eco friendly pest control bhiwandi, licensed pest control bhiwandi, guaranteed pest control bhiwandi, 24/7 pest control bhiwandi, pest exterminators bhiwandi, pest management bhiwandi, fumigation services bhiwandi, anti termite treatment bhiwandi, rodent control bhiwandi, mosquito control bhiwandi, lizard control bhiwandi, spider control bhiwandi, ant control bhiwandi, fly control bhiwandi, bhiwandi east pest control, bhiwandi west pest control, thane pest control, mumbai pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

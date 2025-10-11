@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Parel | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Parel, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Lower Parel, Upper Parel, Lalbaug, Elphinstone Road. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Parel, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Lower Parel, Upper Parel, Lalbaug, Elphinstone Road. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in parel, best pest control parel mumbai, professional pest control parel, termite control parel, cockroach control parel, bed bug control parel, pest control services parel mumbai, affordable pest control parel, emergency pest control parel, residential pest control parel, commercial pest control parel, pest control near me parel, same day pest control parel, eco friendly pest control parel, licensed pest control parel, guaranteed pest control parel, 24/7 pest control parel, pest exterminators parel, pest management parel, fumigation services parel, anti termite treatment parel, rodent control parel, mosquito control parel, lizard control parel, spider control parel, ant control parel, fly control parel, lower parel pest control, upper parel pest control, lalbaug pest control, elphinstone road pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

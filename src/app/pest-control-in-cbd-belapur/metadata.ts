@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in CBD Belapur | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in CBD Belapur, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in CBD Belapur, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in CBD Belapur, best pest control cbd-belapur, professional pest control cbd-belapur, termite control cbd-belapur, cockroach control cbd-belapur, bed bug control cbd-belapur, pest control services cbd-belapur navi mumbai, affordable pest control cbd-belapur, emergency pest control cbd-belapur, residential pest control cbd-belapur, commercial pest control cbd-belapur, pest control near me cbd-belapur, same day pest control cbd-belapur, eco friendly pest control cbd-belapur, licensed pest control cbd-belapur, guaranteed pest control cbd-belapur, 24/7 pest control cbd-belapur, pest exterminators cbd-belapur, pest management cbd-belapur, fumigation services cbd-belapur, anti termite treatment cbd-belapur, rodent control cbd-belapur, mosquito control cbd-belapur, lizard control cbd-belapur, spider control cbd-belapur, ant control cbd-belapur, fly control cbd-belapur, belapur cbd pest control, navi mumbai pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

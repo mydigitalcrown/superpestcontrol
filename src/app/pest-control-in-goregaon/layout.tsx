@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Goregaon | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Goregaon, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Goregaon Station, Malad, Film City. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Goregaon, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Goregaon Station, Malad, Film City. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in goregaon, best pest control goregaon mumbai, professional pest control goregaon, termite control goregaon, cockroach control goregaon, bed bug control goregaon, pest control services goregaon mumbai, affordable pest control goregaon, emergency pest control goregaon, residential pest control goregaon, commercial pest control goregaon, pest control near me goregaon, same day pest control goregaon, eco friendly pest control goregaon, licensed pest control goregaon, guaranteed pest control goregaon, 24/7 pest control goregaon, pest exterminators goregaon, pest management goregaon, fumigation services goregaon, anti termite treatment goregaon, rodent control goregaon, mosquito control goregaon, lizard control goregaon, spider control goregaon, ant control goregaon, fly control goregaon, goregaon station pest control, malad pest control, film city pest control, mumbai west pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Boisar Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Boisar | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Boisar, Palghar District. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Boisar, Palghar District. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in boisar, best pest control boisar, professional pest control boisar, termite control boisar, cockroach control boisar, bed bug control boisar, pest control services boisar palghar, affordable pest control boisar, emergency pest control boisar, residential pest control boisar, commercial pest control boisar, pest control near me boisar, same day pest control boisar, eco friendly pest control boisar, licensed pest control boisar, guaranteed pest control boisar, 24/7 pest control boisar, pest exterminators boisar, pest management boisar, fumigation services boisar, anti termite treatment boisar, rodent control boisar, mosquito control boisar, lizard control boisar, spider control boisar, ant control boisar, fly control boisar, boisar pest control services, palghar district pest control, vasai pest control, dahanu pest control, manor pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

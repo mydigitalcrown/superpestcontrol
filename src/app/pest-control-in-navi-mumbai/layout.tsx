@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Navi Mumbai | #1 Professional Services | Super Pest Control',
-  description: 'Professional Pest Control Services in Navi Mumbai, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Vashi, Belapur, Kharghar, Panvel. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Navi Mumbai, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Vashi, Belapur, Kharghar, Panvel. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in navi mumbai, best pest control navi mumbai, professional pest control navi mumbai, termite control navi mumbai, cockroach control navi mumbai, bed bug control navi mumbai, pest control services navi mumbai, affordable pest control navi mumbai, emergency pest control navi mumbai, residential pest control navi mumbai, commercial pest control navi mumbai, pest control near me navi mumbai, same day pest control navi mumbai, eco friendly pest control navi mumbai, licensed pest control navi mumbai, guaranteed pest control navi mumbai, 24/7 pest control navi mumbai, pest exterminators navi mumbai, pest management navi mumbai, fumigation services navi mumbai, anti termite treatment navi mumbai, rodent control navi mumbai, mosquito control navi mumbai, lizard control navi mumbai, spider control navi mumbai, ant control navi mumbai, fly control navi mumbai, vashi pest control, belapur pest control, kharghar pest control, panvel pest control, maharashtra pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Jogeshwari | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Jogeshwari, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Jogeshwari East, Jogeshwari West, Oshiwara. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Jogeshwari, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Jogeshwari East, Jogeshwari West, Oshiwara. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in jogeshwari, best pest control jogeshwari mumbai, professional pest control jogeshwari, termite control jogeshwari, cockroach control jogeshwari, bed bug control jogeshwari, pest control services jogeshwari mumbai, affordable pest control jogeshwari, emergency pest control jogeshwari, residential pest control jogeshwari, commercial pest control jogeshwari, pest control near me jogeshwari, same day pest control jogeshwari, eco friendly pest control jogeshwari, licensed pest control jogeshwari, guaranteed pest control jogeshwari, 24/7 pest control jogeshwari, pest exterminators jogeshwari, pest management jogeshwari, fumigation services jogeshwari, anti termite treatment jogeshwari, rodent control jogeshwari, mosquito control jogeshwari, lizard control jogeshwari, spider control jogeshwari, ant control jogeshwari, fly control jogeshwari, jogeshwari east pest control, jogeshwari west pest control, oshiwara pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

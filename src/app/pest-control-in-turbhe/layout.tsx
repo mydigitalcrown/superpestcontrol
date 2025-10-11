@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Turbhe | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Turbhe, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Turbhe MIDC, Kopar Khairane, Vashi, Sanpada, Airoli. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Turbhe, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Turbhe MIDC, Kopar Khairane, Vashi, Sanpada, Airoli. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in turbhe, best pest control turbhe navi mumbai, professional pest control turbhe, termite control turbhe, cockroach control turbhe, bed bug control turbhe, pest control services turbhe navi mumbai, affordable pest control turbhe, emergency pest control turbhe, residential pest control turbhe, commercial pest control turbhe, pest control near me turbhe, same day pest control turbhe, eco friendly pest control turbhe, licensed pest control turbhe, guaranteed pest control turbhe, 24/7 pest control turbhe, pest exterminators turbhe, pest management turbhe, fumigation services turbhe, anti termite treatment turbhe, rodent control turbhe, mosquito control turbhe, lizard control turbhe, spider control turbhe, ant control turbhe, fly control turbhe, turbhe midc pest control, kopar khairane pest control, vashi pest control, sanpada pest control, airoli pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

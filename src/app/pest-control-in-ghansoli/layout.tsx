@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Ghansoli | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Ghansoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Ghansoli Railway Station, Kopar Khairane, Airoli. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Ghansoli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Ghansoli Railway Station, Kopar Khairane, Airoli. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in ghansoli, best pest control ghansoli navi mumbai, professional pest control ghansoli, termite control ghansoli, cockroach control ghansoli, bed bug control ghansoli, pest control services ghansoli navi mumbai, affordable pest control ghansoli, emergency pest control ghansoli, residential pest control ghansoli, commercial pest control ghansoli, pest control near me ghansoli, same day pest control ghansoli, eco friendly pest control ghansoli, licensed pest control ghansoli, guaranteed pest control ghansoli, 24/7 pest control ghansoli, pest exterminators ghansoli, pest management ghansoli, fumigation services ghansoli, anti termite treatment ghansoli, rodent control ghansoli, mosquito control ghansoli, lizard control ghansoli, spider control ghansoli, ant control ghansoli, fly control ghansoli, ghansoli railway station pest control, kopar khairane pest control, airoli pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

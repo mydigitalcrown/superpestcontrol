@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Mumbra | #1 Professional Services Thane | Super Pest Control',
-  description: 'Professional Pest Control Services in Mumbra, Thane. Expert termite control, cockroach treatment, bed bug removal near Mumbra East, Mumbra West, Kausa, Diva. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Mumbra, Thane. Expert termite control, cockroach treatment, bed bug removal near Mumbra East, Mumbra West, Kausa, Diva. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in mumbra, best pest control mumbra thane, professional pest control mumbra, termite control mumbra, cockroach control mumbra, bed bug control mumbra, pest control services mumbra thane, affordable pest control mumbra, emergency pest control mumbra, residential pest control mumbra, commercial pest control mumbra, pest control near me mumbra, same day pest control mumbra, eco friendly pest control mumbra, licensed pest control mumbra, guaranteed pest control mumbra, 24/7 pest control mumbra, pest exterminators mumbra, pest management mumbra, fumigation services mumbra, anti termite treatment mumbra, rodent control mumbra, mosquito control mumbra, lizard control mumbra, spider control mumbra, ant control mumbra, fly control mumbra, mumbra east pest control, mumbra west pest control, kausa pest control, diva pest control, thane pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

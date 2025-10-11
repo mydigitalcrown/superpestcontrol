@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Vashi | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Vashi, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sector 1-28, Kopar Khairane, Turbhe, Sanpada. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Vashi, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sector 1-28, Kopar Khairane, Turbhe, Sanpada. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in vashi, best pest control vashi navi mumbai, professional pest control vashi, termite control vashi, cockroach control vashi, bed bug control vashi, pest control services vashi navi mumbai, affordable pest control vashi, emergency pest control vashi, residential pest control vashi, commercial pest control vashi, pest control near me vashi, same day pest control vashi, eco friendly pest control vashi, licensed pest control vashi, guaranteed pest control vashi, 24/7 pest control vashi, pest exterminators vashi, pest management vashi, fumigation services vashi, anti termite treatment vashi, rodent control vashi, mosquito control vashi, lizard control vashi, spider control vashi, ant control vashi, fly control vashi, sector pest control vashi, kopar khairane pest control, turbhe pest control, sanpada pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

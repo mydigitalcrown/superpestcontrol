@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Vasai | #1 Professional Services Western Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Vasai, Western Mumbai. Expert termite control, cockroach treatment, bed bug removal near Vasai East, Vasai West, Nalasopara, Virar. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Vasai, Western Mumbai. Expert termite control, cockroach treatment, bed bug removal near Vasai East, Vasai West, Nalasopara, Virar. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in vasai, best pest control vasai western mumbai, professional pest control vasai, termite control vasai, cockroach control vasai, bed bug control vasai, pest control services vasai mumbai, affordable pest control vasai, emergency pest control vasai, residential pest control vasai, commercial pest control vasai, pest control near me vasai, same day pest control vasai, eco friendly pest control vasai, licensed pest control vasai, guaranteed pest control vasai, 24/7 pest control vasai, pest exterminators vasai, pest management vasai, fumigation services vasai, anti termite treatment vasai, rodent control vasai, mosquito control vasai, lizard control vasai, spider control vasai, ant control vasai, fly control vasai, vasai east pest control, vasai west pest control, nalasopara pest control, virar pest control, western mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

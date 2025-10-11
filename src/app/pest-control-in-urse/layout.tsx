@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Urse | #1 Professional Services Pune | Super Pest Control',
-  description: 'Professional Pest Control Services in Urse, Pune. Expert termite control, cockroach treatment, bed bug removal near Mundhwa, Koregaon Park, Viman Nagar, Lohegaon. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Urse, Pune. Expert termite control, cockroach treatment, bed bug removal near Mundhwa, Koregaon Park, Viman Nagar, Lohegaon. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in urse, best pest control urse pune, professional pest control urse, termite control urse, cockroach control urse, bed bug control urse, pest control services urse pune, affordable pest control urse, emergency pest control urse, residential pest control urse, commercial pest control urse, pest control near me urse, same day pest control urse, eco friendly pest control urse, licensed pest control urse, guaranteed pest control urse, 24/7 pest control urse, pest exterminators urse, pest management urse, fumigation services urse, anti termite treatment urse, rodent control urse, mosquito control urse, lizard control urse, spider control urse, ant control urse, fly control urse, mundhwa pest control, koregaon park pest control, viman nagar pest control, lohegaon pest control, pune pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

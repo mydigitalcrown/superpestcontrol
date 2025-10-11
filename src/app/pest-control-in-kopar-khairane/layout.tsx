@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Kopar Khairane | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Kopar Khairane, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Ghansoli, Airoli, Rabale, Vashi. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Kopar Khairane, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Ghansoli, Airoli, Rabale, Vashi. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in kopar khairane, best pest control kopar khairane navi mumbai, professional pest control kopar khairane, termite control kopar khairane, cockroach control kopar khairane, bed bug control kopar khairane, pest control services kopar khairane navi mumbai, affordable pest control kopar khairane, emergency pest control kopar khairane, residential pest control kopar khairane, commercial pest control kopar khairane, pest control near me kopar khairane, same day pest control kopar khairane, eco friendly pest control kopar khairane, licensed pest control kopar khairane, guaranteed pest control kopar khairane, 24/7 pest control kopar khairane, pest exterminators kopar khairane, pest management kopar khairane, fumigation services kopar khairane, anti termite treatment kopar khairane, rodent control kopar khairane, mosquito control kopar khairane, lizard control kopar khairane, spider control kopar khairane, ant control kopar khairane, fly control kopar khairane, ghansoli pest control, airoli pest control, rabale pest control, vashi pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

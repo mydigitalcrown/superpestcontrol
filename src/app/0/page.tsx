@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 // Voice Search Optimization - FAQ Data for Naigaon
 const faqData = [

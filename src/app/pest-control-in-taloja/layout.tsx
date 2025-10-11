@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Taloja | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Taloja, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Taloja MIDC, Kharghar, Panvel, New Panvel. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Taloja, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Taloja MIDC, Kharghar, Panvel, New Panvel. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in taloja, best pest control taloja navi mumbai, professional pest control taloja, termite control taloja, cockroach control taloja, bed bug control taloja, pest control services taloja navi mumbai, affordable pest control taloja, emergency pest control taloja, residential pest control taloja, commercial pest control taloja, pest control near me taloja, same day pest control taloja, eco friendly pest control taloja, licensed pest control taloja, guaranteed pest control taloja, 24/7 pest control taloja, pest exterminators taloja, pest management taloja, fumigation services taloja, anti termite treatment taloja, rodent control taloja, mosquito control taloja, lizard control taloja, spider control taloja, ant control taloja, fly control taloja, taloja midc pest control, kharghar pest control, panvel pest control, new panvel pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

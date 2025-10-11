@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Ambernath | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Ambernath, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Ambernath, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in ambernath, best pest control ambernath, professional pest control ambernath, termite control ambernath, cockroach control ambernath, bed bug control ambernath, pest control services ambernath maharashtra, affordable pest control ambernath, emergency pest control ambernath, residential pest control ambernath, commercial pest control ambernath, pest control near me ambernath, same day pest control ambernath, eco friendly pest control ambernath, licensed pest control ambernath, guaranteed pest control ambernath, 24/7 pest control ambernath, pest exterminators ambernath, pest management ambernath, fumigation services ambernath, anti termite treatment ambernath, rodent control ambernath, mosquito control ambernath, lizard control ambernath, spider control ambernath, ant control ambernath, fly control ambernath',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

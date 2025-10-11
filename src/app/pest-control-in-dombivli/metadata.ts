@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Dombivli Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Dombivli | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Dombivli, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Dombivli, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in dombivli, best pest control dombivli, professional pest control dombivli, termite control dombivli, cockroach control dombivli, bed bug control dombivli, pest control services dombivli mumbai, affordable pest control dombivli, emergency pest control dombivli, residential pest control dombivli, commercial pest control dombivli, pest control near me dombivli, same day pest control dombivli, eco friendly pest control dombivli, licensed pest control dombivli, guaranteed pest control dombivli, 24/7 pest control dombivli, pest exterminators dombivli, pest management dombivli, fumigation services dombivli, anti termite treatment dombivli, rodent control dombivli, mosquito control dombivli, lizard control dombivli, spider control dombivli, ant control dombivli, fly control dombivli, dombivli east pest control, dombivli west pest control, thane pest control, mumbai pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

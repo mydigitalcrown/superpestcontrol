@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Chembur | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Chembur, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Chembur, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in chembur, best pest control chembur, professional pest control chembur, termite control chembur, cockroach control chembur, bed bug control chembur, pest control services chembur mumbai, affordable pest control chembur, emergency pest control chembur, residential pest control chembur, commercial pest control chembur, pest control near me chembur, same day pest control chembur, eco friendly pest control chembur, licensed pest control chembur, guaranteed pest control chembur, 24/7 pest control chembur, pest exterminators chembur, pest management chembur, fumigation services chembur, anti termite treatment chembur, rodent control chembur, mosquito control chembur, lizard control chembur, spider control chembur, ant control chembur, fly control chembur, chembur east pest control, chembur west pest control, eastern mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

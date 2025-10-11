@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization for Dharavi
 export const metadata: Metadata = {
   title: 'Best Pest Control in Dharavi | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Dharavi, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Dharavi, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in dharavi, best pest control dharavi, professional pest control dharavi, termite control dharavi, cockroach control dharavi, bed bug control dharavi, pest control services dharavi mumbai, affordable pest control dharavi, emergency pest control dharavi, residential pest control dharavi, commercial pest control dharavi, pest control near me dharavi, same day pest control dharavi, eco friendly pest control dharavi, licensed pest control dharavi, guaranteed pest control dharavi, 24/7 pest control dharavi, pest exterminators dharavi, pest management dharavi, fumigation services dharavi, anti termite treatment dharavi, rodent control dharavi, mosquito control dharavi, lizard control dharavi, spider control dharavi, ant control dharavi, fly control dharavi, mahim pest control, dadar pest control, matunga pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

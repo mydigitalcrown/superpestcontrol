@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in New Panvel | #1 Professional Services | Super Pest Control',
-  description: 'Professional Pest Control Services in New Panvel, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sector 1, Sector 7, Sector 15, Sector 21. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in New Panvel, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sector 1, Sector 7, Sector 15, Sector 21. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in new panvel, best pest control new panvel navi mumbai, professional pest control new panvel, termite control new panvel, cockroach control new panvel, bed bug control new panvel, pest control services new panvel navi mumbai, affordable pest control new panvel, emergency pest control new panvel, residential pest control new panvel, commercial pest control new panvel, pest control near me new panvel, same day pest control new panvel, eco friendly pest control new panvel, licensed pest control new panvel, guaranteed pest control new panvel, 24/7 pest control new panvel, pest exterminators new panvel, pest management new panvel, fumigation services new panvel, anti termite treatment new panvel, rodent control new panvel, mosquito control new panvel, lizard control new panvel, spider control new panvel, ant control new panvel, fly control new panvel, sector 1 pest control, sector 7 pest control, sector 15 pest control, sector 21 pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

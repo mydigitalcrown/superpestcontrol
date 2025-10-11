@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Bhandup Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Bhandup | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Bhandup, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Bhandup, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in bhandup, best pest control bhandup, professional pest control bhandup, termite control bhandup, cockroach control bhandup, bed bug control bhandup, pest control services bhandup mumbai, affordable pest control bhandup, emergency pest control bhandup, residential pest control bhandup, commercial pest control bhandup, pest control near me bhandup, same day pest control bhandup, eco friendly pest control bhandup, licensed pest control bhandup, guaranteed pest control bhandup, 24/7 pest control bhandup, pest exterminators bhandup, pest management bhandup, fumigation services bhandup, anti termite treatment bhandup, rodent control bhandup, mosquito control bhandup, lizard control bhandup, spider control bhandup, ant control bhandup, fly control bhandup, bhandup east pest control, bhandup west pest control, mulund pest control, kanjurmarg pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

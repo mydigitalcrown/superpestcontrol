@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Kalamboli | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Kalamboli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel, New Panvel, Kamothe. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Kalamboli, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel, New Panvel, Kamothe. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in kalamboli, best pest control kalamboli navi mumbai, professional pest control kalamboli, termite control kalamboli, cockroach control kalamboli, bed bug control kalamboli, pest control services kalamboli navi mumbai, affordable pest control kalamboli, emergency pest control kalamboli, residential pest control kalamboli, commercial pest control kalamboli, pest control near me kalamboli, same day pest control kalamboli, eco friendly pest control kalamboli, licensed pest control kalamboli, guaranteed pest control kalamboli, 24/7 pest control kalamboli, pest exterminators kalamboli, pest management kalamboli, fumigation services kalamboli, anti termite treatment kalamboli, rodent control kalamboli, mosquito control kalamboli, lizard control kalamboli, spider control kalamboli, ant control kalamboli, fly control kalamboli, panvel pest control, new panvel pest control, kamothe pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

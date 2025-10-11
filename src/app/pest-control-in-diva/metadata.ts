@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Diva Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Diva | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Diva, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Diva, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in diva, best pest control diva, professional pest control diva, termite control diva, cockroach control diva, bed bug control diva, pest control services diva mumbai, affordable pest control diva, emergency pest control diva, residential pest control diva, commercial pest control diva, pest control near me diva, same day pest control diva, eco friendly pest control diva, licensed pest control diva, guaranteed pest control diva, 24/7 pest control diva, pest exterminators diva, pest management diva, fumigation services diva, anti termite treatment diva, rodent control diva, mosquito control diva, lizard control diva, spider control diva, ant control diva, fly control diva, mumbra pest control, thane pest control, kalyan pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

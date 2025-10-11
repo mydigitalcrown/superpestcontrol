@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Kalyan | #1 Professional Services Thane | Super Pest Control',
-  description: 'Professional Pest Control Services in Kalyan, Thane. Expert termite control, cockroach treatment, bed bug removal near Dombivli, Kalyan East, Kalyan West, Ulhasnagar, Badlapur. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Kalyan, Thane. Expert termite control, cockroach treatment, bed bug removal near Dombivli, Kalyan East, Kalyan West, Ulhasnagar, Badlapur. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in kalyan, best pest control kalyan thane, professional pest control kalyan, termite control kalyan, cockroach control kalyan, bed bug control kalyan, pest control services kalyan thane, affordable pest control kalyan, emergency pest control kalyan, residential pest control kalyan, commercial pest control kalyan, pest control near me kalyan, same day pest control kalyan, eco friendly pest control kalyan, licensed pest control kalyan, guaranteed pest control kalyan, 24/7 pest control kalyan, pest exterminators kalyan, pest management kalyan, fumigation services kalyan, anti termite treatment kalyan, rodent control kalyan, mosquito control kalyan, lizard control kalyan, spider control kalyan, ant control kalyan, fly control kalyan, dombivli pest control, kalyan east pest control, kalyan west pest control, ulhasnagar pest control, badlapur pest control, thane pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

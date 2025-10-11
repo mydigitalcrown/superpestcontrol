@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization
 export const metadata: Metadata = {
   title: 'Best Pest Control in Aurangabad | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Aurangabad, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Aurangabad, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in aurangabad, best pest control aurangabad, professional pest control aurangabad, termite control aurangabad, cockroach control aurangabad, bed bug control aurangabad, pest control services aurangabad maharashtra, affordable pest control aurangabad, emergency pest control aurangabad, residential pest control aurangabad, commercial pest control aurangabad, pest control near me aurangabad, same day pest control aurangabad, eco friendly pest control aurangabad, licensed pest control aurangabad, guaranteed pest control aurangabad, 24/7 pest control aurangabad, pest exterminators aurangabad, pest management aurangabad, fumigation services aurangabad, anti termite treatment aurangabad, rodent control aurangabad, mosquito control aurangabad, lizard control aurangabad, spider control aurangabad, ant control aurangabad, fly control aurangabad',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

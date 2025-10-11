@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Bhayander Specific
 export const metadata: Metadata = {
   title: 'Best Pest Control in Bhayander | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Bhayander, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Bhayander, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in bhayander, best pest control bhayander, professional pest control bhayander, termite control bhayander, cockroach control bhayander, bed bug control bhayander, pest control services bhayander mumbai, affordable pest control bhayander, emergency pest control bhayander, residential pest control bhayander, commercial pest control bhayander, pest control near me bhayander, same day pest control bhayander, eco friendly pest control bhayander, licensed pest control bhayander, guaranteed pest control bhayander, 24/7 pest control bhayander, pest exterminators bhayander, pest management bhayander, fumigation services bhayander, anti termite treatment bhayander, rodent control bhayander, mosquito control bhayander, lizard control bhayander, spider control bhayander, ant control bhayander, fly control bhayander, bhayander east pest control, bhayander west pest control, mira road pest control, vasai pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',

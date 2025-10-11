@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Panvel | #1 Professional Services Navi Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Panvel, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel City, Old Panvel, Khanda Colony, Awas Vikas. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Panvel, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel City, Old Panvel, Khanda Colony, Awas Vikas. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in panvel, best pest control panvel navi mumbai, professional pest control panvel, termite control panvel, cockroach control panvel, bed bug control panvel, pest control services panvel navi mumbai, affordable pest control panvel, emergency pest control panvel, residential pest control panvel, commercial pest control panvel, pest control near me panvel, same day pest control panvel, eco friendly pest control panvel, licensed pest control panvel, guaranteed pest control panvel, 24/7 pest control panvel, pest exterminators panvel, pest management panvel, fumigation services panvel, anti termite treatment panvel, rodent control panvel, mosquito control panvel, lizard control panvel, spider control panvel, ant control panvel, fly control panvel, panvel city pest control, old panvel pest control, khanda colony pest control, awas vikas pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {

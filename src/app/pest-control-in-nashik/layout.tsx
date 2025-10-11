@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Best Pest Control in Nashik | #1 Professional Services Maharashtra | Super Pest Control',
-  description: 'Professional Pest Control Services in Nashik, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Nashik East, Nashik West, Nashik Road, Deolali. 100% guaranteed results. Call ☎️ +91-9136036071 for immediate service.',
+  description: 'Professional Pest Control Services in Nashik, Maharashtra. Expert termite control, cockroach treatment, bed bug removal near Nashik East, Nashik West, Nashik Road, Deolali. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
   keywords: 'pest control in nashik, best pest control nashik maharashtra, professional pest control nashik, termite control nashik, cockroach control nashik, bed bug control nashik, pest control services nashik maharashtra, affordable pest control nashik, emergency pest control nashik, residential pest control nashik, commercial pest control nashik, pest control near me nashik, same day pest control nashik, eco friendly pest control nashik, licensed pest control nashik, guaranteed pest control nashik, 24/7 pest control nashik, pest exterminators nashik, pest management nashik, fumigation services nashik, anti termite treatment nashik, rodent control nashik, mosquito control nashik, lizard control nashik, spider control nashik, ant control nashik, fly control nashik, nashik east pest control, nashik west pest control, nashik road pest control, deolali pest control, maharashtra pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
