@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Lokhandwala | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Lokhandwala, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Lokhandwala Complex, Four Bungalows, Oshiwara, Versova. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
+  title: 'Pest Control in Lokhandwala | 24/7 Service | Super Pest Control',
+  description: 'Professional Pest Control Services in Lokhandwala, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Lokhandwala Complex, Four Bungalows, Oshiwara, Versova. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
   keywords: 'pest control in lokhandwala, best pest control lokhandwala mumbai, professional pest control lokhandwala, termite control lokhandwala, cockroach control lokhandwala, bed bug control lokhandwala, pest control services lokhandwala mumbai, affordable pest control lokhandwala, emergency pest control lokhandwala, residential pest control lokhandwala, commercial pest control lokhandwala, pest control near me lokhandwala, same day pest control lokhandwala, eco friendly pest control lokhandwala, licensed pest control lokhandwala, guaranteed pest control lokhandwala, 24/7 pest control lokhandwala, pest exterminators lokhandwala, pest management lokhandwala, fumigation services lokhandwala, anti termite treatment lokhandwala, rodent control lokhandwala, mosquito control lokhandwala, lizard control lokhandwala, spider control lokhandwala, ant control lokhandwala, fly control lokhandwala, lokhandwala complex pest control, four bungalows pest control, oshiwara pest control, versova pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Professional Pest Control in Lokhandwala | Super Pest Control Services',
+    title: 'Pest Control in Lokhandwala | Super Pest Control Services',
     description: 'Get the best pest control services in Lokhandwala, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
     url: 'https://superpestcontrol.in/pest-control-in-lokhandwala',
     siteName: 'Super Pest Control',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Lokhandwala | Super Pest Control',
+    title: 'Pest Control in Lokhandwala | 24/7 Service | Super Pest Control',
     description: 'Professional pest control services in Lokhandwala, Mumbai with guaranteed results. Call now for expert treatment!',
     images: ['https://superpestcontrol.in/images/pest-control-lokhandwala-twitter.jpg'],
     creator: '@superpestcontrol',

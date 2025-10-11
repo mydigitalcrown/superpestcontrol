@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Professional Pest Control Services in Airoli | Super Pest Control Mumbai',
