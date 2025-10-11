@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Professional Pest Control Services in Bhandup | Super Pest Control Mumbai',
-  description: 'Expert pest control services in Bhandup East & West. Termite, cockroach, rodent, bed bug control with 10+ years experience. Licensed professionals, 24/7 service. Call +91-8097941077 for free inspection.',
+  title: 'Pest Control in Bhandup | 24/7 Service | Super Pest Control',
+  description: 'Get fast pest control in Bhandup. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control Bhandup, termite control Bhandup, cockroach control Bhandup, rodent control Bhandup, bed bug control Bhandup, ant control Bhandup, pest control services Bhandup, fumigation services Bhandup, pest control Bhandup East, pest control Bhandup West',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-bhandup",
