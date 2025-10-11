@@ -10,9 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     template: '%s | Super Pest Control Mumbai',
-    default: "Best Pest Control Mumbai | 24/7 Professional Service | Super Pest Control ⭐️",
+    default: "Pest Control in Mumbai | 24/7 Service | #1 Pest Control Services Mumbai",
   },
-  description: "🏆 #1 Pest Control Mumbai ✅ Termite ✅ Cockroach ✅ Rodent ✅ Bed Bug Control ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 Call +91-80979-41077 💯 4.9★ Rated",
+  description: "Professional Pest Control in Mumbai ✅ Termite Control ✅ Cockroach ✅ Rodent ✅ Bed Bug Control ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 +91-80979-41077 💯 Licensed & Certified Pest Control Services in Mumbai",
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '32x32' },
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "🏆 Best Pest Control Mumbai | 24/7 Professional Service | Super Pest Control",
-    description: "✅ #1 Pest Control Mumbai ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 Call +91-80979-41077 💯 4.9★ Rated ✅ Licensed & Certified",
+    title: "Pest Control in Mumbai | Professional Pest Control Services | Super Pest Control",
+    description: "Best Pest Control in Mumbai ⚡ 24/7 Service 🛡️ 5 Year Warranty 📞 +91-80979-41077 ✅ Licensed Pest Control Services in Mumbai | Termite, Cockroach, Rodent Control",
     url: "https://superpestcontrol.in",
     siteName: "Super Pest Control Mumbai",
     locale: "en_IN",
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "🏆 Best Pest Control Mumbai | 24/7 Professional Service",
-    description: "✅ #1 Pest Control Mumbai ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 Call +91-80979-41077 💯 4.9★ Rated",
+    title: "Pest Control in Mumbai | 24/7 Professional Pest Control Services",
+    description: "Best Pest Control in Mumbai ⚡ Same Day Service 🛡️ 5 Year Warranty 📞 +91-80979-41077 ✅ Licensed & Certified Pest Control Services",
     images: ["/android-chrome-512x512.png"],
     creator: "@superpestmumbai",
     site: "@superpestmumbai",

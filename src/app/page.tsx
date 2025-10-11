@@ -193,10 +193,10 @@ export default function Home() {
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Pest Control
+                Pest Control in Mumbai
               </span>
               <br />
-              <span className="text-white">Faster Than Ever</span>
+              <span className="text-white">Fast, Safe & Reliable</span>
             </h1>
             
             {/* Subheadline */}
