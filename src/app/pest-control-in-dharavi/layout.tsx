@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Dharavi | 24/7 Service | Super Pest Control',
-  description: 'Professional Pest Control Services in Dharavi, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
+  description: 'Get fast pest control in Dharavi. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in dharavi, best pest control dharavi, professional pest control dharavi, termite control dharavi, cockroach control dharavi, bed bug control dharavi, pest control services dharavi mumbai, affordable pest control dharavi, emergency pest control dharavi, residential pest control dharavi, commercial pest control dharavi, pest control near me dharavi, same day pest control dharavi, eco friendly pest control dharavi, licensed pest control dharavi, guaranteed pest control dharavi, 24/7 pest control dharavi, pest exterminators dharavi, pest management dharavi, fumigation services dharavi, anti termite treatment dharavi, rodent control dharavi, mosquito control dharavi, lizard control dharavi, spider control dharavi, ant control dharavi, fly control dharavi, mahim pest control, dadar pest control, central mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-dharavi"
   },
   openGraph: {
-    title: 'Pest Control in Dharavi | Super Pest Control Services',
-    description: 'Get the best pest control services in Dharavi with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Dharavi | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Dharavi. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-dharavi',
     siteName: 'Super Pest Control',
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pest Control in Dharavi | 24/7 Service | Super Pest Control',
-    description: 'Professional pest control services in Dharavi with guaranteed results. Call now for expert treatment!',
+    description: 'Get fast pest control in Dharavi. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-dharavi-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

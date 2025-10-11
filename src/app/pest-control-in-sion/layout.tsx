@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Sion | 24/7 Service | Super Pest Control',
-  description: 'Professional Pest Control Services in Sion, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Sion East, Sion West, Wadala, Kurla. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
+  description: 'Get fast pest control in Sion. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in sion, best pest control sion mumbai, professional pest control sion, termite control sion, cockroach control sion, bed bug control sion, pest control services sion mumbai, affordable pest control sion, emergency pest control sion, residential pest control sion, commercial pest control sion, pest control near me sion, same day pest control sion, eco friendly pest control sion, licensed pest control sion, guaranteed pest control sion, 24/7 pest control sion, pest exterminators sion, pest management sion, fumigation services sion, anti termite treatment sion, rodent control sion, mosquito control sion, lizard control sion, spider control sion, ant control sion, fly control sion, sion east pest control, sion west pest control, wadala pest control, kurla pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Sion | Super Pest Control Services',
-    description: 'Get the best pest control services in Sion, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Sion | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Sion. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-sion',
     siteName: 'Super Pest Control',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pest Control in Sion | 24/7 Service | Super Pest Control',
-    description: 'Professional pest control services in Sion, Mumbai with guaranteed results. Call now for expert treatment!',
+    description: 'Get fast pest control in Sion. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-sion-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

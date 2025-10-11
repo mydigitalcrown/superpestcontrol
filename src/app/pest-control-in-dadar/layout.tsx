@@ -1,16 +1,16 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Dadar | #1 Professional Services Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Dadar East & West, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
+  title: 'Pest Control in Dadar | 24/7 Service | Super Pest Control',
+  description: 'Get fast pest control in Dadar. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in dadar, best pest control dadar, professional pest control dadar, termite control dadar, cockroach control dadar, bed bug control dadar, pest control services dadar mumbai, affordable pest control dadar, emergency pest control dadar, residential pest control dadar, commercial pest control dadar, pest control near me dadar, same day pest control dadar, eco friendly pest control dadar, licensed pest control dadar, guaranteed pest control dadar, 24/7 pest control dadar, pest exterminators dadar, pest management dadar, fumigation services dadar, anti termite treatment dadar, rodent control dadar, mosquito control dadar, lizard control dadar, spider control dadar, ant control dadar, fly control dadar, dadar east pest control, dadar west pest control, central mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-dadar"
   },
   openGraph: {
-    title: 'Professional Pest Control in Dadar | Super Pest Control Services',
-    description: 'Get the best pest control services in Dadar East & West with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Dadar | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Dadar. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-dadar',
     siteName: 'Super Pest Control',
     images: [
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Dadar | Super Pest Control',
-    description: 'Professional pest control services in Dadar East & West with guaranteed results. Call now for expert treatment!',
+    title: 'Pest Control in Dadar | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Dadar. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-dadar-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

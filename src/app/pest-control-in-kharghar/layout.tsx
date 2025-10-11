@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Kharghar | 24/7 Service | Super Pest Control',
-  description: 'Professional Pest Control Services in Kharghar, Navi Mumbai. Expert termite control, cockroach treatment, bed bug removal near Panvel, Kalamboli, Kamothe, New Panvel. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
+  description: 'Get fast pest control in Kharghar. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in kharghar, best pest control kharghar navi mumbai, professional pest control kharghar, termite control kharghar, cockroach control kharghar, bed bug control kharghar, pest control services kharghar navi mumbai, affordable pest control kharghar, emergency pest control kharghar, residential pest control kharghar, commercial pest control kharghar, pest control near me kharghar, same day pest control kharghar, eco friendly pest control kharghar, licensed pest control kharghar, guaranteed pest control kharghar, 24/7 pest control kharghar, pest exterminators kharghar, pest management kharghar, fumigation services kharghar, anti termite treatment kharghar, rodent control kharghar, mosquito control kharghar, lizard control kharghar, spider control kharghar, ant control kharghar, fly control kharghar, panvel pest control, kalamboli pest control, kamothe pest control, new panvel pest control, navi mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Kharghar | Super Pest Control Services',
-    description: 'Get the best pest control services in Kharghar, Navi Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Kharghar | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Kharghar. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-kharghar',
     siteName: 'Super Pest Control',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pest Control in Kharghar | 24/7 Service | Super Pest Control',
-    description: 'Professional pest control services in Kharghar, Navi Mumbai with guaranteed results. Call now for expert treatment!',
+    description: 'Get fast pest control in Kharghar. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-kharghar-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

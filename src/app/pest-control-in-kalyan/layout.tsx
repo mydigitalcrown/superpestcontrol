@@ -1,16 +1,16 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Kalyan | 24/7 Service | Super Pest Control',
-  description: 'Professional pest control in Kalyan. Termite, cockroach & bed bug removal. 100% guaranteed. Call ☎️ 8097941077 for same-day service.',
+  description: 'Get fast pest control in Kalyan. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in kalyan, best pest control kalyan thane, professional pest control kalyan, termite control kalyan, cockroach control kalyan, bed bug control kalyan, pest control services kalyan thane, affordable pest control kalyan, emergency pest control kalyan, residential pest control kalyan, commercial pest control kalyan, pest control near me kalyan, same day pest control kalyan, eco friendly pest control kalyan, licensed pest control kalyan, guaranteed pest control kalyan, 24/7 pest control kalyan, pest exterminators kalyan, pest management kalyan, fumigation services kalyan, anti termite treatment kalyan, rodent control kalyan, mosquito control kalyan, lizard control kalyan, spider control kalyan, ant control kalyan, fly control kalyan, dombivli pest control, kalyan east pest control, kalyan west pest control, ulhasnagar pest control, badlapur pest control, thane pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-kalyan"
   },
   openGraph: {
-    title: 'Pest Control in Kalyan | Super Pest Control Services',
-    description: 'Get the best pest control services in Kalyan, Thane with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Kalyan | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Kalyan. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-kalyan',
     siteName: 'Super Pest Control',
     images: [
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Kalyan | Super Pest Control',
-    description: 'Professional pest control services in Kalyan, Thane with guaranteed results. Call now for expert treatment!',
+    title: 'Pest Control in Kalyan | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Kalyan. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-kalyan-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Vikhroli | 24/7 Service | Super Pest Control',
-  description: 'Professional Pest Control Services in Vikhroli, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Vikhroli East, Vikhroli West, Ghatkopar, Kanjurmarg. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
+  description: 'Get fast pest control in Vikhroli. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in vikhroli, best pest control vikhroli mumbai, professional pest control vikhroli, termite control vikhroli, cockroach control vikhroli, bed bug control vikhroli, pest control services vikhroli mumbai, affordable pest control vikhroli, emergency pest control vikhroli, residential pest control vikhroli, commercial pest control vikhroli, pest control near me vikhroli, same day pest control vikhroli, eco friendly pest control vikhroli, licensed pest control vikhroli, guaranteed pest control vikhroli, 24/7 pest control vikhroli, pest exterminators vikhroli, pest management vikhroli, fumigation services vikhroli, anti termite treatment vikhroli, rodent control vikhroli, mosquito control vikhroli, lizard control vikhroli, spider control vikhroli, ant control vikhroli, fly control vikhroli, vikhroli east pest control, vikhroli west pest control, ghatkopar pest control, kanjurmarg pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Vikhroli | Super Pest Control Services',
-    description: 'Get the best pest control services in Vikhroli, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Vikhroli | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Vikhroli. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-vikhroli',
     siteName: 'Super Pest Control',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pest Control in Vikhroli | 24/7 Service | Super Pest Control',
-    description: 'Professional pest control services in Vikhroli, Mumbai with guaranteed results. Call now for expert treatment!',
+    description: 'Get fast pest control in Vikhroli. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-vikhroli-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Kurla | 24/7 Service | Super Pest Control',
-  description: 'Professional Pest Control Services in Kurla, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Kurla East, Kurla West, Chembur, Sion. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
+  description: 'Get fast pest control in Kurla. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in kurla, best pest control kurla mumbai, professional pest control kurla, termite control kurla, cockroach control kurla, bed bug control kurla, pest control services kurla mumbai, affordable pest control kurla, emergency pest control kurla, residential pest control kurla, commercial pest control kurla, pest control near me kurla, same day pest control kurla, eco friendly pest control kurla, licensed pest control kurla, guaranteed pest control kurla, 24/7 pest control kurla, pest exterminators kurla, pest management kurla, fumigation services kurla, anti termite treatment kurla, rodent control kurla, mosquito control kurla, lizard control kurla, spider control kurla, ant control kurla, fly control kurla, kurla east pest control, kurla west pest control, chembur pest control, sion pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Kurla | Super Pest Control Services',
-    description: 'Get the best pest control services in Kurla, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Kurla | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Kurla. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-kurla',
     siteName: 'Super Pest Control',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pest Control in Kurla | 24/7 Service | Super Pest Control',
-    description: 'Professional pest control services in Kurla, Mumbai with guaranteed results. Call now for expert treatment!',
+    description: 'Get fast pest control in Kurla. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-kurla-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

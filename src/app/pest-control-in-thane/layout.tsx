@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Thane | 24/7 Service | Super Pest Control',
-  description: 'Professional pest control in Thane. Termite, cockroach & bed bug removal. 100% guaranteed. Call ☎️ 8097941077 for same-day service.',
+  description: 'Get fast pest control in Thane. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in thane, best pest control thane city, professional pest control thane, termite control thane, cockroach control thane, bed bug control thane, pest control services thane maharashtra, affordable pest control thane, emergency pest control thane, residential pest control thane, commercial pest control thane, pest control near me thane, same day pest control thane, eco friendly pest control thane, licensed pest control thane, guaranteed pest control thane, 24/7 pest control thane, pest exterminators thane, pest management thane, fumigation services thane, anti termite treatment thane, rodent control thane, mosquito control thane, lizard control thane, spider control thane, ant control thane, fly control thane, thane west pest control, thane east pest control, wagle estate pest control, hiranandani estate pest control, thane city pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Thane | Super Pest Control Services',
-    description: 'Get the best pest control services in Thane, Maharashtra with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Thane | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Thane. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-thane',
     siteName: 'Super Pest Control',
     images: [
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Thane | Super Pest Control',
-    description: 'Professional pest control services in Thane, Maharashtra with guaranteed results. Call now for expert treatment!',
+    title: 'Pest Control in Thane | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Thane. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-thane-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

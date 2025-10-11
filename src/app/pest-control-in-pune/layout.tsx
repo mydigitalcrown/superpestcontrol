@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Pune | 24/7 Service | Super Pest Control',
-  description: 'Professional pest control in Pune. Termite, cockroach & bed bug removal. 100% guaranteed. Call ☎️ 8097941077 for same-day service.',
+  description: 'Get fast pest control in Pune. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in pune, best pest control pune maharashtra, professional pest control pune, termite control pune, cockroach control pune, bed bug control pune, pest control services pune maharashtra, affordable pest control pune, emergency pest control pune, residential pest control pune, commercial pest control pune, pest control near me pune, same day pest control pune, eco friendly pest control pune, licensed pest control pune, guaranteed pest control pune, 24/7 pest control pune, pest exterminators pune, pest management pune, fumigation services pune, anti termite treatment pune, rodent control pune, mosquito control pune, lizard control pune, spider control pune, ant control pune, fly control pune, pimpri chinchwad pest control, wakad pest control, baner pest control, aundh pest control, kothrud pest control, hadapsar pest control, pune pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Pune | Super Pest Control Services',
-    description: 'Get the best pest control services in Pune, Maharashtra with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Pune | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Pune. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-pune',
     siteName: 'Super Pest Control',
     images: [
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Pune | Super Pest Control',
-    description: 'Professional pest control services in Pune, Maharashtra with guaranteed results. Call now for expert treatment!',
+    title: 'Pest Control in Pune | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Pune. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-pune-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

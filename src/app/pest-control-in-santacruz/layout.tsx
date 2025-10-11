@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Santacruz | 24/7 Service | Super Pest Control',
-  description: 'Professional Pest Control Services in Santacruz, Mumbai. Expert termite control, cockroach treatment, bed bug removal near Santacruz East, Santacruz West, Khar, Vile Parle. 100% guaranteed results. Call ?? +91-8097941077 for immediate service.',
+  description: 'Get fast pest control in Santacruz. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in santacruz, best pest control santacruz mumbai, professional pest control santacruz, termite control santacruz, cockroach control santacruz, bed bug control santacruz, pest control services santacruz mumbai, affordable pest control santacruz, emergency pest control santacruz, residential pest control santacruz, commercial pest control santacruz, pest control near me santacruz, same day pest control santacruz, eco friendly pest control santacruz, licensed pest control santacruz, guaranteed pest control santacruz, 24/7 pest control santacruz, pest exterminators santacruz, pest management santacruz, fumigation services santacruz, anti termite treatment santacruz, rodent control santacruz, mosquito control santacruz, lizard control santacruz, spider control santacruz, ant control santacruz, fly control santacruz, santacruz east pest control, santacruz west pest control, khar pest control, vile parle pest control, mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Pest Control in Santacruz | Super Pest Control Services',
-    description: 'Get the best pest control services in Santacruz, Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Santacruz | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Santacruz. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-santacruz',
     siteName: 'Super Pest Control',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pest Control in Santacruz | 24/7 Service | Super Pest Control',
-    description: 'Professional pest control services in Santacruz, Mumbai with guaranteed results. Call now for expert treatment!',
+    description: 'Get fast pest control in Santacruz. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-santacruz-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

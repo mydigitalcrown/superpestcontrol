@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Vasai | #1 Professional Services Western Mumbai | Super Pest Control',
-  description: 'Professional Pest Control Services in Vasai, Western Mumbai. Expert termite control, cockroach treatment, bed bug removal near Vasai East, Vasai West, Nalasopara, Virar. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
+  title: 'Pest Control in Vasai | 24/7 Service | Super Pest Control',
+  description: 'Get fast pest control in Vasai. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in vasai, best pest control vasai western mumbai, professional pest control vasai, termite control vasai, cockroach control vasai, bed bug control vasai, pest control services vasai mumbai, affordable pest control vasai, emergency pest control vasai, residential pest control vasai, commercial pest control vasai, pest control near me vasai, same day pest control vasai, eco friendly pest control vasai, licensed pest control vasai, guaranteed pest control vasai, 24/7 pest control vasai, pest exterminators vasai, pest management vasai, fumigation services vasai, anti termite treatment vasai, rodent control vasai, mosquito control vasai, lizard control vasai, spider control vasai, ant control vasai, fly control vasai, vasai east pest control, vasai west pest control, nalasopara pest control, virar pest control, western mumbai pest control',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Professional Pest Control in Vasai | Super Pest Control Services',
-    description: 'Get the best pest control services in Vasai, Western Mumbai with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Vasai | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Vasai. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-vasai',
     siteName: 'Super Pest Control',
     images: [
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Vasai | Super Pest Control',
-    description: 'Professional pest control services in Vasai, Western Mumbai with guaranteed results. Call now for expert treatment!',
+    title: 'Pest Control in Vasai | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Vasai. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-vasai-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'
