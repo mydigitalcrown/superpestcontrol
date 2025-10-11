@@ -1,10 +1,10 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: {
+  title: 'Pest Control in Pimpri | 24/7 Service | Super Pest Control',
     absolute: "Pest Control in Pimpri | Professional Pest Management Services",
   },
-  description: "Expert pest control in Pimpri, Pune. Termite, cockroach, rodent & bed bug control. Licensed professionals. Call +91 80979 41077",
+  description: 'Get fast pest control in Pimpri. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: "pest control pimpri, termite control pimpri, pest control services pimpri pune",
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-pimpri",
