@@ -2,8 +2,8 @@
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization for Chembur
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Chembur | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Chembur, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
+  title: 'Pest Control in Chembur | 24/7 Service | Super Pest Control',
+  description: 'Professional pest control in Chembur. Termite, cockroach & bed bug removal. 100% guaranteed. Call ☎️ 8097941077 for same-day service.',
   keywords: 'pest control in chembur, best pest control chembur, professional pest control chembur, termite control chembur, cockroach control chembur, bed bug control chembur, pest control services chembur mumbai, affordable pest control chembur, emergency pest control chembur, residential pest control chembur, commercial pest control chembur, pest control near me chembur, same day pest control chembur, eco friendly pest control chembur, licensed pest control chembur, guaranteed pest control chembur, 24/7 pest control chembur, pest exterminators chembur, pest management chembur, fumigation services chembur, anti termite treatment chembur, rodent control chembur, mosquito control chembur, lizard control chembur, spider control chembur, ant control chembur, fly control chembur, chembur east pest control, chembur west pest control, chembur colony pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   category: 'Pest Control Services',
   classification: 'Business',
   openGraph: {
-    title: 'Professional Pest Control in Chembur | Super Pest Control Services',
+    title: 'Pest Control in Chembur | Super Pest Control Services',
     description: 'Get the best pest control services in Chembur with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
     url: 'https://superpestcontrol.in/pest-control-in-chembur',
     siteName: 'Super Pest Control',
