@@ -2,8 +2,8 @@
 
 // Enhanced Metadata for 100% SEO, ASO, and VSO optimization - Borivali Specific
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Borivali | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Borivali, Mumbai. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
+  title: 'Pest Control in Borivali | 24/7 Service | Super Pest Control',
+  description: 'Professional pest control in Borivali. Termite, cockroach & bed bug removal. 100% guaranteed. Call ☎️ 8097941077 for same-day service.',
   keywords: 'pest control in borivali, best pest control borivali, professional pest control borivali, termite control borivali, cockroach control borivali, bed bug control borivali, pest control services borivali mumbai, affordable pest control borivali, emergency pest control borivali, residential pest control borivali, commercial pest control borivali, pest control near me borivali, same day pest control borivali, eco friendly pest control borivali, licensed pest control borivali, guaranteed pest control borivali, 24/7 pest control borivali, pest exterminators borivali, pest management borivali, fumigation services borivali, anti termite treatment borivali, rodent control borivali, mosquito control borivali, lizard control borivali, spider control borivali, ant control borivali, fly control borivali, borivali east pest control, borivali west pest control, malad pest control, kandivali pest control',
   authors: [{ name: 'Super Pest Control' }],
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   category: 'Pest Control Services',
   classification: 'Business',
   openGraph: {
-    title: 'Professional Pest Control in Borivali | Super Pest Control Services',
+    title: 'Pest Control in Borivali | Super Pest Control Services',
     description: 'Get the best pest control services in Borivali with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
     url: 'https://superpestcontrol.in/pest-control-in-borivali',
     siteName: 'Super Pest Control',

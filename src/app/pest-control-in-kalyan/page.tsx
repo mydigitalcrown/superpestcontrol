@@ -358,10 +358,10 @@ export default function PestControlInKalyan() {
             {/* Main Headline - Zero Ranking Keyword Optimized */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Expert Pest Control in
+                Pest Control in Kalyan
               </span>
               <br />
-              <span className="text-white">Kalyan, Thane</span>
+              <span className="text-white">Fast, Safe & Reliable</span>
             </h1>
             
             {/* Secondary Keyword Heading */}
