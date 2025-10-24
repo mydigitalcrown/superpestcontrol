@@ -1,16 +1,16 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Pest Control in Badlapur | #1 Professional Services Near Me | Super Pest Control',
-  description: 'Professional Pest Control Services in Badlapur, Maharashtra. Expert termite control, cockroach treatment, bed bug removal. 100% guaranteed results. Call ☎️ +91-8097941077 for immediate service.',
+  title: 'Pest Control in Badlapur | 24/7 Service | Super Pest Control',
+  description: 'Get fast pest control in Badlapur. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control in badlapur, best pest control badlapur, professional pest control badlapur, termite control badlapur, cockroach control badlapur, bed bug control badlapur, pest control services badlapur maharashtra, affordable pest control badlapur, emergency pest control badlapur, residential pest control badlapur, commercial pest control badlapur, pest control near me badlapur, same day pest control badlapur, eco friendly pest control badlapur, licensed pest control badlapur, guaranteed pest control badlapur, 24/7 pest control badlapur, pest exterminators badlapur, pest management badlapur, fumigation services badlapur, anti termite treatment badlapur, rodent control badlapur, mosquito control badlapur, lizard control badlapur, spider control badlapur, ant control badlapur, fly control badlapur',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-badlapur"
   },
   openGraph: {
-    title: 'Professional Pest Control in Badlapur | Super Pest Control Services',
-    description: 'Get the best pest control services in Badlapur with 100% guaranteed results. Expert treatment for all pests including termites, cockroaches, bed bugs, and more.',
+    title: 'Pest Control in Badlapur | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Badlapur. 100% guaranteed results. Call 8097941077 for same-day service!',
     url: 'https://superpestcontrol.in/pest-control-in-badlapur',
     siteName: 'Super Pest Control',
     images: [
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pest Control in Badlapur | Super Pest Control',
-    description: 'Professional pest control services in Badlapur with guaranteed results. Call now for expert treatment!',
+    title: 'Pest Control in Badlapur | 24/7 Service | Super Pest Control',
+    description: 'Get fast pest control in Badlapur. 100% guaranteed results. Call 8097941077 for same-day service!',
     images: ['https://superpestcontrol.in/images/pest-control-badlapur-twitter.jpg'],
     creator: '@superpestcontrol',
     site: '@superpestcontrol'

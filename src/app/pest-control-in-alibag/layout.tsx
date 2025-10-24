@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Professional Pest Control Services in Alibag | Super Pest Control Maharashtra',
-  description: 'Expert pest control services in Alibag. Termite, cockroach, rodent, bed bug control with 10+ years experience. Licensed professionals, 24/7 service. Call +91-8097941077 for free inspection.',
+  title: 'Pest Control in Alibag | 24/7 Service | Super Pest Control',
+  description: 'Get fast pest control in Alibag. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: 'pest control Alibag, termite control Alibag, cockroach control Alibag, rodent control Alibag, bed bug control Alibag, ant control Alibag, pest control services Alibag, fumigation services Alibag',
   alternates: {
     canonical: "https://superpestcontrol.in/pest-control-in-alibag",
