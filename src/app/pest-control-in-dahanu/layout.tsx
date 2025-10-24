@@ -1,9 +1,7 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Dahanu | 24/7 Service | Super Pest Control',
-    absolute: "Pest Control in Dahanu | Professional Pest Management Services",
-  },
   description: 'Get fast pest control in Dahanu. 100% guaranteed results. Call 8097941077 for same-day service!',
   keywords: "pest control dahanu, pest control services dahanu, termite control dahanu, pest control palghar",
   alternates: {

@@ -1,4 +1,4 @@
-'use client'
+ï»¿'use client'
 
 import { useState } from 'react'
 import Link from 'next/link'
@@ -440,13 +440,13 @@ export default function PestControlInKalyan() {
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
                   <strong>Pest control in Kalyan costs ?500-?5000</strong> depending on property size and pest type. 
-                  <span className="block mt-2">• Cockroach control: ?800-?1500</span>
-                  <span className="block">• Termite treatment: ?1500-?5000</span>
-                  <span className="block">• Bed bug control: ?1200-?2500</span>
-                  <span className="block">• General pest control: ?500-?1500</span>
+                  <span className="block mt-2">ï¿½ Cockroach control: ?800-?1500</span>
+                  <span className="block">ï¿½ Termite treatment: ?1500-?5000</span>
+                  <span className="block">ï¿½ Bed bug control: ?1200-?2500</span>
+                  <span className="block">ï¿½ General pest control: ?500-?1500</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-green-200">
-                  <p className="text-sm text-green-700 font-medium">? Free inspection included • 100% guaranteed results</p>
+                  <p className="text-sm text-green-700 font-medium">? Free inspection included ï¿½ 100% guaranteed results</p>
                 </div>
               </div>
             </div>
@@ -460,10 +460,10 @@ export default function PestControlInKalyan() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
                   <strong>Super Pest Control is the #1 rated service in Kalyan</strong> with 4.9/5 stars and 847+ reviews.
-                  <span className="block mt-2">• 10+ years of experience in Kalyan</span>
-                  <span className="block">• WHO-approved safe chemicals</span>
-                  <span className="block">• Same-day service available</span>
-                  <span className="block">• 5-year warranty on termite treatment</span>
+                  <span className="block mt-2">ï¿½ 10+ years of experience in Kalyan</span>
+                  <span className="block">ï¿½ WHO-approved safe chemicals</span>
+                  <span className="block">ï¿½ Same-day service available</span>
+                  <span className="block">ï¿½ 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
                   <p className="text-sm text-blue-700 font-medium">?? Kalyan&apos;s most trusted pest control company</p>
@@ -480,10 +480,10 @@ export default function PestControlInKalyan() {
               <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
                   <strong>Pest control treatments in Kalyan last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
-                  <span className="block mt-2">• General pest control: 6-12 months</span>
-                  <span className="block">• Termite treatment: 5 years warranty</span>
-                  <span className="block">• Cockroach control: 8-12 months</span>
-                  <span className="block">• Bed bug treatment: 6-8 months</span>
+                  <span className="block mt-2">ï¿½ General pest control: 6-12 months</span>
+                  <span className="block">ï¿½ Termite treatment: 5 years warranty</span>
+                  <span className="block">ï¿½ Cockroach control: 8-12 months</span>
+                  <span className="block">ï¿½ Bed bug treatment: 6-8 months</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-purple-200">
                   <p className="text-sm text-purple-700 font-medium">?? Free follow-up service included</p>
@@ -500,13 +500,13 @@ export default function PestControlInKalyan() {
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
                   <strong>Yes, our pest control in Kalyan is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
-                  <span className="block mt-2">• Non-toxic to humans and pets</span>
-                  <span className="block">• Odorless treatment options available</span>
-                  <span className="block">• Child-safe application methods</span>
-                  <span className="block">• No need to vacate during treatment</span>
+                  <span className="block mt-2">ï¿½ Non-toxic to humans and pets</span>
+                  <span className="block">ï¿½ Odorless treatment options available</span>
+                  <span className="block">ï¿½ Child-safe application methods</span>
+                  <span className="block">ï¿½ No need to vacate during treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-teal-200">
-                  <p className="text-sm text-teal-700 font-medium">?? Family-friendly • Pet-safe certified</p>
+                  <p className="text-sm text-teal-700 font-medium">?? Family-friendly ï¿½ Pet-safe certified</p>
                 </div>
               </div>
             </div>
@@ -1141,7 +1141,7 @@ export default function PestControlInKalyan() {
             <div className="mt-8 text-center">
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-teal-500 text-white font-medium text-lg">
                 <span className="mr-2">?</span>
-                Licensed • Certified • Trusted by 10,000+ Customers in Kalyan
+                Licensed ï¿½ Certified ï¿½ Trusted by 10,000+ Customers in Kalyan
               </div>
             </div>
           </div>
@@ -2184,7 +2184,7 @@ export default function PestControlInKalyan() {
                 Super Pest Control is located in Kalyan, Thane, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
               </p>
               <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-400/30">
-                <p className="text-green-300 text-sm font-medium">? Available today • Call +91-8097941077</p>
+                <p className="text-green-300 text-sm font-medium">? Available today ï¿½ Call +91-8097941077</p>
               </div>
             </div>
 
@@ -2199,7 +2199,7 @@ export default function PestControlInKalyan() {
                 Pest control costs in Kalyan start from ?500 for basic treatments and go up to ?5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
               </p>
               <div className="mt-4 p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
-                <p className="text-blue-300 text-sm font-medium">?? Free quote • Best prices guaranteed</p>
+                <p className="text-blue-300 text-sm font-medium">?? Free quote ï¿½ Best prices guaranteed</p>
               </div>
             </div>
 
@@ -2214,7 +2214,7 @@ export default function PestControlInKalyan() {
                 Super Pest Control has the highest ratings in Kalyan with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
               </p>
               <div className="mt-4 p-3 bg-purple-500/20 rounded-lg border border-purple-400/30">
-                <p className="text-purple-300 text-sm font-medium">? 4.9/5 stars • 847+ reviews</p>
+                <p className="text-purple-300 text-sm font-medium">? 4.9/5 stars ï¿½ 847+ reviews</p>
               </div>
             </div>
 
@@ -2229,7 +2229,7 @@ export default function PestControlInKalyan() {
                 Yes, we provide 24/7 emergency pest control services in Kalyan. Call us now at +91-8097941077 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
               </p>
               <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
-                <p className="text-red-300 text-sm font-medium">?? 24/7 emergency • 2-hour response</p>
+                <p className="text-red-300 text-sm font-medium">?? 24/7 emergency ï¿½ 2-hour response</p>
               </div>
             </div>
 
@@ -2244,7 +2244,7 @@ export default function PestControlInKalyan() {
                 Our pest control treatments in Kalyan are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
               </p>
               <div className="mt-4 p-3 bg-teal-500/20 rounded-lg border border-teal-400/30">
-                <p className="text-teal-300 text-sm font-medium">?? Child-safe • Pet-friendly certified</p>
+                <p className="text-teal-300 text-sm font-medium">?? Child-safe ï¿½ Pet-friendly certified</p>
               </div>
             </div>
 
@@ -2259,7 +2259,7 @@ export default function PestControlInKalyan() {
                 For homes in Kalyan, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
               </p>
               <div className="mt-4 p-3 bg-yellow-500/20 rounded-lg border border-yellow-400/30">
-                <p className="text-yellow-300 text-sm font-medium">?? 6-12 month intervals • 5-year termite warranty</p>
+                <p className="text-yellow-300 text-sm font-medium">?? 6-12 month intervals ï¿½ 5-year termite warranty</p>
               </div>
             </div>
 
@@ -2810,3 +2810,4 @@ export default function PestControlInKalyan() {
     </div>
   )
 }
+

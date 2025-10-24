@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Pest Control in Nashik | 24/7 Service | Super Pest Control',
