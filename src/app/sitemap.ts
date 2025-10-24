@@ -154,10 +154,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-vashi',
     'pest-control-in-nerul',
     'pest-control-in-cbd-belapur',
-    'pest-control-belapur',
-    'pest-control-airoli',
     'pest-control-in-airoli',
-    'pest-control-ghansoli',
     'pest-control-in-ghansoli',
     'pest-control-in-kopar-khairane',
     'pest-control-in-turbhe',
@@ -186,7 +183,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const thaneLocations = [
     'pest-control-in-thane',
     'pest-control-in-kalyan',
-    'pest-control-kalyan',
     'pest-control-in-dombivli',
     'pest-control-in-ulhasnagar',
     'pest-control-in-ambarnath',
@@ -207,7 +203,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const extendedLocations = [
     'pest-control-in-vasai',
     'pest-control-in-mira-road',
-    'pest-control-bhayander',
     'pest-control-in-bhayander',
     'pest-control-in-boisar',
     'pest-control-in-virar',
@@ -227,14 +222,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Pune region locations
   const puneLocations = [
     'pest-control-in-pune',
-    'pest-control-hinjewadi',
     'pest-control-in-hinjewadi',
-    'pest-control-baner',
     'pest-control-in-baner',
-    'pest-control-aundh',
     'pest-control-in-aundh',
     'pest-control-in-wakad',
-    'pest-control-hadapsar',
     'pest-control-in-hadapsar',
     'pest-control-in-viman-nagar',
     'pest-control-in-bavdhan',

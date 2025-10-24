@@ -38,7 +38,7 @@
 - **Eastern Suburbs**: Chembur, Ghatkopar, Kurla, Powai, Vikhroli, Kanjurmarg, Bhandup, Mulund, Nahur
 
 ### Navi Mumbai Areas
-- Vashi, CBD Belapur, Belapur, Nerul, Airoli, Ghansoli, Kopar Khairane, Turbhe, Rabale, Juinagar, Sanpada, Seawoods, Kharghar, Kamothe, Kalamboli, Panvel, Urse, New Panvel, Dronagiri, Ulwe, Taloja, Mahape
+- Vashi, CBD Belapur, Nerul, Airoli, Ghansoli, Kopar Khairane, Turbhe, Rabale, Juinagar, Sanpada, Seawoods, Kharghar, Kamothe, Kalamboli, Panvel, Urse, New Panvel, Dronagiri, Ulwe, Taloja, Mahape
 
 ### Thane Region  
 - Thane, Kalyan, Dombivli, Ulhasnagar, Ambarnath, Badlapur, Karjat, Mumbra, Bhiwandi, Diva, Ghodbunder Road
