@@ -19,7 +19,7 @@ export default function PestControlInAurangabad() {
                 "@type": "LocalBusiness",
                 "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#localbusiness",
                 "name": "Super Pest Control - Aurangabad",
-                "image": "https://superpestcontrol.in/images/pest-control-aurangabad-hero.jpg",
+                "image": "https://superpestcontrol.in/logo.svg",
                 "description": "Professional Pest Control Services in Aurangabad, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
                 "url": "https://superpestcontrol.in/pest-control-in-aurangabad",
                 "telephone": "+91-8097941077",
@@ -197,7 +197,7 @@ export default function PestControlInAurangabad() {
                 "url": "https://superpestcontrol.in/",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://superpestcontrol.in/images/logo.png"
+                  "url": "https://superpestcontrol.in/logo.svg"
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
@@ -336,7 +336,7 @@ export default function PestControlInAurangabad() {
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/location/maharashtra.webp)',
+          backgroundImage: 'url(/images/location/mumbai.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -358,9 +358,7 @@ export default function PestControlInAurangabad() {
             {/* Main Headline - Zero Ranking Keyword Optimized */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Pest Control in )</span>
-              <br />
-              <span className="text-white">| Fast, Safe & Reliable</span>
+                Pest Control in Aurangabad</span>
               <br />
               <span className="text-white">| Fast, Safe & Reliable</span>
             </h1>
