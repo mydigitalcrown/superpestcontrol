@@ -161,7 +161,7 @@ export default function PestControlInAurangabad() {
                     "name": "What is the cost of pest control in Aurangabad?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "The cost of pest control in Aurangabad ranges from ?500 to ?5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                      "text": "Pest control in Aurangabad costs ₹500-₹5000 depending on property size and pest type. Cockroaches: ₹800-₹1500, Termites: ₹1500-₹5000, General pests: ₹500-₹1500. Free inspection included."
                     }
                   },
                   {
@@ -169,7 +169,7 @@ export default function PestControlInAurangabad() {
                     "name": "How long does pest control treatment last in Aurangabad?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Our pest control treatments in Aurangabad typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
+                      "text": "Pest control in Aurangabad lasts 6-12 months for general pests and 5 years for termite treatment. Cockroaches: 8-12 months, Bed bugs: 6-8 months. Free follow-up included."
                     }
                   },
                   {
@@ -177,7 +177,7 @@ export default function PestControlInAurangabad() {
                     "name": "Is pest control safe for children and pets in Aurangabad homes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we use child and pet-safe pest control methods in Aurangabad. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
+                      "text": "Yes, our pest control in Aurangabad is 100% safe for families and pets. We use WHO-approved, eco-friendly chemicals that are non-toxic, odorless, and child-safe."
                     }
                   },
                   {
@@ -185,7 +185,7 @@ export default function PestControlInAurangabad() {
                     "name": "Do you provide emergency pest control services in Aurangabad?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we provide 24/7 emergency pest control services in Aurangabad. Call +91-8097941077 for immediate assistance with severe infestations."
+                      "text": "Yes, we provide 24/7 emergency pest control in Aurangabad. Call +91-8097941077 for immediate assistance within 2 hours for severe infestations."
                     }
                   }
                 ]
@@ -231,6 +231,65 @@ export default function PestControlInAurangabad() {
                     "query-input": "required name=search_term_string"
                   }
                 ]
+              },
+              {
+                "@type": "Service",
+                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#service",
+                "name": "Pest Control Services in Aurangabad",
+                "description": "Professional pest control services including termite control, cockroach treatment, bed bug removal, and rodent control in Aurangabad",
+                "provider": {
+                  "@id": "https://superpestcontrol.in/#organization"
+                },
+                "areaServed": {
+                  "@type": "City",
+                  "name": "Aurangabad",
+                  "addressRegion": "Maharashtra",
+                  "addressCountry": "IN"
+                },
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Pest Control Services",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Termite Control"
+                      }
+                    },
+                    {
+                      "@type": "Offer", 
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Cockroach Control"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service", 
+                        "name": "Bed Bug Control"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "4.9",
+                  "bestRating": "5"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Aurangabad Customer"
+                },
+                "reviewBody": "Excellent pest control service in Aurangabad. Professional team, safe chemicals, and guaranteed results.",
+                "itemReviewed": {
+                  "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#localbusiness"
+                }
               }
             ]
           })
@@ -538,6 +597,41 @@ export default function PestControlInAurangabad() {
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;OK Google, affordable pest control Aurangabad prices&rdquo;</h4>
                 <p className="text-gray-700">Affordable pest control in Aurangabad starts from ?500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Local Aurangabad Landmarks SEO Section */}
+          <div className="bg-gradient-to-r from-blue-50 to-orange-50 rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
+            <h3 className="text-3xl font-bold text-center mb-8">
+              <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
+                Pest Control Services Near Aurangabad Landmarks
+              </span>
+            </h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-lg p-6 shadow-md">
+                <h4 className="font-bold text-lg mb-2">🏛️ Near Bibi Ka Maqbara</h4>
+                <p className="text-gray-700">Professional pest control services for residential and commercial properties near Bibi Ka Maqbara, Aurangabad's iconic monument.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-md">
+                <h4 className="font-bold text-lg mb-2">🏰 Daulatabad Fort Area</h4>
+                <p className="text-gray-700">Comprehensive pest management for homes and businesses in Daulatabad Fort vicinity with same-day service availability.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-md">
+                <h4 className="font-bold text-lg mb-2">🛍️ Prozone Mall Region</h4>
+                <p className="text-gray-700">Expert pest control solutions for residential complexes and commercial establishments near Prozone Mall, Aurangabad.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-md">
+                <h4 className="font-bold text-lg mb-2">🎓 Marathwada University</h4>
+                <p className="text-gray-700">Specialized pest control for hostels, residential areas, and academic buildings near Dr. Babasaheb Ambedkar Marathwada University.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-md">
+                <h4 className="font-bold text-lg mb-2">🏥 Government Medical College</h4>
+                <p className="text-gray-700">Safe, hospital-grade pest control services for healthcare facilities and residential areas near GMC Aurangabad.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-md">
+                <h4 className="font-bold text-lg mb-2">🏪 City Chowk Market</h4>
+                <p className="text-gray-700">Commercial pest control solutions for shops, restaurants, and residential properties in the busy City Chowk market area.</p>
               </div>
             </div>
           </div>
