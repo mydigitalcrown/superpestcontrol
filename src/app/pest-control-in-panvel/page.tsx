@@ -965,7 +965,7 @@ export default function PestControlInPanvel() {
           {/* View All Services Button */}
           <div className="text-center mt-16">
             <a href="/services" className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-              <span className="mr-2">??</span>
+              <span className="mr-2">📞</span>
               View All Services
             </a>
           </div>
@@ -1002,7 +1002,7 @@ export default function PestControlInPanvel() {
             {/* Service-based Internal Links */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">🔍</div>
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
@@ -1028,7 +1028,7 @@ export default function PestControlInPanvel() {
             {/* Location-based Internal Links */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">📍</div>
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
@@ -1054,7 +1054,7 @@ export default function PestControlInPanvel() {
             {/* Commercial Services Internal Links */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">🏢</div>
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
@@ -1152,9 +1152,9 @@ export default function PestControlInPanvel() {
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-10 left-10 text-4xl">🎤🔍</div>
-          <div className="absolute top-20 right-20 text-3xl">??</div>
-          <div className="absolute bottom-10 left-20 text-4xl">??</div>
-          <div className="absolute bottom-20 right-10 text-3xl">??</div>
+          <div className="absolute top-20 right-20 text-3xl">🐛</div>
+          <div className="absolute bottom-10 left-20 text-4xl">🐛</div>
+          <div className="absolute bottom-20 right-10 text-3xl">🐛</div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl opacity-30">🎤🔍</div>
         </div>
 
@@ -1209,7 +1209,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1253,7 +1253,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1295,7 +1295,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1337,7 +1337,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1392,7 +1392,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1436,7 +1436,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1480,7 +1480,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1529,7 +1529,7 @@ export default function PestControlInPanvel() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs">📍</span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1551,11 +1551,11 @@ export default function PestControlInPanvel() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">📞</span>
                   Call Now: +91 80979 41077
                 </a>
                 <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">📞</span>
                   WhatsApp Chat
                 </a>
               </div>
@@ -1568,10 +1568,10 @@ export default function PestControlInPanvel() {
       <section className="py-24 bg-gradient-to-br from-blue-900 via-gray-900 to-black text-white relative overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-20 left-10 text-6xl animate-pulse">??</div>
+          <div className="absolute top-20 left-10 text-6xl animate-pulse">🐛</div>
           <div className="absolute top-40 right-20 text-4xl animate-bounce">?</div>
           <div className="absolute bottom-20 left-20 text-5xl animate-pulse">🎤🔍</div>
-          <div className="absolute bottom-40 right-10 text-4xl animate-bounce">??</div>
+          <div className="absolute bottom-40 right-10 text-4xl animate-bounce">⚡</div>
         </div>
         
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -1595,7 +1595,7 @@ export default function PestControlInPanvel() {
             {/* Advanced Anti-Termite Treatment */}
             <div className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-orange-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10">
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🛡️</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Advanced Anti-Termite Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Cutting-edge soil and wood treatment solutions with 5-year comprehensive warranty protection for your Mumbai property.
@@ -1620,7 +1620,7 @@ export default function PestControlInPanvel() {
             {/* Professional Gel & Spray Treatment */}
             <div className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-blue-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🛡️</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Professional Gel & Spray Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Advanced gel baiting and targeted spray solutions designed specifically for Panvel&apos;s climate conditions.
@@ -1645,7 +1645,7 @@ export default function PestControlInPanvel() {
             {/* Complete Rodent Elimination */}
             <div className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-green-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-green-500/10">
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🛡️</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Complete Rodent Elimination</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Comprehensive rat and mouse control with professional rat-proofing and entry point sealing for Mumbai properties.
@@ -1677,11 +1677,11 @@ export default function PestControlInPanvel() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">📞</span>
                   Call Now: +91 80979 41077
                 </a>
                 <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">📞</span>
                   WhatsApp Chat
                 </a>
               </div>
@@ -1692,21 +1692,21 @@ export default function PestControlInPanvel() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="text-center group">
               <div className="bg-gradient-to-br from-orange-500 to-red-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-orange-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl">✓</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
               <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Mumbai pest control.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl">✓</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Eco-Friendly Solutions</h3>
               <p className="text-gray-300">Safe, environmentally friendly treatments that protect your family and pets while eliminating pests.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-blue-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl">✓</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">24/7 Emergency Service</h3>
               <p className="text-gray-300">Round-the-clock emergency pest control services across all Mumbai areas with same-day availability.</p>
@@ -1718,9 +1718,9 @@ export default function PestControlInPanvel() {
       {/* Transparent Pricing for Complete Protection */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-10 text-6xl">??</div>
-          <div className="absolute top-40 right-20 text-4xl">??</div>
-          <div className="absolute bottom-20 left-20 text-5xl">??</div>
+          <div className="absolute top-20 left-10 text-6xl">🐛</div>
+          <div className="absolute top-40 right-20 text-4xl">🐛</div>
+          <div className="absolute bottom-20 left-20 text-5xl">🛡️</div>
           <div className="absolute bottom-40 right-10 text-4xl">?</div>
         </div>
         
@@ -2079,7 +2079,7 @@ export default function PestControlInPanvel() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">??</span>
+                  <span className="text-2xl">✓</span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Property Maintenance</h4>
                 <p className="text-gray-700 text-sm">
@@ -2089,7 +2089,7 @@ export default function PestControlInPanvel() {
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">??</span>
+                  <span className="text-2xl">✓</span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Hygiene Practices</h4>
                 <p className="text-gray-700 text-sm">
@@ -2204,7 +2204,7 @@ export default function PestControlInPanvel() {
             {/* Long-tail Voice Search Question 3 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">💡</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Panvel, Mumbai?&rdquo;</h4>
@@ -2234,7 +2234,7 @@ export default function PestControlInPanvel() {
             {/* Long-tail Voice Search Question 5 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">✓</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Panvel apartments?&rdquo;</h4>
@@ -2249,7 +2249,7 @@ export default function PestControlInPanvel() {
             {/* Long-tail Voice Search Question 6 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">⚡</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Panvel?&rdquo;</h4>
@@ -2272,17 +2272,17 @@ export default function PestControlInPanvel() {
             </h3>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
-                <div className="text-4xl mb-4">??</div>
+                <div className="text-4xl mb-4">📋</div>
                 <h4 className="font-bold mb-2">Google Assistant</h4>
                 <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Panvel&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
-                <div className="text-4xl mb-4">??</div>
+                <div className="text-4xl mb-4">📋</div>
                 <h4 className="font-bold mb-2">Siri</h4>
                 <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Panvel&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
-                <div className="text-4xl mb-4">??</div>
+                <div className="text-4xl mb-4">📋</div>
                 <h4 className="font-bold mb-2">Alexa</h4>
                 <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Panvel reviews&rdquo;</p>
               </div>
@@ -2306,9 +2306,9 @@ export default function PestControlInPanvel() {
       <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-orange-50 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 text-6xl">??</div>
-          <div className="absolute top-40 right-20 text-4xl">??</div>
-          <div className="absolute bottom-20 left-20 text-5xl">??</div>
+          <div className="absolute top-20 left-10 text-6xl">🐛</div>
+          <div className="absolute top-40 right-20 text-4xl">🐛</div>
+          <div className="absolute bottom-20 left-20 text-5xl">🛡️</div>
           <div className="absolute bottom-40 right-10 text-4xl">?</div>
         </div>
         
@@ -2605,7 +2605,7 @@ export default function PestControlInPanvel() {
               <div className="flex items-center space-x-3">
                 <div className="relative">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20">
-                    <span className="text-white font-bold text-xl drop-shadow-sm">??</span>
+                    <span className="text-white font-bold text-xl drop-shadow-sm">🐛</span>
                   </div>
                 </div>
                 <div className="flex flex-col">
@@ -2619,13 +2619,13 @@ export default function PestControlInPanvel() {
               </p>
               <div className="flex space-x-4">
                 <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">??</span>
+                  <span className="text-white text-sm">��</span>
                 </div>
                 <div className="w-8 h-8 bg-pink-600 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">??</span>
+                  <span className="text-white text-sm">��</span>
                 </div>
                 <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">??</span>
+                  <span className="text-white text-sm">��</span>
                 </div>
               </div>
             </div>
@@ -2663,7 +2663,7 @@ export default function PestControlInPanvel() {
               <h3 className="text-lg font-semibold text-white">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5">✓</span>
                   <div>
                     <p className="text-white font-medium">Call Us Now</p>
                     <a href="tel:+918097941077" className="text-gray-300 hover:text-orange-400 transition-colors text-sm block">+91 80979-41077</a>
@@ -2671,21 +2671,21 @@ export default function PestControlInPanvel() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5">✓</span>
                   <div>
                     <p className="text-white font-medium">Email Us</p>
                     <a href="mailto:superpestcontrol8858@gmail.com" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">superpestcontrol8858@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5">✓</span>
                   <div>
                     <p className="text-white font-medium">Website</p>
                     <a href="https://superpestcontrol.in" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">superpestcontrol.in</a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5">✓</span>
                   <div>
                     <p className="text-white font-medium">Service Areas</p>
                     <p className="text-gray-300 text-sm">Mumbai, Navi Mumbai, Thane</p>
