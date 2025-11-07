@@ -231,6 +231,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-bavdhan',
     'pest-control-in-kharadi',
     'pest-control-in-ambegaon',
+    'pest-control-in-fatima-nagar',
+    'pest-control-in-karve-nagar',
+    'pest-control-in-keshav-nagar',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
