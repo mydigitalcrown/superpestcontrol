@@ -1551,11 +1551,11 @@ export default function PestControlInPanvel() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">🔍</span>
                   Call Now: +91 80979 41077
                 </a>
                 <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">🔍</span>
                   WhatsApp Chat
                 </a>
               </div>
@@ -1677,11 +1677,11 @@ export default function PestControlInPanvel() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">🔍</span>
                   Call Now: +91 80979 41077
                 </a>
                 <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2">🔍</span>
                   WhatsApp Chat
                 </a>
               </div>
@@ -1692,21 +1692,21 @@ export default function PestControlInPanvel() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="text-center group">
               <div className="bg-gradient-to-br from-orange-500 to-red-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-orange-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl">🏠</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
               <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Mumbai pest control.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl">🏠</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Eco-Friendly Solutions</h3>
               <p className="text-gray-300">Safe, environmentally friendly treatments that protect your family and pets while eliminating pests.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-blue-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl">🏠</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">24/7 Emergency Service</h3>
               <p className="text-gray-300">Round-the-clock emergency pest control services across all Mumbai areas with same-day availability.</p>
@@ -1718,10 +1718,10 @@ export default function PestControlInPanvel() {
       {/* Transparent Pricing for Complete Protection */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-10 text-6xl">??</div>
-          <div className="absolute top-40 right-20 text-4xl">??</div>
-          <div className="absolute bottom-20 left-20 text-5xl">??</div>
-          <div className="absolute bottom-40 right-10 text-4xl">?</div>
+          <div className="absolute top-20 left-10 text-6xl">🐛</div>
+          <div className="absolute top-40 right-20 text-4xl">🦟</div>
+          <div className="absolute bottom-20 left-20 text-5xl">🪳</div>
+          <div className="absolute bottom-40 right-10 text-4xl">🐜</div>
         </div>
         
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
