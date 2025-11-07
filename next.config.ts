@@ -354,9 +354,10 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
-      // Catch-all for any other .html files
+      // Catch-all for .html files that don't start with 'google'
+      // This allows Google Search Console verification files to be served from /public
       {
-        source: '/:path*.html',
+        source: '/:path((?!google).+).html',
         destination: '/:path*',
         permanent: true,
       },
