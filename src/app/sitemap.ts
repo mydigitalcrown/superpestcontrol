@@ -236,6 +236,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-keshav-nagar',
     'pest-control-in-koregaon-park',
     'pest-control-in-kothrud',
+    'pest-control-in-lohegaon',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
