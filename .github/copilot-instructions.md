@@ -1,3 +1,61 @@
+# Copilot Instructions — Super Pest Control
+
+Concise, actionable notes for an AI coding agent to be productive in this repository.
+
+## Tech Stack & Structure
+- **Framework**: Next.js 15 (App Router) + TypeScript + Tailwind CSS v4
+- **Commands**: See `package.json` — `dev`, `build`, `start`, `lint`
+- **Big picture**: Marketing site with 100+ location pages under `src/app/` (folders like `pest-control-in-{location}`) and service pages (e.g. `ant-control-mumbai`)
+
+## Key Files to Review First
+- `src/app/layout.tsx` — global metadata, canonical URL, site-wide JSON-LD example
+- `next.config.ts` — trailingSlash=false, image formats, compression, extensive `.html` to clean URL redirects
+- `src/app/sitemap.ts` and `src/app/robots.ts` — sitemap/robots generation and route lists
+- `src/components/Header.tsx` — shared header pattern (mobile menu uses `useState`). Many pages still duplicate header/footer inline
+- `tailwind.config.ts` — brand colors (primary.500 orange, secondary.500 blue) and content globs
+
+## SEO & Schema Rules
+- Every location/service page should include an `@graph` JSON-LD with: LocalBusiness, Service, BreadcrumbList, FAQPage entries
+- Use `src/app/layout.tsx` as the canonical schema example
+- Canonical domain: `https://superpestcontrol.in`
+- Canonical phone: `+91-80979-41077` (use consistently across all pages)
+
+## Routing & Redirects
+- `trailingSlash: false` is enforced in `next.config.ts`
+- Legacy `.html` pages redirect to clean routes in `next.config.ts`
+- Language redirects: `/hi` and `/mr` redirect to `/`
+
+## Adding a New Location/Service Page
+1. Create `src/app/pest-control-in-{location}/` directory
+2. Add `layout.tsx` with `export const metadata` (title, description, canonical) and JSON-LD `@graph` entries
+3. Add `page.tsx` with content; keep interactive parts as client components (`'use client'`)
+4. Update `src/app/sitemap.ts` to include the new route
+5. Add `.html` redirect in `next.config.ts` only when migrating legacy HTML pages
+
+## Component & Styling Conventions
+- Prefer importing `src/components/Header.tsx` when practical
+- Keep UI state local (React `useState`) — no global state library
+- Follow Tailwind utilities and brand colors from `tailwind.config.ts`
+- Design uses emoji icons (no icon libraries) — phone emoji, checkmarks, shields
+
+## Developer Workflow
+```bash
+npm install              # Install dependencies
+npm run dev              # Start dev server (http://localhost:3000)
+npm run build            # Production build
+npm run start            # Serve production build
+npm run lint             # Run ESLint
+```
+
+## Validation & Automation
+- Validate structured data with Google Rich Results Test and Schema.org validator
+- For mass edits (many location pages), prefer scripted changes (Node codemod) and update `src/app/sitemap.ts` programmatically
+
+## Important Notes & Gotchas
+- Many pages are client components by historical pattern — convert to server components only if removing client hooks
+- Watch trailing slashes when generating schema `@id` values
+- Prefer minimal, low-risk edits to many files; commit small, verifiable changes
+- Production deployment targets Vercel/Netlify with optimizations in `next.config.ts`
 # Copilot Instructions for Super Pest Control Website
 
 ## Project Overview
@@ -34,84 +92,48 @@ Every location/service page must include:
   { "@type": "LocalBusiness", "@id": "{url}#localbusiness" },
   { "@type": "Service", "@id": "{url}#service" },
   { "@type": "BreadcrumbList", "@id": "{url}#breadcrumb" },
-  { "@type": "FAQPage", "@id": "{url}#faq" }
-]
-```
+  ## Copilot instructions — Super Pest Control (concise)
 
-### URL & Redirect Strategy
-- **No trailing slashes**: `trailingSlash: false` in `next.config.ts`
-- **HTML redirects**: Extensive `.html` to clean URL redirects in `next.config.ts`
-- **Language redirects**: `/hi` and `/mr` redirect to English pages (no i18n)
-- **Canonical URLs**: Always `https://superpestcontrol.in/{path}`
+  These notes are focused on immediate, actionable knowledge for an AI coding agent working in this repo.
 
-### Sitemap Generation
-- Dynamic sitemap in `src/app/sitemap.ts`
-- Core pages: priority 0.8-1.0, daily/weekly frequency
-- Location pages: priority 0.7, monthly frequency
-- robots.txt in `src/app/robots.ts` with crawler-specific rules
+  - Framework: Next.js 15 (App Router), TypeScript, TailwindCSS v4. See `package.json` scripts (`dev`, `build`, `start`, `lint`).
+  - Big picture: a server-rendered marketing site with 100+ location pages under `src/app/` (directories like `pest-control-in-{location}`) plus service pages (e.g. `ant-control/`, `ant-control-mumbai/`).
 
-## Styling & Design
+  - Routing & redirects: `next.config.ts` uses `trailingSlash: false` and contains many `.html` → clean URL redirects (language redirects `/hi` & `/mr` to `/`). Edit `next.config.ts` when migrating legacy `.html` pages.
 
-### Tailwind Configuration
-- Custom orange theme: `primary.500: '#f97316'` (main brand color)
-- Custom blue theme: `secondary.500: '#3b82f6'`
-- Extended Tailwind v4 in `tailwind.config.ts`
-- Backdrop blur effects: `backdrop-blur-xl` on headers
-- Gradient patterns: `from-orange-500 via-orange-600 to-red-500`
+  - SEO & structured data: pages must include @graph entries for LocalBusiness, Service, BreadcrumbList, FAQPage. Global metadata lives in `src/app/layout.tsx` (openGraph, canonical) and many pages include inline `<script type="application/ld+json">`.
 
-### Design System
-- **Logo**: 🐛 emoji in gradient orange circle (`bg-gradient-to-br`)
-- **Buttons**: Orange gradient CTAs, pill-shaped navigation
-- **Cards**: White backgrounds with subtle shadows, hover scale effects
-- **Mobile**: Responsive breakpoints at `sm:`, `md:`, `lg:`
-- **Icons**: Emoji-based (📞, ✅, 🛡️, ⚡) - no icon libraries
+  - Adding a location/service page (exact steps):
+    1. Create `src/app/pest-control-in-{location}/`.
+   2. Add a `layout.tsx` containing `export const metadata` and the canonical URL.
+   3. Add `page.tsx` with content and include the required `@graph` JSON-LD.
+   4. Update `src/app/sitemap.ts` to include the route.
+   5. Add a redirect entry in `next.config.ts` only if you need `.html` compatibility.
 
-## Development Workflow
+  - Component patterns: header is a shared component at `src/components/Header.tsx` (client component, `useState` for mobile menu). Note: many pages historically duplicate header/footer inline — prefer importing `Header` where safe.
 
-### Key Commands
-```bash
-npm run dev          # Start dev server on localhost:3000
-npm run build        # Production build with Next.js optimization
-npm run start        # Serve production build
-npm run lint         # ESLint with Next.js config
-```
+  - Styling: main brand colors are in `tailwind.config.ts` (primary.500 = `#f97316`, secondary.500 = `#3b82f6`). Use existing utility classes (e.g., `backdrop-blur-xl`, gradient CTAs) to match design.
 
-### File Creation Patterns
-When adding new location pages:
+  - Important constants and conventions:
+    - Canonical domain: `https://superpestcontrol.in` (see `src/app/layout.tsx` alternates).
+    - Canonical phone: `+91-80979-41077` (use project phone consistently).
+    - Sitemap and robots live in `src/app/sitemap.ts` and `src/app/robots.ts`.
+
+  - Developer workflows (quick):
+    - Install deps: `npm install`
+    - Dev server: `npm run dev` (localhost:3000)
+    - Build: `npm run build`; serve: `npm run start`
+    - Lint: `npm run lint` (ESLint + Next config)
+
+  - Validation & deployment notes:
+    - Validate structured data with Google Rich Results Test and Schema.org validator.
+    - Production deployment targets Vercel/Netlify; `next.config.ts` optimizations (image formats, compress, `experimental.optimizeCss`) are tuned for Vercel.
+
+  - When changing many pages (mass edits): prefer scripted changes (node script or codemod) and update `src/app/sitemap.ts` programmatically.
+
+  - Assumptions & edge-cases the agent should mind:
+    - Many pages are client components by historical pattern. Convert to server components only if you remove client-only hooks.
+    - Watch trailing slashes and canonical URLs when generating schema `@id` values.
+
+  If any part of this is unclear or you want fuller examples (e.g., a template `layout.tsx` and `page.tsx` for a new location), tell me which example and I will add it next. 
 1. Create `src/app/pest-control-in-{location}/` directory
-2. Add `layout.tsx` with metadata (use existing as template)
-3. Add `page.tsx` with full content + schema markup
-4. Update `src/app/sitemap.ts` to include new route
-5. Consider adding redirect in `next.config.ts` if migrating from HTML
-
-### State Management
-- React `useState` for UI state (mobile menus, tabs, accordions)
-- No external state libraries - keep state local to components
-- Form handling uses controlled components
-
-## Performance Optimizations
-
-### Next.js Config Settings
-- Image optimization: WebP/AVIF formats with custom device sizes
-- Compression enabled (`compress: true`)
-- CSS optimization: `experimental.optimizeCss: true`
-- No powered-by header for security
-
-### Best Practices
-- Use Next.js `<Link>` for internal navigation
-- Use Next.js `<Image>` for images (currently using standard img tags in many places)
-- Keep client components minimal - extract static content to server components when possible
-- Lazy load heavy content sections
-
-## Testing & Validation
-- Check schema markup with Google Rich Results Test
-- Validate structured data with Schema.org validator
-- Test mobile menu functionality (state-based visibility)
-- Verify canonical URLs and Open Graph tags
-
-## Common Gotchas
-- Pages are client components by default (historical pattern) - new pages can be server components unless needing interactivity
-- Schema markup uses string interpolation for dynamic URLs - watch for trailing slashes
-- **Correct phone number**: Always use `+91-80979-41077` (some older pages may have incorrect numbers)
-- FAQ data arrays defined inline per page - consider extracting to shared file if pattern repeats
-- Navigation active states determined by comparing href to current path (duplicate logic across pages)
