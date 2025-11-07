@@ -111,7 +111,7 @@ export default function PestControlInKurla() {
                         "name": "Termite Control",
                         "description": "Complete termite treatment with warranty"
                       },
-                      "price": "?1500-?5000",
+                      "price": "₹1500-₹5000",
                       "priceCurrency": "INR"
                     },
                     {
@@ -121,7 +121,7 @@ export default function PestControlInKurla() {
                         "name": "Cockroach Control",
                         "description": "Professional cockroach extermination"
                       },
-                      "price": "?800-?2000",
+                      "price": "₹800-₹2000",
                       "priceCurrency": "INR"
                     }
                   ]
@@ -160,7 +160,7 @@ export default function PestControlInKurla() {
                     "name": "What is the cost of pest control in Kurla?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "The cost of pest control in Kurla ranges from ?500 to ?5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                      "text": "The cost of pest control in Kurla ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
                     }
                   },
                   {
@@ -438,11 +438,11 @@ export default function PestControlInKurla() {
               </h3>
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control in Kurla costs ?500-?5000</strong> depending on property size and pest type. 
-                  <span className="block mt-2">� Cockroach control: ?800-?1500</span>
-                  <span className="block">� Termite treatment: ?1500-?5000</span>
-                  <span className="block">� Bed bug control: ?1200-?2500</span>
-                  <span className="block">� General pest control: ?500-?1500</span>
+                  <strong>Pest control in Kurla costs ₹500-₹5000</strong> depending on property size and pest type. 
+                  <span className="block mt-2">� Cockroach control: ₹800-₹1500</span>
+                  <span className="block">� Termite treatment: ₹1500-₹5000</span>
+                  <span className="block">� Bed bug control: ₹1200-₹2500</span>
+                  <span className="block">� General pest control: ₹500-₹1500</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-green-200">
                   <p className="text-sm text-green-700 font-medium">? Free inspection included � 100% guaranteed results</p>
@@ -537,7 +537,7 @@ export default function PestControlInKurla() {
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">🐛? &ldquo;OK Google, affordable pest control Kurla prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Kurla starts from ?500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+                <p className="text-gray-700">Affordable pest control in Kurla starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
               </div>
             </div>
           </div>
@@ -605,7 +605,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?2,500</span>
+                  <span className="text-3xl font-bold text-orange-600">₹2,500</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -647,7 +647,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?1,500</span>
+                  <span className="text-3xl font-bold text-orange-600">₹1,500</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -689,7 +689,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?2,000</span>
+                  <span className="text-3xl font-bold text-orange-600">₹2,000</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -731,7 +731,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?3,000</span>
+                  <span className="text-3xl font-bold text-orange-600">₹3,000</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -773,7 +773,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?1,200</span>
+                  <span className="text-3xl font-bold text-orange-600">₹1,200</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -815,7 +815,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?1,800</span>
+                  <span className="text-3xl font-bold text-orange-600">₹1,800</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -857,7 +857,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?1,500</span>
+                  <span className="text-3xl font-bold text-orange-600">₹1,500</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -899,7 +899,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?1,000</span>
+                  <span className="text-3xl font-bold text-orange-600">₹1,000</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -941,7 +941,7 @@ export default function PestControlInKurla() {
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <span className="text-3xl font-bold text-orange-600">?5,000</span>
+                  <span className="text-3xl font-bold text-orange-600">₹5,000</span>
                   <p className="text-sm text-gray-500">Starting Price</p>
                 </div>
               </div>
@@ -1747,7 +1747,7 @@ export default function PestControlInKurla() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Basic Protection</h3>
                 <div className="mb-6">
-                  <span className="text-5xl font-bold text-blue-600">?1,500</span>
+                  <span className="text-5xl font-bold text-blue-600">₹1,500</span>
                   <p className="text-gray-600 mt-2">Starting price</p>
                 </div>
                 <ul className="space-y-4 mb-8 text-left">
@@ -1784,7 +1784,7 @@ export default function PestControlInKurla() {
               <div className="text-center text-white">
                 <h3 className="text-2xl font-bold mb-2">Complete Protection</h3>
                 <div className="mb-6">
-                  <span className="text-5xl font-bold">?3,500</span>
+                  <span className="text-5xl font-bold">₹3,500</span>
                   <p className="text-orange-100 mt-2">Starting price</p>
                 </div>
                 <ul className="space-y-4 mb-8 text-left">
@@ -1820,7 +1820,7 @@ export default function PestControlInKurla() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Premium Care</h3>
                 <div className="mb-6">
-                  <span className="text-5xl font-bold text-purple-600">?5,000</span>
+                  <span className="text-5xl font-bold text-purple-600">₹5,000</span>
                   <p className="text-gray-600 mt-2">Starting price</p>
                 </div>
                 <ul className="space-y-4 mb-8 text-left">
@@ -2056,7 +2056,7 @@ export default function PestControlInKurla() {
               <div className="prose prose-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
                   Investment in professional <strong>Pest Control In Kurla</strong> varies significantly based on property size, pest type, and treatment complexity. 
-                  Basic cockroach treatments typically range from ?1,500 to ?3,000, while comprehensive termite protection can cost between ?8,000 to ?25,000 
+                  Basic cockroach treatments typically range from ₹1,500 to ₹3,000, while comprehensive termite protection can cost between ₹8,000 to ₹25,000 
                   depending on property area and soil treatment requirements.
                 </p>
                 <p className="mb-4">
@@ -2195,7 +2195,7 @@ export default function PestControlInKurla() {
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Kurla area?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Pest control costs in Kurla start from ?500 for basic treatments and go up to ?5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
+                Pest control costs in Kurla start from ₹500 for basic treatments and go up to ₹5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
               </p>
               <div className="mt-4 p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
                 <p className="text-blue-300 text-sm font-medium">🐛 Free quote � Best prices guaranteed</p>
@@ -2387,7 +2387,7 @@ export default function PestControlInKurla() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Pest control in Kurla costs between ?1,500 to ?5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
+                      Pest control in Kurla costs between ₹1,500 to ₹5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
                     </p>
                   </div>
                 </div>
