@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     site: "@superpestmumbai",
   },
   verification: {
-    google: "pest-control-mumbai-verification",
+    google: "google857220722364cb08",
     yandex: "pest-control-mumbai-yandex",
   },
   alternates: {
