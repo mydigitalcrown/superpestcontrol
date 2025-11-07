@@ -43,7 +43,7 @@ export default function PestControlInLokhandwala() {
                   "opens": "07:00",
                   "closes": "21:00"
                 },
-                "priceRange": "?500 - ?5000",
+                "priceRange": "₹500 - ₹5000",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {

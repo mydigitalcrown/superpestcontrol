@@ -43,7 +43,7 @@ export default function PestControlInJuhu() {
                   "opens": "07:00",
                   "closes": "21:00"
                 },
-                "priceRange": "?500 - ?5000",
+                "priceRange": "₹500 - ₹5000",
                 "servesCuisine": "Pest Control Services",
                 "areaServed": {
                   "@type": "GeoCircle",
