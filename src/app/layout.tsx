@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     site: "@superpestmumbai",
   },
   verification: {
-    google: "pest-control-mumbai-verification",
+    google: "m7hqzhyfnSeyxn5ICqNLiUiFf67yiB59QYmI3oJ1a98",
     yandex: "pest-control-mumbai-yandex",
   },
   alternates: {
@@ -116,6 +116,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="m7hqzhyfnSeyxn5ICqNLiUiFf67yiB59QYmI3oJ1a98" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icon-16x16.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icon-32x32.png" />

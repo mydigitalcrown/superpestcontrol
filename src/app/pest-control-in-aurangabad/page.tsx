@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-export default function PestControlInAurangabad() {
+export default function PestControlInBorivali() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
@@ -17,25 +17,25 @@ export default function PestControlInAurangabad() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#localbusiness",
-                "name": "Super Pest Control - Aurangabad",
-                "image": "https://superpestcontrol.in/logo.svg",
-                "description": "Professional Pest Control Services in Aurangabad, Maharashtra. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
-                "url": "https://superpestcontrol.in/pest-control-in-aurangabad",
+                "@id": "https://superpestcontrol.in/pest-control-in-borivali#localbusiness",
+                "name": "Super Pest Control - Borivali",
+                "image": "https://superpestcontrol.in/images/pest-control-borivali-hero.jpg",
+                "description": "Professional Pest Control Services in Borivali East & West, Mumbai. Expert termite control, cockroach treatment, bed bug removal with 100% guaranteed results.",
+                "url": "https://superpestcontrol.in/pest-control-in-borivali",
                 "telephone": "+91-8097941077",
                 "email": "info@superpestcontrol.in",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Aurangabad Service Area",
-                  "addressLocality": "Aurangabad",
-                  "addressRegion": "Maharashtra",
-                  "postalCode": "431001",
+                  "streetAddress": "Borivali Service Area",
+                  "addressLocality": "Borivali",
+                  "addressRegion": "Mumbai, Maharashtra",
+                  "postalCode": "400092",
                   "addressCountry": "IN"
                 },
                 "geo": {
                   "@type": "GeoCoordinates",
-                  "latitude": 19.8762,
-                  "longitude": 75.3433
+                  "latitude": 19.2307,
+                  "longitude": 72.8568
                 },
                 "openingHoursSpecification": {
                   "@type": "OpeningHoursSpecification",
@@ -49,10 +49,10 @@ export default function PestControlInAurangabad() {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
                     "@type": "GeoCoordinates",
-                    "latitude": 19.0948,
-                    "longitude": 74.7480
+                    "latitude": 19.1136,
+                    "longitude": 72.8697
                   },
-                  "geoRadius": "25000"
+                  "geoRadius": "15000"
                 },
                 "aggregateRating": {
                   "@type": "AggregateRating",
@@ -63,13 +63,13 @@ export default function PestControlInAurangabad() {
                 },
                 "hasOfferCatalog": {
                   "@type": "OfferCatalog",
-                  "name": "Pest Control Services in Aurangabad",
+                  "name": "Pest Control Services in Borivali",
                   "itemListElement": [
                     {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Termite Control in Aurangabad",
+                        "name": "Termite Control in Borivali",
                         "description": "Professional anti-termite treatment with 5-year warranty"
                       }
                     },
@@ -77,7 +77,7 @@ export default function PestControlInAurangabad() {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Cockroach Control in Aurangabad",
+                        "name": "Cockroach Control in Borivali",
                         "description": "Complete cockroach elimination with gel baiting technique"
                       }
                     }
@@ -86,19 +86,19 @@ export default function PestControlInAurangabad() {
               },
               {
                 "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#service",
-                "name": "Pest Control Services in Aurangabad",
-                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Aurangabad, Maharashtra.",
+                "@id": "https://superpestcontrol.in/pest-control-in-borivali#service",
+                "name": "Pest Control Services in Borivali",
+                "description": "Comprehensive pest control solutions including termite control, cockroach treatment, bed bug removal, rodent control, and more in Borivali, Mumbai.",
                 "provider": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#localbusiness"
+                  "@id": "https://superpestcontrol.in/pest-control-in-borivali#localbusiness"
                 },
                 "serviceType": "Pest Control",
                 "areaServed": {
                   "@type": "City",
-                  "name": "Aurangabad",
+                  "name": "Borivali",
                   "containedInPlace": {
                     "@type": "State",
-                    "name": "Maharashtra"
+                    "name": "Mumbai"
                   }
                 },
                 "hasOfferCatalog": {
@@ -130,7 +130,7 @@ export default function PestControlInAurangabad() {
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#breadcrumb",
+                "@id": "https://superpestcontrol.in/pest-control-in-borivali#breadcrumb",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -147,45 +147,45 @@ export default function PestControlInAurangabad() {
                   {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Pest Control in Aurangabad",
-                    "item": "https://superpestcontrol.in/pest-control-in-aurangabad"
+                    "name": "Pest Control in Borivali",
+                    "item": "https://superpestcontrol.in/pest-control-in-borivali"
                   }
                 ]
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#faq",
+                "@id": "https://superpestcontrol.in/pest-control-in-borivali#faq",
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "What is the cost of pest control in Aurangabad?",
+                    "name": "What is the cost of pest control in Borivali?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Pest control in Aurangabad costs ₹500-₹5000 depending on property size and pest type. Cockroaches: ₹800-₹1500, Termites: ₹1500-₹5000, General pests: ₹500-₹1500. Free inspection included."
+                      "text": "The cost of pest control in Borivali ranges from ?500 to ?5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "How long does pest control treatment last in Aurangabad?",
+                    "name": "How long does pest control treatment last in Borivali?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Pest control in Aurangabad lasts 6-12 months for general pests and 5 years for termite treatment. Cockroaches: 8-12 months, Bed bugs: 6-8 months. Free follow-up included."
+                      "text": "Our pest control treatments in Borivali typically last 6-12 months for general pests, while termite treatments come with a 5-year warranty. Regular maintenance ensures long-lasting protection."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Is pest control safe for children and pets in Aurangabad homes?",
+                    "name": "Is pest control safe for children and pets in Borivali homes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, our pest control in Aurangabad is 100% safe for families and pets. We use WHO-approved, eco-friendly chemicals that are non-toxic, odorless, and child-safe."
+                      "text": "Yes, we use child and pet-safe pest control methods in Borivali. Our eco-friendly treatments are WHO-approved and pose no harm to your family or pets when applied by our certified technicians."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Do you provide emergency pest control services in Aurangabad?",
+                    "name": "Do you provide emergency pest control services in Borivali?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, we provide 24/7 emergency pest control in Aurangabad. Call +91-8097941077 for immediate assistance within 2 hours for severe infestations."
+                      "text": "Yes, we provide 24/7 emergency pest control services in Borivali. Call +91-8097941077 for immediate assistance with severe infestations."
                     }
                   }
                 ]
@@ -197,7 +197,7 @@ export default function PestControlInAurangabad() {
                 "url": "https://superpestcontrol.in/",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://superpestcontrol.in/logo.svg"
+                  "url": "https://superpestcontrol.in/images/logo.png"
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
@@ -217,7 +217,7 @@ export default function PestControlInAurangabad() {
                 "@id": "https://superpestcontrol.in/#website",
                 "url": "https://superpestcontrol.in/",
                 "name": "Super Pest Control",
-                "description": "Professional Pest Control Services in Maharashtra and Aurangabad District",
+                "description": "Professional Pest Control Services in Borivali, Mumbai",
                 "publisher": {
                   "@id": "https://superpestcontrol.in/#organization"
                 },
@@ -231,65 +231,6 @@ export default function PestControlInAurangabad() {
                     "query-input": "required name=search_term_string"
                   }
                 ]
-              },
-              {
-                "@type": "Service",
-                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#service",
-                "name": "Pest Control Services in Aurangabad",
-                "description": "Professional pest control services including termite control, cockroach treatment, bed bug removal, and rodent control in Aurangabad",
-                "provider": {
-                  "@id": "https://superpestcontrol.in/#organization"
-                },
-                "areaServed": {
-                  "@type": "City",
-                  "name": "Aurangabad",
-                  "addressRegion": "Maharashtra",
-                  "addressCountry": "IN"
-                },
-                "hasOfferCatalog": {
-                  "@type": "OfferCatalog",
-                  "name": "Pest Control Services",
-                  "itemListElement": [
-                    {
-                      "@type": "Offer",
-                      "itemOffered": {
-                        "@type": "Service",
-                        "name": "Termite Control"
-                      }
-                    },
-                    {
-                      "@type": "Offer", 
-                      "itemOffered": {
-                        "@type": "Service",
-                        "name": "Cockroach Control"
-                      }
-                    },
-                    {
-                      "@type": "Offer",
-                      "itemOffered": {
-                        "@type": "Service", 
-                        "name": "Bed Bug Control"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "@type": "Review",
-                "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#review",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "4.9",
-                  "bestRating": "5"
-                },
-                "author": {
-                  "@type": "Person",
-                  "name": "Aurangabad Customer"
-                },
-                "reviewBody": "Excellent pest control service in Aurangabad. Professional team, safe chemicals, and guaranteed results.",
-                "itemReviewed": {
-                  "@id": "https://superpestcontrol.in/pest-control-in-aurangabad#localbusiness"
-                }
               }
             ]
           })
@@ -310,7 +251,7 @@ export default function PestControlInAurangabad() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-2xl font-bold text-gray-900 tracking-tight group-hover:text-orange-600 transition-colors duration-300">Super Pest Control</span>
-                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">Aurangabad&apos;s #1 Choice</span>
+                <span className="text-xs text-orange-600 font-medium -mt-1 opacity-70 hidden sm:block">BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s #1 Choice</span>
               </div>
             </Link>
             
@@ -391,7 +332,7 @@ export default function PestControlInAurangabad() {
         </div>
       </header>
 
-      {/* Modern SaaS Hero Section with Aurangabad Background */}
+      {/* Modern SaaS Hero Section with Borivali Background */}
       <section 
         className="pt-20 md:pt-32 pb-16 md:pb-32 relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
@@ -411,13 +352,14 @@ export default function PestControlInAurangabad() {
             {/* Badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full text-xs md:text-sm bg-white/20 backdrop-blur-sm text-white border border-white/30 mb-6 md:mb-8">
               <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-              #1 Rated Pest Control in Aurangabad - Professional Services Since 2014
+              #1 Rated Pest Control in Borivali - Professional Services Since 2014
             </div>
             
             {/* Main Headline - Zero Ranking Keyword Optimized */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
               <span className="bg-gradient-to-r from-orange-400 to-orange-300 bg-clip-text text-transparent">
-                Pest Control in Aurangabad</span>
+                Pest Control in Borivali
+              </span>
               <br />
               <span className="text-white">| Fast, Safe & Reliable</span>
             </h1>
@@ -425,16 +367,16 @@ export default function PestControlInAurangabad() {
             {/* Secondary Keyword Heading */}
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-2 drop-shadow-lg">
-                Professional Pest Control in Aurangabad - 100% Guaranteed Results
+                Professional Pest Control in Borivali - 100% Guaranteed Results
               </h2>
               <h3 className="text-xl md:text-2xl font-semibold text-orange-200 drop-shadow-md">
-                Best Pest Control Services in Aurangabad | Same Day Treatment Available
+                Best Pest Control Services in Borivali | Same Day Treatment Available
               </h3>
             </div>
             
             {/* Subheadline - VSO Optimized */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-8 md:mb-12 leading-relaxed max-w-3xl mx-auto px-4 md:px-0 drop-shadow-md">
-              Looking for professional pest control services in Aurangabad, Maharashtra? We are the top-rated pest control company near you, providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Aurangabad area.
+              Looking for professional pest control services in Borivali, Mumbai? We are the top-rated pest control company near you, serving Mulund, Kanjurmarg, Vikhroli, Powai and surrounding areas. Providing same-day service, guaranteed results, and eco-friendly treatments for all types of pest problems in Borivali area.
             </p>
             
             {/* CTA Buttons */}
@@ -477,13 +419,13 @@ export default function PestControlInAurangabad() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Pest Control in Aurangabad
+                Pest Control in Borivali
               </span>
               <br />
               <span className="text-gray-800">Everything You Need to Know</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get instant answers to all your pest control questions for Aurangabad. Professional solutions with guaranteed results.
+              Get instant answers to all your pest control questions for Borivali. Professional solutions with guaranteed results.
             </p>
           </div>
 
@@ -493,11 +435,11 @@ export default function PestControlInAurangabad() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">1</span>
-                What does pest control cost in Aurangabad?
+                What does pest control cost in Borivali?
               </h3>
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control in Aurangabad costs ?500-?5000</strong> depending on property size and pest type. 
+                  <strong>Pest control in Borivali costs ?500-?5000</strong> depending on property size and pest type. 
                   <span className="block mt-2">� Cockroach control: ?800-?1500</span>
                   <span className="block">� Termite treatment: ?1500-?5000</span>
                   <span className="block">� Bed bug control: ?1200-?2500</span>
@@ -513,18 +455,18 @@ export default function PestControlInAurangabad() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">2</span>
-                Which is the best pest control service in Aurangabad?
+                Which is the best pest control service in Borivali?
               </h3>
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Super Pest Control is the #1 rated service in Aurangabad</strong> with 4.9/5 stars and 847+ reviews.
-                  <span className="block mt-2">� 10+ years of experience in Aurangabad</span>
+                  <strong>Super Pest Control is the #1 rated service in Borivali</strong> with 4.9/5 stars and 847+ reviews.
+                  <span className="block mt-2">� 10+ years of experience in Borivali</span>
                   <span className="block">� WHO-approved safe chemicals</span>
                   <span className="block">� Same-day service available</span>
                   <span className="block">� 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
-                  <p className="text-sm text-blue-700 font-medium">?? Maharashtra&apos;s most trusted pest control company</p>
+                  <p className="text-sm text-blue-700 font-medium">?? BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s most trusted pest control company</p>
                 </div>
               </div>
             </div>
@@ -533,11 +475,11 @@ export default function PestControlInAurangabad() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">3</span>
-                How long does pest control last in Aurangabad?
+                How long does pest control last in Borivali?
               </h3>
               <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control treatments in Aurangabad last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
+                  <strong>Pest control treatments in Borivali last 6-12 months</strong> for general pests, with termite treatment lasting up to 5 years.
                   <span className="block mt-2">� General pest control: 6-12 months</span>
                   <span className="block">� Termite treatment: 5 years warranty</span>
                   <span className="block">� Cockroach control: 8-12 months</span>
@@ -553,11 +495,11 @@ export default function PestControlInAurangabad() {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start">
                 <span className="w-8 h-8 bg-gradient-to-r from-teal-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-sm mr-4 mt-1">4</span>
-                Is pest control safe for children and pets in Aurangabad?
+                Is pest control safe for children and pets in Borivali?
               </h3>
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Yes, our pest control in Aurangabad is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
+                  <strong>Yes, our pest control in Borivali is 100% safe for families and pets.</strong> We use WHO-approved, eco-friendly chemicals.
                   <span className="block mt-2">� Non-toxic to humans and pets</span>
                   <span className="block">� Odorless treatment options available</span>
                   <span className="block">� Child-safe application methods</span>
@@ -574,72 +516,37 @@ export default function PestControlInAurangabad() {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
             <h3 className="text-3xl font-bold text-center mb-8">
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Voice Search Answers for Aurangabad Pest Control
+                Voice Search Answers for Borivali Pest Control
               </span>
             </h3>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Hey Google, pest control near me in Aurangabad&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control provides the best pest control services in Aurangabad, Maharashtra. Call +91-8097941077 for immediate service. Available 24/7.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Hey Google, pest control near me in Borivali&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control provides the best pest control services in Borivali, Mumbai. Call +91-8097941077 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Alexa, best pest control company in Aurangabad&rdquo;</h4>
-                <p className="text-gray-700">Super Pest Control is Aurangabad&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Alexa, best pest control company in Borivali&rdquo;</h4>
+                <p className="text-gray-700">Super Pest Control is BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Siri, emergency pest control in Aurangabad&rdquo;</h4>
-                <p className="text-gray-700">Get emergency pest control in Aurangabad within 2 hours. Call Super Pest Control at +91-8097941077 for immediate response to severe infestations.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Siri, emergency pest control in Borivali&rdquo;</h4>
+                <p className="text-gray-700">Get emergency pest control in Borivali within 2 hours. Call Super Pest Control at +91-8097941077 for immediate response to severe infestations.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;OK Google, affordable pest control Aurangabad prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Aurangabad starts from ?500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Local Aurangabad Landmarks SEO Section */}
-          <div className="bg-gradient-to-r from-blue-50 to-orange-50 rounded-2xl p-8 shadow-lg border border-gray-100 mb-16">
-            <h3 className="text-3xl font-bold text-center mb-8">
-              <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Pest Control Services Near Aurangabad Landmarks
-              </span>
-            </h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <h4 className="font-bold text-lg mb-2">🏛️ Near Bibi Ka Maqbara</h4>
-                <p className="text-gray-700">Professional pest control services for residential and commercial properties near Bibi Ka Maqbara, Aurangabad's iconic monument.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <h4 className="font-bold text-lg mb-2">🏰 Daulatabad Fort Area</h4>
-                <p className="text-gray-700">Comprehensive pest management for homes and businesses in Daulatabad Fort vicinity with same-day service availability.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <h4 className="font-bold text-lg mb-2">🛍️ Prozone Mall Region</h4>
-                <p className="text-gray-700">Expert pest control solutions for residential complexes and commercial establishments near Prozone Mall, Aurangabad.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <h4 className="font-bold text-lg mb-2">🎓 Marathwada University</h4>
-                <p className="text-gray-700">Specialized pest control for hostels, residential areas, and academic buildings near Dr. Babasaheb Ambedkar Marathwada University.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <h4 className="font-bold text-lg mb-2">🏥 Government Medical College</h4>
-                <p className="text-gray-700">Safe, hospital-grade pest control services for healthcare facilities and residential areas near GMC Aurangabad.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-md">
-                <h4 className="font-bold text-lg mb-2">🏪 City Chowk Market</h4>
-                <p className="text-gray-700">Commercial pest control solutions for shops, restaurants, and residential properties in the busy City Chowk market area.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;OK Google, affordable pest control Borivali prices&rdquo;</h4>
+                <p className="text-gray-700">Affordable pest control in Borivali starts from ?500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
               </div>
             </div>
           </div>
 
           {/* Local SEO Optimized Section */}
           <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-8 text-white">
-            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Aurangabad Right Now?</h3>
-            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Aurangabad, Maharashtra</p>
+            <h3 className="text-3xl font-bold mb-4">Need Pest Control in Borivali Right Now?</h3>
+            <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Borivali, Mumbai</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+918097941077" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
                 ?? Call +91-8097941077
@@ -686,7 +593,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/termites-control-mumbai.webp" 
-                  alt="Termite Control Mumbai - Professional Anti-Termite Treatment"
+                  alt="Termite Control Borivali - Professional Anti-Termite Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -694,7 +601,7 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Mumbai - Professional Anti-Termite Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Termite Control Borivali - Professional Anti-Termite Treatment</h3>
                 <p className="text-gray-600 text-sm">Complete anti-termite treatment with pre & post-construction solutions. Advanced soil treatment, wood protection, and chemical barrier methods with 5-year comprehensive warranty.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -728,7 +635,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/cockroach-control-mumbai.webp" 
-                  alt="Cockroach Control Mumbai - Professional Cockroach Extermination"
+                  alt="Cockroach Control Borivali - Professional Cockroach Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -736,8 +643,8 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Mumbai - Professional Cockroach Extermination</h3>
-                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for Mumbai&apos;s humid climate with long-lasting protection.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Cockroach Control Borivali - Professional Cockroach Extermination</h3>
+                <p className="text-gray-600 text-sm">Advanced gel baiting and spray treatments for German cockroaches. Child-safe, pet-friendly solutions designed for BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s climate with long-lasting protection.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -770,7 +677,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/rodents-control-mumbai.webp" 
-                  alt="Rodent Control Aurangabad - Professional Rat Mouse Control"
+                  alt="Rodent Control Borivali - Professional Rat Mouse Control"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -778,7 +685,7 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Mumbai - Professional Rat Mouse Control</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Rodent Control Borivali - Professional Rat Mouse Control</h3>
                 <p className="text-gray-600 text-sm">Complete rat and mouse elimination with professional rat-proofing, secure bait stations, and entry point sealing. Guaranteed results with follow-up visits.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -812,7 +719,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/bed-bug-control-mumbai.webp" 
-                  alt="Bed Bug Control Aurangabad - Professional Bed Bug Treatment"
+                  alt="Bed Bug Control Borivali - Professional Bed Bug Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -820,7 +727,7 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Mumbai - Professional Bed Bug Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Bed Bug Control Borivali - Professional Bed Bug Treatment</h3>
                 <p className="text-gray-600 text-sm">Advanced heat treatment and chemical solutions for bed bug elimination. Mattress treatment, furniture protection, and comprehensive room sanitization services.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -854,7 +761,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/ant-control-mumbai.webp" 
-                  alt="Ant Control Mumbai - Professional Ant Extermination"
+                  alt="Ant Control Borivali - Professional Ant Extermination"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -862,7 +769,7 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Mumbai - Professional Ant Extermination</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ant Control Borivali - Professional Ant Extermination</h3>
                 <p className="text-gray-600 text-sm">Targeted ant colony elimination with eco-friendly baiting systems. Effective against all ant species including pharaoh ants, carpenter ants, and common household ants.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -896,7 +803,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/mosquitoes-control-mumbai.webp" 
-                  alt="Mosquito Control Mumbai - Professional Mosquito Treatment"
+                  alt="Mosquito Control Borivali - Professional Mosquito Treatment"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -904,7 +811,7 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Mumbai - Professional Mosquito Treatment</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Mosquito Control Borivali - Professional Mosquito Treatment</h3>
                 <p className="text-gray-600 text-sm">Comprehensive mosquito management with breeding source elimination, fogging treatments, and larvicide applications. Special monsoon protection packages available.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -938,7 +845,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/spider-control-mumbai.webp" 
-                  alt="Spider Control Mumbai - Professional Spider Removal"
+                  alt="Spider Control Borivali - Professional Spider Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -946,8 +853,8 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Mumbai - Professional Spider Removal</h3>
-                <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Spider Control Borivali - Professional Spider Removal</h3>
+                <p className="text-gray-600 text-sm">Professional spider removal with web elimination and preventive treatments. Safe removal of venomous spiders and comprehensive property protection from future infestations in Borivali properties.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -980,7 +887,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/lizard-control-mumbai.webp" 
-                  alt="Lizard Control Mumbai - Professional Lizard Removal"
+                  alt="Lizard Control Borivali - Professional Lizard Removal"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -988,8 +895,8 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Mumbai - Professional Lizard Removal</h3>
-                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Mumbai property.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Lizard Control Borivali - Professional Lizard Removal</h3>
+                <p className="text-gray-600 text-sm">Humane lizard removal and exclusion services. Natural repellent treatments and entry point sealing to prevent lizards from entering your Borivali property.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -1022,7 +929,7 @@ export default function PestControlInAurangabad() {
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <img 
                   src="/images/services/commercial-pest-control-mumbai.webp" 
-                  alt="Commercial Pest Control Mumbai - Professional Business Solutions"
+                  alt="Commercial Pest Control Borivali - Professional Business Solutions"
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -1030,7 +937,7 @@ export default function PestControlInAurangabad() {
               </div>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Mumbai - Professional Business Solutions</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Commercial Pest Control Borivali - Professional Business Solutions</h3>
                 <p className="text-gray-600 text-sm">Comprehensive pest management for businesses, offices, restaurants, and commercial properties. Customized treatment plans with minimal business disruption and compliance documentation.</p>
               </div>
               <div className="flex items-center justify-between mb-4">
@@ -1083,10 +990,10 @@ export default function PestControlInAurangabad() {
                 Comprehensive Pest Management
               </span>
               <br />
-              <span className="text-gray-800">Services in Aurangabad & Beyond</span>
+              <span className="text-gray-800">Services in Borivali & Beyond</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our complete range of professional pest control services across Aurangabad, Maharashtra, and surrounding areas. 
+              Explore our complete range of professional pest control services across Borivali, Mumbai and surrounding areas. 
               Expert pest exterminators, advanced pest management solutions, and guaranteed pest elimination services.
             </p>
           </div>
@@ -1103,7 +1010,7 @@ export default function PestControlInAurangabad() {
               <div className="space-y-3">
                 <Link href="/termites-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Termite Control Mumbai - Anti-Termite Treatment
+                  Termite Control Borivali - Anti-Termite Treatment
                 </Link>
                 <Link href="/cockroach-control-mumbai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
@@ -1127,21 +1034,21 @@ export default function PestControlInAurangabad() {
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
-                <Link href="/pest-control-in-ghansoli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-mulund" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Ghansoli - Navi Mumbai
+                  Pest Control in Mulund - Professional Service
                 </Link>
-                <Link href="/pest-control-in-cbd-belapur" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-kanjurmarg" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Belapur - Professional Service
+                  Pest Control in Kanjurmarg - Expert Team
                 </Link>
-                <Link href="/pest-control-in-kopar-khairane" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-vikhroli" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control Kopar Khairane - Expert Team
+                  Pest Control in Vikhroli - 24/7 Service
                 </Link>
-                <Link href="/pest-control-in-vashi" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
+                <Link href="/pest-control-in-powai" className="flex items-center text-blue-600 hover:text-orange-600 transition-colors group">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-orange-500"></span>
-                  Pest Control in Vashi - 24/7 Service
+                  Pest Control in Powai - Eastern Mumbai
                 </Link>
               </div>
             </div>
@@ -1179,11 +1086,11 @@ export default function PestControlInAurangabad() {
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
                 <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                  Pest Control in Aurangabad - Complete Guide
+                  Pest Control in Borivali - Complete Guide
                 </span>
               </h3>
               <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-                Comprehensive pest control solutions for Aurangabad residents and businesses. From pest exterminators to pest management specialists.
+                Comprehensive pest control solutions for Borivali residents and businesses. From pest exterminators to pest management specialists.
               </p>
             </div>
 
@@ -1192,9 +1099,9 @@ export default function PestControlInAurangabad() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">?? Search Terms</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Pest Control in Aurangabad</div>
-                  <div>Pest Exterminators Aurangabad</div>
-                  <div>Pest Management Aurangabad</div>
+                  <div>Pest Control in Borivali</div>
+                  <div>Pest Exterminators Borivali</div>
+                  <div>Pest Management Borivali</div>
                   <div>Professional Pest Control</div>
                 </div>
               </div>
@@ -1212,7 +1119,7 @@ export default function PestControlInAurangabad() {
               <div className="bg-white rounded-lg p-4 border border-gray-200">
                 <h4 className="font-bold text-gray-900 mb-2">?? Location Focus</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <div>Aurangabad Maharashtra</div>
+                  <div>Borivali Mumbai</div>
                   <div>Pest Control Near Me</div>
                   <div>Local Pest Service</div>
                   <div>Same Day Service</div>
@@ -1234,7 +1141,7 @@ export default function PestControlInAurangabad() {
             <div className="mt-8 text-center">
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-teal-500 text-white font-medium text-lg">
                 <span className="mr-2">?</span>
-                Licensed � Certified � Trusted by 10,000+ Customers in Aurangabad
+                Licensed � Certified � Trusted by 10,000+ Customers in Borivali
               </div>
             </div>
           </div>
@@ -1258,7 +1165,7 @@ export default function PestControlInAurangabad() {
             {/* Creative Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-blue-100 text-orange-800 text-sm font-semibold mb-6 border border-orange-200">
               <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
-              Serving 80+ Locations Across Maharashtra & Aurangabad District
+              Serving 80+ Locations Across Mumbai & Maharashtra
             </div>
             
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -1269,24 +1176,25 @@ export default function PestControlInAurangabad() {
               <span className="text-gray-900">We Cover It All</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Professional pest control services available across Aurangabad, Jalna, Beed, Ahmednagar, and extended Maharashtra regions. Click any location for specialized local services.
+              Professional pest control services available across Mumbai, Navi Mumbai, Thane, Pune, and extended Maharashtra regions. Click any location for specialized local services.
             </p>
           </div>
 
           {/* Location Buttons by Region */}
           <div className="space-y-12">
             
-            {/* Aurangabad City */}
+            {/* South Mumbai */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-                <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">Aurangabad City</span>
+                <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">South Mumbai (SoBo)</span>
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-aurangabad',
-                  'pest-control-in-solapur',
-                  'pest-control-in-ahmednagar',
-                  'pest-control-in-nashik'
+                  'pest-control-in-colaba',
+                  'pest-control-in-fort',
+                  'pest-control-in-worli',
+                  'pest-control-in-lower-parel',
+                  'pest-control-in-parel'
                 ].map((location, index) => {
                   const locationName = location
                     .replace('pest-control-in-', '')
@@ -1313,22 +1221,23 @@ export default function PestControlInAurangabad() {
               </div>
             </div>
 
-            {/* Central Maharashtra */}
+            {/* Central Mumbai */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Central Maharashtra</span>
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Central Mumbai</span>
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-pune',
-                  'pest-control-in-solapur',
-                  'pest-control-in-satara',
-                  'pest-control-in-kolhapur',
-                  'pest-control-in-sangli',
-                  'pest-control-in-nashik',
-                  'pest-control-in-ahmednagar',
-                  'pest-control-in-satara',
-                  'pest-control-in-kolhapur',
+                  'pest-control-in-dadar',
+                  'pest-control-in-matunga',
+                  'pest-control-in-mahim',
+                  'pest-control-in-byculla',
+                  'pest-control-in-sion',
+                  'pest-control-in-wadala',
+                  'pest-control-in-dharavi',
+                  'pest-control-in-bandra',
+                  'pest-control-in-khar',
+                  'pest-control-in-santacruz',
                   'pest-control-in-bandra-kurla-complex'
                 ].map((location, index) => {
                   const locationName = location
@@ -1363,7 +1272,7 @@ export default function PestControlInAurangabad() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
                 {[
-                  'pest-control-in-andheri',
+                  'pest-control-in-borivali',
                   'pest-control-in-juhu',
                   'pest-control-in-vile-parle',
                   'pest-control-in-jogeshwari',
@@ -1411,7 +1320,7 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-powai',
                   'pest-control-in-vikhroli',
                   'pest-control-in-kanjurmarg',
-                  'pest-control-in-bhandup',
+                  'pest-control-in-borivali',
                   'pest-control-in-mulund',
                   'pest-control-in-nahur'
                 ].map((location, index) => {
@@ -1452,7 +1361,6 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-cbd-belapur',
                   'pest-control-in-nerul',
                   'pest-control-in-vashi',
-                  'pest-control-in-aurangabad',
                   'pest-control-in-ghansoli',
                   'pest-control-in-kopar-khairane',
                   'pest-control-in-turbhe',
@@ -1509,7 +1417,7 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-bhiwandi',
                   'pest-control-in-mumbra',
                   'pest-control-in-ulhasnagar',
-                  'pest-control-in-ambarnath',
+                  'pest-control-in-borivali',
                   'pest-control-in-badlapur',
                   'pest-control-in-diva',
                   'pest-control-in-karjat',
@@ -1599,10 +1507,9 @@ export default function PestControlInAurangabad() {
                   'pest-control-in-bavdhan',
                   'pest-control-in-kharadi',
                   'pest-control-in-viman-nagar',
-                  'pest-control-in-ambegaon',
                   'pest-control-in-aurangabad',
                   'pest-control-in-nashik',
-                  'pest-control-in-aurangabad',
+                  'pest-control-in-ahmednagar',
                   'pest-control-in-solapur',
                   'pest-control-in-kolhapur',
                   'pest-control-in-sangli',
@@ -1718,7 +1625,7 @@ export default function PestControlInAurangabad() {
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Professional Gel & Spray Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Advanced gel baiting and targeted spray solutions designed specifically for Aurangabad&apos;s semi-arid climate conditions.
+                  Advanced gel baiting and targeted spray solutions designed specifically for BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s climate conditions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center text-gray-300">
@@ -1790,7 +1697,7 @@ export default function PestControlInAurangabad() {
                 <span className="text-2xl">??</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
-              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Aurangabad pest control.</p>
+              <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Mumbai pest control.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
@@ -1804,7 +1711,7 @@ export default function PestControlInAurangabad() {
                 <span className="text-2xl">??</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">24/7 Emergency Service</h3>
-              <p className="text-gray-300">Round-the-clock emergency pest control services across all Aurangabad areas with same-day availability.</p>
+              <p className="text-gray-300">Round-the-clock emergency pest control services across all Mumbai areas with same-day availability.</p>
             </div>
           </div>
         </div>
@@ -1956,11 +1863,11 @@ export default function PestControlInAurangabad() {
             </div>
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
-                Complete Guide to Pest Control In Aurangabad
+                Complete Guide to Pest Control In Borivali
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover everything you need to know about professional pest management services in Aurangabad, Maharashtra. 
+              Discover everything you need to know about professional pest management services in Borivali, Mumbai. 
               From common pest challenges to advanced treatment solutions, we provide comprehensive information to help you make informed decisions.
             </p>
           </div>
@@ -1968,33 +1875,33 @@ export default function PestControlInAurangabad() {
           {/* Content Grid */}
           <div className="grid lg:grid-cols-3 gap-12 mb-16">
             
-            {/* Understanding Aurangabad's Pest Challenges */}
+            {/* Understanding Borivali's Pest Challenges */}
             <div className="lg:col-span-2 space-y-8">
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
                 <h3 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                   <span className="w-3 h-3 bg-orange-500 rounded-full mr-3"></span>
-                  Understanding Pest Control In Aurangabad: Climate and Environmental Factors
+                  Understanding Pest Control In Borivali: Climate and Environmental Factors
                 </h3>
                 <div className="prose prose-lg text-gray-700 leading-relaxed">
                   <p className="mb-6">
-                    Aurangabad, strategically located in Maharashtra, presents unique challenges for pest control due to its semi-arid climate and agricultural surroundings. 
-                    The region&apos;s location in the rain shadow of the Western Ghats creates distinct seasonal variations that affect pest populations. 
-                    Understanding these environmental factors is crucial for effective <strong>Pest Control In Aurangabad</strong>.
+                    Borivali, strategically located in Mumbai, presents unique challenges for pest control due to its urban climate and high-density residential and commercial development. 
+                    The area&apos;s growing residential environment creates conditions that provide breeding grounds for various pests. 
+                    Understanding these environmental factors is crucial for effective <strong>Pest Control In Borivali</strong>.
                   </p>
                   <p className="mb-6">
-                    The monsoon season, typically lasting from June to September, brings moderate rainfall that creates ideal breeding conditions for various pests. 
-                    During this period, humidity levels rise significantly, attracting cockroaches, termites, and various flying insects. 
-                    Professional <strong>Pest Control In Aurangabad</strong> services must account for these seasonal variations to provide year-round protection.
+                    The monsoon season, typically lasting from June to September, brings increased humidity levels that can reach up to 85-90%. 
+                    This moisture creates perfect conditions for cockroaches, termites, and various flying insects to thrive. 
+                    Professional <strong>Pest Control In Borivali</strong> services must account for these seasonal variations to provide year-round protection.
                   </p>
                   <p className="mb-6">
-                    The agricultural nature of Aurangabad district means that properties often face pest migration from nearby farms and fields. 
-                    Seasonal crop harvesting can drive rodents, ants, and other pests into residential and commercial spaces seeking shelter and food sources. 
-                    This makes comprehensive <strong>Pest Control In Aurangabad</strong> essential for both urban and rural properties.
+                    Urban development in Borivali has led to rapid construction activities, which often disturb natural pest habitats and drive them into residential and commercial spaces. 
+                    The presence of construction debris, water accumulation in building sites, and temporary food sources attracts rodents, ants, and other pests. 
+                    This makes comprehensive <strong>Pest Control In Borivali</strong> essential for both new and established properties.
                   </p>
                   <p>
-                    The area&apos;s growing urbanization and industrial development create new pest habitats while disturbing existing ones. 
-                    This combination of agricultural and urban environments requires specialized 
-                    <strong>Pest Control In Aurangabad</strong> strategies that address both traditional and modern pest challenges.
+                    The area&apos;s well-connected transportation network, including proximity to major highways and the railway station, 
+                    facilitates the movement of pests from one location to another. This connectivity requires specialized 
+                    <strong>Pest Control In Borivali</strong> strategies that focus on prevention and early intervention.
                   </p>
                 </div>
               </div>
@@ -2006,24 +1913,24 @@ export default function PestControlInAurangabad() {
                 </h3>
                 <div className="prose prose-lg text-gray-700 leading-relaxed">
                   <p className="mb-6">
-                    Residential and commercial properties in Aurangabad face diverse pest challenges that require specialized <strong>Pest Control In Aurangabad</strong> solutions. 
+                    Residential and commercial properties in Borivali face diverse pest challenges that require specialized <strong>Pest Control In Borivali</strong> solutions. 
                     Termites pose the most significant structural threat, with subterranean termites being particularly problematic due to the area&apos;s soil conditions. 
                     These silent destroyers can cause extensive damage to wooden structures, furniture, and important documents before detection.
                   </p>
                   <p className="mb-6">
-                    Cockroach infestations are extremely common in Aurangabad&apos;s humid environment, with German cockroaches and American cockroaches being the primary species. 
+                    Cockroach infestations are extremely common in Borivali&apos;s humid environment, with German cockroaches and American cockroaches being the primary species. 
                     These pests not only contaminate food sources but also spread diseases such as salmonella, dysentery, and gastroenteritis. 
-                    Effective <strong>Pest Control In Aurangabad</strong> for cockroaches requires understanding their hiding spots, breeding patterns, and food preferences.
+                    Effective <strong>Pest Control In Borivali</strong> for cockroaches requires understanding their hiding spots, breeding patterns, and food preferences.
                   </p>
                   <p className="mb-6">
                     Rodent problems, particularly rats and mice, are prevalent due to the availability of food sources and nesting materials in both residential and commercial areas. 
                     These pests can cause structural damage by gnawing through wires, pipes, and insulation materials. They also pose serious health risks by transmitting diseases like leptospirosis, 
-                    hantavirus, and plague. Professional <strong>Pest Control In Aurangabad</strong> services implement comprehensive rodent management programs that include trapping, baiting, and exclusion techniques.
+                    hantavirus, and plague. Professional <strong>Pest Control In Borivali</strong> services implement comprehensive rodent management programs that include trapping, baiting, and exclusion techniques.
                   </p>
                   <p>
                     Ant infestations, particularly pharaoh ants and black garden ants, create significant nuisances in kitchens, pantries, and food storage areas. 
                     These social insects form extensive colonies that can quickly spread throughout a property. 
-                    Specialized <strong>Pest Control In Aurangabad</strong> treatments target both visible ants and their hidden colonies to ensure complete elimination.
+                    Specialized <strong>Pest Control In Borivali</strong> treatments target both visible ants and their hidden colonies to ensure complete elimination.
                   </p>
                 </div>
               </div>
@@ -2064,7 +1971,7 @@ export default function PestControlInAurangabad() {
               <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl p-6 shadow-xl border border-green-100">
                 <h4 className="text-xl font-bold text-gray-900 mb-4">Emergency Services</h4>
                 <p className="text-sm text-gray-700 mb-4">
-                  <strong>Pest Control In Aurangabad</strong> emergency services are available 24/7 for urgent infestations that pose immediate health or safety risks.
+                  <strong>Pest Control In Borivali</strong> emergency services are available 24/7 for urgent infestations that pose immediate health or safety risks.
                 </p>
                 <div className="space-y-2 text-sm text-gray-700">
                   <div className="flex items-center">
@@ -2091,28 +1998,28 @@ export default function PestControlInAurangabad() {
           {/* Advanced Treatment Methods */}
           <div className="bg-gradient-to-br from-gray-900 to-blue-900 rounded-3xl p-12 text-white mb-16">
             <h3 className="text-4xl font-bold mb-8 text-center">
-              Advanced Treatment Methods for <span className="text-orange-400">Pest Control In Aurangabad</span>
+              Advanced Treatment Methods for <span className="text-orange-400">Pest Control In Borivali</span>
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h4 className="text-2xl font-semibold mb-4 text-blue-300">Chemical Treatments</h4>
                 <p className="text-gray-300 mb-4">
-                  Modern <strong>Pest Control In Aurangabad</strong> utilizes advanced chemical formulations that are both effective against pests and safe for humans and pets. 
+                  Modern <strong>Pest Control In Borivali</strong> utilizes advanced chemical formulations that are both effective against pests and safe for humans and pets. 
                   These treatments include targeted gel baits for cockroaches, liquid termiticides for soil treatment, and specialized rodenticides with safety mechanisms.
                 </p>
                 <p className="text-gray-300">
-                  All chemical treatments used in <strong>Pest Control In Aurangabad</strong> are approved by the Central Insecticides Board & Registration Committee (CIB&RC) 
+                  All chemical treatments used in <strong>Pest Control In Borivali</strong> are approved by the Central Insecticides Board & Registration Committee (CIB&RC) 
                   and follow strict safety protocols to minimize environmental impact while maximizing pest elimination effectiveness.
                 </p>
               </div>
               <div>
                 <h4 className="text-2xl font-semibold mb-4 text-green-300">Eco-Friendly Solutions</h4>
                 <p className="text-gray-300 mb-4">
-                  Sustainable <strong>Pest Control In Aurangabad</strong> options include biological control methods, essential oil-based treatments, and physical exclusion techniques. 
+                  Sustainable <strong>Pest Control In Borivali</strong> options include biological control methods, essential oil-based treatments, and physical exclusion techniques. 
                   These environmentally conscious approaches are particularly popular among families with children, elderly members, and those with chemical sensitivities.
                 </p>
                 <p className="text-gray-300">
-                  Integrated Pest Management (IPM) strategies form the foundation of eco-friendly <strong>Pest Control In Aurangabad</strong>, 
+                  Integrated Pest Management (IPM) strategies form the foundation of eco-friendly <strong>Pest Control In Borivali</strong>, 
                   combining multiple approaches to achieve long-term pest control while minimizing chemical usage.
                 </p>
               </div>
@@ -2123,21 +2030,21 @@ export default function PestControlInAurangabad() {
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
               <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                Selecting the Right <span className="text-orange-600">Pest Control In Aurangabad</span> Service
+                Selecting the Right <span className="text-orange-600">Pest Control In Borivali</span> Service
               </h3>
               <div className="prose prose-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                  Choosing the appropriate <strong>Pest Control In Aurangabad</strong> service requires careful consideration of several factors including the type of pest, 
+                  Choosing the appropriate <strong>Pest Control In Borivali</strong> service requires careful consideration of several factors including the type of pest, 
                   severity of infestation, property size, and budget constraints. Professional services offer various treatment packages ranging from one-time treatments 
                   to comprehensive annual maintenance contracts.
                 </p>
                 <p className="mb-4">
-                  Licensed <strong>Pest Control In Aurangabad</strong> providers should possess valid certifications from relevant authorities and demonstrate expertise 
+                  Licensed <strong>Pest Control In Borivali</strong> providers should possess valid certifications from relevant authorities and demonstrate expertise 
                   in handling different pest species. Look for companies that offer detailed inspection reports, treatment plans, and follow-up services to ensure 
                   complete pest elimination.
                 </p>
                 <p>
-                  The best <strong>Pest Control In Aurangabad</strong> services provide transparent pricing, use quality-approved chemicals, 
+                  The best <strong>Pest Control In Borivali</strong> services provide transparent pricing, use quality-approved chemicals, 
                   offer warranties on their treatments, and maintain proper insurance coverage for customer protection.
                 </p>
               </div>
@@ -2149,17 +2056,17 @@ export default function PestControlInAurangabad() {
               </h3>
               <div className="prose prose-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                  Investment in professional <strong>Pest Control In Aurangabad</strong> varies significantly based on property size, pest type, and treatment complexity. 
+                  Investment in professional <strong>Pest Control In Borivali</strong> varies significantly based on property size, pest type, and treatment complexity. 
                   Basic cockroach treatments typically range from ?1,500 to ?3,000, while comprehensive termite protection can cost between ?8,000 to ?25,000 
                   depending on property area and soil treatment requirements.
                 </p>
                 <p className="mb-4">
-                  Annual maintenance contracts for <strong>Pest Control In Aurangabad</strong> often provide better value compared to individual treatments, 
+                  Annual maintenance contracts for <strong>Pest Control In Borivali</strong> often provide better value compared to individual treatments, 
                   especially for properties prone to recurring pest problems. These contracts typically include quarterly inspections, 
                   preventive treatments, and emergency response services.
                 </p>
                 <p>
-                  Consider <strong>Pest Control In Aurangabad</strong> as a long-term investment in property protection and family health. 
+                  Consider <strong>Pest Control In Borivali</strong> as a long-term investment in property protection and family health. 
                   Early intervention prevents extensive damage and reduces overall treatment costs compared to emergency pest control situations.
                 </p>
               </div>
@@ -2169,7 +2076,7 @@ export default function PestControlInAurangabad() {
           {/* Prevention and Maintenance */}
           <div className="bg-gradient-to-r from-orange-100 via-white to-blue-100 rounded-3xl p-12">
             <h3 className="text-4xl font-bold text-center text-gray-900 mb-8">
-              Prevention Strategies to Complement <span className="text-orange-600">Pest Control In Aurangabad</span>
+              Prevention Strategies to Complement <span className="text-orange-600">Pest Control In Borivali</span>
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
@@ -2178,7 +2085,7 @@ export default function PestControlInAurangabad() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Property Maintenance</h4>
                 <p className="text-gray-700 text-sm">
-                  Regular property maintenance significantly enhances the effectiveness of <strong>Pest Control In Aurangabad</strong> treatments. 
+                  Regular property maintenance significantly enhances the effectiveness of <strong>Pest Control In Borivali</strong> treatments. 
                   This includes sealing cracks, fixing water leaks, maintaining proper drainage, and removing debris that attracts pests.
                 </p>
               </div>
@@ -2188,7 +2095,7 @@ export default function PestControlInAurangabad() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Hygiene Practices</h4>
                 <p className="text-gray-700 text-sm">
-                  Maintaining high hygiene standards works synergistically with professional <strong>Pest Control In Aurangabad</strong> services. 
+                  Maintaining high hygiene standards works synergistically with professional <strong>Pest Control In Borivali</strong> services. 
                   Regular cleaning, proper food storage, and waste management eliminate pest attractants and breeding sites.
                 </p>
               </div>
@@ -2198,7 +2105,7 @@ export default function PestControlInAurangabad() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Early Detection</h4>
                 <p className="text-gray-700 text-sm">
-                  Regular monitoring and early detection of pest activity maximize the success of <strong>Pest Control In Aurangabad</strong> interventions. 
+                  Regular monitoring and early detection of pest activity maximize the success of <strong>Pest Control In Borivali</strong> interventions. 
                   Look for signs like droppings, damage patterns, unusual sounds, or unexplained marks on walls and furniture.
                 </p>
               </div>
@@ -2208,26 +2115,26 @@ export default function PestControlInAurangabad() {
           {/* Technology and Innovation */}
           <div className="mt-16 bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
             <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-              Technology and Innovation in Modern <span className="text-blue-600">Pest Control In Aurangabad</span>
+              Technology and Innovation in Modern <span className="text-blue-600">Pest Control In Borivali</span>
             </h3>
             <div className="prose prose-lg text-gray-700 leading-relaxed max-w-none">
               <p className="mb-6">
-                Contemporary <strong>Pest Control In Aurangabad</strong> services leverage cutting-edge technology to enhance treatment effectiveness and safety. 
+                Contemporary <strong>Pest Control In Borivali</strong> services leverage cutting-edge technology to enhance treatment effectiveness and safety. 
                 Digital monitoring systems, smart traps, and IoT-enabled devices provide real-time pest activity data, enabling proactive pest management strategies. 
                 These technological advances allow pest control professionals to identify problem areas quickly and deploy targeted treatments.
               </p>
               <p className="mb-6">
-                Thermal imaging technology has revolutionized termite detection in <strong>Pest Control In Aurangabad</strong>, allowing technicians to identify 
+                Thermal imaging technology has revolutionized termite detection in <strong>Pest Control In Borivali</strong>, allowing technicians to identify 
                 termite activity within walls and wooden structures without destructive inspection methods. This non-invasive approach saves property owners 
                 from unnecessary repair costs while ensuring comprehensive termite detection and treatment planning.
               </p>
               <p className="mb-6">
-                Advanced baiting systems used in modern <strong>Pest Control In Aurangabad</strong> services incorporate slow-acting toxicants that allow pests 
+                Advanced baiting systems used in modern <strong>Pest Control In Borivali</strong> services incorporate slow-acting toxicants that allow pests 
                 to return to their colonies before the effects take place. This approach ensures colony-wide elimination rather than just killing individual pests, 
-                providing more thorough and long-lasting results for properties throughout Aurangabad.
+                providing more thorough and long-lasting results for properties throughout Borivali.
               </p>
               <p>
-                Mobile applications and digital reporting systems have improved customer communication and service transparency in <strong>Pest Control In Aurangabad</strong>. 
+                Mobile applications and digital reporting systems have improved customer communication and service transparency in <strong>Pest Control In Borivali</strong>. 
                 Customers can schedule appointments, track service history, receive treatment reports, and access preventive care tips through user-friendly digital platforms, 
                 making pest control management more convenient and efficient.
               </p>
@@ -2256,10 +2163,10 @@ export default function PestControlInAurangabad() {
                 Voice Search Answers for
               </span>
               <br />
-              <span className="text-white">Pest Control in Aurangabad</span>
+              <span className="text-white">Pest Control in Borivali</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Get instant voice search answers for all your pest control needs in Aurangabad, Maharashtra
+              Get instant voice search answers for all your pest control needs in Borivali, Mumbai
             </p>
           </div>
 
@@ -2272,9 +2179,9 @@ export default function PestControlInAurangabad() {
                 <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">???</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Airoli today?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Borivali today?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control is located in Airoli, Navi Mumbai, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
+                Super Pest Control is located in Borivali, Mumbai, and provides same-day pest control services. We are available 24/7 for emergency pest control needs with guaranteed results and free inspection.
               </p>
               <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-400/30">
                 <p className="text-green-300 text-sm font-medium">? Available today � Call +91-8097941077</p>
@@ -2287,9 +2194,9 @@ export default function PestControlInAurangabad() {
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">???</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Airoli area?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Borivali area?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Pest control costs in Airoli start from ?500 for basic treatments and go up to ?5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
+                Pest control costs in Borivali start from ?500 for basic treatments and go up to ?5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
               </p>
               <div className="mt-4 p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
                 <p className="text-blue-300 text-sm font-medium">?? Free quote � Best prices guaranteed</p>
@@ -2302,9 +2209,9 @@ export default function PestControlInAurangabad() {
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Airoli, Navi Mumbai?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Borivali, Mumbai?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Super Pest Control has the highest ratings in Airoli with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in Navi Mumbai.
+                Super Pest Control has the highest ratings in Borivali with 4.9/5 stars from 847+ customers. We have over 10 years of experience and are the most trusted pest control company in the Pune district area.
               </p>
               <div className="mt-4 p-3 bg-purple-500/20 rounded-lg border border-purple-400/30">
                 <p className="text-purple-300 text-sm font-medium">? 4.9/5 stars � 847+ reviews</p>
@@ -2317,9 +2224,9 @@ export default function PestControlInAurangabad() {
                 <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">?</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Can I get emergency pest control service in Airoli right now?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Can I get emergency pest control service in Borivali right now?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Yes, we provide 24/7 emergency pest control services in Airoli. Call us now at +91-8097941077 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
+                Yes, we provide 24/7 emergency pest control services in Borivali. Call us now at +91-8097941077 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
               </p>
               <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
                 <p className="text-red-300 text-sm font-medium">?? 24/7 emergency � 2-hour response</p>
@@ -2332,9 +2239,9 @@ export default function PestControlInAurangabad() {
                 <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Airoli apartments?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Borivali apartments?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Our pest control treatments in Airoli are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
+                Our pest control treatments in Borivali are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
               </p>
               <div className="mt-4 p-3 bg-teal-500/20 rounded-lg border border-teal-400/30">
                 <p className="text-teal-300 text-sm font-medium">?? Child-safe � Pet-friendly certified</p>
@@ -2347,9 +2254,9 @@ export default function PestControlInAurangabad() {
                 <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
-              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Airoli?&rdquo;</h4>
+              <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Borivali?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                For homes in Airoli, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
+                For homes in Borivali, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
               </p>
               <div className="mt-4 p-3 bg-yellow-500/20 rounded-lg border border-yellow-400/30">
                 <p className="text-yellow-300 text-sm font-medium">?? 6-12 month intervals � 5-year termite warranty</p>
@@ -2369,17 +2276,17 @@ export default function PestControlInAurangabad() {
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
                 <div className="text-4xl mb-4">??</div>
                 <h4 className="font-bold mb-2">Google Assistant</h4>
-                <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Airoli&rdquo;</p>
+                <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Borivali&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
                 <div className="text-4xl mb-4">??</div>
                 <h4 className="font-bold mb-2">Siri</h4>
-                <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Airoli&rdquo;</p>
+                <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Borivali&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
                 <div className="text-4xl mb-4">??</div>
                 <h4 className="font-bold mb-2">Alexa</h4>
-                <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Airoli reviews&rdquo;</p>
+                <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Borivali reviews&rdquo;</p>
               </div>
             </div>
             
@@ -2423,7 +2330,7 @@ export default function PestControlInAurangabad() {
               <span className="text-gray-900">Questions & Answers</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Your Aurangabad pest problems solved! Get instant answers to the most common questions about our professional pest control services.
+              Your Bhandup pest problems solved! Get instant answers to the most common questions about our professional pest control services.
             </p>
           </div>
 
@@ -2443,7 +2350,7 @@ export default function PestControlInAurangabad() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      What is the best pest control service in Aurangabad?
+                      What is the best pest control service in Borivali?
                     </h3>
                   </div>
                   
@@ -2453,7 +2360,7 @@ export default function PestControlInAurangabad() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Super Pest Control Aurangabad is the #1 rated pest control service in Aurangabad, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
+                      Super Pest Control Bhandup is the #1 rated pest control service in Borivali, offering 24/7 professional pest control services with eco-friendly solutions, licensed experts, and over 10 years of experience serving 500+ happy customers.
                     </p>
                   </div>
                 </div>
@@ -2473,7 +2380,7 @@ export default function PestControlInAurangabad() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How much does pest control cost in Aurangabad?
+                      How much does pest control cost in Borivali?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2481,7 +2388,7 @@ export default function PestControlInAurangabad() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Pest control in Aurangabad costs between ?1,500 to ?5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
+                      Pest control in Borivali costs between ?1,500 to ?5,000 depending on the type of pest, property size, and treatment required. Super Pest Control offers free inspections, competitive pricing, and transparent costs with no hidden charges.
                     </p>
                   </div>
                 </div>
@@ -2499,7 +2406,7 @@ export default function PestControlInAurangabad() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      Which pest control is best for cockroaches in Mumbai?
+                      Which pest control is best for cockroaches in Borivali?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2507,7 +2414,7 @@ export default function PestControlInAurangabad() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Super Pest Control Mumbai provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for Mumbai&apos;s humid climate with 100% satisfaction guarantee.
+                      Super Pest Control Bhandup provides the most effective cockroach control using advanced gel baiting, targeted spray treatments, and long-lasting solutions specifically designed for BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s climate with 100% satisfaction guarantee.
                     </p>
                   </div>
                 </div>
@@ -2525,7 +2432,7 @@ export default function PestControlInAurangabad() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How to get rid of termites in Mumbai homes permanently?
+                      How to get rid of termites in Borivali homes permanently?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2551,7 +2458,7 @@ export default function PestControlInAurangabad() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      What are the best pest control methods for Aurangabad climate?
+                      What are the best pest control methods for Bhandup climate?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2559,7 +2466,7 @@ export default function PestControlInAurangabad() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      Aurangabad&apos;s semi-arid climate requires specialized pest control methods including targeted treatments for seasonal pests, gel baiting for cockroaches, moisture control for termites, and preventive solutions for year-round protection against common pests.
+                      BorivaliBorivaliBorivaliBorivaliBhandup&apos;sapos;sapos;sapos;sapos;s climate requires specialized pest control methods including moisture control, targeted treatments for seasonal pests, gel baiting for cockroaches, and preventive solutions for year-round protection against all common pests.
                     </p>
                   </div>
                 </div>
@@ -2577,7 +2484,7 @@ export default function PestControlInAurangabad() {
                       Q
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300 leading-tight">
-                      How often should I get pest control done in Aurangabad?
+                      How often should I get pest control done in Borivali?
                     </h3>
                   </div>
                   <div className="ml-14">
@@ -2585,7 +2492,7 @@ export default function PestControlInAurangabad() {
                       A
                     </div>
                     <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                      For optimal protection in Aurangabad, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
+                      For optimal protection in Borivali, residential pest control should be done every 3-4 months, while commercial properties may need monthly treatments depending on the business type and pest pressure.
                     </p>
                   </div>
                 </div>
@@ -2705,11 +2612,11 @@ export default function PestControlInAurangabad() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold text-white tracking-tight">Super Pest Control</span>
-                  <span className="text-xs text-orange-400 font-medium -mt-1">Aurangabad&apos;s #1 Choice</span>
+                  <span className="text-xs text-orange-400 font-medium -mt-1">Mumbai&apos;s #1 Choice</span>
                 </div>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Professional pest control services in Aurangabad with 10+ years of experience. 
+                Professional pest control services in Mumbai with 10+ years of experience. 
                 We provide eco-friendly, family-safe solutions for all types of pest problems.
               </p>
               <div className="flex space-x-4">
@@ -2843,27 +2750,27 @@ export default function PestControlInAurangabad() {
           <div className="text-center">
             <h4 className="text-2xl md:text-3xl font-bold mb-4">
               <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                Pest Control in Airoli
+                Pest Control in Borivali
               </span>
               <span className="text-white"> - Your Trusted Partner</span>
             </h4>
             <div className="grid md:grid-cols-3 gap-8 text-sm">
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Why Choose Pest Control in Airoli by Super Pest Control?</h5>
-                <p className="text-gray-300">We provide the most reliable pest control in Airoli with guaranteed results. Our expert pest control in Airoli services include termite control, cockroach elimination, and comprehensive pest management solutions.</p>
+                <h5 className="font-bold mb-2 text-yellow-300">Why Choose Pest Control in Borivali by Super Pest Control?</h5>
+                <p className="text-gray-300">We provide the most reliable pest control in Borivali with guaranteed results. Our expert pest control in Borivali services include termite control, cockroach elimination, and comprehensive pest management solutions.</p>
               </div>
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Professional Pest Control in Airoli Services</h5>
-                <p className="text-gray-300">From residential to commercial pest control in Airoli, we offer complete pest extermination services. Our licensed pest control in Airoli team ensures 100% safe and effective treatments.</p>
+                <h5 className="font-bold mb-2 text-yellow-300">Professional Pest Control in Borivali Services</h5>
+                <p className="text-gray-300">From residential to commercial pest control in Borivali, we offer complete pest extermination services. Our licensed pest control in Borivali team ensures 100% safe and effective treatments.</p>
               </div>
               <div>
-                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Airoli Available 24/7</h5>
-                <p className="text-gray-300">Need immediate pest control in Airoli? Call us anytime for emergency pest control in Airoli. We provide same-day pest control in Airoli with guaranteed satisfaction and long-lasting results.</p>
+                <h5 className="font-bold mb-2 text-yellow-300">Emergency Pest Control in Borivali Available 24/7</h5>
+                <p className="text-gray-300">Need immediate pest control in Borivali? Call us anytime for emergency pest control in Borivali. We provide same-day pest control in Borivali with guaranteed satisfaction and long-lasting results.</p>
               </div>
             </div>
             <div className="mt-6 text-center">
               <p className="text-lg font-semibold text-orange-300">
-                ?? #1 Pest Control in Airoli | 4.9? Rating | 10,000+ Happy Customers | Best Pest Control in Airoli Since 2014
+                ?? #1 Pest Control in Borivali | 4.9? Rating | 10,000+ Happy Customers | Best Pest Control in Borivali Since 2014
               </p>
             </div>
           </div>
