@@ -1140,7 +1140,7 @@ export default function PestControlInVashi() {
             <div className="mt-8 text-center">
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-teal-500 text-white font-medium text-lg">
                 <span className="mr-2">✓</span>
-                Licensed • Certified � Trusted by 10,000+ Customers in Vashi
+                Licensed • Certified • Trusted by 10,000+ Customers in Vashi
               </div>
             </div>
           </div>
@@ -2689,7 +2689,7 @@ export default function PestControlInVashi() {
                   <span className="text-orange-400 text-lg mt-0.5">📞</span>
                   <div>
                     <p className="text-white font-medium">Service Areas</p>
-                    <p className="text-gray-300 text-sm">Navi Mumbai, Navi Navi Mumbai, Thane</p>
+                    <p className="text-gray-300 text-sm">Mumbai, Navi Mumbai, Thane</p>
                   </div>
                 </div>
               </div>
