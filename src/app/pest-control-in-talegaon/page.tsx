@@ -43,7 +43,7 @@ export default function PestControlInTalegaon() {
                   "opens": "07:00",
                   "closes": "21:00"
                 },
-                "priceRange": "?500 - ?5000",
+                "priceRange": "₹500 - ₹5000",
                 "areaServed": {
                   "@type": "GeoCircle",
                   "geoMidpoint": {
@@ -111,7 +111,7 @@ export default function PestControlInTalegaon() {
                         "name": "Termite Control",
                         "description": "Complete termite treatment with warranty"
                       },
-                      "price": "?1500-?5000",
+                      "price": "?1500-₹5000",
                       "priceCurrency": "INR"
                     },
                     {
@@ -160,7 +160,7 @@ export default function PestControlInTalegaon() {
                     "name": "What is the cost of pest control in Talegaon?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "The cost of pest control in Talegaon ranges from ?500 to ?5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
+                      "text": "The cost of pest control in Talegaon ranges from ₹500 to ₹5000 depending on the type of treatment, property size, and infestation level. We provide free inspection and customized quotes."
                     }
                   },
                   {
@@ -244,7 +244,7 @@ export default function PestControlInTalegaon() {
             <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
               <div className="relative">
                 <div className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-xl md:rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/30 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
-                  <span className="text-white font-bold text-sm md:text-xl drop-shadow-sm">??</span>
+                  <span className="text-white font-bold text-sm md:text-xl drop-shadow-sm"></span>
                 </div>
                 <div className="absolute -inset-1 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl md:rounded-2xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               </div>
@@ -287,7 +287,7 @@ export default function PestControlInTalegaon() {
             {/* Mobile Menu Button & CTA */}
             <div className="flex items-center space-x-2 lg:hidden">
               <a href="tel:+918097941077" className="flex items-center justify-center w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full transition-colors duration-300" aria-label="Call Now">
-                <span className="text-white text-lg">??</span>
+                <span className="text-white text-lg"></span>
               </a>
               <button 
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -304,7 +304,7 @@ export default function PestControlInTalegaon() {
             {/* Premium CTA Group - Desktop Only */}
             <div className="hidden lg:flex items-center space-x-3">
               <a href="tel:+918097941077" className="flex items-center space-x-2 px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-blue-600 bg-gray-100/60 hover:bg-white/80 backdrop-blur-sm rounded-full transition-all duration-300 hover:scale-105 border border-gray-200/50 hover:border-blue-200/50">
-                <span className="text-green-500 text-base">??</span>
+                <span className="text-green-500 text-base"></span>
                 <span>+91 80979-41077</span>
               </a>
               <Link href="/contact" className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 transform group">
@@ -384,7 +384,7 @@ export default function PestControlInTalegaon() {
                 Get Free Inspection
               </a>
               <a href="tel:+918097941077" className="border border-white/40 hover:border-white text-white hover:bg-white/10 backdrop-blur-sm px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg transition-all text-center">
-                ?? Call: +91 80979-41077
+                 Call: +91 80979-41077
               </a>
             </div>
             
@@ -438,11 +438,11 @@ export default function PestControlInTalegaon() {
               </h3>
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  <strong>Pest control in Talegaon costs ?500-?5000</strong> depending on property size and pest type. 
+                  <strong>Pest control in Talegaon costs ₹500-₹5000</strong> depending on property size and pest type. 
                   <span className="block mt-2">� Cockroach control: ?800-?1500</span>
-                  <span className="block">� Termite treatment: ?1500-?5000</span>
+                  <span className="block">� Termite treatment: ?1500-₹5000</span>
                   <span className="block">� Bed bug control: ?1200-?2500</span>
-                  <span className="block">� General pest control: ?500-?1500</span>
+                  <span className="block">� General pest control: ₹500-?1500</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-green-200">
                   <p className="text-sm text-green-700 font-medium">? Free inspection included � 100% guaranteed results</p>
@@ -465,7 +465,7 @@ export default function PestControlInTalegaon() {
                   <span className="block">� 5-year warranty on termite treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-blue-200">
-                  <p className="text-sm text-blue-700 font-medium">?? Talegaon&apos;s most trusted pest control company</p>
+                  <p className="text-sm text-blue-700 font-medium"> Talegaon&apos;s most trusted pest control company</p>
                 </div>
               </div>
             </div>
@@ -485,7 +485,7 @@ export default function PestControlInTalegaon() {
                   <span className="block">� Bed bug treatment: 6-8 months</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-purple-200">
-                  <p className="text-sm text-purple-700 font-medium">?? Free follow-up service included</p>
+                  <p className="text-sm text-purple-700 font-medium"> Free follow-up service included</p>
                 </div>
               </div>
             </div>
@@ -505,7 +505,7 @@ export default function PestControlInTalegaon() {
                   <span className="block">� No need to vacate during treatment</span>
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg border border-teal-200">
-                  <p className="text-sm text-teal-700 font-medium">?? Family-friendly � Pet-safe certified</p>
+                  <p className="text-sm text-teal-700 font-medium"> Family-friendly � Pet-safe certified</p>
                 </div>
               </div>
             </div>
@@ -521,23 +521,23 @@ export default function PestControlInTalegaon() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Hey Google, pest control near me in Talegaon&rdquo;</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">? &ldquo;Hey Google, pest control near me in Talegaon&rdquo;</h4>
                 <p className="text-gray-700">Super Pest Control provides the best pest control services in Talegaon, Pune. Call +91-8097941077 for immediate service. Available 24/7.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-green-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Alexa, best pest control company in Talegaon&rdquo;</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">? &ldquo;Alexa, best pest control company in Talegaon&rdquo;</h4>
                 <p className="text-gray-700">Super Pest Control is Talegaon&apos;s #1 rated pest control company with 4.9-star reviews, 10+ years experience, and guaranteed results.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-orange-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;Siri, emergency pest control in Talegaon&rdquo;</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">? &ldquo;Siri, emergency pest control in Talegaon&rdquo;</h4>
                 <p className="text-gray-700">Get emergency pest control in Talegaon within 2 hours. Call Super Pest Control at +91-8097941077 for immediate response to severe infestations.</p>
               </div>
               
               <div className="p-6 bg-gradient-to-br from-gray-50 to-purple-50 rounded-lg border border-gray-200">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">??? &ldquo;OK Google, affordable pest control Talegaon prices&rdquo;</h4>
-                <p className="text-gray-700">Affordable pest control in Talegaon starts from ?500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">? &ldquo;OK Google, affordable pest control Talegaon prices&rdquo;</h4>
+                <p className="text-gray-700">Affordable pest control in Talegaon starts from ₹500. Get free quotes, inspection, and best prices guaranteed. No hidden charges.</p>
               </div>
             </div>
           </div>
@@ -548,7 +548,7 @@ export default function PestControlInTalegaon() {
             <p className="text-xl mb-6 opacity-90">Get instant quote and same-day service in Talegaon, Pune</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+918097941077" className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
-                ?? Call +91-8097941077
+                 Call +91-8097941077
               </a>
               <a href="#contact" className="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition-colors">
                 Get Free Inspection
@@ -966,7 +966,7 @@ export default function PestControlInTalegaon() {
           {/* View All Services Button */}
           <div className="text-center mt-16">
             <a href="/services" className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-              <span className="mr-2">??</span>
+              <span className="mr-2"></span>
               View All Services
             </a>
           </div>
@@ -1003,7 +1003,7 @@ export default function PestControlInTalegaon() {
             {/* Service-based Internal Links */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4"></div>
                 <h3 className="text-2xl font-bold text-gray-900">Specialized Pest Control</h3>
               </div>
               <div className="space-y-3">
@@ -1029,7 +1029,7 @@ export default function PestControlInTalegaon() {
             {/* Location-based Internal Links */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4"></div>
                 <h3 className="text-2xl font-bold text-gray-900">Nearby Locations</h3>
               </div>
               <div className="space-y-3">
@@ -1055,7 +1055,7 @@ export default function PestControlInTalegaon() {
             {/* Commercial Services Internal Links */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-xl mr-4"></div>
                 <h3 className="text-2xl font-bold text-gray-900">Business Solutions</h3>
               </div>
               <div className="space-y-3">
@@ -1096,7 +1096,7 @@ export default function PestControlInTalegaon() {
             {/* Semantic Keywords Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="bg-white rounded-lg p-4 border border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-2">?? Search Terms</h4>
+                <h4 className="font-bold text-gray-900 mb-2"> Search Terms</h4>
                 <div className="text-sm text-gray-600 space-y-1">
                   <div>Pest Control in Talegaon</div>
                   <div>Pest Exterminators Talegaon</div>
@@ -1106,7 +1106,7 @@ export default function PestControlInTalegaon() {
               </div>
               
               <div className="bg-white rounded-lg p-4 border border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-2">?? Service Types</h4>
+                <h4 className="font-bold text-gray-900 mb-2"> Service Types</h4>
                 <div className="text-sm text-gray-600 space-y-1">
                   <div>Residential Pest Control</div>
                   <div>Commercial Pest Control</div>
@@ -1116,7 +1116,7 @@ export default function PestControlInTalegaon() {
               </div>
               
               <div className="bg-white rounded-lg p-4 border border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-2">?? Location Focus</h4>
+                <h4 className="font-bold text-gray-900 mb-2"> Location Focus</h4>
                 <div className="text-sm text-gray-600 space-y-1">
                   <div>Talegaon Pune</div>
                   <div>Pest Control Near Me</div>
@@ -1152,11 +1152,11 @@ export default function PestControlInTalegaon() {
       <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-blue-50 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-10 left-10 text-4xl">???</div>
-          <div className="absolute top-20 right-20 text-3xl">??</div>
-          <div className="absolute bottom-10 left-20 text-4xl">??</div>
-          <div className="absolute bottom-20 right-10 text-3xl">??</div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl opacity-30">???</div>
+          <div className="absolute top-10 left-10 text-4xl">?</div>
+          <div className="absolute top-20 right-20 text-3xl"></div>
+          <div className="absolute bottom-10 left-20 text-4xl"></div>
+          <div className="absolute bottom-20 right-10 text-3xl"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl opacity-30">?</div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -1210,7 +1210,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1254,7 +1254,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1296,7 +1296,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1338,7 +1338,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1393,7 +1393,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1437,7 +1437,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1481,7 +1481,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1530,7 +1530,7 @@ export default function PestControlInTalegaon() {
                     >
                       <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                       <div className="flex items-center justify-center gap-2">
-                        <span className="text-xs">??</span>
+                        <span className="text-xs"></span>
                         <span className="font-semibold truncate">{locationName}</span>
                       </div>
                       <div className="absolute -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white to-transparent opacity-0 group-hover:animate-shine"></div>
@@ -1552,11 +1552,11 @@ export default function PestControlInTalegaon() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2"></span>
                   Call Now: +91 80979 41077
                 </a>
                 <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2"></span>
                   WhatsApp Chat
                 </a>
               </div>
@@ -1569,10 +1569,10 @@ export default function PestControlInTalegaon() {
       <section className="py-24 bg-gradient-to-br from-blue-900 via-gray-900 to-black text-white relative overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-20 left-10 text-6xl animate-pulse">??</div>
+          <div className="absolute top-20 left-10 text-6xl animate-pulse"></div>
           <div className="absolute top-40 right-20 text-4xl animate-bounce">?</div>
-          <div className="absolute bottom-20 left-20 text-5xl animate-pulse">???</div>
-          <div className="absolute bottom-40 right-10 text-4xl animate-bounce">??</div>
+          <div className="absolute bottom-20 left-20 text-5xl animate-pulse">?</div>
+          <div className="absolute bottom-40 right-10 text-4xl animate-bounce"></div>
         </div>
         
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -1596,7 +1596,7 @@ export default function PestControlInTalegaon() {
             {/* Advanced Anti-Termite Treatment */}
             <div className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-orange-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10">
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300"></div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Advanced Anti-Termite Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Cutting-edge soil and wood treatment solutions with 5-year comprehensive warranty protection for your Pune property.
@@ -1621,7 +1621,7 @@ export default function PestControlInTalegaon() {
             {/* Professional Gel & Spray Treatment */}
             <div className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-blue-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300"></div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Professional Gel & Spray Treatment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Advanced gel baiting and targeted spray solutions designed specifically for Talegaon&apos;s climate conditions.
@@ -1646,7 +1646,7 @@ export default function PestControlInTalegaon() {
             {/* Complete Rodent Elimination */}
             <div className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 h-full border border-white/10 hover:border-green-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-green-500/10">
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">??</div>
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300"></div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Complete Rodent Elimination</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Comprehensive rat and mouse control with professional rat-proofing and entry point sealing for Pune properties.
@@ -1678,11 +1678,11 @@ export default function PestControlInTalegaon() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2"></span>
                   Call Now: +91 80979 41077
                 </a>
                 <a href="https://wa.me/918097941077" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
-                  <span className="mr-2">??</span>
+                  <span className="mr-2"></span>
                   WhatsApp Chat
                 </a>
               </div>
@@ -1693,21 +1693,21 @@ export default function PestControlInTalegaon() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="text-center group">
               <div className="bg-gradient-to-br from-orange-500 to-red-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-orange-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl"></span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Licensed & Certified</h3>
               <p className="text-gray-300">Government licensed professionals with over 10 years of experience in Pune pest control.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl"></span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Eco-Friendly Solutions</h3>
               <p className="text-gray-300">Safe, environmentally friendly treatments that protect your family and pets while eliminating pests.</p>
             </div>
             <div className="text-center group">
               <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-blue-500/20">
-                <span className="text-2xl">??</span>
+                <span className="text-2xl"></span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">24/7 Emergency Service</h3>
               <p className="text-gray-300">Round-the-clock emergency pest control services across all Pune areas with same-day availability.</p>
@@ -1719,9 +1719,9 @@ export default function PestControlInTalegaon() {
       {/* Transparent Pricing for Complete Protection */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-10 text-6xl">??</div>
-          <div className="absolute top-40 right-20 text-4xl">??</div>
-          <div className="absolute bottom-20 left-20 text-5xl">??</div>
+          <div className="absolute top-20 left-10 text-6xl"></div>
+          <div className="absolute top-40 right-20 text-4xl"></div>
+          <div className="absolute bottom-20 left-20 text-5xl"></div>
           <div className="absolute bottom-40 right-10 text-4xl">?</div>
         </div>
         
@@ -2080,7 +2080,7 @@ export default function PestControlInTalegaon() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">??</span>
+                  <span className="text-2xl"></span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Property Maintenance</h4>
                 <p className="text-gray-700 text-sm">
@@ -2090,7 +2090,7 @@ export default function PestControlInTalegaon() {
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">??</span>
+                  <span className="text-2xl"></span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Hygiene Practices</h4>
                 <p className="text-gray-700 text-sm">
@@ -2100,7 +2100,7 @@ export default function PestControlInTalegaon() {
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">???</span>
+                  <span className="text-2xl">?</span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-900">Early Detection</h4>
                 <p className="text-gray-700 text-sm">
@@ -2175,7 +2175,7 @@ export default function PestControlInTalegaon() {
             {/* Long-tail Voice Search Question 1 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">???</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">?</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Where can I find the best pest control service near me in Talegaon today?&rdquo;</h4>
@@ -2190,22 +2190,22 @@ export default function PestControlInTalegaon() {
             {/* Long-tail Voice Search Question 2 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">???</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">?</div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How much does it cost to get pest control done in Talegaon area?&rdquo;</h4>
               <p className="text-gray-300 leading-relaxed">
-                Pest control costs in Talegaon start from ?500 for basic treatments and go up to ?5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
+                Pest control costs in Talegaon start from ₹500 for basic treatments and go up to ₹5000 for comprehensive solutions. We offer free quotes, competitive pricing, and no hidden charges for all pest control services.
               </p>
               <div className="mt-4 p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
-                <p className="text-blue-300 text-sm font-medium">?? Free quote � Best prices guaranteed</p>
+                <p className="text-blue-300 text-sm font-medium"> Free quote � Best prices guaranteed</p>
               </div>
             </div>
 
             {/* Long-tail Voice Search Question 3 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4"></div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Which pest control company has the best reviews in Talegaon, Pune?&rdquo;</h4>
@@ -2228,14 +2228,14 @@ export default function PestControlInTalegaon() {
                 Yes, we provide 24/7 emergency pest control services in Talegaon. Call us now at +91-8097941077 for immediate assistance. Our team can reach your location within 2 hours for urgent pest problems.
               </p>
               <div className="mt-4 p-3 bg-red-500/20 rounded-lg border border-red-400/30">
-                <p className="text-red-300 text-sm font-medium">?? 24/7 emergency � 2-hour response</p>
+                <p className="text-red-300 text-sm font-medium"> 24/7 emergency � 2-hour response</p>
               </div>
             </div>
 
             {/* Long-tail Voice Search Question 5 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4"></div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;Is pest control safe for kids and pets living in Talegaon apartments?&rdquo;</h4>
@@ -2243,14 +2243,14 @@ export default function PestControlInTalegaon() {
                 Our pest control treatments in Talegaon are 100% safe for children and pets. We use WHO-approved, eco-friendly chemicals and follow all safety protocols for residential properties.
               </p>
               <div className="mt-4 p-3 bg-teal-500/20 rounded-lg border border-teal-400/30">
-                <p className="text-teal-300 text-sm font-medium">?? Child-safe � Pet-friendly certified</p>
+                <p className="text-teal-300 text-sm font-medium"> Child-safe � Pet-friendly certified</p>
               </div>
             </div>
 
             {/* Long-tail Voice Search Question 6 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">??</div>
+                <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4"></div>
                 <h3 className="text-xl font-bold">Voice Search Query</h3>
               </div>
               <h4 className="text-lg font-semibold mb-3 text-yellow-300">&ldquo;How often should I get pest control done for my home in Talegaon?&rdquo;</h4>
@@ -2258,7 +2258,7 @@ export default function PestControlInTalegaon() {
                 For homes in Talegaon, we recommend pest control every 6-12 months for general maintenance. However, termite treatments last 5 years with warranty, while specific pest problems may require quarterly treatments.
               </p>
               <div className="mt-4 p-3 bg-yellow-500/20 rounded-lg border border-yellow-400/30">
-                <p className="text-yellow-300 text-sm font-medium">?? 6-12 month intervals � 5-year termite warranty</p>
+                <p className="text-yellow-300 text-sm font-medium"> 6-12 month intervals � 5-year termite warranty</p>
               </div>
             </div>
 
@@ -2273,17 +2273,17 @@ export default function PestControlInTalegaon() {
             </h3>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
-                <div className="text-4xl mb-4">??</div>
+                <div className="text-4xl mb-4"></div>
                 <h4 className="font-bold mb-2">Google Assistant</h4>
                 <p className="text-sm text-gray-300">&ldquo;Hey Google, find pest control services in Talegaon&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
-                <div className="text-4xl mb-4">??</div>
+                <div className="text-4xl mb-4"></div>
                 <h4 className="font-bold mb-2">Siri</h4>
                 <p className="text-sm text-gray-300">&ldquo;Hey Siri, call the best pest control in Talegaon&rdquo;</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6 border border-white/20">
-                <div className="text-4xl mb-4">??</div>
+                <div className="text-4xl mb-4"></div>
                 <h4 className="font-bold mb-2">Alexa</h4>
                 <p className="text-sm text-gray-300">&ldquo;Alexa, find Super Pest Control Talegaon reviews&rdquo;</p>
               </div>
@@ -2292,7 +2292,7 @@ export default function PestControlInTalegaon() {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="tel:+918097941077" className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-orange-600 hover:to-red-600 transition-all duration-300 hover:scale-105 shadow-lg">
-                ?? Call +91-8097941077
+                 Call +91-8097941077
               </a>
               <a href="#contact" className="border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
                 Get Free Inspection
@@ -2307,9 +2307,9 @@ export default function PestControlInTalegaon() {
       <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-orange-50 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 text-6xl">??</div>
-          <div className="absolute top-40 right-20 text-4xl">??</div>
-          <div className="absolute bottom-20 left-20 text-5xl">??</div>
+          <div className="absolute top-20 left-10 text-6xl"></div>
+          <div className="absolute top-40 right-20 text-4xl"></div>
+          <div className="absolute bottom-20 left-20 text-5xl"></div>
           <div className="absolute bottom-40 right-10 text-4xl">?</div>
         </div>
         
@@ -2511,10 +2511,10 @@ export default function PestControlInTalegaon() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+918097941077" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
-                  ?? Call Now: +91 80979-41077
+                   Call Now: +91 80979-41077
                 </a>
                 <a href="https://wa.me/918097941077" className="border-2 border-blue-500 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105">
-                  ?? Chat with Expert
+                   Chat with Expert
                 </a>
               </div>
             </div>
@@ -2606,7 +2606,7 @@ export default function PestControlInTalegaon() {
               <div className="flex items-center space-x-3">
                 <div className="relative">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20">
-                    <span className="text-white font-bold text-xl drop-shadow-sm">??</span>
+                    <span className="text-white font-bold text-xl drop-shadow-sm"></span>
                   </div>
                 </div>
                 <div className="flex flex-col">
@@ -2620,13 +2620,13 @@ export default function PestControlInTalegaon() {
               </p>
               <div className="flex space-x-4">
                 <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">??</span>
+                  <span className="text-white text-sm"></span>
                 </div>
                 <div className="w-8 h-8 bg-pink-600 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">??</span>
+                  <span className="text-white text-sm"></span>
                 </div>
                 <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">??</span>
+                  <span className="text-white text-sm"></span>
                 </div>
               </div>
             </div>
@@ -2664,7 +2664,7 @@ export default function PestControlInTalegaon() {
               <h3 className="text-lg font-semibold text-white">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5"></span>
                   <div>
                     <p className="text-white font-medium">Call Us Now</p>
                     <a href="tel:+918097941077" className="text-gray-300 hover:text-orange-400 transition-colors text-sm block">+91 80979-41077</a>
@@ -2672,21 +2672,21 @@ export default function PestControlInTalegaon() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5"></span>
                   <div>
                     <p className="text-white font-medium">Email Us</p>
                     <a href="mailto:superpestcontrol8858@gmail.com" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">superpestcontrol8858@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5"></span>
                   <div>
                     <p className="text-white font-medium">Website</p>
                     <a href="https://superpestcontrol.in" className="text-gray-300 hover:text-orange-400 transition-colors text-sm">superpestcontrol.in</a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <span className="text-orange-400 text-lg mt-0.5">??</span>
+                  <span className="text-orange-400 text-lg mt-0.5"></span>
                   <div>
                     <p className="text-white font-medium">Service Areas</p>
                     <p className="text-gray-300 text-sm">Pune, Navi Pune, Thane</p>
@@ -2769,7 +2769,7 @@ export default function PestControlInTalegaon() {
             </div>
             <div className="mt-6 text-center">
               <p className="text-lg font-semibold text-orange-300">
-                ?? #1 Pest Control in Talegaon | 4.9? Rating | 10,000+ Happy Customers | Best Pest Control in Talegaon Since 2014
+                 #1 Pest Control in Talegaon | 4.9? Rating | 10,000+ Happy Customers | Best Pest Control in Talegaon Since 2014
               </p>
             </div>
           </div>
