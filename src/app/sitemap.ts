@@ -108,6 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-dadar',
     'pest-control-in-matunga',
     'pest-control-in-mahim',
+    'pest-control-in-shivaji-park',
     'pest-control-in-byculla',
     'pest-control-in-sion',
     'pest-control-in-wadala',
@@ -192,6 +193,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-bhiwandi',
     'pest-control-in-diva',
     'pest-control-in-ghodbunder-road',
+    'pest-control-in-manor',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
@@ -237,6 +239,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-koregaon-park',
     'pest-control-in-kothrud',
     'pest-control-in-lohegaon',
+    'pest-control-in-mundhwa',
   ].map(location => ({
     url: `${baseUrl}/${location}`,
     lastModified: currentDate,
