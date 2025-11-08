@@ -230,6 +230,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pest-control-in-wakad',
     'pest-control-in-hadapsar',
     'pest-control-in-viman-nagar',
+    'pest-control-in-shivaji-nagar',
+    'pest-control-in-talegaon',
     'pest-control-in-bavdhan',
     'pest-control-in-kharadi',
     'pest-control-in-ambegaon',
